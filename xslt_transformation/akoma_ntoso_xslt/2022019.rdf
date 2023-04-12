@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:akn="https://www.akomantoso.org/3.0">
+    <rdf:Description rdf:about="http://example.com/debate/_0">
+        <rdf:type rdf:resource="http://example.com/ontology/Debate" />
+        <rdf:value />
+        <rdf:meta>
+            <rdf:type rdf:resource="http://example.com/ontology/DebateMeta" />
+            <rdf:source />
+            <rdf:date />
+        </rdf:meta>
+        <rdf:Statement>
+            <rdf:subject rdf:resource="http://example.com/debate/_0" />
+            <rdf:predicate rdf:resource="http://example.com/ontology/hasSpeech" />
+            <rdf:object rdf:resource="http://example.com/speaker/_1" />
+        </rdf:Statement>
+    </rdf:Description>
+</rdf:RDF>
