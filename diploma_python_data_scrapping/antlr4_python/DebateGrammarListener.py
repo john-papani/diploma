@@ -80,21 +80,21 @@ class DebateGrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#subject_main_list_details_greek.
-    def enterSubject_main_list_details_greek(self, ctx:DebateGrammarParser.Subject_main_list_details_greekContext):
+    # Enter a parse tree produced by DebateGrammarParser#proedros.
+    def enterProedros(self, ctx:DebateGrammarParser.ProedrosContext):
         pass
 
-    # Exit a parse tree produced by DebateGrammarParser#subject_main_list_details_greek.
-    def exitSubject_main_list_details_greek(self, ctx:DebateGrammarParser.Subject_main_list_details_greekContext):
+    # Exit a parse tree produced by DebateGrammarParser#proedros.
+    def exitProedros(self, ctx:DebateGrammarParser.ProedrosContext):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#subject_main_list_details_roman.
-    def enterSubject_main_list_details_roman(self, ctx:DebateGrammarParser.Subject_main_list_details_romanContext):
+    # Enter a parse tree produced by DebateGrammarParser#proedros_list.
+    def enterProedros_list(self, ctx:DebateGrammarParser.Proedros_listContext):
         pass
 
-    # Exit a parse tree produced by DebateGrammarParser#subject_main_list_details_roman.
-    def exitSubject_main_list_details_roman(self, ctx:DebateGrammarParser.Subject_main_list_details_romanContext):
+    # Exit a parse tree produced by DebateGrammarParser#proedros_list.
+    def exitProedros_list(self, ctx:DebateGrammarParser.Proedros_listContext):
         pass
 
 
@@ -221,24 +221,6 @@ class DebateGrammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by DebateGrammarParser#date.
     def exitDate(self, ctx:DebateGrammarParser.DateContext):
-        pass
-
-
-    # Enter a parse tree produced by DebateGrammarParser#preamble.
-    def enterPreamble(self, ctx:DebateGrammarParser.PreambleContext):
-        pass
-
-    # Exit a parse tree produced by DebateGrammarParser#preamble.
-    def exitPreamble(self, ctx:DebateGrammarParser.PreambleContext):
-        pass
-
-
-    # Enter a parse tree produced by DebateGrammarParser#main_text.
-    def enterMain_text(self, ctx:DebateGrammarParser.Main_textContext):
-        pass
-
-    # Exit a parse tree produced by DebateGrammarParser#main_text.
-    def exitMain_text(self, ctx:DebateGrammarParser.Main_textContext):
         pass
 
 
