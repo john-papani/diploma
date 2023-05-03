@@ -71,15 +71,6 @@ class DebateGrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#subject_name_.
-    def enterSubject_name_(self, ctx:DebateGrammarParser.Subject_name_Context):
-        pass
-
-    # Exit a parse tree produced by DebateGrammarParser#subject_name_.
-    def exitSubject_name_(self, ctx:DebateGrammarParser.Subject_name_Context):
-        pass
-
-
     # Enter a parse tree produced by DebateGrammarParser#proedros.
     def enterProedros(self, ctx:DebateGrammarParser.ProedrosContext):
         pass
@@ -89,12 +80,12 @@ class DebateGrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#proedros_list.
-    def enterProedros_list(self, ctx:DebateGrammarParser.Proedros_listContext):
+    # Enter a parse tree produced by DebateGrammarParser#proedros_name.
+    def enterProedros_name(self, ctx:DebateGrammarParser.Proedros_nameContext):
         pass
 
-    # Exit a parse tree produced by DebateGrammarParser#proedros_list.
-    def exitProedros_list(self, ctx:DebateGrammarParser.Proedros_listContext):
+    # Exit a parse tree produced by DebateGrammarParser#proedros_name.
+    def exitProedros_name(self, ctx:DebateGrammarParser.Proedros_nameContext):
         pass
 
 
@@ -107,12 +98,21 @@ class DebateGrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#proedreuontes_list.
-    def enterProedreuontes_list(self, ctx:DebateGrammarParser.Proedreuontes_listContext):
+    # Enter a parse tree produced by DebateGrammarParser#proedreuontes_.
+    def enterProedreuontes_(self, ctx:DebateGrammarParser.Proedreuontes_Context):
         pass
 
-    # Exit a parse tree produced by DebateGrammarParser#proedreuontes_list.
-    def exitProedreuontes_list(self, ctx:DebateGrammarParser.Proedreuontes_listContext):
+    # Exit a parse tree produced by DebateGrammarParser#proedreuontes_.
+    def exitProedreuontes_(self, ctx:DebateGrammarParser.Proedreuontes_Context):
+        pass
+
+
+    # Enter a parse tree produced by DebateGrammarParser#proedreuontes_name.
+    def enterProedreuontes_name(self, ctx:DebateGrammarParser.Proedreuontes_nameContext):
+        pass
+
+    # Exit a parse tree produced by DebateGrammarParser#proedreuontes_name.
+    def exitProedreuontes_name(self, ctx:DebateGrammarParser.Proedreuontes_nameContext):
         pass
 
 
@@ -134,12 +134,12 @@ class DebateGrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#speakers_list.
-    def enterSpeakers_list(self, ctx:DebateGrammarParser.Speakers_listContext):
+    # Enter a parse tree produced by DebateGrammarParser#speakers_name.
+    def enterSpeakers_name(self, ctx:DebateGrammarParser.Speakers_nameContext):
         pass
 
-    # Exit a parse tree produced by DebateGrammarParser#speakers_list.
-    def exitSpeakers_list(self, ctx:DebateGrammarParser.Speakers_listContext):
+    # Exit a parse tree produced by DebateGrammarParser#speakers_name.
+    def exitSpeakers_name(self, ctx:DebateGrammarParser.Speakers_nameContext):
         pass
 
 
