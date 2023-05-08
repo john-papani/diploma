@@ -1,4 +1,4 @@
-# Generated from DebateGrammar.g4 by ANTLR 4.12.0
+# Generated from DebateGrammarParser.g4 by ANTLR 4.12.0
 from antlr4 import *
 if __name__ is not None and "." in __name__:
     from .DebateGrammarParser import DebateGrammarParser
@@ -6,7 +6,7 @@ else:
     from DebateGrammarParser import DebateGrammarParser
 
 # This class defines a complete listener for a parse tree produced by DebateGrammarParser.
-class DebateGrammarListener(ParseTreeListener):
+class DebateGrammarParserListener(ParseTreeListener):
 
     # Enter a parse tree produced by DebateGrammarParser#start.
     def enterStart(self, ctx:DebateGrammarParser.StartContext):
@@ -35,15 +35,6 @@ class DebateGrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#periexomena.
-    def enterPeriexomena(self, ctx:DebateGrammarParser.PeriexomenaContext):
-        pass
-
-    # Exit a parse tree produced by DebateGrammarParser#periexomena.
-    def exitPeriexomena(self, ctx:DebateGrammarParser.PeriexomenaContext):
-        pass
-
-
     # Enter a parse tree produced by DebateGrammarParser#subjects.
     def enterSubjects(self, ctx:DebateGrammarParser.SubjectsContext):
         pass
@@ -53,12 +44,21 @@ class DebateGrammarListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DebateGrammarParser#subjects_category.
-    def enterSubjects_category(self, ctx:DebateGrammarParser.Subjects_categoryContext):
+    # Enter a parse tree produced by DebateGrammarParser#sectionContent.
+    def enterSectionContent(self, ctx:DebateGrammarParser.SectionContentContext):
         pass
 
-    # Exit a parse tree produced by DebateGrammarParser#subjects_category.
-    def exitSubjects_category(self, ctx:DebateGrammarParser.Subjects_categoryContext):
+    # Exit a parse tree produced by DebateGrammarParser#sectionContent.
+    def exitSectionContent(self, ctx:DebateGrammarParser.SectionContentContext):
+        pass
+
+
+    # Enter a parse tree produced by DebateGrammarParser#sbcategory.
+    def enterSbcategory(self, ctx:DebateGrammarParser.SbcategoryContext):
+        pass
+
+    # Exit a parse tree produced by DebateGrammarParser#sbcategory.
+    def exitSbcategory(self, ctx:DebateGrammarParser.SbcategoryContext):
         pass
 
 
@@ -95,15 +95,6 @@ class DebateGrammarListener(ParseTreeListener):
 
     # Exit a parse tree produced by DebateGrammarParser#proedreuontes.
     def exitProedreuontes(self, ctx:DebateGrammarParser.ProedreuontesContext):
-        pass
-
-
-    # Enter a parse tree produced by DebateGrammarParser#proedreuontes_.
-    def enterProedreuontes_(self, ctx:DebateGrammarParser.Proedreuontes_Context):
-        pass
-
-    # Exit a parse tree produced by DebateGrammarParser#proedreuontes_.
-    def exitProedreuontes_(self, ctx:DebateGrammarParser.Proedreuontes_Context):
         pass
 
 

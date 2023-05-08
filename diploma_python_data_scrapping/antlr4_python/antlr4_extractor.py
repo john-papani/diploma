@@ -3,45 +3,49 @@ from DebateGrammarLexer import DebateGrammarLexer
 from DebateGrammarParser import DebateGrammarParser
 
 
-def praktika_boulis_details(parlDetails):
-    anatheoritiki_bouli = parlDetails.anatheoritiki_bouli().getText(
-    ) if parlDetails.anatheoritiki_bouli() is not None else None
-    period_detail = parlDetails.period_detail().getText(
-    ) if parlDetails.period_detail() is not None else None
-    dimokratia = parlDetails.dimokratia().getText(
-    ) if parlDetails.dimokratia() is not None else None
-    sunodos = parlDetails.sunodos().getText(
-    ) if parlDetails.sunodos() is not None else None
-    ergasies = parlDetails.ergasies().getText(
-    ) if parlDetails.ergasies() is not None else None
-    sunedriasi = parlDetails.sunedriasi().getText(
-    ) if parlDetails.sunedriasi() is not None else None
-    date = parlDetails.date().getText() if parlDetails.date() is not None else None
-
-    # Print out the extracted details.
-    print(f"Anatheoritiki bouli: {anatheoritiki_bouli}")
-    print(f"Period detail: {period_detail}")
-    print(f"Dimokratia: {dimokratia}")
-    print(f"Sunodos: {sunodos}")
-    print(f"Ergasies: {ergasies}")
-    print(f"Sunedriasi: {sunedriasi}")
-    print(f"Date: {date}")
+def get_subjects(tree_subjects):
+    subjects = []
+    if (tree_subjects):
+        for section in tree_subjects.sectionContent():
+            for sub in section.subject():
+                subject_text = sub.SUBJECT_().getText()
+                subjects.append(subject_text)
+        return subjects
+    else:
+        print("There are not SUBJECTS")
 
 
-def print_subjects(tree_subjects):
-    for subject_category in tree_subjects.subjects_category():
-        for subject in subject_category.subject():
-            subject_text = subject.SUBJECT_().getText()
-            print("---!----")
-            subject_text = subject_text.replace(" , σελ.", "")
-            print(subject_text)
+def get_proedros(tree_proedros):
+    if (tree_proedros):
+        print(tree_proedros.PROEDROS().getText())
+        for proedros_name in tree_proedros.proedros_name():
+            print(proedros_name.NAME().getText())
+    else:
+        print("NO PROEDROS HERE")
 
-def print_all_speakers(tree_speakers):
-     for speakers in tree_speakers.speaker_detail():
-        for speaker in speakers.speakers_name():
-            speaker_name = speaker.NAME().getText()
-            speaker_name = speaker_name.replace(" , σελ.", "")
-            print(speaker_name)
+
+def get_proedreuontes(tree_proedreuontes):
+    if (tree_proedreuontes):
+        print("--", tree_proedreuontes.PROEDREUONTES().getText(), "--")
+        for proedreuontes_name in tree_proedreuontes.proedreuontes_name():
+            print(proedreuontes_name.NAME().getText())
+    else:
+        print("NO PROEDROS HERE")
+
+
+def get_all_speakers(tree_speakers):
+    if (tree_speakers):
+        for speakers in tree_speakers.speaker_detail():
+            if (speakers.SPEAKER_CATEG_DETAIL()):
+                print("--", speakers.SPEAKER_CATEG_DETAIL().getText(), "--")
+                for speaker in speakers.speakers_name():
+                    speaker_name = speaker.NAME().getText()
+                    speaker_name = speaker_name.replace(" , σελ.", "")
+                    print(speaker_name)
+    else:
+        print("There are not SPEAKERS")
+
+
 def main():
 
     # read the input from a text file
@@ -57,15 +61,50 @@ def main():
     # print(tree.toStringTree())
 
     tree_subjects = tree.subjects()
+    tree_proedros = tree.proedros()
+    tree_proedreuontes = tree.proedreuontes()
     tree_speakers = tree.speakers()
+    tree_parlDetails = tree.parliament_proceedings().parliament_detail()
 
-    parlDetails = tree.parliament_proceedings().parliament_detail()
     print("\n\n-------------------------\n\n")
-    praktika_boulis_details(parlDetails)
+
+    # Extract parliament details
+    anatheoritiki_bouli = tree_parlDetails.anatheoritiki_bouli().getText(
+    ) if tree_parlDetails.anatheoritiki_bouli() is not None else None
+    period_detail = tree_parlDetails.period_detail().getText(
+    ) if tree_parlDetails.period_detail() is not None else None
+    dimokratia = tree_parlDetails.dimokratia().getText(
+    ) if tree_parlDetails.dimokratia() is not None else None
+    sunodos = tree_parlDetails.sunodos().getText(
+    ) if tree_parlDetails.sunodos() is not None else None
+    ergasies = tree_parlDetails.ergasies().getText(
+    ) if tree_parlDetails.ergasies() is not None else None
+    sunedriasi = tree_parlDetails.sunedriasi().getText(
+    ) if tree_parlDetails.sunedriasi() is not None else None
+    date = tree_parlDetails.date().getText(
+    ) if tree_parlDetails.date() is not None else None
+
+    # Print out the extracted details
+    print(f"Anatheoritiki bouli: {anatheoritiki_bouli}")
+    print(f"Period detail: {period_detail}")
+    print(f"Dimokratia: {dimokratia}")
+    print(f"Sunodos: {sunodos}")
+    print(f"Ergasies: {ergasies}")
+    print(f"Sunedriasi: {sunedriasi}")
+    print(f"Date: {date}")
+
     print("\n\n-------------------------\n\n")
-    print_subjects(tree_subjects)
+    all_subjects = get_subjects(tree_subjects)
+    for sbj in all_subjects:
+        print(sbj)
+        # print(all_subjects)
     print("\n\n-------------------------\n\n")
-    print_all_speakers(tree_speakers)
+    get_proedreuontes(tree_proedreuontes)
+    print("\n\n-------------------------\n\n")
+    proedros = get_proedros(tree_proedros)
+    print("\n\n-------------------------\n\n")
+    get_all_speakers(tree_speakers)
+
 
 if __name__ == '__main__':
     main()
