@@ -10,63 +10,66 @@ else:
 
 def serializedATN():
     return [
-        4,1,43,169,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,43,176,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,20,
-        7,20,2,21,7,21,2,22,7,22,1,0,3,0,48,8,0,1,0,3,0,51,8,0,1,0,3,0,54,
-        8,0,1,0,3,0,57,8,0,1,0,3,0,60,8,0,1,0,3,0,63,8,0,1,0,3,0,66,8,0,
-        1,1,1,1,1,2,1,2,1,2,1,2,1,2,1,2,1,2,4,2,77,8,2,11,2,12,2,78,1,3,
-        1,3,4,3,83,8,3,11,3,12,3,84,1,4,3,4,88,8,4,1,4,4,4,91,8,4,11,4,12,
-        4,92,1,5,1,5,1,6,1,6,1,7,1,7,4,7,101,8,7,11,7,12,7,102,1,8,1,8,1,
-        9,1,9,4,9,109,8,9,11,9,12,9,110,1,10,1,10,1,11,1,11,4,11,117,8,11,
-        11,11,12,11,118,1,12,3,12,122,8,12,1,12,4,12,125,8,12,11,12,12,12,
-        126,1,13,1,13,1,14,1,14,1,14,1,15,3,15,135,8,15,1,15,3,15,138,8,
-        15,1,15,3,15,141,8,15,1,15,3,15,144,8,15,1,15,3,15,147,8,15,1,15,
-        3,15,150,8,15,1,15,1,15,1,16,1,16,1,17,1,17,1,18,1,18,1,19,1,19,
-        1,20,1,20,1,20,1,21,1,21,1,22,1,22,1,22,0,0,23,0,2,4,6,8,10,12,14,
-        16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,0,0,173,0,47,1,0,0,
-        0,2,67,1,0,0,0,4,76,1,0,0,0,6,80,1,0,0,0,8,87,1,0,0,0,10,94,1,0,
-        0,0,12,96,1,0,0,0,14,98,1,0,0,0,16,104,1,0,0,0,18,106,1,0,0,0,20,
-        112,1,0,0,0,22,114,1,0,0,0,24,121,1,0,0,0,26,128,1,0,0,0,28,130,
-        1,0,0,0,30,134,1,0,0,0,32,153,1,0,0,0,34,155,1,0,0,0,36,157,1,0,
-        0,0,38,159,1,0,0,0,40,161,1,0,0,0,42,164,1,0,0,0,44,166,1,0,0,0,
-        46,48,3,2,1,0,47,46,1,0,0,0,47,48,1,0,0,0,48,50,1,0,0,0,49,51,3,
-        4,2,0,50,49,1,0,0,0,50,51,1,0,0,0,51,53,1,0,0,0,52,54,3,6,3,0,53,
-        52,1,0,0,0,53,54,1,0,0,0,54,56,1,0,0,0,55,57,3,14,7,0,56,55,1,0,
-        0,0,56,57,1,0,0,0,57,59,1,0,0,0,58,60,3,18,9,0,59,58,1,0,0,0,59,
-        60,1,0,0,0,60,62,1,0,0,0,61,63,3,22,11,0,62,61,1,0,0,0,62,63,1,0,
-        0,0,63,65,1,0,0,0,64,66,3,28,14,0,65,64,1,0,0,0,65,66,1,0,0,0,66,
-        1,1,0,0,0,67,68,5,2,0,0,68,3,1,0,0,0,69,77,5,3,0,0,70,77,3,34,17,
-        0,71,77,3,36,18,0,72,77,3,38,19,0,73,77,3,42,21,0,74,77,3,40,20,
-        0,75,77,3,44,22,0,76,69,1,0,0,0,76,70,1,0,0,0,76,71,1,0,0,0,76,72,
-        1,0,0,0,76,73,1,0,0,0,76,74,1,0,0,0,76,75,1,0,0,0,77,78,1,0,0,0,
-        78,76,1,0,0,0,78,79,1,0,0,0,79,5,1,0,0,0,80,82,5,4,0,0,81,83,3,8,
-        4,0,82,81,1,0,0,0,83,84,1,0,0,0,84,82,1,0,0,0,84,85,1,0,0,0,85,7,
-        1,0,0,0,86,88,3,10,5,0,87,86,1,0,0,0,87,88,1,0,0,0,88,90,1,0,0,0,
-        89,91,3,12,6,0,90,89,1,0,0,0,91,92,1,0,0,0,92,90,1,0,0,0,92,93,1,
-        0,0,0,93,9,1,0,0,0,94,95,5,42,0,0,95,11,1,0,0,0,96,97,5,43,0,0,97,
-        13,1,0,0,0,98,100,5,7,0,0,99,101,3,16,8,0,100,99,1,0,0,0,101,102,
-        1,0,0,0,102,100,1,0,0,0,102,103,1,0,0,0,103,15,1,0,0,0,104,105,5,
-        20,0,0,105,17,1,0,0,0,106,108,5,6,0,0,107,109,3,20,10,0,108,107,
-        1,0,0,0,109,110,1,0,0,0,110,108,1,0,0,0,110,111,1,0,0,0,111,19,1,
-        0,0,0,112,113,5,20,0,0,113,21,1,0,0,0,114,116,5,5,0,0,115,117,3,
-        24,12,0,116,115,1,0,0,0,117,118,1,0,0,0,118,116,1,0,0,0,118,119,
-        1,0,0,0,119,23,1,0,0,0,120,122,5,8,0,0,121,120,1,0,0,0,121,122,1,
-        0,0,0,122,124,1,0,0,0,123,125,3,26,13,0,124,123,1,0,0,0,125,126,
-        1,0,0,0,126,124,1,0,0,0,126,127,1,0,0,0,127,25,1,0,0,0,128,129,5,
-        20,0,0,129,27,1,0,0,0,130,131,5,11,0,0,131,132,3,30,15,0,132,29,
-        1,0,0,0,133,135,3,32,16,0,134,133,1,0,0,0,134,135,1,0,0,0,135,137,
-        1,0,0,0,136,138,3,34,17,0,137,136,1,0,0,0,137,138,1,0,0,0,138,140,
-        1,0,0,0,139,141,3,36,18,0,140,139,1,0,0,0,140,141,1,0,0,0,141,143,
-        1,0,0,0,142,144,3,38,19,0,143,142,1,0,0,0,143,144,1,0,0,0,144,146,
-        1,0,0,0,145,147,3,40,20,0,146,145,1,0,0,0,146,147,1,0,0,0,147,149,
-        1,0,0,0,148,150,3,42,21,0,149,148,1,0,0,0,149,150,1,0,0,0,150,151,
-        1,0,0,0,151,152,3,44,22,0,152,31,1,0,0,0,153,154,5,13,0,0,154,33,
-        1,0,0,0,155,156,5,12,0,0,156,35,1,0,0,0,157,158,5,14,0,0,158,37,
-        1,0,0,0,159,160,5,16,0,0,160,39,1,0,0,0,161,162,5,18,0,0,162,163,
-        5,19,0,0,163,41,1,0,0,0,164,165,5,15,0,0,165,43,1,0,0,0,166,167,
-        5,21,0,0,167,45,1,0,0,0,23,47,50,53,56,59,62,65,76,78,84,87,92,102,
-        110,118,121,126,134,137,140,143,146,149
+        7,20,2,21,7,21,2,22,7,22,2,23,7,23,1,0,3,0,50,8,0,1,0,3,0,53,8,0,
+        1,0,3,0,56,8,0,1,0,3,0,59,8,0,1,0,3,0,62,8,0,1,0,3,0,65,8,0,1,0,
+        3,0,68,8,0,1,0,3,0,71,8,0,1,1,1,1,1,2,1,2,1,3,1,3,1,3,1,3,1,3,1,
+        3,1,3,4,3,84,8,3,11,3,12,3,85,1,4,1,4,4,4,90,8,4,11,4,12,4,91,1,
+        5,3,5,95,8,5,1,5,4,5,98,8,5,11,5,12,5,99,1,6,1,6,1,7,1,7,1,8,1,8,
+        4,8,108,8,8,11,8,12,8,109,1,9,1,9,1,10,1,10,4,10,116,8,10,11,10,
+        12,10,117,1,11,1,11,1,12,1,12,4,12,124,8,12,11,12,12,12,125,1,13,
+        3,13,129,8,13,1,13,4,13,132,8,13,11,13,12,13,133,1,14,1,14,1,15,
+        1,15,1,15,1,16,3,16,142,8,16,1,16,3,16,145,8,16,1,16,3,16,148,8,
+        16,1,16,3,16,151,8,16,1,16,3,16,154,8,16,1,16,3,16,157,8,16,1,16,
+        1,16,1,17,1,17,1,18,1,18,1,19,1,19,1,20,1,20,1,21,1,21,1,21,1,22,
+        1,22,1,23,1,23,1,23,0,0,24,0,2,4,6,8,10,12,14,16,18,20,22,24,26,
+        28,30,32,34,36,38,40,42,44,46,0,0,180,0,49,1,0,0,0,2,72,1,0,0,0,
+        4,74,1,0,0,0,6,83,1,0,0,0,8,87,1,0,0,0,10,94,1,0,0,0,12,101,1,0,
+        0,0,14,103,1,0,0,0,16,105,1,0,0,0,18,111,1,0,0,0,20,113,1,0,0,0,
+        22,119,1,0,0,0,24,121,1,0,0,0,26,128,1,0,0,0,28,135,1,0,0,0,30,137,
+        1,0,0,0,32,141,1,0,0,0,34,160,1,0,0,0,36,162,1,0,0,0,38,164,1,0,
+        0,0,40,166,1,0,0,0,42,168,1,0,0,0,44,171,1,0,0,0,46,173,1,0,0,0,
+        48,50,3,4,2,0,49,48,1,0,0,0,49,50,1,0,0,0,50,52,1,0,0,0,51,53,3,
+        2,1,0,52,51,1,0,0,0,52,53,1,0,0,0,53,55,1,0,0,0,54,56,3,6,3,0,55,
+        54,1,0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,59,3,8,4,0,58,57,1,0,0,
+        0,58,59,1,0,0,0,59,61,1,0,0,0,60,62,3,16,8,0,61,60,1,0,0,0,61,62,
+        1,0,0,0,62,64,1,0,0,0,63,65,3,20,10,0,64,63,1,0,0,0,64,65,1,0,0,
+        0,65,67,1,0,0,0,66,68,3,24,12,0,67,66,1,0,0,0,67,68,1,0,0,0,68,70,
+        1,0,0,0,69,71,3,30,15,0,70,69,1,0,0,0,70,71,1,0,0,0,71,1,1,0,0,0,
+        72,73,5,2,0,0,73,3,1,0,0,0,74,75,3,44,22,0,75,5,1,0,0,0,76,84,5,
+        3,0,0,77,84,3,36,18,0,78,84,3,38,19,0,79,84,3,40,20,0,80,84,3,44,
+        22,0,81,84,3,42,21,0,82,84,3,46,23,0,83,76,1,0,0,0,83,77,1,0,0,0,
+        83,78,1,0,0,0,83,79,1,0,0,0,83,80,1,0,0,0,83,81,1,0,0,0,83,82,1,
+        0,0,0,84,85,1,0,0,0,85,83,1,0,0,0,85,86,1,0,0,0,86,7,1,0,0,0,87,
+        89,5,4,0,0,88,90,3,10,5,0,89,88,1,0,0,0,90,91,1,0,0,0,91,89,1,0,
+        0,0,91,92,1,0,0,0,92,9,1,0,0,0,93,95,3,12,6,0,94,93,1,0,0,0,94,95,
+        1,0,0,0,95,97,1,0,0,0,96,98,3,14,7,0,97,96,1,0,0,0,98,99,1,0,0,0,
+        99,97,1,0,0,0,99,100,1,0,0,0,100,11,1,0,0,0,101,102,5,42,0,0,102,
+        13,1,0,0,0,103,104,5,43,0,0,104,15,1,0,0,0,105,107,5,7,0,0,106,108,
+        3,18,9,0,107,106,1,0,0,0,108,109,1,0,0,0,109,107,1,0,0,0,109,110,
+        1,0,0,0,110,17,1,0,0,0,111,112,5,20,0,0,112,19,1,0,0,0,113,115,5,
+        6,0,0,114,116,3,22,11,0,115,114,1,0,0,0,116,117,1,0,0,0,117,115,
+        1,0,0,0,117,118,1,0,0,0,118,21,1,0,0,0,119,120,5,20,0,0,120,23,1,
+        0,0,0,121,123,5,5,0,0,122,124,3,26,13,0,123,122,1,0,0,0,124,125,
+        1,0,0,0,125,123,1,0,0,0,125,126,1,0,0,0,126,25,1,0,0,0,127,129,5,
+        8,0,0,128,127,1,0,0,0,128,129,1,0,0,0,129,131,1,0,0,0,130,132,3,
+        28,14,0,131,130,1,0,0,0,132,133,1,0,0,0,133,131,1,0,0,0,133,134,
+        1,0,0,0,134,27,1,0,0,0,135,136,5,20,0,0,136,29,1,0,0,0,137,138,5,
+        11,0,0,138,139,3,32,16,0,139,31,1,0,0,0,140,142,3,34,17,0,141,140,
+        1,0,0,0,141,142,1,0,0,0,142,144,1,0,0,0,143,145,3,36,18,0,144,143,
+        1,0,0,0,144,145,1,0,0,0,145,147,1,0,0,0,146,148,3,38,19,0,147,146,
+        1,0,0,0,147,148,1,0,0,0,148,150,1,0,0,0,149,151,3,40,20,0,150,149,
+        1,0,0,0,150,151,1,0,0,0,151,153,1,0,0,0,152,154,3,42,21,0,153,152,
+        1,0,0,0,153,154,1,0,0,0,154,156,1,0,0,0,155,157,3,44,22,0,156,155,
+        1,0,0,0,156,157,1,0,0,0,157,158,1,0,0,0,158,159,3,46,23,0,159,33,
+        1,0,0,0,160,161,5,13,0,0,161,35,1,0,0,0,162,163,5,12,0,0,163,37,
+        1,0,0,0,164,165,5,14,0,0,165,39,1,0,0,0,166,167,5,16,0,0,167,41,
+        1,0,0,0,168,169,5,18,0,0,169,170,5,19,0,0,170,43,1,0,0,0,171,172,
+        5,15,0,0,172,45,1,0,0,0,173,174,5,21,0,0,174,47,1,0,0,0,24,49,52,
+        55,58,61,64,67,70,83,85,91,94,99,109,117,125,128,133,141,144,147,
+        150,153,156
     ]
 
 class DebateGrammarParser ( Parser ):
@@ -104,29 +107,30 @@ class DebateGrammarParser ( Parser ):
 
     RULE_start = 0
     RULE_simiosi = 1
-    RULE_table_of_contents = 2
-    RULE_subjects = 3
-    RULE_sectionContent = 4
-    RULE_sbcategory = 5
-    RULE_subject = 6
-    RULE_proedros = 7
-    RULE_proedros_name = 8
-    RULE_proedreuontes = 9
-    RULE_proedreuontes_name = 10
-    RULE_speakers = 11
-    RULE_speaker_detail = 12
-    RULE_speakers_name = 13
-    RULE_parliament_proceedings = 14
-    RULE_parliament_detail = 15
-    RULE_anatheoritiki_bouli = 16
-    RULE_period_detail = 17
-    RULE_dimokratia = 18
-    RULE_sunodos = 19
-    RULE_ergasies = 20
-    RULE_sunedriasi = 21
-    RULE_date = 22
+    RULE_header = 2
+    RULE_table_of_contents = 3
+    RULE_subjects = 4
+    RULE_sectionContent = 5
+    RULE_sbcategory = 6
+    RULE_subject = 7
+    RULE_proedros = 8
+    RULE_proedros_name = 9
+    RULE_proedreuontes = 10
+    RULE_proedreuontes_name = 11
+    RULE_speakers = 12
+    RULE_speaker_detail = 13
+    RULE_speakers_name = 14
+    RULE_parliament_proceedings = 15
+    RULE_parliament_detail = 16
+    RULE_anatheoritiki_bouli = 17
+    RULE_period_detail = 18
+    RULE_dimokratia = 19
+    RULE_sunodos = 20
+    RULE_ergasies = 21
+    RULE_sunedriasi = 22
+    RULE_date = 23
 
-    ruleNames =  [ "start", "simiosi", "table_of_contents", "subjects", 
+    ruleNames =  [ "start", "simiosi", "header", "table_of_contents", "subjects", 
                    "sectionContent", "sbcategory", "subject", "proedros", 
                    "proedros_name", "proedreuontes", "proedreuontes_name", 
                    "speakers", "speaker_detail", "speakers_name", "parliament_proceedings", 
@@ -194,6 +198,10 @@ class DebateGrammarParser ( Parser ):
             super().__init__(parent, invokingState)
             self.parser = parser
 
+        def header(self):
+            return self.getTypedRuleContext(DebateGrammarParser.HeaderContext,0)
+
+
         def simiosi(self):
             return self.getTypedRuleContext(DebateGrammarParser.SimiosiContext,0)
 
@@ -243,59 +251,67 @@ class DebateGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 47
+            self.state = 49
+            self._errHandler.sync(self)
+            la_ = self._interp.adaptivePredict(self._input,0,self._ctx)
+            if la_ == 1:
+                self.state = 48
+                self.header()
+
+
+            self.state = 52
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==2:
-                self.state = 46
+                self.state = 51
                 self.simiosi()
 
 
-            self.state = 50
+            self.state = 55
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if (((_la) & ~0x3f) == 0 and ((1 << _la) & 2478088) != 0):
-                self.state = 49
+                self.state = 54
                 self.table_of_contents()
 
 
-            self.state = 53
+            self.state = 58
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==4:
-                self.state = 52
+                self.state = 57
                 self.subjects()
 
 
-            self.state = 56
+            self.state = 61
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==7:
-                self.state = 55
+                self.state = 60
                 self.proedros()
 
 
-            self.state = 59
+            self.state = 64
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==6:
-                self.state = 58
+                self.state = 63
                 self.proedreuontes()
 
 
-            self.state = 62
+            self.state = 67
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==5:
-                self.state = 61
+                self.state = 66
                 self.speakers()
 
 
-            self.state = 65
+            self.state = 70
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==11:
-                self.state = 64
+                self.state = 69
                 self.parliament_proceedings()
 
 
@@ -338,8 +354,50 @@ class DebateGrammarParser ( Parser ):
         self.enterRule(localctx, 2, self.RULE_simiosi)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 67
+            self.state = 72
             self.match(DebateGrammarParser.SIMIOSI)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class HeaderContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def sunedriasi(self):
+            return self.getTypedRuleContext(DebateGrammarParser.SunedriasiContext,0)
+
+
+        def getRuleIndex(self):
+            return DebateGrammarParser.RULE_header
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterHeader" ):
+                listener.enterHeader(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitHeader" ):
+                listener.exitHeader(self)
+
+
+
+
+    def header(self):
+
+        localctx = DebateGrammarParser.HeaderContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 4, self.RULE_header)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 74
+            self.sunedriasi()
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -421,49 +479,49 @@ class DebateGrammarParser ( Parser ):
     def table_of_contents(self):
 
         localctx = DebateGrammarParser.Table_of_contentsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 4, self.RULE_table_of_contents)
+        self.enterRule(localctx, 6, self.RULE_table_of_contents)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 76 
+            self.state = 83 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 76
+                self.state = 83
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
                 if token in [3]:
-                    self.state = 69
+                    self.state = 76
                     self.match(DebateGrammarParser.PINAKAS_PERIEXOMENON)
                     pass
                 elif token in [12]:
-                    self.state = 70
+                    self.state = 77
                     self.period_detail()
                     pass
                 elif token in [14]:
-                    self.state = 71
+                    self.state = 78
                     self.dimokratia()
                     pass
                 elif token in [16]:
-                    self.state = 72
+                    self.state = 79
                     self.sunodos()
                     pass
                 elif token in [15]:
-                    self.state = 73
+                    self.state = 80
                     self.sunedriasi()
                     pass
                 elif token in [18]:
-                    self.state = 74
+                    self.state = 81
                     self.ergasies()
                     pass
                 elif token in [21]:
-                    self.state = 75
+                    self.state = 82
                     self.date()
                     pass
                 else:
                     raise NoViableAltException(self)
 
-                self.state = 78 
+                self.state = 85 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 2478088) != 0)):
@@ -512,19 +570,19 @@ class DebateGrammarParser ( Parser ):
     def subjects(self):
 
         localctx = DebateGrammarParser.SubjectsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_subjects)
+        self.enterRule(localctx, 8, self.RULE_subjects)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 80
+            self.state = 87
             self.match(DebateGrammarParser.THEMATA_SPACES)
-            self.state = 82 
+            self.state = 89 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 81
+                self.state = 88
                 self.sectionContent()
-                self.state = 84 
+                self.state = 91 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==42 or _la==43):
@@ -574,31 +632,31 @@ class DebateGrammarParser ( Parser ):
     def sectionContent(self):
 
         localctx = DebateGrammarParser.SectionContentContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_sectionContent)
+        self.enterRule(localctx, 10, self.RULE_sectionContent)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 87
+            self.state = 94
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==42:
-                self.state = 86
+                self.state = 93
                 self.sbcategory()
 
 
-            self.state = 90 
+            self.state = 97 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 89
+                    self.state = 96
                     self.subject()
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 92 
+                self.state = 99 
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,11,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,12,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -636,10 +694,10 @@ class DebateGrammarParser ( Parser ):
     def sbcategory(self):
 
         localctx = DebateGrammarParser.SbcategoryContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_sbcategory)
+        self.enterRule(localctx, 12, self.RULE_sbcategory)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 94
+            self.state = 101
             self.match(DebateGrammarParser.SUBJECT_BASIC_CATEGORY)
         except RecognitionException as re:
             localctx.exception = re
@@ -677,10 +735,10 @@ class DebateGrammarParser ( Parser ):
     def subject(self):
 
         localctx = DebateGrammarParser.SubjectContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_subject)
+        self.enterRule(localctx, 14, self.RULE_subject)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 96
+            self.state = 103
             self.match(DebateGrammarParser.SUBJECT_)
         except RecognitionException as re:
             localctx.exception = re
@@ -725,19 +783,19 @@ class DebateGrammarParser ( Parser ):
     def proedros(self):
 
         localctx = DebateGrammarParser.ProedrosContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_proedros)
+        self.enterRule(localctx, 16, self.RULE_proedros)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 98
+            self.state = 105
             self.match(DebateGrammarParser.PROEDROS)
-            self.state = 100 
+            self.state = 107 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 99
+                self.state = 106
                 self.proedros_name()
-                self.state = 102 
+                self.state = 109 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==20):
@@ -779,10 +837,10 @@ class DebateGrammarParser ( Parser ):
     def proedros_name(self):
 
         localctx = DebateGrammarParser.Proedros_nameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_proedros_name)
+        self.enterRule(localctx, 18, self.RULE_proedros_name)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 104
+            self.state = 111
             self.match(DebateGrammarParser.NAME)
         except RecognitionException as re:
             localctx.exception = re
@@ -827,19 +885,19 @@ class DebateGrammarParser ( Parser ):
     def proedreuontes(self):
 
         localctx = DebateGrammarParser.ProedreuontesContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_proedreuontes)
+        self.enterRule(localctx, 20, self.RULE_proedreuontes)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 106
+            self.state = 113
             self.match(DebateGrammarParser.PROEDREUONTES)
-            self.state = 108 
+            self.state = 115 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 107
+                self.state = 114
                 self.proedreuontes_name()
-                self.state = 110 
+                self.state = 117 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==20):
@@ -881,10 +939,10 @@ class DebateGrammarParser ( Parser ):
     def proedreuontes_name(self):
 
         localctx = DebateGrammarParser.Proedreuontes_nameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_proedreuontes_name)
+        self.enterRule(localctx, 22, self.RULE_proedreuontes_name)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 112
+            self.state = 119
             self.match(DebateGrammarParser.NAME)
         except RecognitionException as re:
             localctx.exception = re
@@ -929,19 +987,19 @@ class DebateGrammarParser ( Parser ):
     def speakers(self):
 
         localctx = DebateGrammarParser.SpeakersContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 22, self.RULE_speakers)
+        self.enterRule(localctx, 24, self.RULE_speakers)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 114
+            self.state = 121
             self.match(DebateGrammarParser.OMILITES)
-            self.state = 116 
+            self.state = 123 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 115
+                self.state = 122
                 self.speaker_detail()
-                self.state = 118 
+                self.state = 125 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if not (_la==8 or _la==20):
@@ -990,31 +1048,31 @@ class DebateGrammarParser ( Parser ):
     def speaker_detail(self):
 
         localctx = DebateGrammarParser.Speaker_detailContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 24, self.RULE_speaker_detail)
+        self.enterRule(localctx, 26, self.RULE_speaker_detail)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 121
+            self.state = 128
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==8:
-                self.state = 120
+                self.state = 127
                 self.match(DebateGrammarParser.SPEAKER_CATEG_DETAIL)
 
 
-            self.state = 124 
+            self.state = 131 
             self._errHandler.sync(self)
             _alt = 1
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt == 1:
-                    self.state = 123
+                    self.state = 130
                     self.speakers_name()
 
                 else:
                     raise NoViableAltException(self)
-                self.state = 126 
+                self.state = 133 
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,16,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,17,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re
@@ -1052,10 +1110,10 @@ class DebateGrammarParser ( Parser ):
     def speakers_name(self):
 
         localctx = DebateGrammarParser.Speakers_nameContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 26, self.RULE_speakers_name)
+        self.enterRule(localctx, 28, self.RULE_speakers_name)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 128
+            self.state = 135
             self.match(DebateGrammarParser.NAME)
         except RecognitionException as re:
             localctx.exception = re
@@ -1097,12 +1155,12 @@ class DebateGrammarParser ( Parser ):
     def parliament_proceedings(self):
 
         localctx = DebateGrammarParser.Parliament_proceedingsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 28, self.RULE_parliament_proceedings)
+        self.enterRule(localctx, 30, self.RULE_parliament_proceedings)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 130
+            self.state = 137
             self.match(DebateGrammarParser.PRAKTIKA_BOULIS)
-            self.state = 131
+            self.state = 138
             self.parliament_detail()
         except RecognitionException as re:
             localctx.exception = re
@@ -1165,59 +1223,59 @@ class DebateGrammarParser ( Parser ):
     def parliament_detail(self):
 
         localctx = DebateGrammarParser.Parliament_detailContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 30, self.RULE_parliament_detail)
+        self.enterRule(localctx, 32, self.RULE_parliament_detail)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 134
+            self.state = 141
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==13:
-                self.state = 133
+                self.state = 140
                 self.anatheoritiki_bouli()
 
 
-            self.state = 137
+            self.state = 144
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==12:
-                self.state = 136
+                self.state = 143
                 self.period_detail()
 
 
-            self.state = 140
+            self.state = 147
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==14:
-                self.state = 139
+                self.state = 146
                 self.dimokratia()
 
 
-            self.state = 143
+            self.state = 150
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==16:
-                self.state = 142
+                self.state = 149
                 self.sunodos()
 
 
-            self.state = 146
+            self.state = 153
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==18:
-                self.state = 145
+                self.state = 152
                 self.ergasies()
 
 
-            self.state = 149
+            self.state = 156
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==15:
-                self.state = 148
+                self.state = 155
                 self.sunedriasi()
 
 
-            self.state = 151
+            self.state = 158
             self.date()
         except RecognitionException as re:
             localctx.exception = re
@@ -1255,10 +1313,10 @@ class DebateGrammarParser ( Parser ):
     def anatheoritiki_bouli(self):
 
         localctx = DebateGrammarParser.Anatheoritiki_bouliContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 32, self.RULE_anatheoritiki_bouli)
+        self.enterRule(localctx, 34, self.RULE_anatheoritiki_bouli)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 153
+            self.state = 160
             self.match(DebateGrammarParser.ANATH_BOULI)
         except RecognitionException as re:
             localctx.exception = re
@@ -1296,10 +1354,10 @@ class DebateGrammarParser ( Parser ):
     def period_detail(self):
 
         localctx = DebateGrammarParser.Period_detailContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 34, self.RULE_period_detail)
+        self.enterRule(localctx, 36, self.RULE_period_detail)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 155
+            self.state = 162
             self.match(DebateGrammarParser.PERIODOS)
         except RecognitionException as re:
             localctx.exception = re
@@ -1337,10 +1395,10 @@ class DebateGrammarParser ( Parser ):
     def dimokratia(self):
 
         localctx = DebateGrammarParser.DimokratiaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 36, self.RULE_dimokratia)
+        self.enterRule(localctx, 38, self.RULE_dimokratia)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 157
+            self.state = 164
             self.match(DebateGrammarParser.DIMOKRATIA)
         except RecognitionException as re:
             localctx.exception = re
@@ -1378,10 +1436,10 @@ class DebateGrammarParser ( Parser ):
     def sunodos(self):
 
         localctx = DebateGrammarParser.SunodosContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 38, self.RULE_sunodos)
+        self.enterRule(localctx, 40, self.RULE_sunodos)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 159
+            self.state = 166
             self.match(DebateGrammarParser.SUNODOS)
         except RecognitionException as re:
             localctx.exception = re
@@ -1422,12 +1480,12 @@ class DebateGrammarParser ( Parser ):
     def ergasies(self):
 
         localctx = DebateGrammarParser.ErgasiesContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 40, self.RULE_ergasies)
+        self.enterRule(localctx, 42, self.RULE_ergasies)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 161
+            self.state = 168
             self.match(DebateGrammarParser.TMIMA_DIAKOPIS)
-            self.state = 162
+            self.state = 169
             self.match(DebateGrammarParser.THEROS)
         except RecognitionException as re:
             localctx.exception = re
@@ -1465,10 +1523,10 @@ class DebateGrammarParser ( Parser ):
     def sunedriasi(self):
 
         localctx = DebateGrammarParser.SunedriasiContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 42, self.RULE_sunedriasi)
+        self.enterRule(localctx, 44, self.RULE_sunedriasi)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 164
+            self.state = 171
             self.match(DebateGrammarParser.SUNDEDRIASI)
         except RecognitionException as re:
             localctx.exception = re
@@ -1506,10 +1564,10 @@ class DebateGrammarParser ( Parser ):
     def date(self):
 
         localctx = DebateGrammarParser.DateContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 44, self.RULE_date)
+        self.enterRule(localctx, 46, self.RULE_date)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 166
+            self.state = 173
             self.match(DebateGrammarParser.DATE)
         except RecognitionException as re:
             localctx.exception = re

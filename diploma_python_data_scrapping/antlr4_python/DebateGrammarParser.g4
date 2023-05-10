@@ -4,11 +4,12 @@ options {
 	tokenVocab = DebateGrammarLexer;
 }
 start:
-	simiosi? table_of_contents? subjects? proedros? proedreuontes? speakers? parliament_proceedings?
-		;
+	header? simiosi? table_of_contents? subjects? proedros? proedreuontes? speakers?
+		parliament_proceedings?;
 
 simiosi: SIMIOSI;
 
+header: sunedriasi;
 //------- PERIEXOMENA
 table_of_contents:
 	(

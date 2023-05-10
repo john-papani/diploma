@@ -26,6 +26,15 @@ class DebateGrammarParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by DebateGrammarParser#header.
+    def enterHeader(self, ctx:DebateGrammarParser.HeaderContext):
+        pass
+
+    # Exit a parse tree produced by DebateGrammarParser#header.
+    def exitHeader(self, ctx:DebateGrammarParser.HeaderContext):
+        pass
+
+
     # Enter a parse tree produced by DebateGrammarParser#table_of_contents.
     def enterTable_of_contents(self, ctx:DebateGrammarParser.Table_of_contentsContext):
         pass
