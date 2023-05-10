@@ -1,17 +1,24 @@
-# -*- coding: utf-8 -*-
-import os
-import re
-import jellyfish
-from collections import defaultdict
-import csv
-import numpy as np
-from datetime import datetime as dt
-from argparse import ArgumentParser
-import pandas as pd
-import ast
-import tika
-from tika import parser
 
+from antlr4 import *
+from tika import parser
+import tika
+import ast
+import pandas as pd
+from argparse import ArgumentParser
+from datetime import datetime as dt
+import numpy as np
+import csv
+from collections import defaultdict
+import jellyfish
+import re
+from tika import config
+import os
+from bs4 import BeautifulSoup
+import sys
+sys.path.insert(1, './antlr4_python')
+
+from DebateGrammarParser import DebateGrammarParser
+from DebateGrammarLexer import DebateGrammarLexer
 
 '''This script extracts speeches from record files and matches them to the
 official parliament or government member from the file all_members_activity.csv.
@@ -23,7 +30,10 @@ Example: python member_speech_matcher.py -f '../path/to/data/folder/' -o '../out
 
 
 starttime = dt.now()
-
+record_date = "0000-00-00"
+record_period = "00"
+record_session = "00"
+record_sitting = "00"
 
 # Cleaning and formatting speakers data
 def text_formatting(text):
@@ -355,9 +365,44 @@ def get_date(date):
     return date
 
 
+def set_record_values(table_of_content):
+    input_stream = InputStream(table_of_content)
+    lexer = DebateGrammarLexer(input_stream)
+    token_stream = CommonTokenStream(lexer)
+    parser = DebateGrammarParser(token_stream)
+    tree = parser.start()
+    tree_parlDetails = tree.parliament_proceedings().parliament_detail()
+
+    # Extract parliament details
+    anatheoritiki_bouli = tree_parlDetails.anatheoritiki_bouli().getText(
+    ) if tree_parlDetails.anatheoritiki_bouli() is not None else None
+    period_detail = tree_parlDetails.period_detail().getText(
+    ) if tree_parlDetails.period_detail() is not None else None
+    dimokratia = tree_parlDetails.dimokratia().getText(
+    ) if tree_parlDetails.dimokratia() is not None else None
+    sunodos = tree_parlDetails.sunodos().getText(
+    ) if tree_parlDetails.sunodos() is not None else None
+    ergasies = tree_parlDetails.ergasies().getText(
+    ) if tree_parlDetails.ergasies() is not None else None
+    sunedriasi = tree_parlDetails.sunedriasi().getText(
+    ) if tree_parlDetails.sunedriasi() is not None else None
+    date = tree_parlDetails.date().getText(
+    ) if tree_parlDetails.date() is not None else None
+    print("==--=-", date, "-=-=-")
+    global record_date, record_period, record_session, record_sitting
+    record_date = date
+    record_period = period_detail
+    record_session = sunodos
+    record_sitting = sunedriasi
+
+
 datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/"
 parsed = parser.from_file(
-    'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/20-2-2019.docx')
+    'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/20160508000238.docx', xmlContent=True)
+# 20-2-2019.docx
+# es10.11.2012.doc
+# parsed = parser.from_file(
+#     'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/files/esl100923.txt')
 # files/5300.doc')
 # print(parsed["metadata"]["dcterms:created"])
 # print(parsed["content"])
@@ -389,7 +434,7 @@ text_in_parenthesis = re.compile(r"(\(.*?\)){1}")  # (Υπουργός Εσωτ�
 
 # Regex for both proedros or proedreuon
 proedr_regex = re.compile(
-    r"(^(((Π+Ρ(Ο|Ό)+(Ε|Έ))|(Ρ(Ο|Ό)+(Ε|Έ)Δ)|(ΠΡ(Ε|Έ)(Ο|Ό))|(ΠΡ(Ο|Ό)Δ)|(Η ΠΡ(Ο|Ό)(Ε|Έ)ΔΡ)|(ΠΡ(Ε|Έ)Δ))|(ΠΡΟΣΩΡΙΝΗ ΠΡΟΕΔΡΟΣ)|(ΠΡΟΣΩΡΙΝΟΣ ΠΡΟΕΔΡΟΣ)))")
+    r"((((Π+Ρ(Ο|Ό)+(Ε|Έ))|(Ρ(Ο|Ό)+(Ε|Έ)Δ)|(ΠΡ(Ε|Έ)(Ο|Ό))|(ΠΡ(Ο|Ό)Δ)|(Η ΠΡ(Ο|Ό)(Ε|Έ)ΔΡ)|(ΠΡ(Ε|Έ)Δ))|(ΠΡΟΣΩΡΙΝΗ ΠΡΟΕΔΡΟΣ)|(ΠΡΟΣΩΡΙΝΟΣ ΠΡΟΕΔΡΟΣ)))")
 
 # Regex for proedros only
 proedros_regex = re.compile(r"ΠΡ((Ο|Ό|(ΟΟ))(Ε|Έ)|((ΕΟ)|(ΈΟ)|(ΕΌ)|(ΈΌ)))ΔΡΟΣ")
@@ -405,9 +450,12 @@ comments_regex = re.compile(r"\(.*?\)[^:]{1}")
 comment_sto_simio_auto = re.compile(
     r"\(\s*(Σ|σ)το σημε(ί|ι)ο αυτ(ό|ο).*?\){1}")
 xeirokrotima = re.compile(r"\((χ|Χ)ειροκροτ(ή|η)ματα .*?\)")
-allagi_selidas = re.compile(r"ΑΛΛΑΓ(Η|Ή) ΣΕΛ(Ι|Ί)ΔΑ.*")
+allagi_selidas = re.compile(r"\(?ΑΛΛΑΓ(Η|Ή)\s*ΣΕΛ(Ι|Ί)ΔΑΣ\s*[Α-Ω]*\)")
 starting_regex = re.compile(
     r"(Π\s*Ρ\s*Α\s*Κ\s*Τ\s*Ι\s*Κ\s*(Α|A)\s*(Τ\s*Η\s*Σ)?\s*Β\s*Ο\s*Υ\s*Λ\s*Η\s*Σ)\s*(.+)('|΄|`|’)\s*ΠΕΡΙΟΔΟΣ\s*\(?((ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ)|(ΠΡΟΕΔΡΕΥ?Ο?ΜΕΝΗΣ? ΔΗΜ?ΟΚΡΑΤΙΑΣ))\)?\s*(Σ\s*Υ\s*Ν\s*Ο\s*Δ\s*Ο\s*Σ)?\s*(.+)('|΄|`|’)\s+(.*)\s*(Σ\s*Υ\s*Ν\s*Ε\s*Δ\s*Ρ\s*Ι\s*Α\s*Σ\s*Η|ΣΥΕΝΔΡΙΑ|Συνεδρίαση|ΣΥΕΝΔΡΙΑΣΗ)\s*(([Α-Ω]*)(΄|'|`|’)?)\s*([\u0386-\u03CE]+\s*,? \s*\d{1,2} \n*[\u0386-\u03CE]+\s*\d{4})")
+preamble_regex = re.compile(r"(Αθήνα.*)")
+ilektroniki_katametrisi_regex = re.compile(
+    r"(\([Α-Ωα-ω\s]*ΗΛΕΚΤΡΟΝΙΚΗ\s*ΚΑΤΑ[Α-Ωα-ω]*\))")
 # csv_output = csv.writer(f1)
 
 # # csv header
@@ -436,44 +484,44 @@ for filename in filenames:
         continue  # with next iteration of for loop
 
     # name_parts_without_extension = (os.path.splitext(filename)[0]).split('_')
-    record_date = "2019-10-12"
     # record_year = record_date.split('-')[0].strip()
     # current_record_datetime = dt.strptime(record_date, '%Y-%m-%d')
     # current_gov = get_gov(current_record_datetime)
-    record_period = "B"
-    record_session = "12"
-    record_sitting = "5124"
 
     # f3 = open(os.path.join(datapath+filename), 'r', encoding='utf-8')
-    f3 = parsed["content"]
-    file_content = f3.replace('\n', ' ')
-    file_content = re.sub("\s\s+", " ", file_content)
 
+    content = parsed['content']
+    soup = BeautifulSoup(content, 'html.parser')
+    f3 = soup.body.get_text()
+    # f3 = parsed["content"]
+
+    split_text = f3.split("Αθήνα, σήμερα ")
+    introduction = split_text[0]
+    main_text = "Αθήνα, σήμερα " + split_text[1]
+    # if (preamble_regex.search(main_text)):
+    # print(preamble_regex.search(main_text).group())
     # Creates a list of tuples e.g. (' ΠΡΟΕΔΡΕΥΩΝ (Βαΐτσης Αποστολάτος):', ' ΠΡΟΕΔΡΕΥΩΝ', '', '(Βαΐτσης Αποστολάτος)')
+
+    file_content = main_text.replace('\n', ' ')
+    file_content = re.sub("\s\s+", " ", file_content)
     speakers_groups = re.findall(
-        r"((\s*[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]{2,})(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
+        r"((\s*[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]{2,})+(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
         file_content)
-    # print(file_content)
-    print("1")
-    if (starting_regex.search(file_content)):
-        print(starting_regex.search(file_content).group())
-        record_date = starting_regex.search(
-            file_content).group(17).replace(",", "")
-        record_period = starting_regex.search(file_content).group(4)
-        record_session = starting_regex.search(file_content).group(12)
-        record_sitting = starting_regex.search(file_content).group(15)
-    if (starting_regex.search(file_content) is None):
-        print("-=-=--==-=----------------========\n\n\n")
-        prob_files.write(filename + " \n")
-        print("KOOKOKOKKKOOKOKOKOKKOOKOKKKOKKOOKOK\n")
-        print(filename)
-        print("-=-=--==-=----------------========\n\n\n")
+    set_record_values(introduction)
     current_record_datetime = get_date(record_date)
     current_gov = get_gov(current_record_datetime)
 
     # Keep only first full match case of findall
     speakers = [speaker[0] for speaker in speakers_groups]
+    # Delete words that are not speakers
+    name_for_delete = ['ΝΑΙ:', 'ΟΧΙ:', 'ΠΡΝ:',
+                       'ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ:', 'ΣΥΝΟΛΙΚΑ ΨΗΦΟΙ:', 'Ν.Δ.:', 'Κ.Κ.Ε:', 'ΚΚΕ', 'ΣΥΡΙΖΑ', 'ΔΗΣΥ:', 'ΕΝ. ΚΕΝΤΡΩΩΝ:', 'ΚΕΝΤΡΩΩΝ:', 'Χ.Α:', 'ΔΗ.ΣΥ:', 'ΔΕΣΥ:' 'Α.Π:', 'ΣΥ:', 'ΕΣΠΑ:']
 
+    for speaker in speakers[:]:
+        if any(sub in speaker for sub in name_for_delete):
+            speakers.remove(speaker)
+    for speaker in speakers:
+        print(speaker.strip())
     # Discard introductory text before first speaker
     # Use split with maxsplit number 1 in order to split at first occurrence
     try:
@@ -501,19 +549,11 @@ for filename in filenames:
         # remove parenthesis text which is usually descriptions of procedures
         # speech = re.sub(text_in_parenthesis, " ", speech)
         if (allagi_selidas.search(speaker)):
-            speaker = speaker.replace('ΑΛΛΑΓΗ ΣΕΛΙΔΑΣ', '')
+            speaker = speaker.replace(
+                allagi_selidas.search(speaker).group(), '')
+            # print(allagi_selidas.search(speaker).group())
         if (allagi_selidas.search(speech)):
-            speech = speech.replace('ΑΛΛΑΓΗ ΣΕΛΙΔΑΣ', '')
-
-        if (comment_sto_simio_auto.search(speech)):
-            # print("++++", comment_sto_simio_auto.search(speech).group(), "++++\n")
-            # my_list = [s for s in re.split(comment_sto_simio_auto, speech) if s]
-            new_speech = re.sub(comment_sto_simio_auto, "", speech)
-            speech = new_speech
-        if (xeirokrotima.search(speech)):
-            # print("++++", xeirokrotima.search(speech).group(), "++++\n")
-            new_speech = re.sub(xeirokrotima, "", speech)
-            speech = new_speech
+            speech = speech.replace(allagi_selidas.search(speech).group(), '')
 
         # Clean speaker
         speaker = speaker.strip()
@@ -574,17 +614,13 @@ for filename in filenames:
                 continue  # to next speaker
             else:
                 party = party_of_generic_reference(speaker)
-                # speaker = np.nan
+                speaker = np.nan
                 speaker_gender = np.nan
                 speaker_region = np.nan
 
                 # When the closing speech is assigned to generic members instead of the proedreuon
                 # which is usually the case when proedreuon is not mentioned as the closing speaker
                 # we remove the standard closing talk of the sitting from the generic members speech
-                if sitting_terminated_regex.search(speech):
-                    speech = \
-                        re.split("(μ|Μ)ε\s+(τη|την)\s+(συναινεση|συναίνεση)\s+του\s+((σ|Σ)(ω|ώ)ματος|(τ|Τ)μ(η|ή)ματος)",
-                                 speech)[0]
 
                 speaker_info = 'βουλευτης/ες'
                 roles = np.nan
@@ -593,7 +629,7 @@ for filename in filenames:
                        record_period, record_session, record_sitting,
                        current_gov, speaker_region, roles, speaker_gender,
                        speaker_info])
-                print("\n\n----------------------\n\n")
+                print("1eipe:", speech)
                 continue
 
         # continue
@@ -653,13 +689,46 @@ for filename in filenames:
                     max_member_roles = keep_roles_at_date(
                         max_member_roles, current_record_datetime)
                 print("\n\n----------------------\n\n")
-                print([speaker_name, max_member_name_part, current_record_datetime.strftime('%d/%m/%Y'),
-                       record_period, record_session, record_sitting, max_member_party,
-                       current_gov, max_member_region, max_member_roles, max_member_gender,
-                       speaker_info])
-                print("\n\n----------------------\n\n")
+                cm = comment_sto_simio_auto.search(speech)
+                xeir = xeirokrotima.search(speech)
+                if (cm or xeir):
+                    if (cm):
+                        regex_finded = comment_sto_simio_auto
+                        part_splited = 4
+                    elif (xeir):
+                        regex_finded = xeirokrotima
+                        part_splited = 3
+                    splited_text = re.split(regex_finded, speech)
+                    print([speaker_name, max_member_name_part, current_record_datetime.strftime('%d/%m/%Y'),
+                           record_period, record_session, record_sitting, max_member_party,
+                           current_gov, max_member_region, max_member_roles, max_member_gender,
+                           speaker_info])
+                    print(splited_text[0])
+                    print(
+                        "++++", regex_finded.search(speech).group(), "++++\n")
+                    print(len(splited_text))
+                    if (len(splited_text[part_splited]) > 1):
+                        print("+++++")
+                        print([speaker_name, max_member_name_part, current_record_datetime.strftime('%d/%m/%Y'),
+                               record_period, record_session, record_sitting, max_member_party,
+                               current_gov, max_member_region, max_member_roles, max_member_gender,
+                               speaker_info])
+                        print(splited_text[part_splited])
+                else:
+                    print([speaker_name, max_member_name_part, current_record_datetime.strftime('%d/%m/%Y'),
+                           record_period, record_session, record_sitting, max_member_party,
+                           current_gov, max_member_region, max_member_roles, max_member_gender,
+                           speaker_info])
+                    print("2eipe:", speech)
+            if (ilektroniki_katametrisi_regex.search(speech)):
+                print(
+                    "++++", ilektroniki_katametrisi_regex.search(speech).group(), "++++\n")
+                speech = speech.replace(
+                    ilektroniki_katametrisi_regex.search(speech).group(), '')
+            print("3speaker:", speaker_name)
+            print("3eipe:", speech)
 
-            print("eipe: ", speech)
+            print("\n\n======================\n\n")
 
 prob_files.close()
 
