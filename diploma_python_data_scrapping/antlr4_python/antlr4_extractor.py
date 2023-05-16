@@ -2,6 +2,13 @@ from antlr4 import *
 from DebateGrammarLexer import DebateGrammarLexer
 from DebateGrammarParser import DebateGrammarParser
 
+# class MyListener(ParseTreeListener):
+#     def enterTable_of_contents(self, ctx):
+#         toc = []
+#         for child in ctx.getChildren():
+#             toc.append(child.getText())
+#         print("Table of Contents: ", ", ".join(toc))
+
 
 def get_subjects(tree_subjects):
     subjects = []
@@ -15,22 +22,14 @@ def get_subjects(tree_subjects):
         print("There are not SUBJECTS")
 
 
-def get_proedros(tree_proedros):
-    if (tree_proedros):
-        print(tree_proedros.PROEDROS().getText())
-        for proedros_name in tree_proedros.proedros_name():
-            print(proedros_name.NAME().getText())
-    else:
-        print("NO PROEDROS HERE")
 
-
-def get_proedreuontes(tree_proedreuontes):
-    if (tree_proedreuontes):
-        print("--", tree_proedreuontes.PROEDREUONTES().getText(), "--")
-        for proedreuontes_name in tree_proedreuontes.proedreuontes_name():
-            print(proedreuontes_name.NAME().getText())
-    else:
-        print("NO PROEDROS HERE")
+# def get_proedreuontes(tree_proedreuontes):
+#     if (tree_proedreuontes):
+#         # print("--", tree_proedreuontes.PROEDREUONTES().getText(), "--")
+#         # for proedreuontes_name in tree_proedreuontes.proedreuontes_name():
+#             print(proedreuontes_name.NAME().getText())
+#     else:
+#         print("NO PROEDROS HERE")
 
 
 def get_all_speakers(tree_speakers):
@@ -61,7 +60,6 @@ def main():
     # print(tree.toStringTree())
 
     tree_subjects = tree.subjects()
-    tree_proedros = tree.proedros()
     tree_proedreuontes = tree.proedreuontes()
     tree_speakers = tree.speakers()
     tree_parlDetails = tree.parliament_proceedings().parliament_detail()
@@ -93,17 +91,19 @@ def main():
     print(f"Sunedriasi: {sunedriasi}")
     print(f"Date: {date}")
 
-    print("\n\n-------------------------\n\n")
-    all_subjects = get_subjects(tree_subjects)
-    for sbj in all_subjects:
-        print(sbj)
-        # print(all_subjects)
-    print("\n\n-------------------------\n\n")
-    get_proedreuontes(tree_proedreuontes)
-    print("\n\n-------------------------\n\n")
-    proedros = get_proedros(tree_proedros)
-    print("\n\n-------------------------\n\n")
-    get_all_speakers(tree_speakers)
+    # print("\n\n-------------------------\n\n")
+    # # all_subjects = get_subjects(tree_subjects)
+    # for sbj in all_subjects:
+    #     print(sbj)
+    #     # print(all_subjects)
+    # print("\n\n-------------------------\n\n")
+    # # get_proedreuontes(tree_proedreuontes)
+    # print("\n\n-------------------------\n\n")
+    # get_all_speakers(tree_speakers)
+
+
+    # listener = MyListener()
+    # ParseTreeWalker.DEFAULT.walk(listener, tree)
 
 
 if __name__ == '__main__':

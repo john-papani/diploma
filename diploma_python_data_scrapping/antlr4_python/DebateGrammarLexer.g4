@@ -16,55 +16,91 @@ PROEDREUONTES: (
 			| 'ΠΡΕΟΔΡΕΥΟΝΤΕΣ'
 			| 'ΠΡΟΕΔΡΕΥΩΝ'
 			| 'ΠΡΟΕΔΡΕΥΟΥΣΑ'
+			| 'ΠΡΟΕΔΡΟΥΣΑ'
+			| 'ΠΡΟΕΔΡΟΣ'
 		) SPACES
 	);
-PROEDROS: ('ΠΡΟΕΔΡΟΣ' SPACES);
 SPEAKER_CATEG_DETAIL: (
-		((BIG_LETTER | NUMBER) (DOT | RIGHT_PARENTHESIS))? (
-			PAREMVASEIS
-			| EPI
+		// ( ( ( ( BIG_LETTER | SMALL_GREEK_LETTER | NUMBER | ROMAN_NUMERAL ) (DOT |
+		// RIGHT_PARENTHESIS) )? (PAREMVASEIS | EPI) ) | ( BIG_LETTER | SMALL_GREEK_LETTER | NUMBER
+		// | ROMAN_NUMERAL )+ (DOT | RIGHT_PARENTHESIS) ANY_TEXT ':' )
+		(
+			(
+				(
+					(
+						BIG_LETTER
+						| SMALL_GREEK_LETTER
+						| NUMBER
+						| ROMAN_NUMERAL
+					) (DOT | RIGHT_PARENTHESIS)
+				)? (PAREMVASEIS | EPI | (ANY_TEXT ':'))
+			)
 		)
-		| ((BIG_LETTER | NUMBER) DOT ANY_TEXT)
+
+		// ((BIG_LETTER | NUMBER)+ (DOT | RIGHT_PARENTHESIS))? ( PAREMVASEIS | EPI ) | ((BIG_LETTER
+		// | NUMBER)+ DOT ANY_TEXT)
 	);
 EPI: SPACES ('Επί' | 'ΕΠΙ') SPACES ANY_TEXT;
 PAREMVASEIS: SPACES 'ΠΑΡΕΜΒΑΣΕΙΣ:';
 
 // ------------- PRAKTIKA BOULIS
 PRAKTIKA_BOULIS:
-	'Π Ρ Α Κ Τ Ι Κ Α' SPACES 'Τ Η Σ' SPACES 'Β Ο Υ Λ Η Σ'
-	| 'Π Ρ Α Κ Τ Ι Κ Α' SPACES 'Β Ο Υ Λ Η Σ'
-	| 'ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ'
-	| 'ΠΡΑΚΤΙΚΑ' SPACES 'ΒΟΥΛΗΣ'
-	| 'ΠΡΑΚΤΙΚΑ ΤΗΣ ΒΟΥΛΗΣ';
+	SPACES (
+		'Π Ρ Α Κ Τ Ι Κ Α' SPACES 'Τ Η Σ' SPACES 'Β Ο Υ Λ Η Σ'
+		| 'Π Ρ Α Κ Τ Ι Κ Α' SPACES 'Β Ο Υ Λ Η Σ'
+		| 'ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ'
+		| 'ΠΡΑΚΤΙΚΑ' SPACES 'ΒΟΥΛΗΣ'
+		| 'ΠΡΑΚΤΙΚΑ ΤΗΣ ΒΟΥΛΗΣ'
+		| 'Π Ρ Α Κ Τ Ι Κ Α    Β Ο Υ Λ Η Σ'
+	) SPACES;
 PERIODOS:
 	SPACES (
 		ANY_TEXT_SPACE SPACES 'ΠΕΡΙΟΔΟΣ'
 		| 'ΠΕΡΙΟΔΟΣ' SPACES ANY_TEXT_SPACE
 		| ANY_TEXT_SPACE SPACES (
-			'ΠΕΡΙΟΔΟΣ (ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΔΗΜΟΚΡΑΤΙΑΣ)'
-			| 'ΠΕΡΙΟΔΟΣ (ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ)'
+			'ΠΕΡΙΟΔΟΣ' SPACES LEFT_PARENTHESIS SPACES (
+				'ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
+				| 'ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
+				| 'ΠΡΟΕΔΡΕΟΜΕΝΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
+				| 'ΠΡΟΕΔΡΕΥΜΕΝΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
+				| 'ΠΡΟΕΔΡΕΥΟΜΕΝΗ ΔΗΜΟΚΡΑΤΙΑΣ'
+			) SPACES RIGHT_PARENTHESIS
 		)
 	) SPACES;
-ANATH_BOULI: ANY_TEXT_SPACE ' ΑΝΑΘΕΩΡΗΤΙΚΗ ΒΟΥΛΗ';
+ANATH_BOULI: SPACES ANY_TEXT_SPACE ' ΑΝΑΘΕΩΡΗΤΙΚΗ ΒΟΥΛΗ' SPACES;
 
 DIMOKRATIA:
-	'ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
-	| 'ΠΡΟΕΔΡΕΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
-	| '(ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΔΗΜΟΚΡΑΤΙΑΣ)';
+	SPACES (
+		'ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
+		| 'ΠΡΟΕΔΡΕΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
+		| '(ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΔΗΜΟΚΡΑΤΙΑΣ)'
+		| 'ΠΡΟΕΔΡΕΥΟ0ΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ'
+	) SPACES;
 SUNDEDRIASI:
 	SPACES (
 		'ΣΥΝΕΔΡΙΑΣΗ'
 		| 'ΣΥΕΝΔΡΙΑ'
 		| 'Συνεδρίαση'
 		| 'ΣΥΕΝΔΡΙΑΣΗ'
-	) SPACES ANY_TEXT;
+	) SPACES ANY_TEXT? SPACES;
 
-SUNODOS: ('ΣΥΝΟΔΟΣ' | 'Σ Υ Ν Ο Δ Ο Σ') SPACES SUNODOS_NUM;
+SUNODOS: ('ΣΥΝΟΔΟΣ' | 'Σ Υ Ν Ο Δ Ο Σ' | 'Σ Υ Ν Ο Δ Ο') SPACES SUNODOS_NUM SPACES;
 SUNODOS_NUM: ANY_TEXT_SPACE;
 TMIMA_DIAKOPIS:
-	SPACES 'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΤΗΣ ΒΟΥΛΗΣ' SPACES;
-THEROS: SPACES ('ΘΕΡΟΥΣ' | 'ΘΕΡΟΣ') SPACES NUMBER+;
-NAME: (WORD | ' ' | DASH | '’' | DOT)+ (COMMA | PAGE)? SPACES;
+	SPACES (
+		'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΤΗΣ ΒΟΥΛΗΣ'
+		| 'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΒΟΥΛΗΣ'
+	) SPACES;
+THEROS: SPACES ('ΘΕΡΟΥΣ' | 'ΘΕΡΟΣ') SPACES NUMBER+ SPACES;
+NAME: (
+		WORD
+		| ' '
+		| DASH
+		| '’'
+		| DOT
+		| RIGHT_PARENTHESIS
+		| LEFT_PARENTHESIS
+	)+ (COMMA | PAGE)? SPACES;
 DATE: ANY_TEXT;
 
 NUMBER: [0-9];
@@ -125,11 +161,11 @@ ANY_TEXT: (~[\r\n])+;
 ANY_TEXT_SPACE: (~[ \r\n])+;
 ANY_TEXT_COMMA: (~[,\r\n])+;
 ANY_TEXT_C: (~[:\r\n])+;
-DASH: '-';
+DASH: SPACES '-' SPACES;
 fragment SPACES: ' '*;
 
 mode subjects;
-WS1: [- \t\r\n]+ -> skip;
+WS1: [ \t\r\n]+ -> skip;
 SUBJECT_BASIC_CATEGORY: (
 		BIG_LETTER (DOT | TONE | RIGHT_PARENTHESIS)
 	)? SPACES (
@@ -140,9 +176,7 @@ SUBJECT_BASIC_CATEGORY: (
 EXIT_SUBJECT:
 	PROEDREUONTES -> type(PROEDREUONTES), mode(DEFAULT_MODE);
 EXIT_SUBJECT1:
-	PROEDROS -> type(PROEDROS), mode(DEFAULT_MODE);
-EXIT_SUBJECT2:
 	OMILITES -> type(OMILITES), mode(DEFAULT_MODE);
-EXIT_SUBJECT3:
+EXIT_SUBJECT2:
 	PRAKTIKA_BOULIS -> type(PRAKTIKA_BOULIS), popMode;
 SUBJECT_: ANY_TEXT;
