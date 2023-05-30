@@ -489,7 +489,6 @@ log_file = open('./no_xml_files.txt', 'a', encoding="utf8")
 
 for filename in filenames:
     try:
-        filename="es20161003000326.doc"
         # ------- AKOMA NTOSO/xml ---
         d = Debate()
         # remove default-useless debateSection
@@ -502,8 +501,8 @@ for filename in filenames:
         d.meta.references.TLCOrganization.attrib["showAs"] = "Greek_Parliament"
         meta_proedros = create_meta_references_akn("TLCRole", "ΠΡΟΕΔΡΟΣ")
         d.meta.references.append(meta_proedros)
-        # parsed = parser.from_file(datapath+filename, xmlContent=True)
-        parsed = parsed1
+        parsed = parser.from_file(datapath+filename, xmlContent=True)
+      
         record_counter += 1
         # if record_counter < 1320:
         #     continue
@@ -521,10 +520,13 @@ for filename in filenames:
 
         content = parsed['content']
         soup = BeautifulSoup(content, 'html.parser')
+        # remove header-footer of a docx file
         div_header = soup.find('div', class_='header')
-        # remove header of a docx file
+        div_footer = soup.find('div', class_='footer')
         if div_header:
             div_header.decompose()
+        if div_footer:
+            div_footer.decompose()
         f3 = soup.body.get_text()
         f3 = re.sub(selida_num_regex, "", f3)
         f3_last = re.sub(r'\n\s*\n', '\n', f3)
@@ -563,7 +565,13 @@ for filename in filenames:
 
         # Delete words that are not speakers
         name_for_delete = ['ΝΑΙ', 'ΟΧΙ', 'ΠΡΝ',
-                           'ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ', 'ΣΥΝΟΛΙΚΑ ΨΗΦΟΙ', 'Ν.Δ.', 'Κ.Κ.Ε', 'ΚΚΕ', 'ΣΥΡΙΖΑ', 'ΔΗΣΥ', 'ΕΝ. ΚΕΝΤΡΩΩΝ', 'ΚΕΝΤΡΩΩΝ', 'Χ.Α', 'ΔΗ.ΣΥ', 'ΔΕΣΥ' 'Α.Π', 'ΣΥ', 'ΕΣΠΑ', 'ΦΠΑ', ' ΕΝΦΙΑ', 'ΘΕΜΑ', "ΠΕΧΩΔΕ", 'ΠΡΟΣ', 'ΕΟΚ', 'ΕΛΓΑ', 'ΕΛΛΗΝΙΚΗ ΛΥΣΗ', 'ΚΑΠΑ', 'ΟΚΕ', 'ΕΟΤ', 'ΥΠΕΠΘ', 'ΧΗΤΟΣ Α.Β.Ε.Ε.', 'ΤΚΑΣΕ', 'ΠΕΚ', 'ΔΕΗ','ΑΣΕΠ']
+                           'ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ', 'ΣΥΝΟΛΙΚΑ ΨΗΦΟΙ', 'Ν.Δ.', 'Κ.Κ.Ε', 'ΚΚΕ', 'ΣΥΡΙΖΑ', 'ΔΗΣΥ', 'ΕΝ. ΚΕΝΤΡΩΩΝ', 'ΚΕΝΤΡΩΩΝ',
+                            'Χ.Α', 'ΔΗ.ΣΥ', 'ΔΕΣΥ' 'Α.Π', 'ΣΥ', 'ΕΣΠΑ', 'ΦΠΑ', ' ΕΝΦΙΑ', 'ΘΕΜΑ', "ΠΕΧΩΔΕ", 'ΠΡΟΣ', 'ΕΟΚ', 'ΕΛΓΑ', 'ΕΛΛΗΝΙΚΗ ΛΥΣΗ', 
+                            'ΚΑΠΑ', 'ΟΚΕ', 'ΕΟΤ', 'ΥΠΕΠΘ', 'ΧΗΤΟΣ Α.Β.Ε.Ε.', 'ΤΚΑΣΕ', 'ΠΕΚ', 'ΔΕΗ','ΑΣΕΠ','ΚΡΑΤΟΥΜΕΝΟΙ','ΔΙΑΒΙΩΣΗ','ΣΙΤΗΣΗ','ΕΡΓΑΣΙΑ',
+                            'ΥΓΕΙΟΝΟΜΙΚΗ ΠΕΡΙΘΑΠΡΑΞΗΛΨΗ','ΑΔΕΙΕΣ','ΣΩΦΡΟΝΙΣΜΟΣ','ΠΡΟΤΑΣΕΙΣ','ΑΙΤΗΜΑΤΑ','ΧΡΟΝΟΣ','ΣΩΦΡΟΝΙΣΤΙΚΟ ΚΑΤΑΣΤΗΜΑ','ΩΡΑ ΑΦΙΞΗΣ',
+                            'ΜΕΤΡΑ ΑΣΦΑΛΕΙΑΣ','ΚΤΙΡΙΑΚΕΣ','ΚΡΑΤΟΥΜΕΝΕΣ','ΧΩΡΗΤΙΚΟΤΗΤΑ','ΑΝΗΛΙΚΟΙ','ΝΕΡΟ','ΕΡΤ','ΤΜΗΜΑ','ΠΑΡΑΡΤΗΜΑ',
+                            'ΣΧΟΛΕΙΟ','ΕΠΙΣΚΕΨΗ','ΜΚΟ','ΥΠΕΡΠΛΗΘΥΣΜΟΣ','ΕΥΚΑΙΡΙΑΣ','ΠΡΑΞΗ','ΑΔΑ','ΔΥΝΑΜΙΚΟΤΗΤΑ','ΕΕ','ΣΧΕΤ','ΣΚΟΠΙΕΣ',
+                            'ΥΓΙΕΙΝΗ','ΕΠΙΚΟΙΝΩΝΙΑ','ΣΙΤΙΣΗ','ΣΙΤΙΣΗ','ΠΟΙΝΕΣ','ΑΠΘ','ΠΑΔΑ']
 
         # remove extra spaces inside names
         speakers = [s.strip() for s in speakers if not any(
@@ -746,7 +754,7 @@ for filename in filenames:
     except Exception as e:
         log_file.write(f'{filename}: {str(e)}\n')
         # print(filename, ":", traceback.format_exc())
-    break
+    # break
 log_file.close()
 endtime = dt.now()
 print("-----------------")
