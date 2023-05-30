@@ -1,45 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:akn="https://www.akomantoso.org/3.0">
-    
-    <xsl:output method="xml" indent="yes"/>
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:greek_lp="http://purl.org/greeklinkedpolitics/vocabulary/"
+>
+    <!-- Match the root element -->
+    <xsl:template match="akn:akomaNtoso">
+        <rdf:RDF>
+            <!-- Convert metadata -->
+            <!-- <xsl:apply-templates select="akn:meta"/> -->
 
-    <xsl:template match="/">
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:akn="https://www.akomantoso.org/3.0">
-            <rdf:Description rdf:about="http://example.com/debate/_0">
-                <rdf:type rdf:resource="http://example.com/ontology/Debate"/>
-                <rdf:value><xsl:value-of select="akn:debate/akn:meta/akn:identification/akn:FRBRWork/akn:FRBRalias"/></rdf:value>
-                <rdf:meta>
-                    <rdf:type rdf:resource="http://example.com/ontology/DebateMeta"/>
-                    <rdf:source><xsl:value-of select="akn:debate/akn:meta/akn:source/akn:name"/></rdf:source>
-                    <rdf:date><xsl:value-of select="akn:debate/akn:meta/akn:source/akn:date"/></rdf:date>
-                </rdf:meta>
-                <rdf:Statement>
-                    <rdf:subject rdf:resource="http://example.com/debate/_0"/>
-                    <rdf:predicate rdf:resource="http://example.com/ontology/hasSpeech"/>
-                    <rdf:object rdf:resource="http://example.com/speaker/_1"/>
-                </rdf:Statement>
-            </rdf:Description>
-            <xsl:apply-templates select="akn:debate//akn:speech"/>
+            <!-- Convert debate body -->
+            <xsl:apply-templates select="akn:debate" />
+            <xsl:message select="akn:debate/debateBody" />
         </rdf:RDF>
     </xsl:template>
+    <!-- Convert debate body -->
+    <xsl:template match="akn:debate">
+        <!-- Convert debateBody sections -->
+        <xsl:apply-templates select="akn:debateBody" />
+    </xsl:template>
 
-    <xsl:template match="akn:speech">
-        <rdf:Description rdf:about="http://example.com/speech/{generate-id()}">
-            <rdf:type rdf:resource="http://example.com/ontology/Speech"/>
-            <rdf:value><xsl:value-of select="normalize-space(.)"/></rdf:value>
-            <rdf:Statement>
-                <rdf:subject rdf:resource="http://example.com/debate/_0"/>
-                <rdf:predicate rdf:resource="http://example.com/ontology/hasSpeaker"/>
-                <rdf:object rdf:resource="http://example.com/speaker/{generate-id(akn:speaker)}"/>
-            </rdf:Statement>
-        </rdf:Description>
-        <rdf:Description rdf:about="http://example.com/speaker/{generate-id(akn:speaker)}">
-            <rdf:type rdf:resource="http://example.com/ontology/Speaker"/>
-            <rdf:name><xsl:value-of select="akn:speaker"/></rdf:name>
+    <!-- Convert debate body -->
+    <xsl:template match="akn:debateBody">
+        <xsl:apply-templates select="akn:debateSection" />
+    </xsl:template>
+
+    <xsl:template match="akn:debateSection">
+        <rdf:Description
+            rdf:about="http://purl.org/greek_linkedpolitics/eu/plenary/1999-07-20-Speech-2-002">
+            <rdfs:label>
+                <xsl:value-of select="@name" />
+            </rdfs:label>
+            <!-- Convert speeches -->
+            <xsl:apply-templates select="akn:speech" />
         </rdf:Description>
     </xsl:template>
+
+    <!-- Convert speeches -->
+    <xsl:template match="akn:speech">
+        <rdf:Description>
+            <rdf:type/>
+            <!-- Convert speaker -->
+            <xsl:apply-templates select="akn:from" />
+            <!-- Convert speech content -->
+            <rdf:value>
+                <xsl:for-each select="akn:p">
+                    <xsl:value-of select="." />
+                    <!-- Add a new line character -->
+                        <xsl:text>&#10;</xsl:text>
+                    <!-- <xsl:text> </xsl:text> -->
+
+                </xsl:for-each>
+            </rdf:value>
+        </rdf:Description>
+    </xsl:template>
+
 
 </xsl:stylesheet>

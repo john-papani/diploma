@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY greek_lp "http://purl.org/greeklinkedpolitics/vocabulary/">
+    <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:greek_lp="http://purl.org/greeklinkedpolitics/vocabulary/"
+    xmlns:greek_lp_debates="http://purl.org/linkedpolitics/vocabulary/gr/plenary/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="&xsd;"
+    xmlns:owl="&owl;">
+
+
+    <greek_lp:MemberOfParliament rdf:about="&greek_lp;GRmember_0001"
+        greek_lp:MEP_ID="0001"
+        foaf:name="Ky">
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pf03859fcefadbd0efeb4d6265fe0b65c29a83251d" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pf13e456f7f9af4b11b54480574ef8ad3c0cafd10f" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pf3837f0346937b9c16a0ec67c400502d88ac7aa0b" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pf67de78b70eace42a89e09c0a73cea3a2e885ea4a" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pf86c7b1597656f44dde187c8676e1fd6722c5dd24" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pf88b59f224a4b5ec2f98781829151a34fe19f8bd5" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfa9e8462c0cc2e443f2a616313e5e7faf7664f496" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfaefcc2b841f92afc642452b5ca5fcf90ec609ff6" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfb0188f657dc8d9e2bd04349bc6019b13ca7a8013" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfd54e1164ef3ef5d5e01ae72ea9dd62263528476c" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfd87e3651cade15981d96ead85047cb889faf3561" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfdfe2fe8b5613cb13828599438cd5564bc4d2d601" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfe898ac121150b6b31702f00c88ed9e96d27e28ce" />
+        <greek_lp:politicalFunction
+            rdf:resource="&greek_lp;pfefdff6d1ebe93c9462dc986f93db733e9d1c6b1e" />
+        <greek_lp:dateOfBirth rdf:datatype="&xsd;date">1950-03-15</greek_lp:dateOfBirth>
+        <greek_lp:placeOfBirth xml:lang="en">La Rochelle</greek_lp:placeOfBirth>
+        <greek_lp:profile rdf:resource="http://www.europarl.europa.eu/meps/en/1001.html" />
+    </greek_lp:MemberOfParliament>
+</rdf:RDF>

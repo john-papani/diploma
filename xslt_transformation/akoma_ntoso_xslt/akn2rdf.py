@@ -1,6 +1,6 @@
 from lxml import etree
-
+file_name = "c:/Users/johnp/Documents/ECE_NTUA/diploma/dipoma_code/diploma_python_data_scrapping/xmls_files/es20190211000784.docx.xml"
 xslt = etree.parse("akoma2rdf.xslt")
 transform = etree.XSLT(xslt)
-result = transform(etree.parse("20-2-2019.xml"))
-result.write("2022019.rdf", encoding="UTF-8", xml_declaration=True)
+result = transform(etree.parse(file_name))
+result.write("test_rdf.rdf", encoding="UTF-8", xml_declaration=True)

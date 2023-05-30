@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#">
+    <!ENTITY greek_lp "http://purl.org/greeklinkedpolitics/vocabulary/">
+    <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:greek_lp="http://purl.org/greeklinkedpolitics/vocabulary/"
+    xmlns:greek_lp_debates="http://purl.org/linkedpolitics/vocabulary/gr/plenary/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="&xsd;"
+    xmlns:owl="&owl;">
+    <rdf:Description rdf:about="&greek_lp;GRmember_0001">
+        <greek_lp:gender xml:lang="en">male</greek_lp:gender>
+        <greek_lp:name xml:lang="en">Kyriakos Mitsotakis</greek_lp:name>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q552751" />
+    </rdf:Description>
+
+    <rdf:Description rdf:about="&greek_lp;GRmember_0002">
+        <greek_lp:gender xml:lang="en">male</greek_lp:gender>
+        <greek_lp:name xml:lang="en">Alexis Tsipras</greek_lp:name>
+        <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q312015" />
+    </rdf:Description>
+</rdf:RDF>

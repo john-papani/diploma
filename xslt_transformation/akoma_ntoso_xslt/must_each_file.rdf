@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY xsd "entity-value">
+    <!ENTITY lp "entity-value">
+]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:akn="http://docs.oasis-open.org/legaldocml/ns/akn/3.0"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:greek_lp="http://purl.org/greeklinkedpolitics/vocabulary/"
+    xmlns:greek_lp_debates="http://purl.org/linkedpolitics/vocabulary/gr/plenary/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <greek_lp_debates:Speech
+        rdf:about="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27">
+        <dcterms:date rdf:datatype=" &xsd;date">1991-06-27</dcterms:date>
+        <dcterms:language rdf:datatype=" &xsd;language">gr</dcterms:language>
+        <dcterms:hasPart
+            rdf:resource="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27_001" />
+        <dcterms:hasPart
+            rdf:resource="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27_002" />
+        <dcterms:hasPart
+            rdf:resource="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27_003" />
+        <greek_lp:speaker rdf:resource=" &lp;EUmember_2109" />
+    </greek_lp_debates:Speech>
+</rdf:RDF>
+
+
+<!-- KATH ARXEIO EXEI -->
