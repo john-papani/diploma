@@ -1,4 +1,6 @@
 
+from DebateGrammarParser import DebateGrammarParser
+from DebateGrammarLexer import DebateGrammarLexer
 from antlr4 import *
 from tika import parser
 import tika
@@ -388,7 +390,7 @@ def set_record_values(table_of_content):
     ) if tree_parlDetails.sunedriasi() is not None else None
     date = tree_parlDetails.date().getText(
     ) if tree_parlDetails.date() is not None else None
-    print("==--=-", date, "-=-=-")
+    # print("==--=-", date, "-=-=-")
     global record_date, record_period, record_session, record_sitting
     record_date = date
     record_period = period_detail
@@ -413,7 +415,7 @@ parsed = parser.from_file(
 # f1 = open(f1_path, 'w+', encoding='utf-8', newline = '')
 
 members_df = pd.read_csv(
-    'C:/Users/johnp/Documents/ECE_NTUA/diploma/dipoma_code/diploma_python_data_scrapping/all_members_activity.csv', encoding='utf-8')
+    'C:/Users/johnp/Documents/ECE_NTUA/diploma/dipoma_code/diploma_python_data_scrapping/more_files/all_members_activity.csv', encoding='utf-8')
 
 # fnames = open("C:/Users/johnp/Documents/ECE_NTUA/diploma/GreekParliementProceedingsDritsaOPA/Parliament Proceedings Dataset_Support Files_Word Usage Change Computations/wiki_data/female_name_cases_populated.json", 'r+', encoding='utf-8')
 # greek_names = fnames.readlines()
@@ -456,6 +458,9 @@ starting_regex = re.compile(
 preamble_regex = re.compile(r"(Αθήνα.*)")
 ilektroniki_katametrisi_regex = re.compile(
     r"(\([Α-Ωα-ω\s]*ΗΛΕΚΤΡΟΝΙΚΗ\s*ΚΑΤΑ[Α-Ωα-ω]*\))")
+
+selida_num_regex = re.compile(r"(ΣΕΛΙΔΑ|Σελίδα [0-9]+)")
+
 # csv_output = csv.writer(f1)
 
 # # csv header
@@ -469,12 +474,13 @@ ilektroniki_katametrisi_regex = re.compile(
 prob_files = open('./out_files/files_with_content_problems_' +
                   os.path.basename(os.path.normpath(datapath))+'.txt', 'w+',
                   encoding='utf-8')
-
+log_file = open('./BIG_PROBLEM_1.txt', 'a')
 for filename in filenames:
-    # parsed = parser.from_file(datapath+filename)
+    parsed = parser.from_file(datapath+filename, xmlContent=True)
     record_counter += 1
-    print("File "+str(record_counter)+' from ' +
-          str(len(filenames)) + ' '+filename)
+    if (record_counter % 350 == 0):
+        print("File "+str(record_counter)+' from ' +
+              str(len(filenames)) + ' '+filename)
 
     # Skip duplicate files
     # new_name = '_'.join([p for p in filename.split('_') if p!=(filename.split('_')[1])])
@@ -493,21 +499,20 @@ for filename in filenames:
     content = parsed['content']
     soup = BeautifulSoup(content, 'html.parser')
     f3 = soup.body.get_text()
-    # f3 = parsed["content"]
-
-    split_text = f3.split("Αθήνα, σήμερα ")
+    f3 = re.sub(selida_num_regex, "", f3)
+    split_text = re.split(r"(Αθήνα\,? σήμερα\,?)\s*", f3)
     introduction = split_text[0]
-    main_text = "Αθήνα, σήμερα " + split_text[1]
-    # if (preamble_regex.search(main_text)):
-    # print(preamble_regex.search(main_text).group())
-    # Creates a list of tuples e.g. (' ΠΡΟΕΔΡΕΥΩΝ (Βαΐτσης Αποστολάτος):', ' ΠΡΟΕΔΡΕΥΩΝ', '', '(Βαΐτσης Αποστολάτος)')
+    main_text = split_text[1] + split_text[2]
 
-    file_content = main_text.replace('\n', ' ')
-    file_content = re.sub("\s\s+", " ", file_content)
+    # Creates a list of tuples e.g. (' ΠΡΟΕΔΡΕΥΩΝ (Βαΐτσης Αποστολάτος):', ' ΠΡΟΕΔΡΕΥΩΝ', '', '(Βαΐτσης Αποστολάτος)')
     speakers_groups = re.findall(
         r"((\s*[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]{2,})+(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
-        file_content)
+        main_text)
+    # file_content = main_text.replace('\n', ' ')
+    # file_content = re.sub("\s\s+", " ", file_content)
     set_record_values(introduction)
+    # print(record_date)
+
     current_record_datetime = get_date(record_date)
     current_gov = get_gov(current_record_datetime)
 
@@ -516,16 +521,17 @@ for filename in filenames:
     # Delete words that are not speakers
     name_for_delete = ['ΝΑΙ:', 'ΟΧΙ:', 'ΠΡΝ:',
                        'ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ:', 'ΣΥΝΟΛΙΚΑ ΨΗΦΟΙ:', 'Ν.Δ.:', 'Κ.Κ.Ε:', 'ΚΚΕ', 'ΣΥΡΙΖΑ', 'ΔΗΣΥ:', 'ΕΝ. ΚΕΝΤΡΩΩΝ:', 'ΚΕΝΤΡΩΩΝ:', 'Χ.Α:', 'ΔΗ.ΣΥ:', 'ΔΕΣΥ:' 'Α.Π:', 'ΣΥ:', 'ΕΣΠΑ:']
-
     for speaker in speakers[:]:
         if any(sub in speaker for sub in name_for_delete):
             speakers.remove(speaker)
+    speakers = [s.strip() for s in speakers]
+
     for speaker in speakers:
-        print(speaker.strip())
+        print(speaker)
     # Discard introductory text before first speaker
     # Use split with maxsplit number 1 in order to split at first occurrence
     try:
-        file_content = file_content.split(speakers[0], 1)[1]
+        main_text = main_text.split(speakers[0], 1)[1]
     except:
         # prob_files.write(filename + " \n")
         continue  # proceed to next iteration/filename
@@ -535,10 +541,10 @@ for filename in filenames:
         # If not last speaker
         if i < (len(speakers)-1):
             speaker = speakers[i]
-            speech, file_content = file_content.split(speakers[i+1], 1)
+            speech, main_text = main_text.split(speakers[i+1], 1)
         else:
             speaker = speakers[i]
-            speech = file_content
+            speech = main_text
 
         # special treatment for first speaker who is usually proedreuon
         if i == 0:
@@ -683,7 +689,6 @@ for filename in filenames:
                             max_member_region = member_region
                             max_member_gender = member_gender
                             max_member_roles = roles
-                # print("+++++++++++++")
                 # Strict hand-picked similarity threshold to avoid false positives
                 if max_sim > 0.95:
                     max_member_roles = keep_roles_at_date(
@@ -706,7 +711,6 @@ for filename in filenames:
                     print(splited_text[0])
                     print(
                         "++++", regex_finded.search(speech).group(), "++++\n")
-                    print(len(splited_text))
                     if (len(splited_text[part_splited]) > 1):
                         print("+++++")
                         print([speaker_name, max_member_name_part, current_record_datetime.strftime('%d/%m/%Y'),
@@ -725,10 +729,15 @@ for filename in filenames:
                     "++++", ilektroniki_katametrisi_regex.search(speech).group(), "++++\n")
                 speech = speech.replace(
                     ilektroniki_katametrisi_regex.search(speech).group(), '')
-            print("3speaker:", speaker_name)
-            print("3eipe:", speech)
-
+            # print("3speaker:", speaker_name)
+            # print("3eipe:", speech)
             print("\n\n======================\n\n")
+
+log_file.close()
+endtime = dt.now()
+print("-----------------")
+print(endtime-starttime)
+print("-----------------")
 
 prob_files.close()
 
