@@ -1,6 +1,6 @@
-# Generated from DebateGrammarParser.g4 by ANTLR 4.12.0
+# Generated from DebateGrammarParser.g4 by ANTLR 4.13.0
 from antlr4 import *
-if __name__ is not None and "." in __name__:
+if "." in __name__:
     from .DebateGrammarParser import DebateGrammarParser
 else:
     from DebateGrammarParser import DebateGrammarParser

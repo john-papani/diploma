@@ -1,7 +1,7 @@
 lexer grammar DebateGrammarLexer;
 WS: [- \t\r\n]+ -> skip;
 
-SIMIOSI: ('(Σημείωση: ' | 'ΣΗΜΕΙΩΣΗ: ') ANY_TEXT;
+SIMIOSI: SPACES ('(Σημείωση:' | '(ΣΗΜΕΙΩΣΗ:') SPACES ANY_TEXT;
 PINAKAS_PERIEXOMENON: SPACES 'ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ' SPACES;
 
 // ------- THEMATA
@@ -90,7 +90,7 @@ TMIMA_DIAKOPIS:
 	SPACES (
 		'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΤΗΣ ΒΟΥΛΗΣ'
 		| 'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΒΟΥΛΗΣ'
-	) SPACES;
+	) SPACES THEROS?;
 THEROS: SPACES ('ΘΕΡΟΥΣ' | 'ΘΕΡΟΣ') SPACES NUMBER+ SPACES;
 NAME: (
 		WORD
