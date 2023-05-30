@@ -10,7 +10,7 @@
         </rdf:RDF>
     </xsl:template>
 
-    <xsl:template match="book">
+    <xsl:template match="speech">
         <rdf:Description>
             <rdf:type rdf:resource="http://schema.org/Book" />
             <dc:title>
