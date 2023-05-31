@@ -13,15 +13,14 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
     <greek_lp_debates:Speech
         rdf:about="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27">
-        <dcterms:date rdf:datatype=" &xsd;date">1991-06-27</dcterms:date>
-        <dcterms:language rdf:datatype=" &xsd;language">gr</dcterms:language>
+        <dcterms:date rdf:datatype="&xsd;date">1991-06-27</dcterms:date>
+        <dcterms:language rdf:datatype="&xsd;language">gr</dcterms:language>
         <dcterms:hasPart
             rdf:resource="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27_001" />
         <dcterms:hasPart
             rdf:resource="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27_002" />
         <dcterms:hasPart
             rdf:resource="http://purl.org/linkedpolitics/gr/plenary/debate_1991-06-27_003" />
-        <greek_lp:speaker rdf:resource=" &lp;EUmember_2109" />
     </greek_lp_debates:Speech>
 </rdf:RDF>
 

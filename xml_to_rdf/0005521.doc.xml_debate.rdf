@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://purl.org/greeklinkedpolitics/vocabulary/akn/gr/debate/1991-06-27">
+    <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-06-27</dcterms:date>
+    <dcterms:hasPart rdf:resource="http://purl.org/greeklinkedpolitics/vocabulary/debate_1991-06-27_speech_01"/>
+    <dcterms:hasPart rdf:resource="http://purl.org/greeklinkedpolitics/vocabulary/debate_1991-06-27_speech_02"/>
+    <dcterms:hasPart rdf:resource="http://purl.org/greeklinkedpolitics/vocabulary/debate_1991-06-27_speech_03"/>
+    <dcterms:hasPart rdf:resource="http://purl.org/greeklinkedpolitics/vocabulary/debate_1991-06-27_speech_04"/>
+    <dcterms:hasPart rdf:resource="http://purl.org/greeklinkedpolitics/vocabulary/debate_1991-06-27_speech_05"/>
+    <dcterms:language>gr</dcterms:language>
+  </rdf:Description>
+</rdf:RDF>
