@@ -1,72 +1,5 @@
 01_10_97.txt: 'oκτωβριου'
 02021994.doc: 'ν'
-03021994.doc: 'ν'
-04021994.doc: 'ν'
-04_05_1998.txt: 'μα|ου'
-05_05_1998apogeuma.txt: 'μα|ου'
-06_05_1998.txt: 'μα|ου'
-07021994.doc: 'ν'
-07_05_1998.txt: 'μα|ου'
-08021994.doc: 'ν'
-08_05_1998.txt: 'μα|ου'
-08_07_97.txt: 'ν'
-09021994.doc: 'ν'
-09_07_97.txt: 'ν'
-09_10_96.txt: list index out of range
-10021994.doc: 'ν'
-10_07_97.txt: 'ν'
-10_10_96.txt: 'ν'
-11021994.doc: 'ν'
-11_05_1998.txt: 'μα|ου'
-11_07_97.txt: 'ν'
-12071994.doc: '(προεδρευομενης'
-1209_es070402.txt: cannot access local variable 'date' where it is not associated with a value
-1231_es072302.txt: cannot access local variable 'date' where it is not associated with a value
-1274_es090302.txt: cannot access local variable 'date' where it is not associated with a value
-1277_es090402.txt: list index out of range
-1283_es090502.txt: cannot access local variable 'date' where it is not associated with a value
-12_02_2002.txt: list index out of range
-12_05_1998.txt: 'μα|ου'
-12_12_1997.txt: list index out of range
-12_5_99.txt: 'mαιου'
-13_05_1998apogeuma.txt: 'μα|ου'
-13_05_1998proi.txt: 'μα|ου'
-13_06_97.txt: '(προεδευομενης'
-13_7_99.txt: list index out of range
-14041994.doc: list index out of range
-14_02_2002.txt: list index out of range
-14_05_1998.txt: 'mα|ου'
-14_11_96.txt: list index out of range
-15_05_1998.txt: 'μα|ου'
-15_07_97.txt: 'ν'
-1686_es091202.txt: cannot access local variable 'date' where it is not associated with a value
-1688_es091702.txt: cannot access local variable 'date' where it is not associated with a value
-1693_es092502a.txt: list index out of range
-1694_es092502.txt: list index out of range
-1695_es092602a.txt: cannot access local variable 'date' where it is not associated with a value
-16_07_97.txt: 'ν'
-16_10_96_final.txt: 'ν'
-1794_es091703.txt: list index out of range
-1797_es090303.txt: 'διακοπων'
-17_06_1998.txt: cannot access local variable 'date' where it is not associated with a value
-17_07_97.txt: 'ν'
-1803_es082803.txt: list index out of range
-1806_es082003.txt: 'αυγουστους'
-18121993.doc: 'προεδρευομενης'
-1813_es070203.txt: list index out of range
-1819_es101603.txt: 'πεμπτη'
-1860_es111203.txt: 'τεταρτη'
-1863_es111303.txt: 'πεμπτη'
-18_03_97.txt: '(προεδρευομενης'
-18_05_1998.txt: 'μα|ου'
-18_07_97.txt: 'ν'
-01_10_97.txt: 'oκτωβριου'
-02021994.doc: 'ν'
-03021994.doc: 'ν'
-04021994.doc: 'ν'
-01_10_97.txt: 'oκτωβριου'
-02021994.doc: 'ν'
-03021994.doc: 'ν'
 01_10_97.txt: 'oκτωβριου'
 02021994.doc: 'ν'
 03021994.doc: 'ν'
@@ -171,16 +104,17 @@
 5108.doc: list index out of range
 5131.doc: unconverted data remains: η
 5133.doc: 'ρ'
-5137.doc: list index out of range
+5137.doc: cannot access local variable 'date' where it is not associated with a value
 5144.doc: list index out of range
 5165.doc: 'ν'
 5170.doc: 'ν'
 5186.doc: list index out of range
 5206.doc: unconverted data remains: η
 5223.doc: '(προεδρευομενης'
+5236.doc: expected string or bytes-like object, got 'float'
 5237.doc: 'ν'
 5248.doc: 'ν'
-5249.doc: list index out of range
+5249.doc: 'ν'
 5250.doc: 'ν'
 5251.doc: 'ν'
 5287.doc: list index out of range
@@ -191,10 +125,10 @@
 5327.doc: unconverted data remains: η
 5328.doc: unconverted data remains: η
 5336.doc: list index out of range
-5337.doc: 'ρ'
-5339.doc: 'ρ'
-5346.doc: list index out of range
-5347.doc: list index out of range
+5337.doc: 'α'
+5339.doc: 'α'
+5346.doc: cannot access local variable 'date' where it is not associated with a value
+5347.doc: cannot access local variable 'date' where it is not associated with a value
 5348.doc: time data '199-5-19' does not match format '%Y-%m-%d'
 5350.doc: list index out of range
 5401.doc: '(προεδρευομενης'
@@ -209,35 +143,33 @@
 5412.doc: '(προεδρευομενης'
 5413.doc: '(προεδρευομενης'
 5436.doc: 'ν'
-5437.doc: list index out of range
+5437.doc: cannot access local variable 'date' where it is not associated with a value
 5470.doc: '(προεδρευομενης'
-5491.doc: list index out of range
+5491.doc: cannot access local variable 'date' where it is not associated with a value
 5495.doc: 'ρ'
 5496.doc: 'ρ'
 5500.doc: 'NoneType' object has no attribute 'split'
 5503.doc: 'NoneType' object has no attribute 'split'
-5511.doc: list index out of range
+5511.doc: cannot access local variable 'date' where it is not associated with a value
 5516.doc: 'NoneType' object has no attribute 'split'
-5529.doc: list index out of range
+5529.doc: cannot access local variable 'date' where it is not associated with a value
 5538.doc: list index out of range
 5556.doc: list index out of range
 5569.doc: 'προεδρευομενης'
 5570.doc: 'προεδρευομενης'
-5573.doc: list index out of range
+5573.doc: cannot access local variable 'date' where it is not associated with a value
 5586.doc: list index out of range
-5587.doc: list index out of range
-5634.doc: list index out of range
+5634.doc: cannot access local variable 'date' where it is not associated with a value
 5662.doc: '(προεδρευομενης'
 5688.doc: unconverted data remains: η
 5690.doc: '(προεδρευομενης'
 5692.doc: '(προεδρευομενης'
 5693.doc: '(προεδρευομενης'
-5700.doc: list index out of range
+5700.doc: cannot access local variable 'date' where it is not associated with a value
 5723.doc: unconverted data remains: η
 573.docx: list index out of range
 5733.doc: '(προεδρευομενης'
 5736.doc: list index out of range
-5748.doc: list index out of range
 5750.doc: list index out of range
 5754.doc: list index out of range
 5759.doc: list index out of range
@@ -250,7 +182,6 @@
 5_8_99.txt: list index out of range
 617.docx: unconverted data remains: η
 8_10_96.txt: 'ν'
-END070307.txt: list index out of range
 ES000126.txt: "οα'τεταρτη"
 ES000224.txt: 'προεδρευομενης'
 ES000422.txt: list index out of range
@@ -358,7 +289,6 @@ es080709.txt: list index out of range
 es080723pr.txt: 'NoneType' object has no attribute 'split'
 es081030pr.txt: list index out of range
 es081114.txt: time data '2008΄-11-14' does not match format '%Y-%m-%d'
-es090304.txt: list index out of range
 es090618(ap).doc: cannot access local variable 'date' where it is not associated with a value
 es090619.doc: cannot access local variable 'date' where it is not associated with a value
 es090623.doc: cannot access local variable 'date' where it is not associated with a value
@@ -391,7 +321,6 @@ es090903.doc: cannot access local variable 'date' where it is not associated wit
 es100716_1.doc: object of type 'NoneType' has no len()
 es100929.doc: 'παρακατω'
 es110114.doc: list index out of range
-es1111.txt: single positional indexer is out-of-bounds
 es1112.txt: list index out of range
 es1114.txt: cannot access local variable 'date' where it is not associated with a value
 es120409ap.doc: '9'
@@ -434,4 +363,3 @@ synedri-12-06-01.txt: cannot access local variable 'date' where it is not associ
 ΡΙΑ΄ 18-4-2022.docx: '18'
 ΡΝΕ΄ 1-7-2021_1.docx: unconverted data remains: η
 ΣΑ΄ 1-10-2021.docx: unconverted data remains: η
-0005521.doc: cannot access local variable 'date' where it is not associated with a value

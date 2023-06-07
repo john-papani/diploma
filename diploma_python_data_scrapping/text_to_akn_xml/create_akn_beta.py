@@ -17,8 +17,8 @@ from bs4 import BeautifulSoup
 import sys
 sys.path.insert(1, '../antlr4_python')
 
-from DebateGrammarParser import DebateGrammarParser
 from DebateGrammarLexer import DebateGrammarLexer
+from DebateGrammarParser import DebateGrammarParser
 E = ElementMaker(nsmap={None: 'http://docs.oasis-open.org/legaldocml/ns/akn/3.0'},
                  namespace='http://docs.oasis-open.org/legaldocml/ns/akn/3.0')
 
@@ -94,7 +94,8 @@ def create_scene_akn(xeir_sxolio):
     return E.scene(xeir_sxolio)
 
 
-def create_speeches_akn(speaker, speeches):
+def create_speeches_akn(speaker, speeches, num):
+    date_ = get_date(record_date).strftime('%Y-%m-%d')
     speaker_englishVersion = convert_greek_to_english(speaker)
     speech_ = speeches.split("\n")
     speech_.pop()
@@ -102,7 +103,7 @@ def create_speeches_akn(speaker, speeches):
                   for i in range(len(speech_)) if speech_[i] != '']
     speech = E.speech(
         ET.XML(f"<from>{str(speaker)}</from>"),
-        *paragraphs, by=f"{speaker_englishVersion}"
+        *paragraphs, by=f"{speaker_englishVersion}", eId=f'debate_{date_}_speech_{num}'
     )
     return speech
 
@@ -275,7 +276,7 @@ def edit_meta_debate_akn(current_record_date):
     d.expression_date = str(date_)
     d.manifestation_date = str(date_)
     d.manifestation_format = "xml"
-    d.frbr_uri = "/akn/gr-ath/debate/"+str(date_)+"/1/"
+    d.frbr_uri = "/akn/gr/debate/"+str(date_)+"/1/"
     d.frbr_uri.work_componenent = ""
     d.language = "gr"
     d.title = "ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ " + str(date_)
@@ -434,7 +435,7 @@ def format_speaker_information(speaker_, speaker_nickname_, flagMetaReferences=F
 
 datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/all_files/"
 parsed1 = parser.from_file(
-    'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/all_files/es20161003000326.docx', xmlContent=True)
+    'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/all_files/297.docx', xmlContent=True)
 
 # print(parsed["metadata"]["dcterms:created"])
 # print(parsed1["content"])
@@ -494,7 +495,7 @@ for filename in filenames:
         # remove default-useless debateSection
         d.debateBody.remove(d.debateBody.debateSection[0])
         d.debateBody.attrib.pop("eId")
-
+        speech_num = 0
         # ----- meta references ---
         d.meta.references.TLCOrganization.attrib["eId"] = "greek_parl"
         d.meta.references.TLCOrganization.attrib["href"] = "/ontology/organization/akn/greek_parl"
@@ -502,7 +503,8 @@ for filename in filenames:
         meta_proedros = create_meta_references_akn("TLCRole", "ΠΡΟΕΔΡΟΣ")
         d.meta.references.append(meta_proedros)
         parsed = parser.from_file(datapath+filename, xmlContent=True)
-      
+        parsed1true = False
+        # parsed = parsed1
         record_counter += 1
         # if record_counter < 1320:
         #     continue
@@ -564,24 +566,27 @@ for filename in filenames:
         speakers = [speaker[0] for speaker in speakers_groups]
 
         # Delete words that are not speakers
-        name_for_delete = ['ΝΑΙ', 'ΟΧΙ', 'ΠΡΝ',
-                           'ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ', 'ΣΥΝΟΛΙΚΑ ΨΗΦΟΙ', 'Ν.Δ.', 'Κ.Κ.Ε', 'ΚΚΕ', 'ΣΥΡΙΖΑ', 'ΔΗΣΥ', 'ΕΝ. ΚΕΝΤΡΩΩΝ', 'ΚΕΝΤΡΩΩΝ',
-                            'Χ.Α', 'ΔΗ.ΣΥ', 'ΔΕΣΥ' 'Α.Π', 'ΣΥ', 'ΕΣΠΑ', 'ΦΠΑ', ' ΕΝΦΙΑ', 'ΘΕΜΑ', "ΠΕΧΩΔΕ", 'ΠΡΟΣ', 'ΕΟΚ', 'ΕΛΓΑ', 'ΕΛΛΗΝΙΚΗ ΛΥΣΗ', 
-                            'ΚΑΠΑ', 'ΟΚΕ', 'ΕΟΤ', 'ΥΠΕΠΘ', 'ΧΗΤΟΣ Α.Β.Ε.Ε.', 'ΤΚΑΣΕ', 'ΠΕΚ', 'ΔΕΗ','ΑΣΕΠ','ΚΡΑΤΟΥΜΕΝΟΙ','ΔΙΑΒΙΩΣΗ','ΣΙΤΗΣΗ','ΕΡΓΑΣΙΑ',
-                            'ΥΓΕΙΟΝΟΜΙΚΗ ΠΕΡΙΘΑΠΡΑΞΗΛΨΗ','ΑΔΕΙΕΣ','ΣΩΦΡΟΝΙΣΜΟΣ','ΠΡΟΤΑΣΕΙΣ','ΑΙΤΗΜΑΤΑ','ΧΡΟΝΟΣ','ΣΩΦΡΟΝΙΣΤΙΚΟ ΚΑΤΑΣΤΗΜΑ','ΩΡΑ ΑΦΙΞΗΣ',
-                            'ΜΕΤΡΑ ΑΣΦΑΛΕΙΑΣ','ΚΤΙΡΙΑΚΕΣ','ΚΡΑΤΟΥΜΕΝΕΣ','ΧΩΡΗΤΙΚΟΤΗΤΑ','ΑΝΗΛΙΚΟΙ','ΝΕΡΟ','ΕΡΤ','ΤΜΗΜΑ','ΠΑΡΑΡΤΗΜΑ',
-                            'ΣΧΟΛΕΙΟ','ΕΠΙΣΚΕΨΗ','ΜΚΟ','ΥΠΕΡΠΛΗΘΥΣΜΟΣ','ΕΥΚΑΙΡΙΑΣ','ΠΡΑΞΗ','ΑΔΑ','ΔΥΝΑΜΙΚΟΤΗΤΑ','ΕΕ','ΣΧΕΤ','ΣΚΟΠΙΕΣ',
-                            'ΥΓΙΕΙΝΗ','ΕΠΙΚΟΙΝΩΝΙΑ','ΣΙΤΙΣΗ','ΣΙΤΙΣΗ','ΠΟΙΝΕΣ','ΑΠΘ','ΠΑΔΑ']
+        # name_for_delete = ['ΝΑΙ', 'ΟΧΙ', 'ΠΡΝ',
+        #                    'ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ', 'ΣΥΝΟΛΙΚΑ ΨΗΦΟΙ', 'Ν.Δ.', 'Κ.Κ.Ε', 'ΚΚΕ', 'ΣΥΡΙΖΑ', 'ΔΗΣΥ', 'ΕΝ. ΚΕΝΤΡΩΩΝ', 'ΚΕΝΤΡΩΩΝ',
+        #                    'Χ.Α', 'ΔΗ.ΣΥ', 'ΔΕΣΥ' 'Α.Π', 'ΣΥ', 'ΕΣΠΑ', 'ΦΠΑ', ' ΕΝΦΙΑ', 'ΘΕΜΑ', "ΠΕΧΩΔΕ", 'ΠΡΟΣ', 'ΕΟΚ', 'ΕΛΓΑ', 'ΕΛΛΗΝΙΚΗ ΛΥΣΗ',
+        #                    'ΚΑΠΑ', 'ΟΚΕ', 'ΕΟΤ', 'ΥΠΕΠΘ', 'ΧΗΤΟΣ Α.Β.Ε.Ε.', 'ΤΚΑΣΕ', 'ΠΕΚ', 'ΔΕΗ', 'ΑΣΕΠ', 'ΚΡΑΤΟΥΜΕΝΟΙ', 'ΔΙΑΒΙΩΣΗ', 'ΣΙΤΗΣΗ', 'ΕΡΓΑΣΙΑ',
+        #                    'ΥΓΕΙΟΝΟΜΙΚΗ ΠΕΡΙΘΑΠΡΑΞΗΛΨΗ', 'ΑΔΕΙΕΣ', 'ΣΩΦΡΟΝΙΣΜΟΣ', 'ΠΡΟΤΑΣΕΙΣ', 'ΑΙΤΗΜΑΤΑ', 'ΧΡΟΝΟΣ', 'ΣΩΦΡΟΝΙΣΤΙΚΟ ΚΑΤΑΣΤΗΜΑ', 'ΩΡΑ ΑΦΙΞΗΣ',
+        #                    'ΜΕΤΡΑ ΑΣΦΑΛΕΙΑΣ', 'ΚΤΙΡΙΑΚΕΣ', 'ΚΡΑΤΟΥΜΕΝΕΣ', 'ΧΩΡΗΤΙΚΟΤΗΤΑ', 'ΑΝΗΛΙΚΟΙ', 'ΝΕΡΟ', 'ΕΡΤ', 'ΤΜΗΜΑ', 'ΠΑΡΑΡΤΗΜΑ',
+        #                    'ΣΧΟΛΕΙΟ', 'ΕΠΙΣΚΕΨΗ', 'ΜΚΟ', 'ΥΠΕΡΠΛΗΘΥΣΜΟΣ', 'ΕΥΚΑΙΡΙΑΣ', 'ΠΡΑΞΗ', 'ΑΔΑ', 'ΔΥΝΑΜΙΚΟΤΗΤΑ', 'ΕΕ', 'ΣΧΕΤ', 'ΣΚΟΠΙΕΣ',
+        #                    'ΥΓΙΕΙΝΗ', 'ΕΠΙΚΟΙΝΩΝΙΑ', 'ΣΙΤΙΣΗ', 'ΣΙΤΙΣΗ', 'ΠΟΙΝΕΣ', 'ΣΑΠΘ', 'ΠΑΔΑ', 'ΑΩ:', 'ΑΑ', 'ΓΔΕ', '-ΜΚΙΙ', 'ΟΓΑ', 'Α.Π.:', 'ΣΕΠΕ',
+        #                    'ΑΘΗΝΑ','ΟΔΑΠ','ΙΕΚ','ΕΒΕΑ','ΑΦΜ','ΕΣΟΘΕ','ΕΟΔΥ','ΕΦΚΑ','ΤΕΒΕ','ΔΗΜΑΡΧΟΙ','ΤΗΛΕΦ','ΥΩΝ','ΙΡΑΝ']
 
+        name_for_delete = ['ΝΑΙ', 'ΠΡΑΚΤΙΚΩΝ', 'ΔΗ.ΣΥ', 'ΟΚΕ', 'ΠΕΡΙΘΑΛΨΗ', 'ΑΣΦΑΛΕΙΑΣ', 'ΕΠΙΣΚΕΨΗ', 'ΕΠΙΚΟΙΝΩΝΙΑ', 'ΟΔΑΠ', 'ΒΑΘΜΟΣ', 'ΕΤΒΑ:', 'ΑΧΑΙΑ', 'ΑΔΕΔΥ', 'ΟΑΚΑ', 'ΑΚΕ:', 'ΟΔΙΕ:', 'ΕΠΑΛ:', 'ΕΙΔΙΚΟΤΕΡΑ', 'ΕΠΙΚΥΡΩΣΗ', 'Χ.Α', 'ΚΑΠΑ', 'ΥΓΕΙΟΝΟΜΙΚΗ', 'ΜΕΤΡΑ', 'ΣΧΟΛΕΙΟ', 'ΥΓΙΕΙΝΗ', 'ΑΘΗΝΑ', 'Χ.Δ.', 'ΑΤΕ:', 'ΗΜΑΘΙΑ', 'ΤΗΛΕΦΩΝΟ', 'ΚΔΑΥ', 'ΚΥΘΗΡΑ', 'ΡΑΦΗΝΑ:', 'ΤΣΧ', 'ΑΛΛΕΣ ΧΩΡΕΣ', 'ΟΧΙ', 'ΣΥΝΟΛΙΚΑ', 'ΔΕΣΥ', 'ΕΟΤ', 'ΑΔΕΙΕΣ', 'ΚΤΙΡΙΑΚΕΣ', 'ΜΚΟ', 'ΣΙΤΙΣΗ', 'ΙΕΚ', '΄ΚΟΙΝ', '-ΤΕΛΕΧ:', 'ΧΑΛΚΙΔΙΚΗ', 'ΠΑΕ', 'ΔΙΑΝΟΜΗ', 'ΟΣΕ:', 'ΔΝΤ:', 'ΜΑΤ:', 'ΠΡΟΑΣΤΙΑ', 'ΠΡΝ', 'ΨΗΦΟΙ', 'Α.Π', 'ΥΠΕΠΘ', 'ΣΩΦΡΟΝΙΣΜΟΣ', 'ΚΡΑΤΟΥΜΕΝΕΣ', 'ΥΠΕΡΠΛΗΘΥΣΜΟΣ', 'ΣΙΤΙΣΗ', 'ΕΒΕΑ', 'ΟΤΑ:', 'ΕΥΠ:', 'ΑΔΜΗΕ', 'ΕΞΟΔΟ', 'Κ.Κ.Ε', 'ΕΣΠΑ', 'Α.Β.Ε.Ε.', 'ΑΙΤΗΜΑΤΑ', 'ΑΝΗΛΙΚΟΙ', 'ΠΡΑΞΗ', 'ΣΑΠΘ', 'ΕΣΟΘΕ', 'ΥΠΕΘΟ:', 'ΜΕΣΣΗΝΙΑ', 'ΕΥΒΟΙΑ', 'ΚΤΕΟ:', 'ΝΟΜΑΡΧΙΑ', 'ΕΤΕΒΑ:', 'ΣΔΙΤ:', 'ΑΧΕΠΑ:', 'ΚΚΕ', 'ΦΠΑ', 'ΤΚΑΣΕ', 'ΧΡΟΝΟΣ', 'ΝΕΡΟ', 'ΑΔΑ', 'ΠΑΔΑ', 'ΕΟΔΥ', 'ΤΕΑΕΔΞΕ', 'ΚΑΣΤΟΡΙΑ', 'ΩΡΛ', 'ΜΜΕ:', 'ΥΓΡΑ', 'ΚΕΔΚΕ:', 'ΟΗΕ:', 'ΡΑΣ:', 'ΣΥΡΙΖΑ',  'ΠΕΚ', 'ΣΩΦΡΟΝΙΣΤΙΚΟ', 'ΕΡΤ', 'ΔΥΝΑΜΙΚΟΤΗΤΑ', 'ΑΩ:', 'ΕΦΚΑ', 'ΕΝΑ:', 'ΛΑΡΙΣΑ',
+                           'ΑΠΟ:', 'ΛΕΥΚΑ:', 'ΦΟΡΕΑΣ', 'ΕΛΕΥΘΕΡΟΤΥΠΙΑ', 'ΟΛΠ:', 'ΜΕΤΡΟ ', 'ΑΤΤΙΚΗ', 'ΚΥΚΛΑΔΕΣ', 'ΙΚΑ', 'ΕΡΓΟ', 'ΟΝΕ:', 'ΕΚΑΣ:', 'ΝΑΤΟ:', 'ΔΗΜΑΡΧΟΙ', 'Ν.Δ.', 'ΣΥ', 'ΧΗΤΟΣ', 'ΠΡΟΤΑΣΕΙΣ', 'ΧΩΡΗΤΙΚΟΤΗΤΑ', 'ΕΥΚΑΙΡΙΑΣ', 'ΠΟΙΝΕΣ', 'ΑΦΜ', 'ΠΑΘΕ:', 'ΔΡΑΜΑ', 'ΒΟΙΩΤΙΑ', 'ΕΥΔΑΠ', 'ΠΟΛΥ', 'ΔΕΚ:', 'ΕΛΚΕ:', 'ΔΗΣΥ', 'ΕΝΦΙΑ', 'ΔΕΗ', 'ΚΑΤΑΣΤΗΜΑ', 'ΤΜΗΜΑ', 'ΕΕ', 'ΑΑ', 'ΤΕΒΕ', 'ΛΟΙΠΑ ΕΡΓΑ', 'ΠΕΛΛΑ', 'ΟΤΕ', 'ΥΠΟΨΗ:', 'ΤΡΟΙΖΗΝΙΑ', 'ΑΕΚ:', 'ΕΣΡ:', 'ΤΑΜΕΙΟ', 'ΕΝ.', 'ΘΕΜΑ', 'ΑΣΕΠ', 'ΩΡΑ', 'ΠΑΡΑΡΤΗΜΑ', 'ΣΧΕΤ', 'ΓΔΕ', 'ΔΗΜΑΡΧΟΙ', 'ΤΑΧΔΙΚ', 'ΜΑΓΝΗΣΙΑ', 'ΤΟΕΒ', 'ΟΕΔΒ', 'ΑΜΥ', 'ΜΕΘ:', 'ΕΝΤΥΠΑ', 'ΚΕΝΤΡΩΩΝ', 'ΠΕΧΩΔΕ', 'ΚΡΑΤΟΥΜΕΝΟΙ', 'ΑΦΙΞΗΣ', 'ΙΓΜΕ', 'ΕΛΤΑ', 'ΣΚΟΠΙΕΣ', '-ΜΚΙΙ', 'ΤΗΛΕΦ', 'ΣΑΕ', 'ΥΩΝ', 'ΟΟΣΑ', 'ΝΟΜΟΣ', 'ΕΛΣΤΑΤ:', 'ΤΗΛΕΟΡΑΣΗ', 'ΚΕΝΤΡΩΩΝ', 'ΠΡΟΣ', 'ΔΙΑΒΙΩΣΗ', 'ΥΠΕ:', 'ΡΑΔΙΟΦΩΝΟ', 'ΕΟΚ', 'ΣΙΤΗΣΗ', 'ΣΕΠ', 'ΟΓΑ', 'Α.Π.:', 'ΙΡΑΝ', 'ΕΚΑΒ', 'ΠΕΠΕΡ', 'ΕΛΓΑ', 'ΕΡΓΑΣΙΑ', 'ΕΛΛΗΝΙΚΗ ΛΥΣΗ', 'ΓΡΑΜΜΑΤΕΙΣ', 'ΜΕΛΗ', 'ΣΕΠΕ', 'ΣΕΛΕΤΕ', 'ΑΡΘΡΟ', 'ΑΕΙ', 'ΕΠΕ', 'ΠΑΣΟΚ', 'ΤΟΥ ΠΑ.ΣΟ.Κ.', 'ΗΔΙΚΑ:', 'ΕΣΟΔΑ', 'ΣΕΚ', 'ΔΕΠΑΝΟΜ', 'ΠΛΗΡΟΦΟΡΙΕΣ', 'ΑΕΠΠ:', 'ΤΗΛ.', 'ΚΠΣ', 'ΟΑΕ', 'ΙΡΑΝ','ΜΕΤΑΓΩΓΕΣ']
         # remove extra spaces inside names
         speakers = [s.strip() for s in speakers if not any(
             sub in s for sub in name_for_delete)]
-    
+
         # for example if "NAME. \nPROEDROS(NAME):"
         speakers = [item.split(
             '\n')[1] if '\n' in item else item for item in speakers]
-        for i in range(len(speakers)):
-            print(speakers[i])        
+        # for i in range(len(speakers)):
+        #     print(speakers[i])
         speakers_noDublicates = list(set(speakers))
         speakers_noDublicates = [format_speaker_information(
             speaker, '', True)[0] for speaker in speakers_noDublicates]
@@ -591,13 +596,12 @@ for filename in filenames:
             d.meta.references.append(meta_references)
 
         if (allagi_selidas.search(speaker)):
-            print(allagi_selidas.search(speaker).group())
+            # print(allagi_selidas.search(speaker).group())
             speaker = speaker.replace(
                 allagi_selidas.search(speaker).group(), '')
         # print(len(speakers))
         main_text = main_text.split('\n', 1)[1]
         for i in range(len(speakers)):
-            print(speakers[i])
             # print the "id" of current speaker (testing)
             # if (i % 100 == 0):
             #     print(i)
@@ -619,7 +623,7 @@ for filename in filenames:
             # remove parenthesis text which is usually descriptions of procedures
             # speech = re.sub(text_in_parenthesis, " ", speech)
             if (allagi_selidas.search(speech)):
-                print(allagi_selidas.search(speech).group())
+                # print(allagi_selidas.search(speech).group())
                 speech = speech.replace(
                     allagi_selidas.search(speech).group(), '')
 
@@ -676,8 +680,9 @@ for filename in filenames:
                     speaker = np.nan
                     speaker_info = 'βουλευτης/ες'
                     roles = np.nan
+                    speech_num += 1
                     debateSectionParts = create_speeches_akn(
-                        speaker=speaker_info, speeches=speech)
+                        speaker=speaker_info, speeches=speech, num=speech_num)
                     debateSection_main.append(debateSectionParts)
                     continue
 
@@ -709,9 +714,9 @@ for filename in filenames:
                         #        current_gov, max_member_region, max_member_roles, max_member_gender,
                         #        speaker_info])
                         # print(splited_text[0])
-
+                        speech_num += 1
                         debateSectionParts = create_speeches_akn(
-                            speaker=speaker_name, speeches=splited_text[0])
+                            speaker=speaker_name, speeches=splited_text[0], num=speech_num)
                         debateSection_main.append(debateSectionParts)
                         assd = regex_finded.search(speech).group()
                         debateSectionParts = create_scene_akn(
@@ -723,20 +728,23 @@ for filename in filenames:
                             #        current_gov, max_member_region, max_member_roles, max_member_gender,
                             #        speaker_info])
                             # print(splited_text[part_splited])
+                            speech_num += 1
                             debateSectionParts = create_speeches_akn(
-                                speaker=speaker_name, speeches=splited_text[part_splited])
+                                speaker=speaker_name, speeches=splited_text[part_splited], num=speech_num)
                             debateSection_main.append(debateSectionParts)
                     else:
                         # print([speaker_name, max_member_name_part, current_record_datetime.strftime('%d/%m/%Y'),
                         #        record_period, record_session, record_sitting, max_member_party,
                         #        current_gov, max_member_region, max_member_roles, max_member_gender,
                         #        speaker_info])
+                        speech_num += 1
                         debateSectionParts = create_speeches_akn(
-                            speaker=speaker_name, speeches=speech)
+                            speaker=speaker_name, speeches=speech, num=speech_num)
                         debateSection_main.append(debateSectionParts)
                 if (ilektroniki_katametrisi_regex.search(speech)):
+                    speech_num += 1
                     debateSectionParts = create_speeches_akn(
-                        speaker="ΠΡΟΕΔΡΟΣ", speeches=ilektroniki_katametrisi_regex.search(speech).group())
+                        speaker="ΠΡΟΕΔΡΟΣ", speeches=ilektroniki_katametrisi_regex.search(speech).group(), num=speech_num)
                     debateSection_main.append(debateSectionParts)
                     speech = speech.replace(
                         ilektroniki_katametrisi_regex.search(speech).group(), '')
@@ -748,13 +756,15 @@ for filename in filenames:
         # ---- saving xml to a differnt file
         text_file = open("../xmls_files/"+filename +
                          ".xml", "w", encoding='utf8')
+        # text_file = open("./testing.xml", "w", encoding='utf8')
         n = text_file.write(xml1)
         text_file.close()
 
     except Exception as e:
         log_file.write(f'{filename}: {str(e)}\n')
         # print(filename, ":", traceback.format_exc())
-    # break
+    if parsed1true:
+        break
 log_file.close()
 endtime = dt.now()
 print("-----------------")
