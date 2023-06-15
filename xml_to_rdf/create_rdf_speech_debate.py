@@ -7,14 +7,11 @@ from rdflib import Namespace, Literal, RDF, URIRef
 import json
 
 
-def find_or_add_name(name1, name):
+def find_or_add_name(name):
     json_file = './all_speakers_names.json'
-    json_file1 = './all_speakers_names_greek.json'
     # Load existing data from JSON file
     with open(json_file, 'r', encoding='utf8') as file:
         data = json.load(file)
-    with open(json_file1, 'r', encoding='utf8') as file:
-        data1 = json.load(file)
     # Check if the name exists in the JSON data
     if name in data:
         return data[name]  # Return the existing ID
@@ -23,12 +20,9 @@ def find_or_add_name(name1, name):
     new_id = last_id + 1
     # Add the new name and ID to the JSON data
     data[name] = new_id
-    data1[name1] = new_id
     # Save the updated JSON data to the file
     with open(json_file, 'w', encoding='utf8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
-    with open(json_file1, 'w', encoding='utf8') as file:
-        json.dump(data1, file, indent=4, ensure_ascii=False)
     return new_id
 
 
@@ -55,24 +49,26 @@ akn_namespace = {"akn": "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"}
 datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_code/diploma_python_data_scrapping/xmls_files/"
 filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
 print(filenames)
-# text = "./input_xml_files/0005521.doc.xml"
 
-# file1_sp = open("all_speeches.rdf", "w", encoding='utf8')
-# file2_deb = open("all_debate.rdf", "w", encoding='utf8')
+log_file = open('./no_rdf_file.txt', 'a', encoding="utf8")
+
 file_per_rdf = 100
 for index, filename in enumerate(filenames):
     try:
-        # print(filename)
+        if (index < 2000):
+            continue
         if (index % file_per_rdf == 0):
-            if (index == 0):
-                down_limit = 0
-                up_limit = file_per_rdf
+            if (index == 2000):
+                down_limit = 2000
+                up_limit = down_limit+file_per_rdf
             else:
                 g_speech.remove((None, None, None))
                 g_debate.remove((None, None, None))
                 down_limit += file_per_rdf
                 up_limit += file_per_rdf
             print("==== ", down_limit, " ", up_limit, " ====")
+        if (index % 25 == 0):
+            print(index)
         # Parse the XML from a file
         tree = ET.parse(datapath+filename)
         # Get the root element of the XML tree
@@ -96,8 +92,7 @@ for index, filename in enumerate(filenames):
                 speech_by = speech_elem.attrib['by']
                 name_speaker = speech_elem.find(
                     './/akn:from', akn_namespace).text
-                id_speaker = find_or_add_name(name_speaker, speech_by)
-                # id_speaker = find_or_add_name(name_speaker)
+                id_speaker = find_or_add_name(speech_by)
 
                 eId = speech_elem.attrib['eId']
                 date = eId.split('_')[1]  # Extract the date from the eId
@@ -120,12 +115,12 @@ for index, filename in enumerate(filenames):
                     (speech_resource, greek_lp["speaker"], greek_lp[f"GRmember_{id_speaker}"]))
 
                 # Extract the spokenText from the XML and add it as a literal property to the Speech resource
-                spoken_text_elems = speech_elem.findall(
-                    './/akn:p', akn_namespace)
-                spoken_text = '\n'.join(
-                    [elem.text for elem in spoken_text_elems if elem.text is not None])
-                g_speech.add((speech_resource, greek_lp.spokenText,
-                              Literal(spoken_text, lang='el')))
+                # spoken_text_elems = speech_elem.findall(
+                #     './/akn:p', akn_namespace)
+                # spoken_text = '\n'.join(
+                #     [elem.text for elem in spoken_text_elems if elem.text is not None])
+                # g_speech.add((speech_resource, greek_lp.spokenText,
+                #               Literal(spoken_text, lang='el')))
 
                 # Create rdf for each debate file
                 debate_resource = greek_lp[debate_uri]
@@ -150,7 +145,7 @@ for index, filename in enumerate(filenames):
         # if index > 1000:
         #     break
     except:
-        print(index, "=", filename, ":", traceback.format_exc())
+        log_file.write(f"{index} = {filename} : {traceback.format_exc()}")
 
 endtime = dt.now()
 print("-----------------")
