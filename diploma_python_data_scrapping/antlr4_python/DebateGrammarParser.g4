@@ -41,12 +41,12 @@ speakers_name: NAME;
 parliament_proceedings: PRAKTIKA_BOULIS parliament_detail;
 
 parliament_detail:
-	anatheoritiki_bouli? period_detail? dimokratia? sunodos? ergasies? sunedriasi? date;
+	anatheoritiki_bouli? period_detail? dimokratia? sunodos? ergasies* sunedriasi? date;
 
 anatheoritiki_bouli: ANATH_BOULI;
 period_detail: PERIODOS;
 dimokratia: DIMOKRATIA;
 sunodos: SUNODOS;
-ergasies: TMIMA_DIAKOPIS THEROS?;
+ergasies: TMIMA_DIAKOPIS | THEROS;
 sunedriasi: SUNDEDRIASI;
 date: DATE;

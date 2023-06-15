@@ -2,7 +2,8 @@ lexer grammar DebateGrammarLexer;
 WS: [- \t\r\n]+ -> skip;
 
 SIMIOSI: SPACES ('(Σημείωση:' | '(ΣΗΜΕΙΩΣΗ:') SPACES ANY_TEXT;
-PINAKAS_PERIEXOMENON: SPACES 'ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ' SPACES;
+PINAKAS_PERIEXOMENON:
+	SPACES ('ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩΝ' | 'ΠΙΝΑΚΑΣ ΠΕΡΙΕΧΟΜΕΝΩN') SPACES;
 
 // ------- THEMATA
 THEMATA_SPACES: 'ΘΕΜΑΤΑ' SPACES -> pushMode(subjects);
@@ -21,9 +22,6 @@ PROEDREUONTES: (
 		) SPACES
 	);
 SPEAKER_CATEG_DETAIL: (
-		// ( ( ( ( BIG_LETTER | SMALL_GREEK_LETTER | NUMBER | ROMAN_NUMERAL ) (DOT |
-		// RIGHT_PARENTHESIS) )? (PAREMVASEIS | EPI) ) | ( BIG_LETTER | SMALL_GREEK_LETTER | NUMBER
-		// | ROMAN_NUMERAL )+ (DOT | RIGHT_PARENTHESIS) ANY_TEXT ':' )
 		(
 			(
 				(
@@ -36,9 +34,6 @@ SPEAKER_CATEG_DETAIL: (
 				)? (PAREMVASEIS | EPI | (ANY_TEXT ':'))
 			)
 		)
-
-		// ((BIG_LETTER | NUMBER)+ (DOT | RIGHT_PARENTHESIS))? ( PAREMVASEIS | EPI ) | ((BIG_LETTER
-		// | NUMBER)+ DOT ANY_TEXT)
 	);
 EPI: SPACES ('Επί' | 'ΕΠΙ') SPACES ANY_TEXT;
 PAREMVASEIS: SPACES 'ΠΑΡΕΜΒΑΣΕΙΣ:';
@@ -82,6 +77,7 @@ SUNDEDRIASI:
 		| 'ΣΥΕΝΔΡΙΑ'
 		| 'Συνεδρίαση'
 		| 'ΣΥΕΝΔΡΙΑΣΗ'
+		| 'Σ Υ Ν Ε Δ Ρ Ι Α Σ Η'
 	) SPACES ANY_TEXT? SPACES;
 
 SUNODOS: ('ΣΥΝΟΔΟΣ' | 'Σ Υ Ν Ο Δ Ο Σ' | 'Σ Υ Ν Ο Δ Ο') SPACES SUNODOS_NUM SPACES;
@@ -90,6 +86,7 @@ TMIMA_DIAKOPIS:
 	SPACES (
 		'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΤΗΣ ΒΟΥΛΗΣ'
 		| 'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΒΟΥΛΗΣ'
+		| 'ΤΜΗΜΑ ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ ΤΗΣ  ΒΟΥΛΗΣ'
 	) SPACES THEROS?;
 THEROS: SPACES ('ΘΕΡΟΥΣ' | 'ΘΕΡΟΣ') SPACES NUMBER+ SPACES;
 NAME: (
