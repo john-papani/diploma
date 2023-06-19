@@ -10,23 +10,14 @@ from collections import defaultdict
 import re
 import os
 from bs4 import BeautifulSoup
-import sys
-sys.path.insert(1, '../antlr4_python')
 
+import sys
+sys.path.append('../antlr4_python')
 from DebateGrammarLexer import DebateGrammarLexer
 from DebateGrammarParser import DebateGrammarParser
+
 E = ElementMaker(nsmap={None: 'http://docs.oasis-open.org/legaldocml/ns/akn/3.0'},
                  namespace='http://docs.oasis-open.org/legaldocml/ns/akn/3.0')
-
-
-'''This script extracts speeches from record files and matches them to the
-official parliament or government member from the file all_members_activity.csv.
-The script takes as arguments from the command line
-1) The path of the folder with the record files
-2) The path to the folder where it outputs the speeches and the corresponding speakers
-Example: python member_speech_matcher.py -f '../path/to/data/folder/' -o '../output/folder/tell_all.csv'
-'''
-
 
 starttime = dt.now()
 record_date = "0000-00-00"
@@ -760,7 +751,7 @@ for filename in filenames:
 
         # print("---------------------")
         # ---- saving xml to a differnt file
-        text_file = open("../xmls_files/"+filename +
+        text_file = open("/xmls_files/"+filename +
                          ".xml", "w", encoding='utf8')
         # text_file = open("./testing.xml", "w", encoding='utf8')
         n = text_file.write(xml1)
