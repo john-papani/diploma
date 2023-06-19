@@ -1,0 +1,6 @@
+antlr4-python3-runtime==4.13.0
+antlr4-tools==0.2
+cobalt==7.0.0
+jellyfish==0.9.0
+lxml==4.9.2
+rdflib==6.3.2
