@@ -76,7 +76,6 @@ To get started with the project, follow these steps:
 
 </p>
 </details>
-<br>
 
 ## Acknowledgements
 
