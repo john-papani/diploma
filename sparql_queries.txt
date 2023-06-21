@@ -57,17 +57,15 @@ WHERE {
 ------------------------------------------------------------------------------
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX greek_lp: <https://purl.org/greekparldebates/>>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX greek_lp: <https://purl.org/greekparldebates/>
-
-Select ?speaker ?name
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+Select distinct ?speaker ?name
 WHERE
-{
-	?speaker greek_lp:Party greek_lp:nea_dimokratia.
-  ?speaker foaf:name ?name
+{  
+  	?speaker foaf:name ?name.
+	?speaker greek_lp:PoliticalTenure ?tenure.
+  	?tenure greek_lp:Party greek_lp:nea_dimokratia.
 }
-
 
 ------------------------------------------------------------------------------
 
@@ -84,7 +82,8 @@ WHERE {
   ?speeh  dcterms:date ?date.
   
   ?speaker foaf:name ?name.
-  ?speaker greek_lp:Party ?party.
+  ?speaker greek_lp:PoliticalTenure ?tenure.
+  ?tenure greek_lp:Party greek_lp:nea_dimokratia.
     FILTER (?date >= "2022-01-01"^^xsd:date && ?date <= "2022-12-31"^^xsd:date)
 }
 
@@ -98,11 +97,11 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 
 SELECT ?name ?fun ?funname ?start_date
 WHERE{
-  	?speaker foaf:name ?name.
+  ?speaker foaf:name ?name.
 	?speaker greek_lp:PoliticalFunction ?fun.
 	?fun greek_lp:institution greek_lp:role\/upourgos_epikrateias.
-  	?fun rdfs:label ?funname.
-  ?fun greek_lp:beginnig ?start_date.
+  ?fun rdfs:label ?funname.
+  ?fun greek_lp:beginning ?start_date.
     FILTER (?start_date >= "2010-01-01"^^xsd:date && ?start_date <= "2022-01-01"^^xsd:date)
 }
 
