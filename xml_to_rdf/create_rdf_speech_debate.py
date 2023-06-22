@@ -46,7 +46,7 @@ akn_namespace = {"akn": "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"}
 
 # Define the input text
 # datapath = "./input_xml_files/"
-datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_code/diploma_python_data_scrapping/xmls_files/"
+datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_code/xmls_files/"
 filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
 print(filenames)
 
@@ -55,12 +55,10 @@ log_file = open('./no_rdf_file.txt', 'a', encoding="utf8")
 file_per_rdf = 100
 for index, filename in enumerate(filenames):
     try:
-        if (index < 2000):
-            continue
         if (index % file_per_rdf == 0):
-            if (index == 2000):
-                down_limit = 2000
-                up_limit = down_limit+file_per_rdf
+            if (index == 0):
+                down_limit = 0
+                up_limit = file_per_rdf
             else:
                 g_speech.remove((None, None, None))
                 g_debate.remove((None, None, None))
@@ -115,12 +113,12 @@ for index, filename in enumerate(filenames):
                     (speech_resource, greek_lp["speaker"], greek_lp[f"GRmember_{id_speaker}"]))
 
                 # Extract the spokenText from the XML and add it as a literal property to the Speech resource
-                # spoken_text_elems = speech_elem.findall(
-                #     './/akn:p', akn_namespace)
-                # spoken_text = '\n'.join(
-                #     [elem.text for elem in spoken_text_elems if elem.text is not None])
-                # g_speech.add((speech_resource, greek_lp.spokenText,
-                #               Literal(spoken_text, lang='el')))
+                spoken_text_elems = speech_elem.findall(
+                    './/akn:p', akn_namespace)
+                spoken_text = '\n'.join(
+                    [elem.text for elem in spoken_text_elems if elem.text is not None])
+                g_speech.add((speech_resource, greek_lp.spokenText,
+                              Literal(spoken_text, lang='el')))
 
                 # Create rdf for each debate file
                 debate_resource = greek_lp[debate_uri]

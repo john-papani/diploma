@@ -99,7 +99,7 @@ def add_column_to_csv(input_file, output_file, num):
 
 def create_json_official_parl_mem():
     official_parl_file = open(
-        "./parl_members_activity_1989onwards_with_gender.csv", 'r', encoding='utf8')
+        "./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv", 'r', encoding='utf8')
     reader = csv.reader(official_parl_file)
     next(reader, None)
     speaker_id = 0
@@ -117,6 +117,7 @@ def create_json_official_parl_mem():
                 with open(json_file, 'w', encoding='utf8') as file:
                     json.dump(data, file, indent=4, ensure_ascii=False)
     file.close()
+    official_parl_file.close()
 
 
 def create_rdf_members_with_details():
@@ -130,7 +131,7 @@ def create_rdf_members_with_details():
     file_speakers_from_official = open(
         './official_data_directory.json', 'r', encoding='utf8')
     speakers_from_official = json.load(file_speakers_from_official)
-    with open('./_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
+    with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
         for name_speaker in speakers_from_xmls:
@@ -163,13 +164,13 @@ def create_rdf_members_with_details():
 
 
 def create_rdf_political_tenure_and_potical_functions():
-    g_political_tenure = rdflib.Graph()
-    g_political_tenure.bind("greek_lp", greek_lp)
-    g_political_tenure.bind("rdfs", rdfs)
+    g_political = rdflib.Graph()
+    g_political.bind("greek_lp", greek_lp)
+    g_political.bind("rdfs", rdfs)
     file_speakers_from_xmls = open(
         './all_speakers_names.json', 'r', encoding='utf8')
     speakers_from_xmls = json.load(file_speakers_from_xmls)
-    with open('./_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
+    with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
 
@@ -187,24 +188,21 @@ def create_rdf_political_tenure_and_potical_functions():
                 id_speaker = speakers_from_xmls[name_speaker]
                 subject_for_speaker = URIRef(
                     greek_lp[f"GRmember_{id_speaker}"])
-                g_political_tenure.add(
+                g_political.add(
                     (subject_for_speaker, greek_lp.PoliticalTenure, subject))
-            g_political_tenure.add(
+            g_political.add(
                 (subject, greek_lp.beginning, Literal(xsd_date_start, datatype=xsd.date)))
-            g_political_tenure.add(
+            g_political.add(
                 (subject, greek_lp.end, Literal(xsd_date_end, datatype=xsd.date)))
-            g_political_tenure.add(
+            g_political.add(
                 (subject, greek_lp.Party, URIRef(greek_lp[party])))
-            g_political_tenure.add(
+            g_political.add(
                 (subject, greek_lp.administrative_region, Literal(admin_region)))
-            g_political_tenure.add(
+            g_political.add(
                 (subject, rdfs.label, Literal(f"Political Tenure {index}", lang="en")))
 
-    g_political_functions = rdflib.Graph()
-    g_political_functions.bind("greek_lp", greek_lp)
-    g_political_functions.bind("rdfs", rdfs)
     roles = set()
-    with open('./_formatted_roles_gov_members_data.csv', 'r', encoding='utf8') as file_csv:
+    with open('./useful_csv_for_parl_members/_formatted_roles_gov_members_data.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
 
@@ -214,7 +212,7 @@ def create_rdf_political_tenure_and_potical_functions():
                 if value not in roles:
                     roles.add(value)
                     value_en = convert_greek_to_english(value)
-                    g_political_functions.add(
+                    g_political.add(
                         (URIRef(f"{greek_lp}role/{value_en}"), rdfs.label, Literal(value, lang="el")))
         file_csv.seek(0)  # Reset the file pointer to the beginning
         next(csv_data, None)
@@ -231,21 +229,20 @@ def create_rdf_political_tenure_and_potical_functions():
                 id_speaker = speakers_from_xmls[name_speaker]
                 subject_for_speaker = URIRef(
                     greek_lp[f"GRmember_{id_speaker}"])
-                g_political_functions.add(
+                g_political.add(
                     (subject_for_speaker, greek_lp.PoliticalFunction, subject))
             if role in roles:
-                g_political_functions.add(
+                g_political.add(
                     (subject, greek_lp.institution, URIRef(f"{greek_lp}role/{convert_greek_to_english(role)}")))
-            g_political_functions.add(
+            g_political.add(
                 (subject, greek_lp.beginning, Literal(xsd_date_start, datatype=xsd.date)))
-            g_political_functions.add(
+            g_political.add(
                 (subject, greek_lp.end, Literal(xsd_date_end, datatype=xsd.date)))
-            g_political_functions.add(
+            g_political.add(
                 (subject, rdfs.label, Literal(row[1], lang="el")))
 
     with open(f"./rdfs/rdf_politicalFunction.rdf", "w", encoding='utf8') as f:
-        f.write(g_political_tenure.serialize(format='xml'))
-        f.write(g_political_functions.serialize(format='xml'))
+        f.write(g_political.serialize(format='xml'))
     file_speakers_from_xmls.close()
     file_csv.close()
     f.close()
@@ -257,13 +254,17 @@ output_file_1 = "./useful_csv_for_parl_members/_parl_members_activity_1989onward
 input_file_2 = "./files_from_opa_dritsa/extra_roles_manually_collected.csv"
 output_file_2 = "./useful_csv_for_parl_members/_extra_roles_manually_collected.csv"
 input_file_3 = "./files_from_opa_dritsa/formatted_roles_gov_members_data_06_2023.csv"
-output_file_3 = "./useful_csv_for_parl_members_formatted_roles_gov_members_data.csv"
+output_file_3 = "./useful_csv_for_parl_members/_formatted_roles_gov_members_data.csv"
 
 # ! this only one time
 add_column_to_csv(input_file_1, output_file_1, 2)
+print("1a-OK")
 add_column_to_csv(input_file_2, output_file_2, 2)
+print("1b-OK")
 add_column_to_csv(input_file_3, output_file_3, 1)
+print("1c-OK")
 create_json_official_parl_mem()
+print("1d-OK")
 
 print("1-OK")
 create_rdf_members_with_details()
