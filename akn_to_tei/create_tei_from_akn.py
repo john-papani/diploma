@@ -17,7 +17,7 @@ def transform_xml2tei_with_xslt(xml_filename, xslt_filename, result_filename):
             log_file.write(f'{filename}: {str(e)}\n')
 
 
-datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xmls_files/"
+datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
 filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
 xslt_filename = "./schema_dir/akn2tei.xsl"
 for counter, filename in enumerate(filenames):

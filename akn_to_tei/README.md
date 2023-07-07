@@ -17,7 +17,7 @@ To use this script, ensure that you have the following:
  
 
 ## Getting Started
-1. Place your XML Akoma Ntoso files in the [input directory](https://github.com/john-papani/diploma/tree/master/xmls_files).
+1. Place your XML Akoma Ntoso files in the [input directory](https://github.com/john-papani/diploma/tree/master/xml_akn_files).
 2. Open a terminal or command prompt and navigate to the folder where the script is located.
 	```
 	cd akn_to_tei
