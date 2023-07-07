@@ -1,14 +1,18 @@
 # Greek Parliament Debates to Open Linked Data
 
 This repository contains the code and resources for the "Greek Parliament Debates to Open Linked Data" diploma thesis. The project aims to convert Greek Parliament debates from text files (in Word or TXT format) to XML files based on the Akoma Ntoso standard. These XML files are then transformed into RDF triples and uploaded to Apache Fuseki for further analysis and querying using SPARQL.
+Additionally, the Akoma Ntoso XML files are converted to XML files based on the TEI schema provided by the [ParlaMint repository](https://github.com/clarin-eric/ParlaMint).
 
 ## Project Structure
 
 The repository is structured as follows:
 
+- [`akn_to_tei/`](https://github.com/john-papani/diploma/tree/master/akn_to_tei): Directory containing the code and resources for converting Akoma Ntoso XML to TEI XML.
 - [`antlr4_grammar/`](https://github.com/john-papani/diploma/tree/master/antlr4_grammar): This directory contains the ANTLR4 grammar file used for parsing the text files and generating the XML output.
 - [`text_to_akn_xml/`](https://github.com/john-papani/diploma/tree/master/text_to_akn_xml): This directory contains the Python code for converting the text files to Akoma Ntoso XML format.
 - [`xml_to_rdf/`](https://github.com/john-papani/diploma/tree/master/xml_to_rdf): This directory contains the code for transforming the XML files into RDF triples.
+- [`xml_akn_files/`](https://github.com/john-papani/diploma/tree/master/xml_akn_files): Directory to store the generated Akoma Ntoso XML files.
+- [`xml_tei_files/`](https://github.com/john-papani/diploma/tree/master/xml_tei_files): Directory to store the generated TEI XML files.
 - [`sparql_queries.txt`](https://github.com/john-papani/diploma/blob/master/sparql_queries.txt): This file provides a collection of example SPARQL queries that can be executed against the RDF data in Apache Fuseki.
 - [`requirements.txt`](https://github.com/john-papani/diploma/blob/master/requirements.txt): This file lists the Python dependencies required to run the project.
 - [`bugs.txt`](https://github.com/john-papani/diploma/blob/master/bugs.txt): This file is used to track and document any known issues or bugs in the project.
@@ -74,6 +78,13 @@ To get started with the project, follow these steps:
 6. Upload the generated RDF files to Apache Fuseki.
 7. With the RDF data in Fuseki, you can now execute SPARQL queries to analyze and retrieve information from the Greek Parliament debates.
 
+8. If you want to create TEI files from the Akoma Ntoso XML files, navigate to the `akn_to_tei` directory and run the following command:
+   ```
+   python create_tei_from_akn.py
+   ```
+
+This script will generate TEI XML files based on the Akoma Ntoso XML files.
+
 </p>
 </details>
 
@@ -82,3 +93,8 @@ To get started with the project, follow these steps:
 - The ANTLR4 library: [https://github.com/antlr/antlr4](https://github.com/antlr/antlr4)
 - Apache Jena Fuseki: [https://jena.apache.org/documentation/fuseki2](https://jena.apache.org/documentation/fuseki2)
 - OASIS LegalDocumentML (LegalDocML) TC: [https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=legaldocml)
+
+- lxml - Processing XML and HTML with Python: [https://lxml.de](https://lxml.de/)
+- cobalt - A lightweight python library for working with Akoma Ntoso documents.: [https://github.com/laws-africa/cobalt](https://github.com/laws-africa/cobalt)
+- RDFLib is a pure Python package for working with RDF.: [https://rdflib.readthedocs.io/en/stable/](https://rdflib.readthedocs.io/en/stable/)
+- Saxon XSLT : [https://www.saxonica.com/saxon-c/index.xml](https://www.saxonica.com/saxon-c/index.xml)
