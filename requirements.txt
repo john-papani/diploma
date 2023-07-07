@@ -4,3 +4,4 @@ cobalt==7.0.0
 jellyfish==0.9.0
 lxml==4.9.2
 rdflib==6.3.2
+saxonche==12.3.0
