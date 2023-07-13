@@ -751,7 +751,7 @@ for filename in filenames:
 
         # print("---------------------")
         # ---- saving xml to a differnt file
-        text_file = open("/xmls_files/"+filename +
+        text_file = open("/xml_akn_files/"+filename +
                          ".xml", "w", encoding='utf8')
         # text_file = open("./testing.xml", "w", encoding='utf8')
         n = text_file.write(xml1)

@@ -1,9 +1,8 @@
 from datetime import datetime as dt
 import os
 import traceback
-import rdflib
 import xml.etree.ElementTree as ET
-from rdflib import Namespace, Literal, RDF, URIRef
+from rdflib import Namespace, Literal, URIRef, Graph
 import json
 
 
@@ -29,8 +28,8 @@ def find_or_add_name(name):
 starttime = dt.now()
 
 # Create the RDF graph and define namespaces
-g_speech = rdflib.Graph()
-g_debate = rdflib.Graph()
+g_speech = Graph()
+g_debate = Graph()
 dcterms = Namespace("http://purl.org/dc/terms/")
 xsd = Namespace("http://www.w3.org/2001/XMLSchema#")
 greek_lp = Namespace("https://purl.org/greekparldebates/")
