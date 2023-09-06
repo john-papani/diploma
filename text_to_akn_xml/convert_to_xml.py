@@ -12,7 +12,7 @@ import os
 from bs4 import BeautifulSoup
 
 import sys
-sys.path.append('../antlr4_python')
+sys.path.append('../antlr4_grammar')
 from DebateGrammarLexer import DebateGrammarLexer
 from DebateGrammarParser import DebateGrammarParser
 
@@ -470,8 +470,8 @@ incomplete_nickname_parenthesis = re.compile(r"\([Α-ΩΆ-ΏΪΫΪ́]{3,}\s")
 sitting_terminated_regex = re.compile(r"λ(υ|ύ)εται\s+η\s+συνεδρ(ι|ί)αση")
 comments_regex = re.compile(r"\(.*?\)[^:]{1}")
 comment_sto_simio_auto = re.compile(
-    r"(\(\s*(Σ|σ)το σημε(ί|ι)ο αυτ(ό|ο).*?\))")
-xeirokrotima = re.compile(r"\((χ|Χ)ειροκροτ(ή|η)ματα\s*.*?\)")
+    r"(\(\s*(Σ|σ)το σημε(ί|ι)ο αυτ(ό|ο).*?\)).*\n*")
+xeirokrotima = re.compile(r"\((χ|Χ)ειροκροτ(ή|η)ματα\s*.*?\)\n*")
 allagi_selidas = re.compile(r"\(?ΑΛΛΑΓ(Η|Ή)\s*ΣΕΛ(Ι|Ί)ΔΑΣ\s*[Α-Ω]*\)")
 starting_regex = re.compile(
     r"(Π\s*Ρ\s*Α\s*Κ\s*Τ\s*Ι\s*Κ\s*(Α|A)\s*(Τ\s*Η\s*Σ)?\s*Β\s*Ο\s*Υ\s*Λ\s*Η\s*Σ)\s*(.+)('|΄|`|’)\s*ΠΕΡΙΟΔΟΣ\s*\(?((ΠΡΟΕΔΡΕΥΟΜΕΝΗΣ ΚΟΙΝΟΒΟΥΛΕΥΤΙΚΗΣ ΔΗΜΟΚΡΑΤΙΑΣ)|(ΠΡΟΕΔΡΕΥ?Ο?ΜΕΝΗΣ? ΔΗΜ?ΟΚΡΑΤΙΑΣ))\)?\s*(Σ\s*Υ\s*Ν\s*Ο\s*Δ\s*Ο\s*Σ)?\s*(.+)('|΄|`|’)\s+(.*)\s*(Σ\s*Υ\s*Ν\s*Ε\s*Δ\s*Ρ\s*Ι\s*Α\s*Σ\s*Η|ΣΥΕΝΔΡΙΑ|Συνεδρίαση|ΣΥΕΝΔΡΙΑΣΗ)\s*(([Α-Ω]*)(΄|'|`|’)?)\s*([\u0386-\u03CE]+\s*,? \s*\d{1,2} \n*[\u0386-\u03CE]+\s*\d{4})")
@@ -693,8 +693,6 @@ for filename in filenames:
                     # Remove 1-2 letter characters
                     speaker_name = ' '.join(
                         [word for word in speaker_name.split(' ') if len(word) > 2])
-
-                    max_sim = 0
 
                     cm = comment_sto_simio_auto.search(speech)
                     xeir = xeirokrotima.search(speech)

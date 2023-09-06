@@ -14,7 +14,7 @@ greek_lp = Namespace(
 xsd = Namespace("http://www.w3.org/2001/XMLSchema#")
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdfs = Namespace("http://www.w3.org/2000/01/rdf-schema#")
-# Create the RDF graph and define namespaces
+owl = Namespace('http://www.w3.org/2002/07/owl#')
 
 
 greek_to_english = {
@@ -127,35 +127,45 @@ def create_rdf_members_with_details():
     file_speakers_from_xmls = open(
         './all_speakers_names.json', 'r', encoding='utf8')
     speakers_from_xmls = json.load(file_speakers_from_xmls)
-
+    names_wikidata = open(
+        './wikidata_crawler/names_with_wikidata.json', 'r', encoding='utf8')
+    names_wikidata_json = json.load(names_wikidata)
     file_speakers_from_official = open(
         './official_data_directory.json', 'r', encoding='utf8')
     speakers_from_official = json.load(file_speakers_from_official)
-    with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
-        csv_data = (csv.reader(file_csv))
-        next(csv_data, None)
-        for name_speaker in speakers_from_xmls:
-            if name_speaker in speakers_from_official:
-                file_csv.seek(0)  # Reset the file pointer to the beginning
-                next(csv_data, None)
-                for row in csv_data:
-                    if str(row[6]) == str(name_speaker):
-                        gender = row[5]
-                        subject = URIRef(
-                            greek_lp[f"GRmember_{speakers_from_xmls[name_speaker]}"])
+    try:
+        with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
+            csv_data = (csv.reader(file_csv))
+            next(csv_data, None)
+            for name_speaker in speakers_from_xmls:
+                if name_speaker in speakers_from_official:
+                    # Reset the file pointer to the beginning
+                    file_csv.seek(0)
+                    next(csv_data, None)
+                    for row in csv_data:
+                        if str(row[6]) == str(name_speaker):
+                            gender = row[5]
+                            subject = URIRef(
+                                greek_lp[f"GRmember_{speakers_from_xmls[name_speaker]}"])
+                            g_speakers_with_party.add(
+                                (subject, foaf.name, Literal(name_speaker)))
+                            g_speakers_with_party.add(
+                                (subject, foaf.gender, Literal(gender)))
+                            if name_speaker in names_wikidata_json:
+                                g_speakers_with_party.add(
+                                    (subject, owl.sameAs, URIRef(names_wikidata_json[name_speaker])))
+                            break
+                else:
+                    subject = URIRef(
+                        greek_lp[f"GRmember_{speakers_from_xmls[name_speaker]}"])
+                    g_speakers_with_party.add(
+                        (subject, foaf.name, Literal(name_speaker)))
+                    if name_speaker in names_wikidata_json:
                         g_speakers_with_party.add(
-                            (subject, foaf.name, Literal(name_speaker)))
-                        g_speakers_with_party.add(
-                            (subject, foaf.gender, Literal(gender)))
-                        break
-            else:
-                subject = URIRef(
-                    greek_lp[f"GRmember_{speakers_from_xmls[name_speaker]}"])
-                g_speakers_with_party.add(
-                    (subject, foaf.name, Literal(name_speaker)))
-
-    with open(f"./rdfs/rdf_speakers.rdf", "w", encoding='utf8') as f:
-        f.write(g_speakers_with_party.serialize(format='xml'))
+                            (subject, owl.sameAs, URIRef(names_wikidata_json[name_speaker])))
+    finally:
+        with open(f"./rdfs/rdf_speakers.rdf", "w", encoding='utf8') as f:
+            f.write(g_speakers_with_party.serialize(format='xml'))
 
     f.close()
     file_csv.close()
@@ -248,23 +258,23 @@ def create_rdf_political_tenure_and_potical_functions():
     f.close()
 
 
-# ! this only one time
-input_file_1 = "./files_from_opa_dritsa/parl_members_activity_1989onwards_06_2023_with_gender_filled.csv"
-output_file_1 = "./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv"
-input_file_2 = "./files_from_opa_dritsa/extra_roles_manually_collected.csv"
-output_file_2 = "./useful_csv_for_parl_members/_extra_roles_manually_collected.csv"
-input_file_3 = "./files_from_opa_dritsa/formatted_roles_gov_members_data_06_2023.csv"
-output_file_3 = "./useful_csv_for_parl_members/_formatted_roles_gov_members_data.csv"
+# # ! this only one time
+# input_file_1 = "./files_from_opa_dritsa/parl_members_activity_1989onwards_06_2023_with_gender_filled.csv"
+# output_file_1 = "./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv"
+# input_file_2 = "./files_from_opa_dritsa/extra_roles_manually_collected.csv"
+# output_file_2 = "./useful_csv_for_parl_members/_extra_roles_manually_collected.csv"
+# input_file_3 = "./files_from_opa_dritsa/formatted_roles_gov_members_data_06_2023.csv"
+# output_file_3 = "./useful_csv_for_parl_members/_formatted_roles_gov_members_data.csv"
 
-# ! this only one time
-add_column_to_csv(input_file_1, output_file_1, 2)
-print("1a-OK")
-add_column_to_csv(input_file_2, output_file_2, 2)
-print("1b-OK")
-add_column_to_csv(input_file_3, output_file_3, 1)
-print("1c-OK")
-create_json_official_parl_mem()
-print("1d-OK")
+# # ! this only one time
+# add_column_to_csv(input_file_1, output_file_1, 2)
+# print("1a-OK")
+# add_column_to_csv(input_file_2, output_file_2, 2)
+# print("1b-OK")
+# add_column_to_csv(input_file_3, output_file_3, 1)
+# print("1c-OK")
+# create_json_official_parl_mem()
+# print("1d-OK")
 
 print("1-OK")
 create_rdf_members_with_details()

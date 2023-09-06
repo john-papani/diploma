@@ -45,7 +45,7 @@ akn_namespace = {"akn": "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"}
 
 # Define the input text
 # datapath = "./input_xml_files/"
-datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_code/xmls_files/"
+datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
 filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
 print(filenames)
 
