@@ -94,13 +94,12 @@ def search_for_wikidata_connection(name):
         return "https://www.wikidata.org/wiki/Q21075797"
     elif (name == "elliniki_lusi_-_kuriakos_belopoulos"):
         return "https://www.wikidata.org/wiki/Q50736163"
-
     elif (name == "anexartitoi_ellines_ethniki_patriotiki_dimokratiki_summaxia"):
         return "https://www.wikidata.org/wiki/Q529666"
-
     elif (name == "oikologoi_enallaktikoi_(omospondia_oikologikon_enallaktikon_organoseon)"):
-        return "https://www.wikidata.org/wiki/Q3563454"
-
+        return "https://www.wikidata.org/wiki/Q3563454" 
+    elif (name == "enosi_kentroon"):
+        return "https://www.wikidata.org/wiki/Q3567209"
     elif (name == "anexartitoi_(ektos_kommatos)"):
         return -1
 
