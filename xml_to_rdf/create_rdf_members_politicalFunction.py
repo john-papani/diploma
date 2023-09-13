@@ -15,7 +15,7 @@ xsd = Namespace("http://www.w3.org/2001/XMLSchema#")
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 rdfs = Namespace("http://www.w3.org/2000/01/rdf-schema#")
 owl = Namespace('http://www.w3.org/2002/07/owl#')
-
+schema = Namespace('https://schema.org/')
 
 greek_to_english = {
     'α': 'a',
@@ -172,6 +172,17 @@ def create_rdf_members_with_details():
     file_speakers_from_official.close()
     file_speakers_from_xmls.close()
 
+def add_to_json(value, json_file):
+    # Load existing data from JSON file
+    with open(json_file, 'r', encoding='utf8') as file:
+        data = json.load(file)
+    # Check if the name exists in the JSON data
+    if value not in data:
+        data[value] = ""
+        # Save the updated JSON data to the file
+        with open(json_file, 'w', encoding='utf8') as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
+
 
 def create_rdf_political_tenure_and_potical_functions():
     g_political = rdflib.Graph()
@@ -180,6 +191,19 @@ def create_rdf_political_tenure_and_potical_functions():
     file_speakers_from_xmls = open(
         './all_speakers_names.json', 'r', encoding='utf8')
     speakers_from_xmls = json.load(file_speakers_from_xmls)
+    upourgoi_with_wikidata_file = open(
+        './json_files/upourgoi_with_wikidata.json', 'r', encoding='utf8')
+    data_upourgoi_with_wikidata_file = json.load(upourgoi_with_wikidata_file)
+
+    parties_with_wikidata_file = open(
+        './json_files/parties_with_wikitada.json', 'r', encoding='utf8')
+    data_parties = json.load(parties_with_wikidata_file)
+
+    for key, value in data_parties.items():
+        g_political.add(
+            (URIRef(greek_lp[key]), owl.sameAs, URIRef(value))
+        )
+
     with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
@@ -244,6 +268,11 @@ def create_rdf_political_tenure_and_potical_functions():
             if role in roles:
                 g_political.add(
                     (subject, greek_lp.institution, URIRef(f"{greek_lp}role/{convert_greek_to_english(role)}")))
+            if role in data_upourgoi_with_wikidata_file:
+                g_political.add(
+                    (subject, schema.about, URIRef(
+                        data_upourgoi_with_wikidata_file[role]["wiki_link"]))
+                )
             g_political.add(
                 (subject, greek_lp.beginning, Literal(xsd_date_start, datatype=xsd.date)))
             g_political.add(
@@ -255,6 +284,8 @@ def create_rdf_political_tenure_and_potical_functions():
         f.write(g_political.serialize(format='xml'))
     file_speakers_from_xmls.close()
     file_csv.close()
+    upourgoi_with_wikidata_file.close()
+    parties_with_wikidata_file.close()
     f.close()
 
 
