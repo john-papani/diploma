@@ -1,0 +1,766 @@
+{
+    "υφυπουργος πολιτισμου και τουρισμου": {
+        "without_property": "πολιτισμου και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q1845738"
+    },
+    "υφυπουργος πολιτισμου και αθλητισμου": {
+        "without_property": "πολιτισμου και αθλητισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16737865"
+    },
+    "υφυπουργος εξωτερικων": {
+        "without_property": "εξωτερικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3125291"
+    },
+    "υπουργος παιδειας δια βιου μαθησης και θρησκευματων": {
+        "without_property": "παιδειας δια βιου μαθησης και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557169"
+    },
+    "υπουργος πολιτισμου παιδειας και θρησκευματων": {
+        "without_property": "πολιτισμου παιδειας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331890"
+    },
+    "υφυπουργος εσωτερικων": {
+        "without_property": "εσωτερικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555550"
+    },
+    "υφυπουργος στον πρωθυπουργο": {
+        "without_property": "στον πρωθυπουργο",
+        "wiki_link": ""
+    },
+    "υφυπουργος μεταναστευτικης πολιτικης": {
+        "without_property": "μεταναστευτικης πολιτικης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q27823211"
+    },
+    "υφυπουργος οικονομιας και οικονομικων": {
+        "without_property": "οικονομιας και οικονομικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60153436"
+    },
+    "αναπληρωτης υπουργος εξωτερικων": {
+        "without_property": "εξωτερικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3125291"
+    },
+    "αναπληρωτης υπουργος παιδειας ερευνας και θρησκευματων": {
+        "without_property": "παιδειας ερευνας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q25535387"
+    },
+    "υφυπουργος περιβαλλοντος χωροταξιας και δημοσιων εργων": {
+        "without_property": "περιβαλλοντος χωροταξιας και δημοσιων εργων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3559200"
+    },
+    "υφυπουργος πολιτισμου": {
+        "without_property": "πολιτισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331895"
+    },
+    "υφυπουργος υγειας και κοινωνικης αλληλεγγυης": {
+        "without_property": "υγειας και κοινωνικης αλληλεγγυης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16737934"
+    },
+    "υφυπουργος εθνικης αμυνας": {
+        "without_property": "εθνικης αμυνας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q2606039"
+    },
+    "υφυπουργος εργασιας κοινωνικης ασφαλισης και κοινωνικης αλληλεγγυης": {
+        "without_property": "εργασιας κοινωνικης ασφαλισης και κοινωνικης αλληλεγγυης",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%95%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82,_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82_%CE%BA%CE%B1%CE%B9_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CE%BB%CE%BB%CE%B7%CE%BB%CE%B5%CE%B3%CE%B3%CF%8D%CE%B7%CF%82"
+    },
+    "υπουργος τουρισμου": {
+        "without_property": "τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q6867588"
+    },
+    "υπουργος προεδριας της κυβερνησης": {
+        "without_property": "προεδριας της κυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885646"
+    },
+    "υπουργος επικρατειας": {
+        "without_property": "επικρατειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q98381858"
+    },
+    "αντιπροεδρος της κυβερνησης": {
+        "without_property": "αντιπροεδρος της κυβερνησης",
+        "wiki_link": ""
+    },
+    "υπουργος δικαιοσυνης": {
+        "without_property": "δικαιοσυνης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60154812"
+    },
+    "αναπληρωτης υπουργος πολιτισμου": {
+        "without_property": "πολιτισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331895"
+    },
+    "υπουργος πολιτισμου": {
+        "without_property": "πολιτισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331895"
+    },
+    "υφυπουργος αναπτυξης ανταγωνιστικοτητας και ναυτιλιας": {
+        "without_property": "αναπτυξης ανταγωνιστικοτητας και ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555582"
+    },
+    "υφυπουργος περιβαλλοντος ενεργειας και κλιματικης αλλαγης": {
+        "without_property": "περιβαλλοντος ενεργειας και κλιματικης αλλαγης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q47477382"
+    },
+    "υφυπουργος υποδομων και μεταφορων": {
+        "without_property": "υποδομων και μεταφορων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q95230731"
+    },
+    "υφυπουργος εσωτερικων δημοσιας διοικησης και αποκεντρωσης": {
+        "without_property": "εσωτερικων δημοσιας διοικησης και αποκεντρωσης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885645"
+    },
+    "υπουργος εμποριου": {
+        "without_property": "εμποριου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q51906449"
+    },
+    "υπουργος υγειας": {
+        "without_property": "υγειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q2605975"
+    },
+    "υφυπουργος αναπτυξης ανταγωνιστικοτητας υποδομων μεταφορων και δικτυων": {
+        "without_property": "αναπτυξης ανταγωνιστικοτητας υποδομων μεταφορων και δικτυων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885635"
+    },
+    "υφυπουργος αναπτυξης και ανταγωνιστικοτητας": {
+        "without_property": "αναπτυξης και ανταγωνιστικοτητας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q14231585"
+    },
+    "υπουργος αγροτικης αναπτυξης και τροφιμων": {
+        "without_property": "αγροτικης αναπτυξης και τροφιμων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555563"
+    },
+    "υφυπουργος μεταφορων και επικοινωνιων": {
+        "without_property": "μεταφορων και επικοινωνιων",
+        "wiki_link": ""
+    },
+    "υπουργος μεταφορων και επικοινωνιων": {
+        "without_property": "μεταφορων και επικοινωνιων",
+        "wiki_link": ""
+    },
+    "υφυπουργος υγειας": {
+        "without_property": "υγειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q2605975"
+    },
+    "υφυπουργος προστασιας του πολιτη": {
+        "without_property": "προστασιας του πολιτη",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885652"
+    },
+    "υφυπουργος οικονομικων": {
+        "without_property": "οικονομικων",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%9F%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CF%8E%CE%BD_(%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1)"
+    },
+    "υφυπουργος γεωργιας": {
+        "without_property": "γεωργιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q51906449"
+    },
+    "υφυπουργος παιδειας και θρησκευματων": {
+        "without_property": "παιδειας και θρησκευματων",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%A0%CE%B1%CE%B9%CE%B4%CE%B5%CE%AF%CE%B1%CF%82_%CE%BA%CE%B1%CE%B9_%CE%98%CF%81%CE%B7%CF%83%CE%BA%CE%B5%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD"
+    },
+    "υφυπουργος αναπτυξης": {
+        "without_property": "αναπτυξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273447"
+    },
+    "υφυπουργος αγροτικης αναπτυξης και τροφιμων": {
+        "without_property": "αγροτικης αναπτυξης και τροφιμων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555563"
+    },
+    "υφυπουργος εμποριου": {
+        "without_property": "εμποριου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q51906449"
+    },
+    "υφυπουργος εθνικης οικονομιας": {
+        "without_property": "εθνικης οικονομιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60110117"
+    },
+    "υπουργος εμπορικης ναυτιλιας": {
+        "without_property": "εμπορικης ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885641"
+    },
+    "αναπληρωτης υπουργος εθνικης αμυνας": {
+        "without_property": "εθνικης αμυνας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q2606039"
+    },
+    "υπουργος οικονομικων": {
+        "without_property": "οικονομικων",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%9F%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CF%8E%CE%BD_(%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1)"
+    },
+    "υπουργος εσωτερικων δημοσιας διοικησης και αποκεντρωσης": {
+        "without_property": "εσωτερικων δημοσιας διοικησης και αποκεντρωσης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885645"
+    },
+    "υπουργος υγειας και προνοιας": {
+        "without_property": "υγειας και προνοιας",
+        "wiki_link": ""
+    },
+    "υφυπουργος οικονομιας αναπτυξης και τουρισμου": {
+        "without_property": "οικονομιας αναπτυξης και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21029361"
+    },
+    "αναπληρωτης υπουργος οικονομιας και αναπτυξης": {
+        "without_property": "οικονομιας και αναπτυξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q31284082"
+    },
+    "υπουργος εσωτερικων": {
+        "without_property": "εσωτερικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555550"
+    },
+    "πρωθυπουργος": {
+        "without_property": "πρωθ",
+        "wiki_link": ""
+    },
+    "υπουργος εξωτερικων": {
+        "without_property": "εξωτερικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3125291"
+    },
+    "αναπληρωτης υπουργος οικονομιας υποδομων ναυτιλιας και τουρισμου": {
+        "without_property": "οικονομιας υποδομων ναυτιλιας και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q18965242"
+    },
+    "υπουργος εθνικης αμυνας": {
+        "without_property": "εθνικης αμυνας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q2606039"
+    },
+    "υπουργος τυπου και μεσων μαζικης ενημερωσης": {
+        "without_property": "τυπου και μεσων μαζικης ενημερωσης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q6866010"
+    },
+    "αναπληρωτης υπουργος εσωτερικων και διοικητικης ανασυγκροτησης": {
+        "without_property": "εσωτερικων και διοικητικης ανασυγκροτησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21029422"
+    },
+    "υπουργος εργασιας και κοινωνικων ασφαλισεων": {
+        "without_property": "εργασιας και κοινωνικων ασφαλισεων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q98138575"
+    },
+    "αναπληρωτης υπουργος πολιτισμου παιδειας και θρησκευματων": {
+        "without_property": "πολιτισμου παιδειας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331890"
+    },
+    "υφυπουργος τουρισμου": {
+        "without_property": "τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q6867588"
+    },
+    "υπουργος εμπορικης ναυτιλιας αιγαιου και νησιωτικης πολιτικης": {
+        "without_property": "εμπορικης ναυτιλιας αιγαιου και νησιωτικης πολιτικης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885636"
+    },
+    "υπουργος βιομηχανιας ενεργειας και τεχνολογιας": {
+        "without_property": "βιομηχανιας ενεργειας και τεχνολογιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q121009910"
+    },
+    "υφυπουργος εθνικης παιδειας και θρησκευματων": {
+        "without_property": "εθνικης παιδειας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331869"
+    },
+    "υπουργος υγειας και κοινωνικης αλληλεγγυης": {
+        "without_property": "υγειας και κοινωνικης αλληλεγγυης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16737934"
+    },
+    "υπουργος εργασιας και κοινωνικης ασφαλισης": {
+        "without_property": "εργασιας και κοινωνικης ασφαλισης",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%95%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82_%CE%BA%CE%B1%CE%B9_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82_(%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1)"
+    },
+    "υπουργος παιδειας και θρησκευματων": {
+        "without_property": "παιδειας και θρησκευματων",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%A0%CE%B1%CE%B9%CE%B4%CE%B5%CE%AF%CE%B1%CF%82_%CE%BA%CE%B1%CE%B9_%CE%98%CF%81%CE%B7%CF%83%CE%BA%CE%B5%CF%85%CE%BC%CE%AC%CF%84%CF%89%CE%BD"
+    },
+    "αναπληρωτης υπουργος υγειας και κοινωνικων ασφαλισεων": {
+        "without_property": "υγειας και κοινωνικων ασφαλισεων",
+        "wiki_link": ""
+    },
+    "υπουργος αναπτυξης ανταγωνιστικοτητας και ναυτιλιας": {
+        "without_property": "αναπτυξης ανταγωνιστικοτητας και ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555582"
+    },
+    "υφυπουργος εργασιας και κοινωνικης ασφαλισης": {
+        "without_property": "εργασιας και κοινωνικης ασφαλισης",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%95%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82_%CE%BA%CE%B1%CE%B9_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82_(%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1)"
+    },
+    "αναπληρωτης υπουργος εθνικης παιδειας και θρησκευματων": {
+        "without_property": "εθνικης παιδειας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331869"
+    },
+    "υπουργος αιγαιου": {
+        "without_property": "αιγαιου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q6866591"
+    },
+    "υφυπουργος εργασιας": {
+        "without_property": "εργασιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60154812"
+    },
+    "υπουργος διοικητικης μεταρρυθμισης και ηλεκτρονικης διακυβερνησης": {
+        "without_property": "διοικητικης μεταρρυθμισης και ηλεκτρονικης διακυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557178"
+    },
+    "υπουργος εσωτερικων και διοικητικης ανασυγκροτησης": {
+        "without_property": "εσωτερικων και διοικητικης ανασυγκροτησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21029422"
+    },
+    "υφυπουργος εργασιας κοινωνικης ασφαλισης και προνοιας": {
+        "without_property": "εργασιας κοινωνικης ασφαλισης και προνοιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q25535240"
+    },
+    "υπουργος δικαιοσυνης διαφανειας και ανθρωπινων δικαιωματων": {
+        "without_property": "δικαιοσυνης διαφανειας και ανθρωπινων δικαιωματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557111"
+    },
+    "υπουργος εργασιας": {
+        "without_property": "εργασιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60154812"
+    },
+    "υφυπουργος δικαιοσυνης διαφανειας και ανθρωπινων δικαιωματων": {
+        "without_property": "δικαιοσυνης διαφανειας και ανθρωπινων δικαιωματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557111"
+    },
+    "υπουργος αναπτυξης": {
+        "without_property": "αναπτυξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273447"
+    },
+    "υπουργος πολιτισμου και αθλητισμου": {
+        "without_property": "πολιτισμου και αθλητισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16737865"
+    },
+    "υπουργος τουριστικης αναπτυξης": {
+        "without_property": "τουριστικης αναπτυξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331910"
+    },
+    "υπουργος εθνικης παιδειας και θρησκευματων": {
+        "without_property": "εθνικης παιδειας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331869"
+    },
+    "αναπληρωτης υπουργος εμπορικης ναυτιλιας": {
+        "without_property": "εμπορικης ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885641"
+    },
+    "υπουργος αιγαιου και νησιωτικης πολιτικης": {
+        "without_property": "αιγαιου και νησιωτικης πολιτικης",
+        "wiki_link": ""
+    },
+    "αναπληρωτης υπουργος υγειας": {
+        "without_property": "υγειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q2605975"
+    },
+    "υφυπουργος οικονομιας και αναπτυξης": {
+        "without_property": "οικονομιας και αναπτυξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q31284082"
+    },
+    "υπουργος περιβαλλοντος χωροταξιας και δημοσιων εργων": {
+        "without_property": "περιβαλλοντος χωροταξιας και δημοσιων εργων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3559200"
+    },
+    "αναπληρωτης υπουργος περιβαλλοντος χωροταξιας και δημοσιων εργων": {
+        "without_property": "περιβαλλοντος χωροταξιας και δημοσιων εργων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3559200"
+    },
+    "υπουργος δημοσιας ταξης και προστασιας του πολιτη": {
+        "without_property": "δημοσιας ταξης και προστασιας του πολιτη",
+        "wiki_link": "https://www.wikidata.org/wiki/Q2606019"
+    },
+    "υφυπουργος υγειας και προνοιας": {
+        "without_property": "υγειας και προνοιας",
+        "wiki_link": ""
+    },
+    "υπουργος απασχολησης και κοινωνικης προστασιας": {
+        "without_property": "απασχολησης και κοινωνικης προστασιας",
+        "wiki_link": ""
+    },
+    "υφυπουργος βιομηχανιας ενεργειας και τεχνολογιας": {
+        "without_property": "βιομηχανιας ενεργειας και τεχνολογιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q121009910"
+    },
+    "υπουργος τουρισμου βιομηχανιας ενεργειας και τεχνολογιας και εμποριου": {
+        "without_property": "τουρισμου βιομηχανιας ενεργειας και τεχνολογιας και εμποριου",
+        "wiki_link": ""
+    },
+    "υφυπουργος προεδριας της κυβερνησης": {
+        "without_property": "προεδριας της κυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885646"
+    },
+    "υπουργος δημοσιας ταξης": {
+        "without_property": "δημοσιας ταξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885631"
+    },
+    "υφυπουργος απασχολησης και κοινωνικης προστασιας": {
+        "without_property": "απασχολησης και κοινωνικης προστασιας",
+        "wiki_link": ""
+    },
+    "υφυπουργος περιβαλλοντος και ενεργειας": {
+        "without_property": "περιβαλλοντος και ενεργειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557152"
+    },
+    "υφυπουργος εργασιας και κοινωνικων ασφαλισεων": {
+        "without_property": "εργασιας και κοινωνικων ασφαλισεων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q98138575"
+    },
+    "υπουργος οικονομιας και οικονομικων": {
+        "without_property": "οικονομιας και οικονομικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60153436"
+    },
+    "αναπληρωτης υπουργος εθνικης οικονομιας": {
+        "without_property": "εθνικης οικονομιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60110117"
+    },
+    "υπουργος γεωργιας": {
+        "without_property": "γεωργιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q51906449"
+    },
+    "υφυπουργος ναυτιλιας": {
+        "without_property": "ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21018645"
+    },
+    "υπουργος εθνικης οικονομιας": {
+        "without_property": "εθνικης οικονομιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60110117"
+    },
+    "υφυπουργος ψηφιακης διακυβερνησης": {
+        "without_property": "ψηφιακης διακυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273452"
+    },
+    "αναπληρωτης υπουργος εσωτερικων δημοσιας διοικησης και αποκεντρωσης": {
+        "without_property": "εσωτερικων δημοσιας διοικησης και αποκεντρωσης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885645"
+    },
+    "αναπληρωτης υπουργος εσωτερικων": {
+        "without_property": "εσωτερικων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555550"
+    },
+    "υπουργος μακεδονιας-θρακης": {
+        "without_property": "μακεδονιας-θρακης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885643"
+    },
+    "υπουργος εργασιας κοινωνικης ασφαλισης και κοινωνικης αλληλεγγυης": {
+        "without_property": "εργασιας κοινωνικης ασφαλισης και κοινωνικης αλληλεγγυης",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%95%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82,_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82_%CE%BA%CE%B1%CE%B9_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CE%BB%CE%BB%CE%B7%CE%BB%CE%B5%CE%B3%CE%B3%CF%8D%CE%B7%CF%82"
+    },
+    "αναπληρωτης υπουργος μεταναστευσης και ασυλου": {
+        "without_property": "μεταναστευσης και ασυλου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q93726107"
+    },
+    "αναπληρωτης υπουργος προστασιας του πολιτη": {
+        "without_property": "προστασιας του πολιτη",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885652"
+    },
+    "αναπληρωτης υπουργος εργασιας και κοινωνικης ασφαλισης": {
+        "without_property": "εργασιας και κοινωνικης ασφαλισης",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%95%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82_%CE%BA%CE%B1%CE%B9_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82_(%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1)"
+    },
+    "υφυπουργος δικαιοσυνης": {
+        "without_property": "δικαιοσυνης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60154812"
+    },
+    "υπουργος υγειας προνοιας και κοινωνικων ασφαλισεων": {
+        "without_property": "υγειας προνοιας και κοινωνικων ασφαλισεων",
+        "wiki_link": ""
+    },
+    "υφυπουργος αιγαιου": {
+        "without_property": "αιγαιου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q6866591"
+    },
+    "υφυπουργος εσωτερικων αποκεντρωσης και ηλεκτρονικης διακυβερνησης": {
+        "without_property": "εσωτερικων αποκεντρωσης και ηλεκτρονικης διακυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331880"
+    },
+    "υπουργος περιβαλλοντος ενεργειας και κλιματικης αλλαγης": {
+        "without_property": "περιβαλλοντος ενεργειας και κλιματικης αλλαγης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q47477382"
+    },
+    "αναπληρωτης υπουργος υγειας προνοιας και κοινωνικων ασφαλισεων": {
+        "without_property": "υγειας προνοιας και κοινωνικων ασφαλισεων",
+        "wiki_link": ""
+    },
+    "υπουργος οικονομιας υποδομων ναυτιλιας και τουρισμου": {
+        "without_property": "οικονομιας υποδομων ναυτιλιας και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q18965242"
+    },
+    "υπουργος οικονομιας αναπτυξης και τουρισμου": {
+        "without_property": "οικονομιας αναπτυξης και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21029361"
+    },
+    "υπουργος περιβαλλοντος και ενεργειας": {
+        "without_property": "περιβαλλοντος και ενεργειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557152"
+    },
+    "αναπληρωτης υπουργος οικονομικων": {
+        "without_property": "οικονομικων",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%9F%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CF%8E%CE%BD_(%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1)"
+    },
+    "υπουργος εθνικης οικονομιας και οικονομικων": {
+        "without_property": "εθνικης οικονομιας και οικονομικων",
+        "wiki_link": ""
+    },
+    "αναπληρωτης υπουργος βιομηχανιας ενεργειας και τεχνολογιας": {
+        "without_property": "βιομηχανιας ενεργειας και τεχνολογιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q121009910"
+    },
+    "υπουργος μεταναστευσης και ασυλου": {
+        "without_property": "μεταναστευσης και ασυλου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q93726107"
+    },
+    "υπουργος μεταναστευτικης πολιτικης": {
+        "without_property": "μεταναστευτικης πολιτικης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q27823211"
+    },
+    "υφυπουργος υποδομων μεταφορων και δικτυων": {
+        "without_property": "υποδομων μεταφορων και δικτυων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885635"
+    },
+    "αναπληρωτης υπουργος παραγωγικης ανασυγκροτησης περιβαλλοντος και ενεργειας": {
+        "without_property": "παραγωγικης ανασυγκροτησης περιβαλλοντος και ενεργειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557152"
+    },
+    "υφυπουργος παιδειας ερευνας και θρησκευματων": {
+        "without_property": "παιδειας ερευνας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q25535387"
+    },
+    "αναπληρωτης υπουργος δικαιοσυνης διαφανειας και ανθρωπινων δικαιωματων": {
+        "without_property": "δικαιοσυνης διαφανειας και ανθρωπινων δικαιωματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557111"
+    },
+    "υπουργος υποδομων μεταφορων και δικτυων": {
+        "without_property": "υποδομων μεταφορων και δικτυων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885635"
+    },
+    "υφυπουργος υγειας προνοιας και κοινωνικων ασφαλισεων": {
+        "without_property": "υγειας προνοιας και κοινωνικων ασφαλισεων",
+        "wiki_link": ""
+    },
+    "αναπληρωτης υπουργος εργασιας κοινωνικης ασφαλισης και κοινωνικης αλληλεγγυης": {
+        "without_property": "εργασιας κοινωνικης ασφαλισης και κοινωνικης αλληλεγγυης",
+        "wiki_link": "https://el.wikipedia.org/wiki/%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B5%CE%AF%CE%BF_%CE%95%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1%CF%82,_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82_%CE%BA%CE%B1%CE%B9_%CE%9A%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CE%AE%CF%82_%CE%91%CE%BB%CE%BB%CE%B7%CE%BB%CE%B5%CE%B3%CE%B3%CF%8D%CE%B7%CF%82"
+    },
+    "υπουργος οικονομιας και αναπτυξης": {
+        "without_property": "οικονομιας και αναπτυξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q31284082"
+    },
+    "υφυπουργος εργασιας και κοινωνικων υποθεσεων": {
+        "without_property": "εργασιας και κοινωνικων υποθεσεων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273449"
+    },
+    "αναπληρωτης υπουργος οικονομιας αναπτυξης και τουρισμου": {
+        "without_property": "οικονομιας αναπτυξης και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21029361"
+    },
+    "υπουργος αναπτυξης και επενδυσεων": {
+        "without_property": "αναπτυξης και επενδυσεων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273447"
+    },
+    "υφυπουργος ψηφιακης πολιτικης τηλεπικοινωνιων και ενημερωσης": {
+        "without_property": "ψηφιακης πολιτικης τηλεπικοινωνιων και ενημερωσης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q31284076"
+    },
+    "υπουργος προστασιας του πολιτη": {
+        "without_property": "προστασιας του πολιτη",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885652"
+    },
+    "υφυπουργος θαλασσιων υποθεσεων νησων και αλιειας": {
+        "without_property": "θαλασσιων υποθεσεων νησων και αλιειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885639"
+    },
+    "υπουργος χωρις χαρτοφυλακιο": {
+        "without_property": "χωρις χαρτοφυλακιο",
+        "wiki_link": ""
+    },
+    "υπουργος δικαιοςυνης": {
+        "without_property": "δικαιοςυνης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q60154812"
+    },
+    "υφυπουργος δημοσιας ταξης": {
+        "without_property": "δημοσιας ταξης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885631"
+    },
+    "υφυπουργος κλιματικης κρισης και πολιτικης προστασιας": {
+        "without_property": "κλιματικης κρισης και πολιτικης προστασιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q108474574"
+    },
+    "υπουργος κλιματικης κρισης και πολιτικης προστασιας": {
+        "without_property": "κλιματικης κρισης και πολιτικης προστασιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q108474574"
+    },
+    "αναπληρωτης υπουργος εργασιας και κοινωνικης αλληλεγγυης": {
+        "without_property": "εργασιας και κοινωνικης αλληλεγγυης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273449"
+    },
+    "υπουργος ναυτιλιας και νησιωτικης πολιτικης": {
+        "without_property": "ναυτιλιας και νησιωτικης πολιτικης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21018645"
+    },
+    "υφυπουργος παιδειας θρησκευματων πολιτισμου και αθλητισμου": {
+        "without_property": "παιδειας θρησκευματων πολιτισμου και αθλητισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q20679949"
+    },
+    "αναπληρωτης υπουργος αγροτικης αναπτυξης και τροφιμων": {
+        "without_property": "αγροτικης αναπτυξης και τροφιμων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555563"
+    },
+    "υπουργος εργασιας κοινωνικης ασφαλισης και προνοιας": {
+        "without_property": "εργασιας κοινωνικης ασφαλισης και προνοιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q25535240"
+    },
+    "υπουργος εργασιας και κοινωνικων υποθεσεων": {
+        "without_property": "εργασιας και κοινωνικων υποθεσεων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273449"
+    },
+    "υπουργος παραγωγικης ανασυγκροτησης περιβαλλοντος και ενεργειας": {
+        "without_property": "παραγωγικης ανασυγκροτησης περιβαλλοντος και ενεργειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557152"
+    },
+    "υπουργος υποδομων και μεταφορων": {
+        "without_property": "υποδομων και μεταφορων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q95230731"
+    },
+    "υπουργος θαλασσιων υποθεσεων νησων και αλιειας": {
+        "without_property": "θαλασσιων υποθεσεων νησων και αλιειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885639"
+    },
+    "αναπληρωτης υπουργος μεταφορων και επικοινωνιων": {
+        "without_property": "μεταφορων και επικοινωνιων",
+        "wiki_link": ""
+    },
+    "υφυπουργος εσωτερικων και διοικητικης ανασυγκροτησης": {
+        "without_property": "εσωτερικων και διοικητικης ανασυγκροτησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21029422"
+    },
+    "υφυπουργος παιδειας δια βιου μαθησης και θρησκευματων": {
+        "without_property": "παιδειας δια βιου μαθησης και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557169"
+    },
+    "υπουργος εσωτερικων αποκεντρωσης και ηλεκτρονικης διακυβερνησης": {
+        "without_property": "εσωτερικων αποκεντρωσης και ηλεκτρονικης διακυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331880"
+    },
+    "υφυπουργος αναπτυξης και επενδυσεων": {
+        "without_property": "αναπτυξης και επενδυσεων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273447"
+    },
+    "αναπληρωτης υπουργος περιβαλλοντος και ενεργειας": {
+        "without_property": "περιβαλλοντος και ενεργειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557152"
+    },
+    "αναπληρωτης υπουργος παιδειας δια βιου μαθησης και θρησκευματων": {
+        "without_property": "παιδειας δια βιου μαθησης και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557169"
+    },
+    "υπουργος παιδειας θρησκευματων πολιτισμου και αθλητισμου": {
+        "without_property": "παιδειας θρησκευματων πολιτισμου και αθλητισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q20679949"
+    },
+    "υπουργος παιδειας ερευνας και θρησκευματων": {
+        "without_property": "παιδειας ερευνας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q25535387"
+    },
+    "υφυπουργος ναυτιλιας και νησιωτικης πολιτικης": {
+        "without_property": "ναυτιλιας και νησιωτικης πολιτικης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21018645"
+    },
+    "υφυπουργος οικονομιας ανταγωνιστικοτητας και ναυτιλιας": {
+        "without_property": "οικονομιας ανταγωνιστικοτητας και ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885644"
+    },
+    "υφυπουργος διοικητικης μεταρρυθμισης και ηλεκτρονικης διακυβερνησης": {
+        "without_property": "διοικητικης μεταρρυθμισης και ηλεκτρονικης διακυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557178"
+    },
+    "υπουργος αναπτυξης και ανταγωνιστικοτητας": {
+        "without_property": "αναπτυξης και ανταγωνιστικοτητας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q14231585"
+    },
+    "αναπληρωτης υπουργος παιδειας θρησκευματων πολιτισμου και αθλητισμου": {
+        "without_property": "παιδειας θρησκευματων πολιτισμου και αθλητισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q20679949"
+    },
+    "υπουργος αναπτυξης ανταγωνιστικοτητας υποδομων μεταφορων και δικτυων": {
+        "without_property": "αναπτυξης ανταγωνιστικοτητας υποδομων μεταφορων και δικτυων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885635"
+    },
+    "υπουργος οικονομιας ανταγωνιστικοτητας και ναυτιλιας": {
+        "without_property": "οικονομιας ανταγωνιστικοτητας και ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885644"
+    },
+    "υπουργος διοικητικης ανασυγκροτησης": {
+        "without_property": "διοικητικης ανασυγκροτησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21029422"
+    },
+    "υπουργος ναυτιλιας και αιγαιου": {
+        "without_property": "ναυτιλιας και αιγαιου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557145"
+    },
+    "αναπληρωτης υπουργος ναυτιλιας και νησιωτικης πολιτικης": {
+        "without_property": "ναυτιλιας και νησιωτικης πολιτικης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q21018645"
+    },
+    "υφυπουργος τυπου και μεσων μαζικης ενημερωσης": {
+        "without_property": "τυπου και μεσων μαζικης ενημερωσης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q6866010"
+    },
+    "αναπληρωτης υπουργος αναπτυξης και επενδυσεων": {
+        "without_property": "αναπτυξης και επενδυσεων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273447"
+    },
+    "υπουργος ψηφιακης πολιτικης τηλεπικοινωνιων και ενημερωσης": {
+        "without_property": "ψηφιακης πολιτικης τηλεπικοινωνιων και ενημερωσης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q31284076"
+    },
+    "αναπληρωτης υπουργος περιβαλλοντος ενεργειας και κλιματικης αλλαγης": {
+        "without_property": "περιβαλλοντος ενεργειας και κλιματικης αλλαγης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q47477382"
+    },
+    "υφυπουργος εμπορικης ναυτιλιας αιγαιου και νησιωτικης πολιτικης": {
+        "without_property": "εμπορικης ναυτιλιας αιγαιου και νησιωτικης πολιτικης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885636"
+    },
+    "υπουργος υγειας και κοινωνικων ασφαλισεων": {
+        "without_property": "υγειας και κοινωνικων ασφαλισεων",
+        "wiki_link": ""
+    },
+    "υφυπουργος παραγωγικης ανασυγκροτησης περιβαλλοντος και ενεργειας": {
+        "without_property": "παραγωγικης ανασυγκροτησης περιβαλλοντος και ενεργειας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3557152"
+    },
+    "υπουργος εργασιας και κοινωνικης αλληλεγγυης": {
+        "without_property": "εργασιας και κοινωνικης αλληλεγγυης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273449"
+    },
+    "αναπληρωτης υπουργος γεωργιας": {
+        "without_property": "γεωργιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q51906449"
+    },
+    "υπουργος πολιτισμου και τουρισμου": {
+        "without_property": "πολιτισμου και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q1845738"
+    },
+    "αναπληρωτης υπουργος προεδριας της κυβερνησης": {
+        "without_property": "προεδριας της κυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885646"
+    },
+    "υφυπουργος μεταναστευσης και ασυλου": {
+        "without_property": "μεταναστευσης και ασυλου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q93726107"
+    },
+    "αναπληρωτης υπουργος αναπτυξης ανταγωνιστικοτητας υποδομων μεταφορων και δικτυων": {
+        "without_property": "αναπτυξης ανταγωνιστικοτητας υποδομων μεταφορων και δικτυων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885635"
+    },
+    "υπουργος ψηφιακης διακυβερνησης": {
+        "without_property": "ψηφιακης διακυβερνησης",
+        "wiki_link": "https://www.wikidata.org/wiki/Q65273452"
+    },
+    "αναπληρωτης υπουργος οικονομιας ανταγωνιστικοτητας και ναυτιλιας": {
+        "without_property": "οικονομιας ανταγωνιστικοτητας και ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q12885644"
+    },
+    "αναπληρωτης υπουργος αναπτυξης ανταγωνιστικοτητας και ναυτιλιας": {
+        "without_property": "αναπτυξης ανταγωνιστικοτητας και ναυτιλιας",
+        "wiki_link": "https://www.wikidata.org/wiki/Q3555582"
+    },
+    "αναπληρωτης υπουργος εμποριου": {
+        "without_property": "εμποριου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q51906449"
+    },
+    "αναπληρωτης υπουργος πολιτισμου και τουρισμου": {
+        "without_property": "πολιτισμου και τουρισμου",
+        "wiki_link": "https://www.wikidata.org/wiki/Q1845738"
+    },
+    "υφυπουργος πολιτισμου παιδειας και θρησκευματων": {
+        "without_property": "πολιτισμου παιδειας και θρησκευματων",
+        "wiki_link": "https://www.wikidata.org/wiki/Q16331890"
+    }
+}
