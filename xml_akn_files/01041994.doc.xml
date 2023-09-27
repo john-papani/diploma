@@ -28,26 +28,26 @@
       <references source="#cobalt">
         <TLCOrganization eId="greek_parl" href="/ontology/organization/akn/greek_parl" showAs="Greek_Parliament"/>
         <TLCRole eId="proedros" href="/ontology/person/akn/parliament/proedros" showAs="ΠΡΟΕΔΡΟΣ"/>
-        <TLCPerson eId="xristos_koskinas" href="/ontology/person/akn/parliament/xristos_koskinas" showAs="ΧΡΗΣΤΟΣ ΚΟΣΚΙΝΑΣ"/>
-        <TLCPerson eId="stratis_korakas" href="/ontology/person/akn/parliament/stratis_korakas" showAs="ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ"/>
-        <TLCPerson eId="panagiotis_n._kritikos" href="/ontology/person/akn/parliament/panagiotis_n._kritikos" showAs="Παναγιώτης Ν. Κρητικός"/>
-        <TLCPerson eId="floros_konstantinou" href="/ontology/person/akn/parliament/floros_konstantinou" showAs="ΦΛΩΡΟΣ ΚΩΝΣΤΑΝΤΙΝΟΥ"/>
-        <TLCPerson eId="basilis_kedikoglou" href="/ontology/person/akn/parliament/basilis_kedikoglou" showAs="ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ"/>
         <TLCPerson eId="eleni_stefanou" href="/ontology/person/akn/parliament/eleni_stefanou" showAs="ΕΛΕΝΗ ΣΤΕΦΑΝΟΥ"/>
-        <TLCPerson eId="ioannis_stathopoulos" href="/ontology/person/akn/parliament/ioannis_stathopoulos" showAs="ΙΩΑΝΝΗΣ ΣΤΑΘΟΠΟΥΛΟΣ"/>
-        <TLCPerson eId="theodoros_pagkalos" href="/ontology/person/akn/parliament/theodoros_pagkalos" showAs="ΘΕΟΔΩΡΟΣ ΠΑΓΚΑΛΟΣ"/>
-        <TLCPerson eId="georgios_romaios" href="/ontology/person/akn/parliament/georgios_romaios" showAs="ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ"/>
+        <TLCPerson eId="basilis_kedikoglou" href="/ontology/person/akn/parliament/basilis_kedikoglou" showAs="ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ"/>
+        <TLCPerson eId="nikitas_kaklamanis" href="/ontology/person/akn/parliament/nikitas_kaklamanis" showAs="ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ"/>
+        <TLCPerson eId="floros_konstantinou" href="/ontology/person/akn/parliament/floros_konstantinou" showAs="ΦΛΩΡΟΣ ΚΩΝΣΤΑΝΤΙΝΟΥ"/>
+        <TLCPerson eId="panagiotis_n._kritikos" href="/ontology/person/akn/parliament/panagiotis_n._kritikos" showAs="Παναγιώτης Ν. Κρητικός"/>
         <TLCPerson eId="nikolaos_kuriazidis" href="/ontology/person/akn/parliament/nikolaos_kuriazidis" showAs="ΝΙΚΟΛΑΟΣ ΚΥΡΙΑΖΙΔΗΣ"/>
+        <TLCPerson eId="gerasimos_arabanis" href="/ontology/person/akn/parliament/gerasimos_arabanis" showAs="ΓΕΡΑΣΙΜΟΣ ΑΡΑΒΑΝΗΣ"/>
+        <TLCPerson eId="xristos_koskinas" href="/ontology/person/akn/parliament/xristos_koskinas" showAs="ΧΡΗΣΤΟΣ ΚΟΣΚΙΝΑΣ"/>
+        <TLCPerson eId="ioannis_stathopoulos" href="/ontology/person/akn/parliament/ioannis_stathopoulos" showAs="ΙΩΑΝΝΗΣ ΣΤΑΘΟΠΟΥΛΟΣ"/>
+        <TLCPerson eId="apostolos_kaklamanis" href="/ontology/person/akn/parliament/apostolos_kaklamanis" showAs="Απόστολος Κακλαμάνης"/>
+        <TLCPerson eId="andreas_lentakis" href="/ontology/person/akn/parliament/andreas_lentakis" showAs="ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ"/>
         <TLCPerson eId="pausanias_zakolikos" href="/ontology/person/akn/parliament/pausanias_zakolikos" showAs="Παυσανίας Ζακολίκος"/>
+        <TLCPerson eId="stratis_korakas" href="/ontology/person/akn/parliament/stratis_korakas" showAs="ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ"/>
+        <TLCPerson eId="dimitrios_kremastinos" href="/ontology/person/akn/parliament/dimitrios_kremastinos" showAs="ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ"/>
+        <TLCPerson eId="theodoros_pagkalos" href="/ontology/person/akn/parliament/theodoros_pagkalos" showAs="ΘΕΟΔΩΡΟΣ ΠΑΓΚΑΛΟΣ"/>
+        <TLCPerson eId="ioannis_souladakis" href="/ontology/person/akn/parliament/ioannis_souladakis" showAs="ΙΩΑΝΝΗΣ ΣΟΥΛΑΔΑΚΗΣ"/>
+        <TLCPerson eId="georgios_romaios" href="/ontology/person/akn/parliament/georgios_romaios" showAs="ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ"/>
+        <TLCPerson eId="ilias_bezdrebanis" href="/ontology/person/akn/parliament/ilias_bezdrebanis" showAs="ΗΛΙΑΣ ΒΕΖΔΡΕΒΑΝΗΣ"/>
         <TLCPerson eId="foteini_stefanopoulou" href="/ontology/person/akn/parliament/foteini_stefanopoulou" showAs="ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ"/>
         <TLCPerson eId="polloi_bouleutes" href="/ontology/person/akn/parliament/polloi_bouleutes" showAs="ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ"/>
-        <TLCPerson eId="nikitas_kaklamanis" href="/ontology/person/akn/parliament/nikitas_kaklamanis" showAs="ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ"/>
-        <TLCPerson eId="gerasimos_arabanis" href="/ontology/person/akn/parliament/gerasimos_arabanis" showAs="ΓΕΡΑΣΙΜΟΣ ΑΡΑΒΑΝΗΣ"/>
-        <TLCPerson eId="ilias_bezdrebanis" href="/ontology/person/akn/parliament/ilias_bezdrebanis" showAs="ΗΛΙΑΣ ΒΕΖΔΡΕΒΑΝΗΣ"/>
-        <TLCPerson eId="apostolos_kaklamanis" href="/ontology/person/akn/parliament/apostolos_kaklamanis" showAs="Απόστολος Κακλαμάνης"/>
-        <TLCPerson eId="ioannis_souladakis" href="/ontology/person/akn/parliament/ioannis_souladakis" showAs="ΙΩΑΝΝΗΣ ΣΟΥΛΑΔΑΚΗΣ"/>
-        <TLCPerson eId="dimitrios_kremastinos" href="/ontology/person/akn/parliament/dimitrios_kremastinos" showAs="ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ"/>
-        <TLCPerson eId="andreas_lentakis" href="/ontology/person/akn/parliament/andreas_lentakis" showAs="ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ"/>
       </references>
     </meta>
     <preface>
@@ -458,7 +458,8 @@
           <p>Αυτήν τη στιγμή -είμαι πάντα έτοιμος να δεχθώ κριτικές γιατί δεν είμαι θερμοκέφαλος και δεν "καβαλάω το καλάμι"- κατακλυζόμαστε κυριολεκτικά από επαίνους που πολύ καιρό είχε η Χώρα μας να ακούσει, για το συγκεκριμένο θέμα της δράσης μας στον τομέα της διεύρυνσης.</p>
           <p>Υπάρχει λοιπόν ένα θέμα και θα ήθελα σ’ αυτό κυρίως να αναφερθώ, της περαιτέρω διεύρυνσης στην Κύπρο και στη Μάλτα. Ήταν κάτι που κατά την άποψη του δικού μας κόμματος, όταν είμαστε αντιπολίτευση έπρεπε να είχε συμφωνηθεί, να είχε μπει μέσα στο πακέτο της σημερινής διεύρυνσης. Έτσι σήμερα η Κύπρος, θα ήταν μέλος της Ευρωπαϊκής Ένωσης. Δεν συνέβη αυτό. Δεν συνέβη για λόγους που αφορούσαν την τότε κυβέρνηση και την κυπριακή ηγεσία.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ):
+</scene>
         <speech by="panagiotis_kritikos" eId="debate_1994-04-01_speech_29">
           <from>Παναγιώτης Κρητικός</from>
           <p>Ο κ. Κοσκινάς έχει το λόγο.</p>
@@ -672,7 +673,8 @@
           <p>Δεύτερον, έχουμε προκηρύξει 10 θέσεις διευθυντών συμβούλων ορισμένων προσόντων, αμφιβάλω όμως αν θα τους βρούμε, διότι η ελληνική αγορά δεν διαθέτει ανθρώπους για hospital administration. Νομίζω δηλαδή ότι αν θέλουμε να είμαστε αντικειμενικοί, έχουν γίνει προσπάθειες που πρέπει να αναγνωρισθούν, και το πιστεύω αυτό. Για να είμαι ειλικρινής, από κει και πέρα για το πρώτο εξάμηνο δεν μπορούμε να κάνουμε τίποτα παραπάνω, διότι οι ελλείψεις είναι τεράστιες. Δεν μπορεί με κανένα προϋπολογισμό, πολύ περισσότερο με τον ελληνικό προϋπολογισμό, να καλύψει κανένας αυτά τα πράγματα μέχρι το πρώτο έτος.</p>
           <p>Όσον αφορά τα δύο άλλα θέματα αν θέλετε το καταθέτω στη Βουλή διότι...</p>
         </speech>
-        <scene>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)</scene>
+        <scene>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)
+</scene>
         <speech by="panagiotis_kritikos" eId="debate_1994-04-01_speech_56">
           <from>Παναγιώτης Κρητικός</from>
           <p>Τελείωσε ο χρόνος σας, κύριε Υπουργέ.</p>
@@ -829,7 +831,8 @@
           <p>Παράλληλα όμως από το ‘ 91 άρχισε να λειτουργεί και η εξισωτική αποζημίωση για τις ορεινές και προβληματικές περιοχές. Ίσως οι παραγωγοί να μην ενημερώθηκαν πλήρως και για τα δυο συστήματα επιδότησης. Δεν ξέρω τι έφταιξε, πάντως η Ελλάδα παρουσιάστηκε να έχει λιγότερο αριθμό επιδότησης σε αιγοπρόβατα από αυτά που δικαιούνταν να έχει. Είναι τα γνωστά χαμένα δικαιώματα, έτσι τα ονομάζουν τουλάχιστον οι υπηρεσίες του Υπουργείου Γεωργίας και που ανέρχονται περίπου σε 620 χιλιάδες αιγοπρόβατα.</p>
           <p>Μετά απ’ αυτά τα περίπου ενημερωτικά, κύριε συνάδελφε, που είναι άλλωστε γνωστά σε όλους μας, η Κυβέρνηση έκρινε ότι για να βοηθήσει περισσότερο τον κλάδο της αιγοπροβατοτροφίας έπρεπε να θέσει το θέμα στην Ευρωπαϊκή Κοινότητα, όπως το θέσαμε και τον περασμένο μήνα το Φεβρουάριο και προχθές στο τελευταίο συμβούλιο Υπουργών Γεωργίας και για να βοηθήσουμε έχουμε επιλέξει τρία σημεία.</p>
         </speech>
-        <scene>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)</scene>
+        <scene>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού).
+</scene>
         <speech by="panagiotis_kritikos" eId="debate_1994-04-01_speech_85">
           <from>Παναγιώτης Κρητικός</from>
           <p>Παρακαλώ τελειώνετε, κύριε Υπουργέ.</p>
@@ -935,7 +938,8 @@
           <p>Εδώ το θέμα είναι ποια είναι η θέση του Υπουργείου, το οποίο κατά τη γνώμη μου έχει τύχη όχι ατυχία -γιατί έχει ακουστεί και αυτή η άποψη- που έχει δύο πανεπιστημιακούς στην τριάδα της πολιτικής του ηγεσίας, σχετικά με την απόφαση των πρυτάνεων. Και το κρισιμότερο είναι ότι αν ισχύσει αυτή η απόφαση των πρυτάνεων, αν την υιοθετήσετε, τότε πώς θα εφαρμοστεί η Οδηγία 8948 για τα ΤΕΙ; Βέβαια, εισηγητικό χαρακτήρα έχει, δεν είναι υποχρεωτική για το Υπουργείο, το αντιλαμβάνομαι, αλλά δεν είναι και μια απόφαση ενός τυχαίου οργάνου, είναι απόφαση όλων των πρυτάνεων και μάλιστα σχετικά πρόσφατη, του 1992.</p>
           <p>Δεν είναι του 1992 και δεν έχει βγει άλλη από ό,τι γνωρίζω. Είναι λοιπόν ένα τεράστιο θέμα στο οποίο και σ’ αυτό πρέπει να απαντήσουμε και θα πρέπει να κληθούν και οι πρυτάνεις και να τους βάλετε κάτω τα δεδομένα τα οποία υπάρχουν στην Κοινότητα. Και δεν μπορώ να δεχθώ ότι δεν τα γνώριζαν, αλλά εν πάση περιπτώσει, δεν είναι θέμα για να μας πιάσει ο πανεπιστημιακός μας σωβινισμός, αλλά και ούτε να πάμε στην πλήρη ισοπέδωση της άλλης πλευράς που μπορεί να ζητούν ορισμένοι. Πρέπει όμως, να δούμε τι γίνεται και με αυτήν την απόφαση. Θα προχωρήσει αυτή η απόφαση; Δε θα τη δεχθείτε αυτήν την απόφαση; Θα ζητήσετε να ξαναδούν το θέμα; Είναι επίσης ερωτήματα στα οποία θα ήθελα, παρακαλώ πολύ, αν έχει κατασταλάξει το Υπουργείο, να μας δώσει μια απάντηση.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Β’ Αντιπρόεδρος της Βουλής κ. ΠΑΥΣΑΝΙΑΣ ΖΑΚΟΛΙΚΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Β’ Αντιπρόεδρος της Βουλής κ. ΠΑΥΣΑΝΙΑΣ ΖΑΚΟΛΙΚΟΣ)
+</scene>
         <speech by="pausanias_zakolikos" eId="debate_1994-04-01_speech_104">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Κύριοι συνάδελφοι, έχω την τιμή να ανακοινώσω προς το Σώμα, ότι από την εισαγγελική αρχή υπεβλήθη αίτηση για την παροχή από τη Βουλή αδείας διώξεως, κατά του Βουλευτού κ. Ευγενίου Χαϊτίδη. Παραπέμπεται στην αρμόδια διαρκή επιτροπή.</p>

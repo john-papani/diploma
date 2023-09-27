@@ -28,29 +28,29 @@
       <references source="#cobalt">
         <TLCOrganization eId="greek_parl" href="/ontology/organization/akn/greek_parl" showAs="Greek_Parliament"/>
         <TLCRole eId="proedros" href="/ontology/person/akn/parliament/proedros" showAs="ΠΡΟΕΔΡΟΣ"/>
-        <TLCPerson eId="anastasios_krikelis" href="/ontology/person/akn/parliament/anastasios_krikelis" showAs="ΑΝΑΣΤΑΣΙΟΣ ΚΡΙΚΕΛΗΣ"/>
-        <TLCPerson eId="nikolaos_katsaros" href="/ontology/person/akn/parliament/nikolaos_katsaros" showAs="Νικόλαος Κατσαρός"/>
+        <TLCPerson eId="eleni_stefanou" href="/ontology/person/akn/parliament/eleni_stefanou" showAs="ΕΛΕΝΗ ΣΤΕΦΑΝΟΥ"/>
+        <TLCPerson eId="alexandros_mpaltas" href="/ontology/person/akn/parliament/alexandros_mpaltas" showAs="ΑΛΕΞΑΝΔΡΟΣ ΜΠΑΛΤΑΣ"/>
+        <TLCPerson eId="basilis_kedikoglou" href="/ontology/person/akn/parliament/basilis_kedikoglou" showAs="ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ"/>
+        <TLCPerson eId="nikitas_benizelos" href="/ontology/person/akn/parliament/nikitas_benizelos" showAs="Νικήτας Βενιζέλος"/>
+        <TLCPerson eId="basileios_kedikoglou" href="/ontology/person/akn/parliament/basileios_kedikoglou" showAs="ΒΑΣΙΛΕΙΟΣ ΚΕΔΙΚΟΓΛΟΥ"/>
+        <TLCPerson eId="euaggelos_kourtidis" href="/ontology/person/akn/parliament/euaggelos_kourtidis" showAs="ΕΥΑΓΓΕΛΟΣ ΚΟΥΡΤΙΔΗΣ"/>
+        <TLCPerson eId="dimitrios_b._kostopoulos" href="/ontology/person/akn/parliament/dimitrios_b._kostopoulos" showAs="ΔΗΜΗΤΡΙΟΣ Β. ΚΩΣΤΟΠΟΥΛΟΣ"/>
         <TLCPerson eId="panagiotis_n._kritikos" href="/ontology/person/akn/parliament/panagiotis_n._kritikos" showAs="Παναγιώτης Ν. Κρητικός"/>
         <TLCPerson eId="georgios_koubelakis" href="/ontology/person/akn/parliament/georgios_koubelakis" showAs="ΓΕΩΡΓΙΟΣ ΚΟΥΒΕΛΑΚΗΣ"/>
-        <TLCPerson eId="georgios_daskalakis" href="/ontology/person/akn/parliament/georgios_daskalakis" showAs="ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ"/>
-        <TLCPerson eId="basilis_kedikoglou" href="/ontology/person/akn/parliament/basilis_kedikoglou" showAs="ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ"/>
-        <TLCPerson eId="panagiotis_xatzinikolaou" href="/ontology/person/akn/parliament/panagiotis_xatzinikolaou" showAs="ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ"/>
-        <TLCPerson eId="eleni_stefanou" href="/ontology/person/akn/parliament/eleni_stefanou" showAs="ΕΛΕΝΗ ΣΤΕΦΑΝΟΥ"/>
-        <TLCPerson eId="ioannis_kabaratzis" href="/ontology/person/akn/parliament/ioannis_kabaratzis" showAs="ΙΩΑΝΝΗΣ ΚΑΒΑΡΑΤΖΗΣ"/>
-        <TLCPerson eId="euaggelos_kourtidis" href="/ontology/person/akn/parliament/euaggelos_kourtidis" showAs="ΕΥΑΓΓΕΛΟΣ ΚΟΥΡΤΙΔΗΣ"/>
-        <TLCPerson eId="basileios_kedikoglou" href="/ontology/person/akn/parliament/basileios_kedikoglou" showAs="ΒΑΣΙΛΕΙΟΣ ΚΕΔΙΚΟΓΛΟΥ"/>
-        <TLCPerson eId="georgios_romaios" href="/ontology/person/akn/parliament/georgios_romaios" showAs="ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ"/>
-        <TLCPerson eId="polloi_bouleutes" href="/ontology/person/akn/parliament/polloi_bouleutes" showAs="ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ"/>
-        <TLCPerson eId="gerasimos_arabanis" href="/ontology/person/akn/parliament/gerasimos_arabanis" showAs="ΓΕΡΑΣΙΜΟΣ ΑΡΑΒΑΝΗΣ"/>
-        <TLCPerson eId="apostolos_kaklamanis" href="/ontology/person/akn/parliament/apostolos_kaklamanis" showAs="Απόστολος Κακλαμάνης"/>
-        <TLCPerson eId="nikolaos_papafilippou" href="/ontology/person/akn/parliament/nikolaos_papafilippou" showAs="ΝΙΚΟΛΑΟΣ ΠΑΠΑΦΙΛΙΠΠΟΥ"/>
-        <TLCPerson eId="dimitrios_b._kostopoulos" href="/ontology/person/akn/parliament/dimitrios_b._kostopoulos" showAs="ΔΗΜΗΤΡΙΟΣ Β. ΚΩΣΤΟΠΟΥΛΟΣ"/>
-        <TLCPerson eId="ioannis_souladakis" href="/ontology/person/akn/parliament/ioannis_souladakis" showAs="ΙΩΑΝΝΗΣ ΣΟΥΛΑΔΑΚΗΣ"/>
         <TLCPerson eId="xristos_paxtas" href="/ontology/person/akn/parliament/xristos_paxtas" showAs="ΧΡΗΣΤΟΣ ΠΑΧΤΑΣ"/>
-        <TLCPerson eId="ristos_paxtas" href="/ontology/person/akn/parliament/ristos_paxtas" showAs="ΡΗΣΤΟΣ ΠΑΧΤΑΣ"/>
+        <TLCPerson eId="gerasimos_arabanis" href="/ontology/person/akn/parliament/gerasimos_arabanis" showAs="ΓΕΡΑΣΙΜΟΣ ΑΡΑΒΑΝΗΣ"/>
+        <TLCPerson eId="georgios_daskalakis" href="/ontology/person/akn/parliament/georgios_daskalakis" showAs="ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ"/>
+        <TLCPerson eId="apostolos_kaklamanis" href="/ontology/person/akn/parliament/apostolos_kaklamanis" showAs="Απόστολος Κακλαμάνης"/>
+        <TLCPerson eId="anastasios_krikelis" href="/ontology/person/akn/parliament/anastasios_krikelis" showAs="ΑΝΑΣΤΑΣΙΟΣ ΚΡΙΚΕΛΗΣ"/>
+        <TLCPerson eId="nikolaos_katsaros" href="/ontology/person/akn/parliament/nikolaos_katsaros" showAs="Νικόλαος Κατσαρός"/>
+        <TLCPerson eId="ioannis_souladakis" href="/ontology/person/akn/parliament/ioannis_souladakis" showAs="ΙΩΑΝΝΗΣ ΣΟΥΛΑΔΑΚΗΣ"/>
         <TLCPerson eId="pasxalis_konstantinidis" href="/ontology/person/akn/parliament/pasxalis_konstantinidis" showAs="ΠΑΣΧΑΛΗΣ ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ"/>
-        <TLCPerson eId="alexandros_mpaltas" href="/ontology/person/akn/parliament/alexandros_mpaltas" showAs="ΑΛΕΞΑΝΔΡΟΣ ΜΠΑΛΤΑΣ"/>
-        <TLCPerson eId="nikitas_benizelos" href="/ontology/person/akn/parliament/nikitas_benizelos" showAs="Νικήτας Βενιζέλος"/>
+        <TLCPerson eId="panagiotis_xatzinikolaou" href="/ontology/person/akn/parliament/panagiotis_xatzinikolaou" showAs="ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ"/>
+        <TLCPerson eId="georgios_romaios" href="/ontology/person/akn/parliament/georgios_romaios" showAs="ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ"/>
+        <TLCPerson eId="ristos_paxtas" href="/ontology/person/akn/parliament/ristos_paxtas" showAs="ΡΗΣΤΟΣ ΠΑΧΤΑΣ"/>
+        <TLCPerson eId="ioannis_kabaratzis" href="/ontology/person/akn/parliament/ioannis_kabaratzis" showAs="ΙΩΑΝΝΗΣ ΚΑΒΑΡΑΤΖΗΣ"/>
+        <TLCPerson eId="nikolaos_papafilippou" href="/ontology/person/akn/parliament/nikolaos_papafilippou" showAs="ΝΙΚΟΛΑΟΣ ΠΑΠΑΦΙΛΙΠΠΟΥ"/>
+        <TLCPerson eId="polloi_bouleutes" href="/ontology/person/akn/parliament/polloi_bouleutes" showAs="ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ"/>
       </references>
     </meta>
     <preface>
@@ -236,7 +236,8 @@
           <from>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</from>
           <p>Αν είναι απόφαση του Προέδρου της Βουλής.</p>
         </speech>
-        <scene>(Στο σημείο αυτό εισέρχεται στην Αίθουσα ο Υφυπουργός Βιομηχανίας, Ενέργειας και Τεχνολογίας κ. Χρήστος Πάχτας)</scene>
+        <scene>(Στο σημείο αυτό εισέρχεται στην Αίθουσα ο Υφυπουργός Βιομηχανίας, Ενέργειας και Τεχνολογίας κ. Χρήστος Πάχτας)
+</scene>
         <speech by="xristos_paxtas" eId="debate_1994-07-01_speech_9">
           <from>ΧΡΗΣΤΟΣ ΠΑΧΤΑΣ</from>
           <p>Δεν είμαι, αλλά...</p>
@@ -533,7 +534,8 @@
           <p>Αυτό δείχνει ότι τη Θράκη δεν την είχε υπόψη της. Και γιατί δεν την είχε υπόψη της; Γιατί κάθε μέρα, κάθε μήνας καθυστέρησης εκτέλεσης έργων στη Θράκη, δύο πράγματα σημαίνουν: Πρώτον, δέκα χρόνια πίσω η Θράκη και δεύτερον, χάσιμο απ' αυτά τα οποία δικαιούται ή υποχρεούται η υπόλοιπη Ελλάδα, υποχρεούται το κέντρο της Ελλάδος να δώσει στη Θράκη. Ποιο ήταν το αποτέλεσμα; Να αναφερθούμε σε ένα προς ένα τα έργα της περιοχής:</p>
           <p>Εγνατία οδός. Είχαν ετοιμαστεί, από την προηγούμενη κυβέρνηση, οι μελέτες ορισμένων τμημάτων του οδικού δικτύου της Εγνατίας οδού.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε' Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε' Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ).
+</scene>
         <speech by="panagiotis_xatzinikolaou" eId="debate_1994-07-01_speech_56">
           <from>ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</from>
           <p>Δεν είναι από εθνικούς πόρους. Αν ήταν από εθνικούς, δεν θα γινόταν ποτέ.</p>
@@ -555,7 +557,8 @@
           <p>Τέλος, όσον αφορά το β' βαθμό Τοπικής Αυτοδιοίκησης ο νόμος που ψηφίστηκε αναφέρεται στο θέμα της συνένωσης. Πρόσφατα έγινε μία σύσκεψη του Εμποροβιομηχανικού Επιμελητηρίου στην Αλεξανδρούπολη και πήγαν συνάδελφοι του ΠΑ.ΣΟ.Κ. -εγώ απουσίαζα- και μίλησαν όχι για συνένωση αλλά για συνεπαφή. Τι θα πει συνεπαφή; Ποιος θα είναι από κάτω και ποιος θα είναι από πάνω. Εγώ νομίζω ότι από κάτω θα είναι ο Νομός Ροδόπης. Και η συνένωση ή συνεπαφή αυτών των δύο νομών δεν εξυπηρετεί τίποτα, γιατί μεταξύ των δύο Νομών υπάρχουν βουνά τα οποία δεν επιτρέπουν επικοινωνία και ανάπτυξη.</p>
           <p>Γι' αυτό ακριβώς προβληματιζόμενοι, γιατί κάτι δεν πάει καλά στη Θράκη, καταθέσαμε αυτήν την επερώτηση ώστε να συνέλθει το κέντρο των Αθηνών και η Κυβέρνηση να προχωρήσει και να παύσει, όταν βάζει εξαιρέσεις αναστολών να συμπεριλαμβάνει μέσα και τη Θράκη.</p>
         </speech>
-        <scene>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)</scene>
+        <scene>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)
+</scene>
         <speech by="nikitas_benizelos" eId="debate_1994-07-01_speech_58">
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο κ. Κουρτίδης έχει το λόγο.</p>
@@ -580,7 +583,8 @@
           <p>γ) Δια της καθιερώσεως ειδικού επιστημονικού επιδόματος των εργαζομένων στη Θράκη, ειδικών επιστημόνων με μεταπτυχιακές σπουδές και επιδότηση του κόστους εργασίας τους κατά 50%. Ψάχνουμε να βρούμε ειδικούς επιστήμονες και δεν τους βρίσκουμε. Τη Θράκη τη θεωρούν τόπο εξορίας.</p>
           <p>Τρίτον, ο νόμος επαναλαμβάνω ότι θα πρέπει να προβλέπει ακόμη τις διαρθρωτικές μεταβολές στη γεωργία και ιδιαίτερα την ενίσχυση των περιοχών που έχουν υποστεί μεγάλη μείωση του πληθυσμού τους.</p>
         </speech>
-        <scene>(Στο σημείο αυτό ακούγεται επανειλημμένα ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή)</scene>
+        <scene>(Στο σημείο αυτό ακούγεται επανειλημμένα ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή)
+</scene>
         <speech by="nikitas_benizelos" eId="debate_1994-07-01_speech_60">
           <from>Νικήτας Βενιζέλος</from>
           <p>Κύριε Κουρτίδη, θα αργήσετε πολύ;</p>
@@ -721,7 +725,8 @@
           <p>Γι' αυτό εμείς για τις μεγάλες επενδύσεις (άνω των 500 εκατ.) ξεκινάμε με το 40% της επιδότησης, κατά την διάρκεια υλοποίησης της επένδυσης. Στη Θράκη αυξάνουμε αυτά τα ποσοστά, ώστε να μένει μικρότερο ποσοστό για να δοθεί με το τέλος της επένδυσης.</p>
           <p>Νομίζω ο καθένας μπορεί να αντιληφθεί πόση σημαντική διευκόλυνση είναι αυτή. Δε θα σας πω άλλες λεπτομέρειες που είναι αρκετά σημαντικές σε σχέση με τη Θράκη, αυτά θα τα διαπιστώσετε όταν θα συζητήσουμε τον αναπτυξιακό νόμο.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την προεδρική έδρα καταλαμβάνει ο Δ' Αντιπρόεδρος της Βουλής κ. ΝΙΚΟΛΑΟΣ ΚΑΤΣΑΡΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την προεδρική έδρα καταλαμβάνει ο Δ' Αντιπρόεδρος της Βουλής κ. ΝΙΚΟΛΑΟΣ ΚΑΤΣΑΡΟΣ).
+</scene>
         <speech by="euaggelos_kourtidis" eId="debate_1994-07-01_speech_79">
           <from>ΕΥΑΓΓΕΛΟΣ ΚΟΥΡΤΙΔΗΣ</from>
           <p>Με υπουργική απόφαση, όπως έγινε μέχρι σήμερα δύο φορές.</p>
@@ -835,7 +840,8 @@
           <p>Όλα αυτά δείχνουν ότι και το ενδιαφέρον του Υπουργείου Παιδείας για τα θέματα τα ακαδημαϊκά, αλλά και ότι το ενδιαφέρον για την οικονομική στήριξη του Πανεπιστημίου είναι έκδηλο.</p>
           <p>Εδώ, όμως, θέλω να σημειώσω ότι τα προβλήματα διοίκησης, που είναι γνωστά από τον Τύπο και που υπήρχαν στο Πανεπιστήμιο της Θράκης, εμπόδισαν την απορρόφηση των πιστώσεων, που υπήρχαν και για το προηγούμενο ακαδημαϊκό έτος, στο μέτρο που θα έπρεπε να είχε γίνει.</p>
         </speech>
-        <scene>(Στο σημείο αυτό η Υφυπουργός Εθν. Παιδείας και Θρησκευμάτων κα Ελ. Στεφάνου καταθέτει τους προαναφερθέντες πίνακες για τα Πρακτικά οι οποίοι βρίσκονται στο Αρχείο της Στενογραφικής Υπηρεσίας και είναι στη διάθεση κάθε ενδιαφερομένου)</scene>
+        <scene>(Στο σημείο αυτό η Υφυπουργός Εθν. Παιδείας και Θρησκευμάτων κα Ελ. Στεφάνου καταθέτει τους προαναφερθέντες πίνακες για τα Πρακτικά οι οποίοι βρίσκονται στο Αρχείο της Στενογραφικής Υπηρεσίας και είναι στη διάθεση κάθε ενδιαφερομένου).
+</scene>
         <speech by="nikolaos_katsaros" eId="debate_1994-07-01_speech_94">
           <from>Νικόλαος Κατσαρός</from>
           <p>Ο κ. Κωνσταντινίδης έχει το λόγο.</p>
@@ -886,7 +892,8 @@
           <p>Γιατί να μην πάμε και λίγο στα θερμά νερά; Η Ξάνθη και όλη η περιοχή της Θράκης βρίσκεται πάνω σε θερμά νερά 84 βαθμών Κελσίου. Τι έγινε για ν' αξιοποιηθούν αυτά τα νερά; Όχι σήμερα αλλά και μέχρι σήμερα; Έγινε ένα θερμοκήπιο, όλο κι όλο στη Ξάνθη και εκείνο ξεκίνησε από λανθασμένη βάση και έκλεισε.</p>
           <p>Εγώ χαίρομαι γιατί υπάρχουν στην Κρήτη ένα σωρό θερμοκήπια, τα οποία επισκέφθηκα. Και μου έκαναν κατάπληξη. Στη Θράκη θα μπορούσαν να υπάρξουν πολύ περισσότερα.</p>
         </speech>
-        <scene>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξεως του χρόνου ομιλίας του κυρίου Βουλευτού)</scene>
+        <scene>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξεως του χρόνου ομιλίας του κυρίου Βουλευτού)
+</scene>
         <speech by="panagiotis_xatzinikolaou" eId="debate_1994-07-01_speech_103">
           <from>ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</from>
           <p>Κύριε Πρόεδρε, ακούστηκαν χρήσιμα πράγματα και μέσα απ' αυτά μπορεί κανείς να συναγάγει ορισμένα μηνύματα, τα οποία κατά την εκτίμησή μου είναι χρήσιμο να φτάσουν στους Θρακιώτες και γενικότερα σε όλους τους Έλληνες. Γι' αυτό κάνω την εξής πρόταση, υπό την έννοια παρακλήσεως. Εάν υπάρχει δυνατότητα -δεν αμφιβάλλω για τη θέληση του Προεδρείου- να δοθεί στην τηλεοπτική εκπομπή της Βουλής της αυριανής ημέρας περισσότερος χρόνος, απ' ό,τι αναλογεί σε σχέση με τις συζητήσεις των θεμάτων που έγιναν αυτή την εβδομάδα εις τα της Θράκης, για να περάσουν αυτά τα μηνύματα, γιατί υπήρξαν χρήσιμες απόψεις τόσο από την πλευρά της Κυβερνήσεως, όσο και από την πλευρά των επερωτώντων.</p>
@@ -942,7 +949,8 @@
           <p>Η έννοια που έθεσα προηγουμένως μεταξύ Κομοτηνής και Κήπων, ήταν καθαρά και μόνο για να σας πω, ότι τουλάχιστον αυτό το κομμάτι στο σύνολό του, είναι πλέον μια ενιαία ενότητα με τα ήδη χρηματοδοτηθέντα και δημοπρατηθέντα έργα. Αυτά όσον αφορά την Εγνατία.</p>
           <p>Όσον αφορά το σταμάτημα των έργων, τουλάχιστον όσον αφορά το ΥΠΕΧΩΔΕ, κανένα από τα συνεχιζόμενα έργα δεν σταμάτησε -δεν ξέρω άλλων φορέων, το Υπουργείο Εθνικής Οικονομίας το ανέφερε προηγουμένως- και 3-4 συμπληρωματικά στοιχεία σε σχέση με τον παλιό δρόμο είναι ορισμένες δημοπρατήσεις συνολικού προϋπολογισμού περίπου 6 δισ. και αφορούν το τμήμα από Ξάνθη μέχρι Κουτσό, από Γλυκονέρι μέχρι Καλλίστη, Μάκρη Χειλή, Λουτρό-Μοναστηράκι, Μοναστηράκι-Φέρρες και συμπληρωματικές εργασίες μέσω της Μάκρης.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α' Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν.ΚΡΗΤΙΚΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α' Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν.ΚΡΗΤΙΚΟΣ)
+</scene>
         <speech by="panagiotis_kritikos" eId="debate_1994-07-01_speech_112">
           <from>Παναγιώτης Κρητικός</from>
           <p>Ο κύριος Αναπληρωτής Υπουργός Εθνικής Οικονομίας, έχει το λόγο.</p>
@@ -961,7 +969,8 @@
           <p>Και, κύριε Χατζηνικολάου, δεν έχετε και πολύ δίκαιο, όταν κάνετε αυτήν την αριθμητική, ότι ενώ το ΠΑ.ΣΟ.Κ., ήταν 8-10 χρόνια στην Κυβέρνηση και η Νέα Δημοκρατία 3,5-4 χρόνια, η Νέα Δημοκρατία διέθεσε περισσότερους πόρους, γιατί θα σας θυμίσω, ότι οι μεγάλοι Κοινοτικοί πόροι άρχισαν το 1990. Επομένως, αν θέλουμε να κάνουμε αριθμητικό συσχετισμό πόσα χρόνια έμειναν οι Κυβερνήσεις σε σχέση με την Κοινότητα θα πρέπει την άλλη φορά να σας δώσω και πόσες Κοινοτικές πιστώσεις διαχειρίστηκε το ΠΑ.ΣΟ.Κ. στην 8ετία του και πόσες η Νέα Δημοκρατία.</p>
           <p>Πάντως, με τις νέες αυτές πρωτοβουλίες που θα αναλάβουμε προς την κατεύθυνση της ανάπτυξης πλέον και της αξιοποίησης των δυνατοτήτων, αλλά και των οικονομικών παροχών που θα υπάρξουν προς αυτήν την κατεύθυνση, θα φτάσουμε σε ένα πρωτοποριακό και ολοκληρωμένο αναπτυξιακό σχέδιο, παρέχοντας ταυτόχρονα και μεγαλύτερες διοικητικές πρωτοβουλίες στην περιφέρεια για να υπάρξει αποκέντρωση και για να είναι αποτελεσματικότερη η εφαρμογή, όπως πολύ σωστά σαν παράδειγμα ανέφερε ο κ. Χατζηνικολάου, τους αναδασμούς, μεγάλο θέμα...</p>
         </speech>
-        <scene>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)</scene>
+        <scene>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού).
+</scene>
         <speech by="panagiotis_xatzinikolaou" eId="debate_1994-07-01_speech_114">
           <from>ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</from>
           <p>Σε όλους εδόθη χρόνος.</p>

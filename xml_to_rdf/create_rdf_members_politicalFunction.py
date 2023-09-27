@@ -268,7 +268,7 @@ def create_rdf_political_tenure_and_potical_functions():
             if role in roles:
                 g_political.add(
                     (subject, greek_lp.institution, URIRef(f"{greek_lp}role/{convert_greek_to_english(role)}")))
-            if role in data_upourgoi_with_wikidata_file:
+            if role in data_upourgoi_with_wikidata_file and data_upourgoi_with_wikidata_file[role]["wiki_link"] != "":
                 g_political.add(
                     (subject, schema.about, URIRef(
                         data_upourgoi_with_wikidata_file[role]["wiki_link"]))

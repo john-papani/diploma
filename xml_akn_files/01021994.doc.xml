@@ -28,24 +28,24 @@
       <references source="#cobalt">
         <TLCOrganization eId="greek_parl" href="/ontology/organization/akn/greek_parl" showAs="Greek_Parliament"/>
         <TLCRole eId="proedros" href="/ontology/person/akn/parliament/proedros" showAs="ΠΡΟΕΔΡΟΣ"/>
-        <TLCPerson eId="anastasios_nikopoulos" href="/ontology/person/akn/parliament/anastasios_nikopoulos" showAs="ΑΝΑΣΤΑΣΙΟΣ ΝΙΚΟΠΟΥΛΟΣ"/>
-        <TLCPerson eId="dimitrios_gaitanidis" href="/ontology/person/akn/parliament/dimitrios_gaitanidis" showAs="ΔΗΜΗΤΡΙΟΣ ΓΑΙΤΑΝΙΔΗΣ"/>
-        <TLCPerson eId="stratis_korakas" href="/ontology/person/akn/parliament/stratis_korakas" showAs="ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ"/>
-        <TLCPerson eId="kuriakos_spuriounis" href="/ontology/person/akn/parliament/kuriakos_spuriounis" showAs="ΚΥΡΙΑΚΟΣ ΣΠΥΡΙΟΥΝΗΣ"/>
-        <TLCPerson eId="andreas_lentakis" href="/ontology/person/akn/parliament/andreas_lentakis" showAs="ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ"/>
-        <TLCPerson eId="spuridon_striftaris" href="/ontology/person/akn/parliament/spuridon_striftaris" showAs="ΣΠΥΡΙΔΩΝ ΣΤΡΙΦΤΑΡΗΣ"/>
-        <TLCPerson eId="oloi_oi_bouleutes" href="/ontology/person/akn/parliament/oloi_oi_bouleutes" showAs="ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ"/>
-        <TLCPerson eId="marieta_giannakou-koutsikou" href="/ontology/person/akn/parliament/marieta_giannakou-koutsikou" showAs="ΜΑΡΙΕΤΑ ΓΙΑΝΝΑΚΟΥ-ΚΟΥΤΣΙΚΟΥ"/>
-        <TLCPerson eId="polloi_bouleutes" href="/ontology/person/akn/parliament/polloi_bouleutes" showAs="ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ"/>
-        <TLCPerson eId="apostolos_kaklamanis" href="/ontology/person/akn/parliament/apostolos_kaklamanis" showAs="Απόστολος Κακλαμάνης"/>
         <TLCPerson eId="panagiotis_n._kritikos" href="/ontology/person/akn/parliament/panagiotis_n._kritikos" showAs="Παναγιώτης Ν. Κρητικός"/>
-        <TLCPerson eId="alexandros_papadopoulos" href="/ontology/person/akn/parliament/alexandros_papadopoulos" showAs="ΑΛΕΞΑΝΔΡΟΣ ΠΑΠΑΔΟΠΟΥΛΟΣ"/>
-        <TLCPerson eId="nikitas_benizelos" href="/ontology/person/akn/parliament/nikitas_benizelos" showAs="Νικήτας Βενιζέλος"/>
-        <TLCPerson eId="antonis_skullakos" href="/ontology/person/akn/parliament/antonis_skullakos" showAs="ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ"/>
-        <TLCPerson eId="spuridon_stiftaris" href="/ontology/person/akn/parliament/spuridon_stiftaris" showAs="ΣΠΥΡΙΔΩΝ ΣΤΙΦΤΑΡΗΣ"/>
+        <TLCPerson eId="oloi_oi_bouleutes" href="/ontology/person/akn/parliament/oloi_oi_bouleutes" showAs="ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ"/>
+        <TLCPerson eId="stratis_korakas" href="/ontology/person/akn/parliament/stratis_korakas" showAs="ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ"/>
+        <TLCPerson eId="spuridon_striftaris" href="/ontology/person/akn/parliament/spuridon_striftaris" showAs="ΣΠΥΡΙΔΩΝ ΣΤΡΙΦΤΑΡΗΣ"/>
         <TLCPerson eId="orestis_kolozof" href="/ontology/person/akn/parliament/orestis_kolozof" showAs="ΟΡΕΣΤΗΣ ΚΟΛΟΖΩΦ"/>
-        <TLCPerson eId="ioannis_papaspurou" href="/ontology/person/akn/parliament/ioannis_papaspurou" showAs="ΙΩΑΝΝΗΣ ΠΑΠΑΣΠΥΡΟΥ"/>
+        <TLCPerson eId="anastasios_nikopoulos" href="/ontology/person/akn/parliament/anastasios_nikopoulos" showAs="ΑΝΑΣΤΑΣΙΟΣ ΝΙΚΟΠΟΥΛΟΣ"/>
+        <TLCPerson eId="andreas_lentakis" href="/ontology/person/akn/parliament/andreas_lentakis" showAs="ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ"/>
+        <TLCPerson eId="dimitrios_gaitanidis" href="/ontology/person/akn/parliament/dimitrios_gaitanidis" showAs="ΔΗΜΗΤΡΙΟΣ ΓΑΙΤΑΝΙΔΗΣ"/>
         <TLCPerson eId="dimitrios_sioufas" href="/ontology/person/akn/parliament/dimitrios_sioufas" showAs="ΔΗΜΗΤΡΙΟΣ ΣΙΟΥΦΑΣ"/>
+        <TLCPerson eId="kuriakos_spuriounis" href="/ontology/person/akn/parliament/kuriakos_spuriounis" showAs="ΚΥΡΙΑΚΟΣ ΣΠΥΡΙΟΥΝΗΣ"/>
+        <TLCPerson eId="nikitas_benizelos" href="/ontology/person/akn/parliament/nikitas_benizelos" showAs="Νικήτας Βενιζέλος"/>
+        <TLCPerson eId="alexandros_papadopoulos" href="/ontology/person/akn/parliament/alexandros_papadopoulos" showAs="ΑΛΕΞΑΝΔΡΟΣ ΠΑΠΑΔΟΠΟΥΛΟΣ"/>
+        <TLCPerson eId="spuridon_stiftaris" href="/ontology/person/akn/parliament/spuridon_stiftaris" showAs="ΣΠΥΡΙΔΩΝ ΣΤΙΦΤΑΡΗΣ"/>
+        <TLCPerson eId="antonis_skullakos" href="/ontology/person/akn/parliament/antonis_skullakos" showAs="ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ"/>
+        <TLCPerson eId="ioannis_papaspurou" href="/ontology/person/akn/parliament/ioannis_papaspurou" showAs="ΙΩΑΝΝΗΣ ΠΑΠΑΣΠΥΡΟΥ"/>
+        <TLCPerson eId="apostolos_kaklamanis" href="/ontology/person/akn/parliament/apostolos_kaklamanis" showAs="Απόστολος Κακλαμάνης"/>
+        <TLCPerson eId="polloi_bouleutes" href="/ontology/person/akn/parliament/polloi_bouleutes" showAs="ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ"/>
+        <TLCPerson eId="marieta_giannakou-koutsikou" href="/ontology/person/akn/parliament/marieta_giannakou-koutsikou" showAs="ΜΑΡΙΕΤΑ ΓΙΑΝΝΑΚΟΥ-ΚΟΥΤΣΙΚΟΥ"/>
       </references>
     </meta>
     <preface>
@@ -354,7 +354,8 @@
           <from>ΣΠΥΡΙΔΩΝ ΣΤΡΙΦΤΑΡΗΣ</from>
           <p>Κύριοι συνάδελφοι, κατ’ αρχήν το διαδικαστικό είναι και σε μας γνωστό. Όμως θα έλεγα ότι αν η Κυβέρνηση συμφωνούσε με το προτεινόμενο σχέδιο νόμου θα μπορούσε η ίδια να το έχει υιοθετήσει. Εμείς δε διεκδικούμε την πατρότητα του νομοσχεδίου, δε θέλουμε να καταγραφεί ότι το ΚΚΕ ήταν το Κόμμα που κατέθεσε την πρόταση νόμου.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)
+</scene>
         <speech by="nikitas_benizelos" eId="debate_1994-02-01_speech_11">
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο εισηγητής του ΠΑ.ΣΟ.Κ. κ. Παπασπύρου έχει το λόγο.</p>
@@ -393,7 +394,8 @@
           <p>Άλλωστε, κυρίες και κύριοι συνάδελφοι, είναι απαράδεκτο να παίρνουν συντάξεις οι άνδρες των ταγμάτων ασφαλείας και οι ΤσαουσΑντώνηδες που διέπραξαν τόσα εγκλήματα και πρόδωσαν το λαό και που χαρακτηρίστηκαν και από τα συμμαχικά στρατηγεία και από εδώ μέσα, ως προδότες του Έθνους, και οι αγωνιστές της Εθνικής Αντίστασης να μην παίρνουν.</p>
           <p>Κυρίες και κύριοι Βουλευτές, είναι γεγονός και τούτο έχει αποδειχθεί στην πράξη ότι η κυβέρνηση του ΠΑ.ΣΟ.Κ. όλα τα αιτήματα των αγωνιστών της Εθνικής Αντίστασης τα περιέβαλε με την αρμόζουσα προσοχή και σεβασμό. Το μαρτυρούν άλλωστε οι αντιστασιακοί νόμοι που ψήφισε το 1982 και το 1985. Γι’ αυτό, στα πλαίσια του ενδιαφέροντος αυτού, πρέπει να εξεταστούν και να υποστηριχθούν και πάλι τα αιτήματα αυτά, μέχρι της οριστικής επίλυσής τους. Είναι δε εθνική ανάγκη και εθνικό καθήκον, ιδιαίτερα σήμερα, η λύση του προβλήματος αυτού γιατί έτσι θα δώσουμε ένα μήνυμα στον Ελληνικό Λαό και ιδιαίτερα στη νεολαία ότι οι θυσίες για την Πατρίδα δεν πάνε χαμένες και ότι δικαιώνονται ηθικά και υλικά. Σήμερα, που ο πόλεμος συγκλονίζει τα Βαλκάνια και τα σύννεφά του συσσωρεύονται στα σύνορά μας, η νέα γενιά πρέπει να εμπνέεται από τέτοιες αποφάσεις της Πολιτείας, όπως είναι η αναγνώριση της Εθνικής Αντίστασης που είναι το διαμάντι και το στολίδι του Έθνους και ο τηλαυγής φάρος της νεότερης ηρωικής και υπερήφανης ελληνικής ιστορίας.</p>
         </speech>
-        <scene>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή)</scene>
+        <scene>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή).
+</scene>
         <speech by="nikitas_benizelos" eId="debate_1994-02-01_speech_13">
           <from>Νικήτας Βενιζέλος</from>
           <p>Η εισηγητής της Νέας Δημοκρατίας κα Γιαννάκου- Κουτσίκου, έχει το λόγο.</p>
@@ -443,7 +445,8 @@
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο Κοινοβουλευτικός Εκπρόσωπος της Πολιτικής Άνοιξης, κ. Λεντάκης, έχει το λόγο για 20 λεπτά.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής, κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής, κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)
+</scene>
         <speech by="andreas_lentakis" eId="debate_1994-02-01_speech_22">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Κύριε Πρόεδρε, πριν αρχίσω, θα ήθελα να υποβάλω μια ερώτηση σε σχέση με τη διαδικασία. Μετά τη συζήτηση αυτού του νομοσχεδίου, θα συζητηθούν κι άλλα νομοσχέδια, ή συζητάμε μόνο γι’ αυτό;</p>
@@ -565,7 +568,8 @@
           <p>Τότε πήγε στα Άδανα ο Τσώρτσιλ. Τι θέλω να πω; Έβαλαν για δεύτερη φορά τους Έλληνες να σκοτωθούν. Ακριβώς για να μειώσουν τις επενδύσεις αίματος που είχαμε προσφέρει στη δημοκρατία και στην ελευθερία, αγωνισθέντες με νύχια και με δόντια κατά του φασισμού, κατά του σκότους του χιτλερισμού και του Μουσολίνι.</p>
           <p>Ένα συμπέρασμα βγαίνει. Ας μην λησμονούμε ό,τι κορυφαίο έχουμε. Χρειάζεται για τα παιδιά μας, χρειάζεται για τις επόμενες γενεές. Και δεν είναι μόνο υλικό το θέμα της Εθνικής Αντίστασης. Πρέπει να περάσει στις στρατιωτικές σχολές, χωρίς όμως κομματισμούς, χωρίς αναβίωση των διαφορών που τις υποδαύλισαν οι στρατηγικές σκοπιμότητες και των δύο πλευρών. Γιατί για τον εμφύλιο θα θυμούνται οι σεβαστοί αριστεροί συνάδελφοί μας που προσέφεραν πράγματι ύψιστες υπηρεσίες, όταν το Κ.Κ.Ε. με την άριστη οργάνωσή του ηγήθηκε του αντιστασιακού αγώνα. Και είναι στέφανος δόξης αυτό το σημείο. Ρωτήσανε τότε για να βγούνε στο βουνό στον εμφύλιο το 1945-1949, τον Συνταγματάρχη Ποπώφ "τι να κάνουμε;"</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ.)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ.)
+</scene>
         <speech by="apostolos_kaklamanis" eId="debate_1994-02-01_speech_47">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Κύριε συνάδελφε, σας ζητώ ειλικρινά συγγνώμη.</p>
@@ -676,7 +680,8 @@
           <p>Κύριε Πρόεδρε, εγώ είπα σ’ αυτούς τους ανθρώπους ότι θα αγωνιστώ γι’ αυτούς και θα φέρω τη φωνή τους εδώ μέσα. Έτυχε η μοίρα να μου δώσει τη δυνατότητα σήμερα να πω τις απόψεις μου.</p>
           <p>Κύριε Υπουργέ, γι’ αυτές τις γιαγιάδες που μείνανε, γι’ αυτούς τους ελάχιστους που απέμειναν, γιατί από 15 χρονών έως 65 χρονών είχαν εκτελεστεί στις 24 του Οκτώβρη του 1941 έχουμε μια υποχρέωση. Ένα μνημείο αξίζει σ’ αυτούς τους Έλληνες τους τρατέλληνες τους Πόντιους που τους αγνόησε η Πολιτεία συνειδητά. Ευχαριστώ πολύ.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)</scene>
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ).
+</scene>
         <speech by="panagiotis_kritikos" eId="debate_1994-02-01_speech_62">
           <from>Παναγιώτης Κρητικός</from>
           <p>Ο κ. Παπασπύρου έχει το λόγο, για να δευτερολογήσει.</p>
