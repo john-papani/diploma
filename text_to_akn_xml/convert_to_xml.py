@@ -365,6 +365,8 @@ def get_date(date):
     year = re.findall(r'\d+', year)[0]
     if month == "Μα|ου" or month == "Mα|ου":
         month = "Μαίου"
+    if year == "2202":
+        year = "2002"
     month = month.translate(str.maketrans(
         'άΆέΈόΌώΏήΉίΊϊΐύΎϋΰ', 'αΑεΕοΟωΩηΗιΙιιυΥυυ')).lower()  # remove accents&lower
     month = month_to_number(month)
