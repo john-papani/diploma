@@ -26,19 +26,27 @@ conn = sqlite3.connect(
     '/home/ipap/john_files/myharvester_serverPaths.db')
 cursor = conn.cursor()
 
+# conn = sqlite3.connect(
+#     "C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/myharvester.db")
+# cursor = conn.cursor()
+
 
 stop_words_local_path = "./stopwords/stopwords-el.txt"
 my_stop_words_local_path = "./stopwords/my_stopwords.txt"
+stop_words_spacy_local_path = "./stopwords/stopwords_el_spacy.txt"
 # Read custom stopwords from a local file
 with open(stop_words_local_path, 'r', encoding='utf-8') as file:
     custom_stop_words = file.read().splitlines()
 with open(my_stop_words_local_path, 'r', encoding='utf-8') as file:
     my_custom_stop_words = file.read().splitlines()
+with open(stop_words_spacy_local_path, 'r', encoding='utf-8') as file:
+    stop_words_spacy = file.read().splitlines()
 
 stop_words = stopwords.words('greek')
 stop_words.extend(stopwords.words('english'))
 stop_words.extend(custom_stop_words)
 stop_words.extend(my_custom_stop_words)
+stop_words.extend(stop_words_spacy)
 
 stop_words = set(stop_words)
 
@@ -70,7 +78,7 @@ def sent_to_words(sentences):
 
 
 def process_text(sentences):
-    nlp = spacy.load("el_core_news_md")
+    nlp = spacy.load("el_core_news_lg")
     processed_texts = []
     
     total_sum = 0
