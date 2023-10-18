@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>CLARIN ERIC</authority>
-            <date when="2023-07-07+03:00">7. 7. 2023</date>
+            <date when="2023-10-17+03:00">17. 10. 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -122,97 +122,49 @@
                </org>
             </listOrg>
             <listPerson>
-               <person xml:id="basileios_basilakakis">
-                  <persName>ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/basileios_basilakakis</idno>
-               </person>
-               <person xml:id="stratis_korakas">
-                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/stratis_korakas</idno>
-               </person>
-               <person xml:id="panagiotis_n._kritikos">
-                  <persName>Παναγιώτης Ν. Κρητικός</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_n._kritikos</idno>
-               </person>
-               <person xml:id="antonis_skullakos">
-                  <persName>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/antonis_skullakos</idno>
-               </person>
                <person xml:id="anastasios_gkonis">
                   <persName>ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/anastasios_gkonis</idno>
-               </person>
-               <person xml:id="basilis_kedikoglou">
-                  <persName>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/basilis_kedikoglou</idno>
-               </person>
-               <person xml:id="spuros_kaloudis">
-                  <persName>ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/spuros_kaloudis</idno>
-               </person>
-               <person xml:id="xristos_rokofullos">
-                  <persName>ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/xristos_rokofullos</idno>
-               </person>
-               <person xml:id="georgios_lianis">
-                  <persName>ΓΕΩΡΓΙΟΣ ΛΙΑΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_lianis</idno>
-               </person>
-               <person xml:id="athanasios_mikroutsikos">
-                  <persName>ΑΘΑΝΑΣΙΟΣ ΜΙΚΡΟΥΤΣΙΚΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/athanasios_mikroutsikos</idno>
-               </person>
-               <person xml:id="foteini_stefanopoulou">
-                  <persName>ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/foteini_stefanopoulou</idno>
-               </person>
-               <person xml:id="polloi_bouleutes">
-                  <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
                </person>
                <person xml:id="konstantinos_xatzidimitriou">
                   <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/konstantinos_xatzidimitriou</idno>
                </person>
-               <person xml:id="apostolos_kaklamanis">
-                  <persName>Απόστολος Κακλαμάνης</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
-               </person>
-               <person xml:id="nikolaos_farmakis">
-                  <persName>ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_farmakis</idno>
-               </person>
-               <person xml:id="apostolos_fotiadis">
-                  <persName>ΑΠΟΣΤΟΛΟΣ ΦΩΤΙΑΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_fotiadis</idno>
-               </person>
-               <person xml:id="oloi_oi_bouleutes">
-                  <persName>ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/oloi_oi_bouleutes</idno>
-               </person>
-               <person xml:id="iosif_mixelogiannis">
-                  <persName>ΙΩΣΗΦ ΜΙΧΕΛΟΓΙΑΝΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/iosif_mixelogiannis</idno>
+               <person xml:id="basilis_kedikoglou">
+                  <persName>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/basilis_kedikoglou</idno>
                </person>
                <person xml:id="dimitris_georgakopoulos">
                   <persName>ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/dimitris_georgakopoulos</idno>
                </person>
+               <person xml:id="nikitas_benizelos">
+                  <persName>Νικήτας Βενιζέλος</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_benizelos</idno>
+               </person>
                <person xml:id="georgios_panagiotopoulos">
                   <persName>ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/georgios_panagiotopoulos</idno>
+               </person>
+               <person xml:id="basileios_basilakakis">
+                  <persName>ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/basileios_basilakakis</idno>
+               </person>
+               <person xml:id="panagiotis_n._kritikos">
+                  <persName>Παναγιώτης Ν. Κρητικός</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_n._kritikos</idno>
+               </person>
+               <person xml:id="xristos_rokofullos">
+                  <persName>ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/xristos_rokofullos</idno>
                </person>
                <person xml:id="dimitrios_alampanos">
                   <persName>ΔΗΜΗΤΡΙΟΣ ΑΛΑΜΠΑΝΟΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/dimitrios_alampanos</idno>
                </person>
-               <person xml:id="georgios_anomeritis">
-                  <persName>ΓΕΩΡΓΙΟΣ ΑΝΩΜΕΡΙΤΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_anomeritis</idno>
-               </person>
-               <person xml:id="nikitas_benizelos">
-                  <persName>Νικήτας Βενιζέλος</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_benizelos</idno>
+               <person xml:id="apostolos_kaklamanis">
+                  <persName>Απόστολος Κακλαμάνης</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
                </person>
                <person xml:id="konstantinos_pularinos">
                   <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΥΛΑΡΙΝΟΣ</persName>
@@ -222,9 +174,57 @@
                   <persName>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/andreas_lentakis</idno>
                </person>
+               <person xml:id="oloi_oi_bouleutes">
+                  <persName>ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/oloi_oi_bouleutes</idno>
+               </person>
+               <person xml:id="stratis_korakas">
+                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/stratis_korakas</idno>
+               </person>
+               <person xml:id="georgios_lianis">
+                  <persName>ΓΕΩΡΓΙΟΣ ΛΙΑΝΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/georgios_lianis</idno>
+               </person>
+               <person xml:id="apostolos_fotiadis">
+                  <persName>ΑΠΟΣΤΟΛΟΣ ΦΩΤΙΑΔΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_fotiadis</idno>
+               </person>
+               <person xml:id="georgios_anomeritis">
+                  <persName>ΓΕΩΡΓΙΟΣ ΑΝΩΜΕΡΙΤΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/georgios_anomeritis</idno>
+               </person>
+               <person xml:id="antonis_skullakos">
+                  <persName>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/antonis_skullakos</idno>
+               </person>
+               <person xml:id="athanasios_mikroutsikos">
+                  <persName>ΑΘΑΝΑΣΙΟΣ ΜΙΚΡΟΥΤΣΙΚΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/athanasios_mikroutsikos</idno>
+               </person>
+               <person xml:id="nikolaos_farmakis">
+                  <persName>ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_farmakis</idno>
+               </person>
+               <person xml:id="spuros_kaloudis">
+                  <persName>ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/spuros_kaloudis</idno>
+               </person>
+               <person xml:id="iosif_mixelogiannis">
+                  <persName>ΙΩΣΗΦ ΜΙΧΕΛΟΓΙΑΝΝΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/iosif_mixelogiannis</idno>
+               </person>
+               <person xml:id="foteini_stefanopoulou">
+                  <persName>ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/foteini_stefanopoulou</idno>
+               </person>
                <person xml:id="alexandros_desullas">
                   <persName>ΑΛΕΞΑΝΔΡΟΣ ΔΕΣΥΛΛΑΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/alexandros_desullas</idno>
+               </person>
+               <person xml:id="polloi_bouleutes">
+                  <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
                </person>
             </listPerson>
          </particDesc>
@@ -1278,7 +1278,8 @@
                <seg>Αυτό το πολυδαίδαλο σύστημα δεν έθετε, όμως, στη γωνία τον ανίσχυρο πολίτη.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής, κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής, κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)
+</desc>
             </incident>
             <u xml:id="debate_1994-09-01_speech_95" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
@@ -1321,17 +1322,15 @@
                <seg>Επαναλαμβάνω ότι, σύμφωνα με όσα προεκτάθηκαν, είναι πρόδηλη η χρησιμότητα της προτεινόμενης προς κύρωση κωδικοποίησης-ταξινόμησης και είναι ο καταλληλότερος τρόπος που επελέγη για την πραγματοποίησή της. Παρά δε το γεγονός ότι διατηρώ επιφυλάξεις ως προς ορισμένες από τις κωδικοποιούμενες διατάξεις, αποδέχομαι το σχέδιο νόμου "Κύρωση του Κώδικα Φορολογίας Εισοδήματος". Ευχαριστώ.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)</desc>
+               <desc>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)
+</desc>
             </incident>
-            <u xml:id="debate_1994-09-01_speech_97" who="anastasios_gkonis">
-               <note type="speaker">ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</note>
-            </u>
-            <u xml:id="debate_1994-09-01_speech_98" who="nikitas_benizelos">
+            <u xml:id="debate_1994-09-01_speech_97" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
                <seg>Κύριοι Βουλευτές, έχω την τιμή να ανακοινώσω προς το Σώμα ότι από την εισαγγελική αρχή υπεβλήθη αίτηση για την παροχή από την Βουλή αδείας διώξεως κατά του Βουλευτού κ. Αθανασίου Γιαννόπουλου. Παραπέμπεται στην αρμόδια διαρκή επιτροπή.</seg>
                <seg>Ο ειδικός αγορητής της Πολιτικής Άνοιξης κ. Χατζηδημητρίου, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_99" who="konstantinos_xatzidimitriou">
+            <u xml:id="debate_1994-09-01_speech_98" who="konstantinos_xatzidimitriou">
                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ</note>
                <seg>Κύριε Πρόεδρε, η συζήτηση του παρόντος νομοσχεδίου δεν έχει πολιτικό αντικείμενο. Και λέω ότι δεν έχει πολιτικό αντικείμενο, για το λόγο ότι δεν εισάγεται καμία νομοθετική ρύθμιση, αλλά απλώς, για μία πλευρά της ζωής των πολιτών και του Κράτους μας, η οποία είναι η φορολογία του εισοδήματος, η οποία μέχρι τώρα έχει ρυθμιστεί ή έχουν γίνει επεμβάσεις στον τομέα αυτόν με 150 νόμους, γίνεται μία προσπάθεια να περισταλεί αυτό το κομφούζιο, αυτό το χάος και να έχουμε ένα ενιαίο κείμενο, ούτως ώστε και οι Έλληνες πολίτες, αλλά και αυτοί οι οποίοι καλούνται να κάνουν χρήση των διατάξεων αυτών, είτε ως υπάλληλοι του Κράτους είτε ως φορολογούμενοι είτε ως δικαστές, που καλούνται να εφαρμόσουν τη φορολογική νομοθεσία, να έχουν τη δυνατότητα της εκ του ασφαλούς και με ταχύτητα, χωρίς χάσιμο χρόνου, ενεργείας.</seg>
                <seg>Θα μπω στον πειρασμό να κάνω μία παρατήρηση, γιατί θα έλεγα ότι προεκλήθην από τις τοποθετήσεις των άλλων συναδέλφων.</seg>
@@ -1341,11 +1340,11 @@
                <seg>Από εκεί και μετά, παρά το ότι μπήκαμε μέσα στην Ε.Ο.Κ., παρά το ότι είχαμε μεταφορά κεφαλαίων, παρά το ότι είχαμε την πρόκληση και την ευκαιρία μεγαλύτερων αγορών, για να δραστηριοποιηθεί και το ελληνικό επιχειρηματικό δαιμόνιο, παρά ταύτα, βαίνουμε προς την καταστροφή.</seg>
                <seg>Συνεπώς και οι υπάλληλοι, κύριε συνάδελφε, που έγιναν από 100.000 το 1980, 600.000 το 1988, δεν έγιναν μόνοι τους.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_100" who="georgios_panagiotopoulos">
+            <u xml:id="debate_1994-09-01_speech_99" who="georgios_panagiotopoulos">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</note>
                <seg>Ποια κυβέρνηση ήταν μέχρι το 1980;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_101" who="konstantinos_xatzidimitriou">
+            <u xml:id="debate_1994-09-01_speech_100" who="konstantinos_xatzidimitriou">
                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ</note>
                <seg>Κυβερνούσε το Κόμμα της Νέας Δημοκρατίας. Αυτό δεν είναι μυστικό, ούτε χρειάζεται αποκρυπτογράφηση για να γίνει φανερό.</seg>
                <seg>Ήθελα όμως να σας πω, κύριε συνάδελφε, ότι μέχρι τότε επικεφαλής της Νέας Δημοκρατίας ήταν ο σημερινός Πρόεδρος της Δημοκρατίας, που απέδειξε, μετά την έξοδό του, ότι ήταν προσωπική του επιτυχία και όχι του απρόσωπου κομματικού μηχανισμού. Και επειδή κεντρίζετε τη συζήτηση, έχω να σας κάνω την ιστορική, αν θέλετε, παρατήρηση ότι ποτέ κανένας απρόσωπος κομματικός μηχανισμός δεν πήρε ένα λαό από στάση αδρανείας, να τον οδηγήσει στην οδό της προόδου. Πάντοτε οι ηγέτες που είχαν τη δυνατότητα να λάβουν τα μηνύματα των καιρών και να χαράξουν πορείες και το ανάστημα να τεθούν επικεφαλής της πορείας, κατάφεραν να τραβήξουν τους λαούς στις οδούς της προόδου.</seg>
@@ -1364,9 +1363,10 @@
                <seg>Ως νομικός έχω διατρέξει τον κίνδυνο, στα κεφάλαιά του, στις ενότητές του, διαβάζοντας τα άρθρα. Οφείλω να ομολογήσω ότι είναι τέτοιας ευχρηστότητας που και ο μη νομικός πολίτης, εάν προμηθευτεί πλέον αυτήν την κωδικοποιημένη νομοθεσία, όπως την κάνατε, θα έχει την ευχέρεια να γνωρίζει τι διέπει τη μοίρα του φορολογικά, απέναντι στο Ελληνικό Κράτος.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ)
+</desc>
             </incident>
-            <u xml:id="debate_1994-09-01_speech_102" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_speech_101" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, η Διαρκής Επιτροπή Δημόσιας Διοίκησης, Δημόσιας Τάξης και Δικαιοσύνης καταθέτει την έκθεσή της στο σχέδιο νόμου του Υπουργείου Εσωτερικών "Συμπλήρωση διατάξεων για τη νομαρχιακή αυτοδιοίκηση και άλλες διατάξεις".</seg>
                <seg>Έχω την τιμή να σας εισηγηθώ την ομόφωνη απόφαση της Διασκέψεως των Προέδρων σ’ ό,τι αφορά και το νομοθετικό έργο και το έργο του Κοινοβουλευτικού Ελέγχου της προσεχούς εβδομάδας.</seg>
@@ -1376,29 +1376,29 @@
                <seg>Τέλος, την Πέμπτη, πριν από τη συνεδρίαση νομοθετικού έργου, θα συζητηθούν κατ’ αρχήν αιτήσεις άρσεως ασυλίας Βουλευτών.</seg>
                <seg>Ακολούθως, εάν χρειασθεί, θα συνεχισθεί η συζήτηση επί των άρθρων και επί των τροπολογιών του νομοσχεδίου, όπως σας προανέφερα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_103" who="georgios_panagiotopoulos">
+            <u xml:id="debate_1994-09-01_speech_102" who="georgios_panagiotopoulos">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</note>
                <seg>Δε θα γίνουν Τμήματα Διακοπών, κύριε Πρόεδρε;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_104" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_speech_103" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Αυτό είναι ελπίδα και στόχος του Προέδρου που και αυτός έχει ανάγκη διακοπών. Βλέπετε όμως ότι οι συνάδελφοί μας της Εξεταστικής Επιτροπής για την "ΑΓΕΤ-ΗΡΑΚΛΗΣ" με το έργο που ήσαν υποχρεωμένοι να φέρουν εις πέρας μας καθυστέρησαν και ούτε Τμήματα Διακοπών έγιναν και άλλα προβλήματα προέκυψαν.</seg>
                <seg>Κύριοι συνάδελφοι, συμφωνεί η Βουλή επ’ αυτών;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_105" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_speech_104" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_106" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_speech_105" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Συνεπώς η Βουλή δέχθηκε ομοφώνως όσα εισηγήθηκα σχετικά με τον Κοινοβουλευτικό Έλεγχο και με το νομοθετικό έργο που θα έχει η Βουλή την επόμενη εβδομάδα.</seg>
                <seg>Ο Κοινοβουλευτικός Εκπρόσωπος της Νέας Δημοκρατίας, κ. Παναγιωτόπουλος, παλιός και αγαπητός φίλος, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_107" who="georgios_panagiotopoulos">
+            <u xml:id="debate_1994-09-01_speech_106" who="georgios_panagiotopoulos">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</note>
                <seg>Δε ζήτησα το λόγο, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_108" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_speech_107" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Είναι μία μικρή ένδειξη για την ειλικρίνεια των αισθημάτων.</seg>
                <seg>Κύριοι συνάδελφοι, θα εκφωνηθεί τώρα το Δελτίο Επικαίρων Ερωτήσεων της Δευτέρας 5ης Σεπτεμβρίου 1994.</seg>
@@ -1410,85 +1410,86 @@
                <seg>Έκτη είναι η με αριθμό 388/31-8-94 επίκαιρη ερώτηση του Βουλευτή του Κομμουνιστικού Κόμματος της Ελλάδος, κ. Δήμου Κουμπούρη, προς τους Υπουργούς Γεωργίας, Περιβάλλοντος Χωροταξίας και Δημοσίων Έργων, "σχετικά με τα μέτρα προστασίας του Εθνικού Δρυμού της Πάρνηθας".</seg>
                <seg>Ο Υφυπουργός Οικονομικών, κ. Δημήτριος Γεωργακόπουλος, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_109" who="dimitris_georgakopoulos">
+            <u xml:id="debate_1994-09-01_speech_108" who="dimitris_georgakopoulos">
                <note type="speaker">ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</note>
                <seg>Κύριοι συνάδελφοι, δεν πρόκειται περί ενός νέου φορολογικού νόμου όπως πολύ σωστά επισημάνθηκε από τους συναδέλφους. Πρόκειται για την κωδικοποίηση της φορολογίας εισοδήματος. Ήταν έκδηλη η ανάγκη να γίνει αυτό για όλους αυτούς οι οποίοι ασχολούνται με το δίκαιο της φορολογίας και όχι μόνο γι’ αυτούς. Και οι ερευνητές των Πανεπιστημίων είχαν μεγάλη ανάγκη αυτής της κωδικοποίησης.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ).
+</desc>
             </incident>
-            <u xml:id="debate_1994-09-01_speech_110" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_109" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Ο κ. Γκόνης έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_111" who="anastasios_gkonis">
+            <u xml:id="debate_1994-09-01_speech_110" who="anastasios_gkonis">
                <note type="speaker">ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</note>
                <seg>Για ένα λεπτό, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_112" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_111" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Όσο θέλετε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_113" who="anastasios_gkonis">
+            <u xml:id="debate_1994-09-01_speech_112" who="anastasios_gkonis">
                <note type="speaker">ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</note>
                <seg>Απλώς ήθελα να κάνω μία επισήμανση. Έχω την προσωπική άποψη ότι ο υψηλότερος δείκτης πολιτισμού ενός λαού είναι ο δείκτης της φορολογικής συνειδήσεως την οποία έχει. Για την απόκτηση δε αυτής της φορολογικής συνειδήσεως πρέπει να συντρέχουν δύο προϋποθέσεις:</seg>
                <seg>Πρώτον, ο δίκαιος φορολογικός νόμος -και το επεσήμανα αυτό- και δεύτερον, η γνώση του φορολογικού συστήματος, το οποίο πρέπει να είναι εκλαϊκευμένο έτσι, ώστε να είναι κατανοητό στον κάθε πολίτη, ανάλογα με την οικονομική του δραστηριότητα. Δηλαδή, και ένας του δημοτικού σχολείου, ή είναι μισθωτός ή ένας μικροεπαγγελματίας, διαβάζοντας τις διατάξεις του νόμου να ξέρει να κάνει μόνος του τη φορολογική του δήλωση.</seg>
                <seg>Αποτελεί πράγματι μία αξιέπαινη προσπάθεια και θα καταχωρηθεί στο ενεργητικό της θητείας σας, αξιότιμε κύριε Υπουργέ, η προσπάθειά σας για την κωδικοποίηση της φορολογικής νομοθεσίας ευρύτερα. Βέβαια, δυσκολίες πολλές θα αντιμετωπίσετε και στο Φ.Π.Α. εκτός από τους φόρους καταναλώσεως. Πάντως όμως είναι μία προσπάθεια η οποία πρέπει να προχωρήσει και θα είναι εξαιρετικά επωφελής. Εύχομαι δε, την προσπάθεια τη δική σας να μιμηθούν και τα άλλα Υπουργεία, γιατί όπως εισαγωγικά είπα στην ομιλία μου, η πολυνομία που κρατεί στον Τόπο μας, είναι μία βαρειά νόσος, η οποία επηρεάζει δυσμενώς και την πολιτική και την οικονομική και την κοινωνική μας ζωή. Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_114" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_113" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Ο κ. Σκυλλάκος έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_115" who="antonis_skullakos">
+            <u xml:id="debate_1994-09-01_speech_114" who="antonis_skullakos">
                <note type="speaker">ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</note>
                <seg>Θέλω να δηλώσω ότι εμείς το ψηφίζουμε το νομοσχέδιο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_116" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_115" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Ο κύριος Υφυπουργός έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_117" who="dimitris_georgakopoulos">
+            <u xml:id="debate_1994-09-01_speech_116" who="dimitris_georgakopoulos">
                <note type="speaker">ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</note>
                <seg>Θα αναφερθώ μόνο στο θέμα της φορολογικής συνείδησης που ανέφερε ο κ. Γκόνης. Πράγματι είναι πάρα πολύ σημαντικό να μπορέσουμε να περάσουμε το θέμα της φορολογικής συνείδησης στους Έλληνες πολίτες, γιατί αν πραγματικά, όπως είπατε, ο δείκτης πολιτισμού ενός λαού κρίνεται και από τον υψηλό δείκτη φορολογικής συνείδησης που έχει, σας πληροφορώ ότι, αν πράγματι μπορέσουμε να ανεβάσουμε αυτόν το δείκτη φορολογικής συνείδησης, τότε πολλά από τα προβλήματα της ελληνικής κοινωνίας θα λυθούν. Γιατί σήμερα πραγματικά με την μέχρι τώρα πορεία της Χώρας μας, εδώ και 170 χρόνια, αυτός ο δείκτης της φορολογικής συνείδησης είναι πολύ χαμηλός.</seg>
                <seg>Αν μπορέσουμε να κάνουμε τον Ελληνικό Λαό να συνειδητοποιήσει ότι είναι προς το συμφέρον του, τότε πραγματικά δε θα υπάρχουν προβλήματα δημοσιονομικά στη Χώρα μας γιατί εισοδήματα υπάρχουν.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_118" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_117" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Κηρύσσεται περαιωμένη η συζήτηση επί της αρχής του σχεδίου νόμου του Υπουργείου Οικονομικών "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" και ερωτάται το Σώμα, αν γίνεται δεκτό το νομοσχέδιο "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" επί της αρχής.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_119" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_speech_118" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_120" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_119" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς το σχέδιο νόμου του Υπουργείου Οικονομικών "Κύρωση του Κώδικα Φορολογίας Εισοδήματος", έγινε δεκτό επί της αρχής ομοφώνως.</seg>
                <seg>Εισερχόμεθα στην ψήφιση των άρθρων.</seg>
                <seg>Ερωτάται το Σώμα, αν γίνεται δεκτό το άρθρο πρώτο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_121" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_speech_120" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_122" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_121" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς το άρθρο πρώτο έγινε δεκτό ομοφώνως.</seg>
                <seg>Ερωτάται το Σώμα, αν γίνεται δεκτό το άρθρο δεύτερο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_123" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_speech_122" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_124" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_123" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς το άρθρο δεύτερο έγινε δεκτό ομοφώνως.</seg>
                <seg>Το σχέδιο νόμου "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" έγινε δεκτό κατ’ αρχήν, κατ’ άρθρο, και ερωτάται το Σώμα αν γίνεται δεκτό και στο σύνολο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_125" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_speech_124" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_126" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_125" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Το σχέδιο νόμου έγινε δεκτό και στο σύνολο.</seg>
                <seg>Συνεπώς το σχέδιο νόμου αρμοδιότητας Υπουργείου Οικονομικών "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" έγινε δεκτό σε μόνη συζήτηση κατ’ αρχήν, κατ’ άρθρο και στο σύνολο και έχει ως εξής:</seg>
@@ -1625,20 +1626,20 @@
                <seg>ΠΑΡΕΜΒΑΛΛΕΤΑΙ ΠΙΝΑΚΑΣ)</seg>
                <seg>(ΠΑΡΕΜΒΑΛΛΕΤΑΙ ΠΙΝΑΚΑΣ)</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_127" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_126" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Παρακαλώ το Σώμα να εξουσιοδοτήσει το Προεδρείο για την υπ’ ευθύνη του κύρωση των Πρακτικών της σημερινής συνεδρίασης ως προς την ψήφιση αυτού του νομοσχεδίου.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_128" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_speech_127" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_129" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_speech_128" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς παρεσχέθη η ζητηθείσα εξουσιοδότηση.</seg>
                <seg>Κύριοι συνάδελφοι, δέχεστε να λύσουμε τη Συνεδρίαση;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_130" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_speech_129" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
                <seg>Με τη συναίνεση του Σώματος και ώρα 13.20 λύεται η Συνεδρίαση για την προσεχή Δευτέρα 5 Σεπτεμβρίου 1994 και ώρα 18.00 με αντικείμενο ημερήσιας διατάξεως κοινοβουλευτικό έλεγχο σύμφωνα με την ημερήσια διάταξη η οποία θα κυκλοφορήσει.</seg>

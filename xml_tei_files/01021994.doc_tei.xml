@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>CLARIN ERIC</authority>
-            <date when="2023-07-07+03:00">7. 7. 2023</date>
+            <date when="2023-10-17+03:00">17. 10. 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -122,77 +122,77 @@
                </org>
             </listOrg>
             <listPerson>
-               <person xml:id="anastasios_nikopoulos">
-                  <persName>ΑΝΑΣΤΑΣΙΟΣ ΝΙΚΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/anastasios_nikopoulos</idno>
-               </person>
-               <person xml:id="dimitrios_gaitanidis">
-                  <persName>ΔΗΜΗΤΡΙΟΣ ΓΑΙΤΑΝΙΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_gaitanidis</idno>
-               </person>
-               <person xml:id="stratis_korakas">
-                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/stratis_korakas</idno>
-               </person>
-               <person xml:id="kuriakos_spuriounis">
-                  <persName>ΚΥΡΙΑΚΟΣ ΣΠΥΡΙΟΥΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/kuriakos_spuriounis</idno>
-               </person>
-               <person xml:id="andreas_lentakis">
-                  <persName>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/andreas_lentakis</idno>
-               </person>
-               <person xml:id="spuridon_striftaris">
-                  <persName>ΣΠΥΡΙΔΩΝ ΣΤΡΙΦΤΑΡΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/spuridon_striftaris</idno>
+               <person xml:id="panagiotis_n._kritikos">
+                  <persName>Παναγιώτης Ν. Κρητικός</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_n._kritikos</idno>
                </person>
                <person xml:id="oloi_oi_bouleutes">
                   <persName>ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/oloi_oi_bouleutes</idno>
                </person>
-               <person xml:id="marieta_giannakou-koutsikou">
-                  <persName>ΜΑΡΙΕΤΑ ΓΙΑΝΝΑΚΟΥ-ΚΟΥΤΣΙΚΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/marieta_giannakou-koutsikou</idno>
+               <person xml:id="stratis_korakas">
+                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/stratis_korakas</idno>
                </person>
-               <person xml:id="polloi_bouleutes">
-                  <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
-               </person>
-               <person xml:id="apostolos_kaklamanis">
-                  <persName>Απόστολος Κακλαμάνης</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
-               </person>
-               <person xml:id="panagiotis_n._kritikos">
-                  <persName>Παναγιώτης Ν. Κρητικός</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_n._kritikos</idno>
-               </person>
-               <person xml:id="alexandros_papadopoulos">
-                  <persName>ΑΛΕΞΑΝΔΡΟΣ ΠΑΠΑΔΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/alexandros_papadopoulos</idno>
-               </person>
-               <person xml:id="nikitas_benizelos">
-                  <persName>Νικήτας Βενιζέλος</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_benizelos</idno>
-               </person>
-               <person xml:id="antonis_skullakos">
-                  <persName>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/antonis_skullakos</idno>
-               </person>
-               <person xml:id="spuridon_stiftaris">
-                  <persName>ΣΠΥΡΙΔΩΝ ΣΤΙΦΤΑΡΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/spuridon_stiftaris</idno>
+               <person xml:id="spuridon_striftaris">
+                  <persName>ΣΠΥΡΙΔΩΝ ΣΤΡΙΦΤΑΡΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/spuridon_striftaris</idno>
                </person>
                <person xml:id="orestis_kolozof">
                   <persName>ΟΡΕΣΤΗΣ ΚΟΛΟΖΩΦ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/orestis_kolozof</idno>
                </person>
-               <person xml:id="ioannis_papaspurou">
-                  <persName>ΙΩΑΝΝΗΣ ΠΑΠΑΣΠΥΡΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_papaspurou</idno>
+               <person xml:id="anastasios_nikopoulos">
+                  <persName>ΑΝΑΣΤΑΣΙΟΣ ΝΙΚΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/anastasios_nikopoulos</idno>
+               </person>
+               <person xml:id="andreas_lentakis">
+                  <persName>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/andreas_lentakis</idno>
+               </person>
+               <person xml:id="dimitrios_gaitanidis">
+                  <persName>ΔΗΜΗΤΡΙΟΣ ΓΑΙΤΑΝΙΔΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_gaitanidis</idno>
                </person>
                <person xml:id="dimitrios_sioufas">
                   <persName>ΔΗΜΗΤΡΙΟΣ ΣΙΟΥΦΑΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/dimitrios_sioufas</idno>
+               </person>
+               <person xml:id="kuriakos_spuriounis">
+                  <persName>ΚΥΡΙΑΚΟΣ ΣΠΥΡΙΟΥΝΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/kuriakos_spuriounis</idno>
+               </person>
+               <person xml:id="nikitas_benizelos">
+                  <persName>Νικήτας Βενιζέλος</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_benizelos</idno>
+               </person>
+               <person xml:id="alexandros_papadopoulos">
+                  <persName>ΑΛΕΞΑΝΔΡΟΣ ΠΑΠΑΔΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/alexandros_papadopoulos</idno>
+               </person>
+               <person xml:id="spuridon_stiftaris">
+                  <persName>ΣΠΥΡΙΔΩΝ ΣΤΙΦΤΑΡΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/spuridon_stiftaris</idno>
+               </person>
+               <person xml:id="antonis_skullakos">
+                  <persName>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/antonis_skullakos</idno>
+               </person>
+               <person xml:id="ioannis_papaspurou">
+                  <persName>ΙΩΑΝΝΗΣ ΠΑΠΑΣΠΥΡΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_papaspurou</idno>
+               </person>
+               <person xml:id="apostolos_kaklamanis">
+                  <persName>Απόστολος Κακλαμάνης</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
+               </person>
+               <person xml:id="polloi_bouleutes">
+                  <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
+               </person>
+               <person xml:id="marieta_giannakou-koutsikou">
+                  <persName>ΜΑΡΙΕΤΑ ΓΙΑΝΝΑΚΟΥ-ΚΟΥΤΣΙΚΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/marieta_giannakou-koutsikou</idno>
                </person>
             </listPerson>
          </particDesc>
@@ -509,7 +509,8 @@
                <seg>Κύριοι συνάδελφοι, κατ’ αρχήν το διαδικαστικό είναι και σε μας γνωστό. Όμως θα έλεγα ότι αν η Κυβέρνηση συμφωνούσε με το προτεινόμενο σχέδιο νόμου θα μπορούσε η ίδια να το έχει υιοθετήσει. Εμείς δε διεκδικούμε την πατρότητα του νομοσχεδίου, δε θέλουμε να καταγραφεί ότι το ΚΚΕ ήταν το Κόμμα που κατέθεσε την πρόταση νόμου.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)
+</desc>
             </incident>
             <u xml:id="debate_1994-02-01_speech_11" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
@@ -550,7 +551,8 @@
                <seg>Κυρίες και κύριοι Βουλευτές, είναι γεγονός και τούτο έχει αποδειχθεί στην πράξη ότι η κυβέρνηση του ΠΑ.ΣΟ.Κ. όλα τα αιτήματα των αγωνιστών της Εθνικής Αντίστασης τα περιέβαλε με την αρμόζουσα προσοχή και σεβασμό. Το μαρτυρούν άλλωστε οι αντιστασιακοί νόμοι που ψήφισε το 1982 και το 1985. Γι’ αυτό, στα πλαίσια του ενδιαφέροντος αυτού, πρέπει να εξεταστούν και να υποστηριχθούν και πάλι τα αιτήματα αυτά, μέχρι της οριστικής επίλυσής τους. Είναι δε εθνική ανάγκη και εθνικό καθήκον, ιδιαίτερα σήμερα, η λύση του προβλήματος αυτού γιατί έτσι θα δώσουμε ένα μήνυμα στον Ελληνικό Λαό και ιδιαίτερα στη νεολαία ότι οι θυσίες για την Πατρίδα δεν πάνε χαμένες και ότι δικαιώνονται ηθικά και υλικά. Σήμερα, που ο πόλεμος συγκλονίζει τα Βαλκάνια και τα σύννεφά του συσσωρεύονται στα σύνορά μας, η νέα γενιά πρέπει να εμπνέεται από τέτοιες αποφάσεις της Πολιτείας, όπως είναι η αναγνώριση της Εθνικής Αντίστασης που είναι το διαμάντι και το στολίδι του Έθνους και ο τηλαυγής φάρος της νεότερης ηρωικής και υπερήφανης ελληνικής ιστορίας.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή)</desc>
+               <desc>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή).
+</desc>
             </incident>
             <u xml:id="debate_1994-02-01_speech_13" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
@@ -602,7 +604,8 @@
                <seg>Ο Κοινοβουλευτικός Εκπρόσωπος της Πολιτικής Άνοιξης, κ. Λεντάκης, έχει το λόγο για 20 λεπτά.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής, κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής, κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)
+</desc>
             </incident>
             <u xml:id="debate_1994-02-01_speech_22" who="andreas_lentakis">
                <note type="speaker">ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</note>
@@ -726,7 +729,8 @@
                <seg>Ένα συμπέρασμα βγαίνει. Ας μην λησμονούμε ό,τι κορυφαίο έχουμε. Χρειάζεται για τα παιδιά μας, χρειάζεται για τις επόμενες γενεές. Και δεν είναι μόνο υλικό το θέμα της Εθνικής Αντίστασης. Πρέπει να περάσει στις στρατιωτικές σχολές, χωρίς όμως κομματισμούς, χωρίς αναβίωση των διαφορών που τις υποδαύλισαν οι στρατηγικές σκοπιμότητες και των δύο πλευρών. Γιατί για τον εμφύλιο θα θυμούνται οι σεβαστοί αριστεροί συνάδελφοί μας που προσέφεραν πράγματι ύψιστες υπηρεσίες, όταν το Κ.Κ.Ε. με την άριστη οργάνωσή του ηγήθηκε του αντιστασιακού αγώνα. Και είναι στέφανος δόξης αυτό το σημείο. Ρωτήσανε τότε για να βγούνε στο βουνό στον εμφύλιο το 1945-1949, τον Συνταγματάρχη Ποπώφ "τι να κάνουμε;"</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ.)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ.)
+</desc>
             </incident>
             <u xml:id="debate_1994-02-01_speech_47" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
@@ -839,7 +843,8 @@
                <seg>Κύριε Υπουργέ, γι’ αυτές τις γιαγιάδες που μείνανε, γι’ αυτούς τους ελάχιστους που απέμειναν, γιατί από 15 χρονών έως 65 χρονών είχαν εκτελεστεί στις 24 του Οκτώβρη του 1941 έχουμε μια υποχρέωση. Ένα μνημείο αξίζει σ’ αυτούς τους Έλληνες τους τρατέλληνες τους Πόντιους που τους αγνόησε η Πολιτεία συνειδητά. Ευχαριστώ πολύ.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ).
+</desc>
             </incident>
             <u xml:id="debate_1994-02-01_speech_62" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>

@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>CLARIN ERIC</authority>
-            <date when="2023-07-07+03:00">7. 7. 2023</date>
+            <date when="2023-10-17+03:00">17. 10. 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -122,13 +122,33 @@
                </org>
             </listOrg>
             <listPerson>
-               <person xml:id="anastasios_krikelis">
-                  <persName>ΑΝΑΣΤΑΣΙΟΣ ΚΡΙΚΕΛΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/anastasios_krikelis</idno>
+               <person xml:id="eleni_stefanou">
+                  <persName>ΕΛΕΝΗ ΣΤΕΦΑΝΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/eleni_stefanou</idno>
                </person>
-               <person xml:id="nikolaos_katsaros">
-                  <persName>Νικόλαος Κατσαρός</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_katsaros</idno>
+               <person xml:id="alexandros_mpaltas">
+                  <persName>ΑΛΕΞΑΝΔΡΟΣ ΜΠΑΛΤΑΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/alexandros_mpaltas</idno>
+               </person>
+               <person xml:id="basilis_kedikoglou">
+                  <persName>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/basilis_kedikoglou</idno>
+               </person>
+               <person xml:id="nikitas_benizelos">
+                  <persName>Νικήτας Βενιζέλος</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_benizelos</idno>
+               </person>
+               <person xml:id="basileios_kedikoglou">
+                  <persName>ΒΑΣΙΛΕΙΟΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/basileios_kedikoglou</idno>
+               </person>
+               <person xml:id="euaggelos_kourtidis">
+                  <persName>ΕΥΑΓΓΕΛΟΣ ΚΟΥΡΤΙΔΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/euaggelos_kourtidis</idno>
+               </person>
+               <person xml:id="dimitrios_b._kostopoulos">
+                  <persName>ΔΗΜΗΤΡΙΟΣ Β. ΚΩΣΤΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_b._kostopoulos</idno>
                </person>
                <person xml:id="panagiotis_n._kritikos">
                   <persName>Παναγιώτης Ν. Κρητικός</persName>
@@ -138,81 +158,61 @@
                   <persName>ΓΕΩΡΓΙΟΣ ΚΟΥΒΕΛΑΚΗΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/georgios_koubelakis</idno>
                </person>
-               <person xml:id="georgios_daskalakis">
-                  <persName>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_daskalakis</idno>
-               </person>
-               <person xml:id="basilis_kedikoglou">
-                  <persName>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/basilis_kedikoglou</idno>
-               </person>
-               <person xml:id="panagiotis_xatzinikolaou">
-                  <persName>ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_xatzinikolaou</idno>
-               </person>
-               <person xml:id="eleni_stefanou">
-                  <persName>ΕΛΕΝΗ ΣΤΕΦΑΝΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/eleni_stefanou</idno>
-               </person>
-               <person xml:id="ioannis_kabaratzis">
-                  <persName>ΙΩΑΝΝΗΣ ΚΑΒΑΡΑΤΖΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_kabaratzis</idno>
-               </person>
-               <person xml:id="euaggelos_kourtidis">
-                  <persName>ΕΥΑΓΓΕΛΟΣ ΚΟΥΡΤΙΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/euaggelos_kourtidis</idno>
-               </person>
-               <person xml:id="basileios_kedikoglou">
-                  <persName>ΒΑΣΙΛΕΙΟΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/basileios_kedikoglou</idno>
-               </person>
-               <person xml:id="georgios_romaios">
-                  <persName>ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_romaios</idno>
-               </person>
-               <person xml:id="polloi_bouleutes">
-                  <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
+               <person xml:id="xristos_paxtas">
+                  <persName>ΧΡΗΣΤΟΣ ΠΑΧΤΑΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/xristos_paxtas</idno>
                </person>
                <person xml:id="gerasimos_arabanis">
                   <persName>ΓΕΡΑΣΙΜΟΣ ΑΡΑΒΑΝΗΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/gerasimos_arabanis</idno>
                </person>
+               <person xml:id="georgios_daskalakis">
+                  <persName>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/georgios_daskalakis</idno>
+               </person>
                <person xml:id="apostolos_kaklamanis">
                   <persName>Απόστολος Κακλαμάνης</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
                </person>
-               <person xml:id="nikolaos_papafilippou">
-                  <persName>ΝΙΚΟΛΑΟΣ ΠΑΠΑΦΙΛΙΠΠΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_papafilippou</idno>
+               <person xml:id="anastasios_krikelis">
+                  <persName>ΑΝΑΣΤΑΣΙΟΣ ΚΡΙΚΕΛΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/anastasios_krikelis</idno>
                </person>
-               <person xml:id="dimitrios_b._kostopoulos">
-                  <persName>ΔΗΜΗΤΡΙΟΣ Β. ΚΩΣΤΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_b._kostopoulos</idno>
+               <person xml:id="nikolaos_katsaros">
+                  <persName>Νικόλαος Κατσαρός</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_katsaros</idno>
                </person>
                <person xml:id="ioannis_souladakis">
                   <persName>ΙΩΑΝΝΗΣ ΣΟΥΛΑΔΑΚΗΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/ioannis_souladakis</idno>
                </person>
-               <person xml:id="xristos_paxtas">
-                  <persName>ΧΡΗΣΤΟΣ ΠΑΧΤΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/xristos_paxtas</idno>
+               <person xml:id="pasxalis_konstantinidis">
+                  <persName>ΠΑΣΧΑΛΗΣ ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/pasxalis_konstantinidis</idno>
+               </person>
+               <person xml:id="panagiotis_xatzinikolaou">
+                  <persName>ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_xatzinikolaou</idno>
+               </person>
+               <person xml:id="georgios_romaios">
+                  <persName>ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/georgios_romaios</idno>
                </person>
                <person xml:id="ristos_paxtas">
                   <persName>ΡΗΣΤΟΣ ΠΑΧΤΑΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/ristos_paxtas</idno>
                </person>
-               <person xml:id="pasxalis_konstantinidis">
-                  <persName>ΠΑΣΧΑΛΗΣ ΚΩΝΣΤΑΝΤΙΝΙΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/pasxalis_konstantinidis</idno>
+               <person xml:id="ioannis_kabaratzis">
+                  <persName>ΙΩΑΝΝΗΣ ΚΑΒΑΡΑΤΖΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_kabaratzis</idno>
                </person>
-               <person xml:id="alexandros_mpaltas">
-                  <persName>ΑΛΕΞΑΝΔΡΟΣ ΜΠΑΛΤΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/alexandros_mpaltas</idno>
+               <person xml:id="nikolaos_papafilippou">
+                  <persName>ΝΙΚΟΛΑΟΣ ΠΑΠΑΦΙΛΙΠΠΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_papafilippou</idno>
                </person>
-               <person xml:id="nikitas_benizelos">
-                  <persName>Νικήτας Βενιζέλος</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_benizelos</idno>
+               <person xml:id="polloi_bouleutes">
+                  <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
                </person>
             </listPerson>
          </particDesc>
@@ -406,7 +406,8 @@
                <seg>Αν είναι απόφαση του Προέδρου της Βουλής.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό εισέρχεται στην Αίθουσα ο Υφυπουργός Βιομηχανίας, Ενέργειας και Τεχνολογίας κ. Χρήστος Πάχτας)</desc>
+               <desc>(Στο σημείο αυτό εισέρχεται στην Αίθουσα ο Υφυπουργός Βιομηχανίας, Ενέργειας και Τεχνολογίας κ. Χρήστος Πάχτας)
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_9" who="xristos_paxtas">
                <note type="speaker">ΧΡΗΣΤΟΣ ΠΑΧΤΑΣ</note>
@@ -705,7 +706,8 @@
                <seg>Εγνατία οδός. Είχαν ετοιμαστεί, από την προηγούμενη κυβέρνηση, οι μελέτες ορισμένων τμημάτων του οδικού δικτύου της Εγνατίας οδού.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε' Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε' Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ).
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_56" who="panagiotis_xatzinikolaou">
                <note type="speaker">ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</note>
@@ -729,7 +731,8 @@
                <seg>Γι' αυτό ακριβώς προβληματιζόμενοι, γιατί κάτι δεν πάει καλά στη Θράκη, καταθέσαμε αυτήν την επερώτηση ώστε να συνέλθει το κέντρο των Αθηνών και η Κυβέρνηση να προχωρήσει και να παύσει, όταν βάζει εξαιρέσεις αναστολών να συμπεριλαμβάνει μέσα και τη Θράκη.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)</desc>
+               <desc>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_58" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
@@ -756,7 +759,8 @@
                <seg>Τρίτον, ο νόμος επαναλαμβάνω ότι θα πρέπει να προβλέπει ακόμη τις διαρθρωτικές μεταβολές στη γεωργία και ιδιαίτερα την ενίσχυση των περιοχών που έχουν υποστεί μεγάλη μείωση του πληθυσμού τους.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ακούγεται επανειλημμένα ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή)</desc>
+               <desc>(Στο σημείο αυτό ακούγεται επανειλημμένα ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Βουλευτή)
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_60" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
@@ -901,7 +905,8 @@
                <seg>Νομίζω ο καθένας μπορεί να αντιληφθεί πόση σημαντική διευκόλυνση είναι αυτή. Δε θα σας πω άλλες λεπτομέρειες που είναι αρκετά σημαντικές σε σχέση με τη Θράκη, αυτά θα τα διαπιστώσετε όταν θα συζητήσουμε τον αναπτυξιακό νόμο.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την προεδρική έδρα καταλαμβάνει ο Δ' Αντιπρόεδρος της Βουλής κ. ΝΙΚΟΛΑΟΣ ΚΑΤΣΑΡΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την προεδρική έδρα καταλαμβάνει ο Δ' Αντιπρόεδρος της Βουλής κ. ΝΙΚΟΛΑΟΣ ΚΑΤΣΑΡΟΣ).
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_79" who="euaggelos_kourtidis">
                <note type="speaker">ΕΥΑΓΓΕΛΟΣ ΚΟΥΡΤΙΔΗΣ</note>
@@ -1017,7 +1022,8 @@
                <seg>Εδώ, όμως, θέλω να σημειώσω ότι τα προβλήματα διοίκησης, που είναι γνωστά από τον Τύπο και που υπήρχαν στο Πανεπιστήμιο της Θράκης, εμπόδισαν την απορρόφηση των πιστώσεων, που υπήρχαν και για το προηγούμενο ακαδημαϊκό έτος, στο μέτρο που θα έπρεπε να είχε γίνει.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό η Υφυπουργός Εθν. Παιδείας και Θρησκευμάτων κα Ελ. Στεφάνου καταθέτει τους προαναφερθέντες πίνακες για τα Πρακτικά οι οποίοι βρίσκονται στο Αρχείο της Στενογραφικής Υπηρεσίας και είναι στη διάθεση κάθε ενδιαφερομένου)</desc>
+               <desc>(Στο σημείο αυτό η Υφυπουργός Εθν. Παιδείας και Θρησκευμάτων κα Ελ. Στεφάνου καταθέτει τους προαναφερθέντες πίνακες για τα Πρακτικά οι οποίοι βρίσκονται στο Αρχείο της Στενογραφικής Υπηρεσίας και είναι στη διάθεση κάθε ενδιαφερομένου).
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_94" who="nikolaos_katsaros">
                <note type="speaker">Νικόλαος Κατσαρός</note>
@@ -1070,7 +1076,8 @@
                <seg>Εγώ χαίρομαι γιατί υπάρχουν στην Κρήτη ένα σωρό θερμοκήπια, τα οποία επισκέφθηκα. Και μου έκαναν κατάπληξη. Στη Θράκη θα μπορούσαν να υπάρξουν πολύ περισσότερα.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξεως του χρόνου ομιλίας του κυρίου Βουλευτού)</desc>
+               <desc>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξεως του χρόνου ομιλίας του κυρίου Βουλευτού)
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_103" who="panagiotis_xatzinikolaou">
                <note type="speaker">ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</note>
@@ -1128,7 +1135,8 @@
                <seg>Όσον αφορά το σταμάτημα των έργων, τουλάχιστον όσον αφορά το ΥΠΕΧΩΔΕ, κανένα από τα συνεχιζόμενα έργα δεν σταμάτησε -δεν ξέρω άλλων φορέων, το Υπουργείο Εθνικής Οικονομίας το ανέφερε προηγουμένως- και 3-4 συμπληρωματικά στοιχεία σε σχέση με τον παλιό δρόμο είναι ορισμένες δημοπρατήσεις συνολικού προϋπολογισμού περίπου 6 δισ. και αφορούν το τμήμα από Ξάνθη μέχρι Κουτσό, από Γλυκονέρι μέχρι Καλλίστη, Μάκρη Χειλή, Λουτρό-Μοναστηράκι, Μοναστηράκι-Φέρρες και συμπληρωματικές εργασίες μέσω της Μάκρης.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α' Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν.ΚΡΗΤΙΚΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α' Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν.ΚΡΗΤΙΚΟΣ)
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_112" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
@@ -1149,7 +1157,8 @@
                <seg>Πάντως, με τις νέες αυτές πρωτοβουλίες που θα αναλάβουμε προς την κατεύθυνση της ανάπτυξης πλέον και της αξιοποίησης των δυνατοτήτων, αλλά και των οικονομικών παροχών που θα υπάρξουν προς αυτήν την κατεύθυνση, θα φτάσουμε σε ένα πρωτοποριακό και ολοκληρωμένο αναπτυξιακό σχέδιο, παρέχοντας ταυτόχρονα και μεγαλύτερες διοικητικές πρωτοβουλίες στην περιφέρεια για να υπάρξει αποκέντρωση και για να είναι αποτελεσματικότερη η εφαρμογή, όπως πολύ σωστά σαν παράδειγμα ανέφερε ο κ. Χατζηνικολάου, τους αναδασμούς, μεγάλο θέμα...</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)</desc>
+               <desc>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού).
+</desc>
             </incident>
             <u xml:id="debate_1994-07-01_speech_114" who="panagiotis_xatzinikolaou">
                <note type="speaker">ΠΑΝΑΓΙΩΤΗΣ ΧΑΤΖΗΝΙΚΟΛΑΟΥ</note>

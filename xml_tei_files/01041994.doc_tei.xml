@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>CLARIN ERIC</authority>
-            <date when="2023-07-07+03:00">7. 7. 2023</date>
+            <date when="2023-10-17+03:00">17. 10. 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -122,49 +122,77 @@
                </org>
             </listOrg>
             <listPerson>
-               <person xml:id="xristos_koskinas">
-                  <persName>ΧΡΗΣΤΟΣ ΚΟΣΚΙΝΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/xristos_koskinas</idno>
-               </person>
-               <person xml:id="stratis_korakas">
-                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/stratis_korakas</idno>
-               </person>
-               <person xml:id="panagiotis_n._kritikos">
-                  <persName>Παναγιώτης Ν. Κρητικός</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_n._kritikos</idno>
-               </person>
-               <person xml:id="floros_konstantinou">
-                  <persName>ΦΛΩΡΟΣ ΚΩΝΣΤΑΝΤΙΝΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/floros_konstantinou</idno>
+               <person xml:id="eleni_stefanou">
+                  <persName>ΕΛΕΝΗ ΣΤΕΦΑΝΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/eleni_stefanou</idno>
                </person>
                <person xml:id="basilis_kedikoglou">
                   <persName>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/basilis_kedikoglou</idno>
                </person>
-               <person xml:id="eleni_stefanou">
-                  <persName>ΕΛΕΝΗ ΣΤΕΦΑΝΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/eleni_stefanou</idno>
+               <person xml:id="nikitas_kaklamanis">
+                  <persName>ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_kaklamanis</idno>
                </person>
-               <person xml:id="ioannis_stathopoulos">
-                  <persName>ΙΩΑΝΝΗΣ ΣΤΑΘΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_stathopoulos</idno>
+               <person xml:id="floros_konstantinou">
+                  <persName>ΦΛΩΡΟΣ ΚΩΝΣΤΑΝΤΙΝΟΥ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/floros_konstantinou</idno>
                </person>
-               <person xml:id="theodoros_pagkalos">
-                  <persName>ΘΕΟΔΩΡΟΣ ΠΑΓΚΑΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/theodoros_pagkalos</idno>
-               </person>
-               <person xml:id="georgios_romaios">
-                  <persName>ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_romaios</idno>
+               <person xml:id="panagiotis_n._kritikos">
+                  <persName>Παναγιώτης Ν. Κρητικός</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_n._kritikos</idno>
                </person>
                <person xml:id="nikolaos_kuriazidis">
                   <persName>ΝΙΚΟΛΑΟΣ ΚΥΡΙΑΖΙΔΗΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/nikolaos_kuriazidis</idno>
                </person>
+               <person xml:id="gerasimos_arabanis">
+                  <persName>ΓΕΡΑΣΙΜΟΣ ΑΡΑΒΑΝΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/gerasimos_arabanis</idno>
+               </person>
+               <person xml:id="xristos_koskinas">
+                  <persName>ΧΡΗΣΤΟΣ ΚΟΣΚΙΝΑΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/xristos_koskinas</idno>
+               </person>
+               <person xml:id="ioannis_stathopoulos">
+                  <persName>ΙΩΑΝΝΗΣ ΣΤΑΘΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_stathopoulos</idno>
+               </person>
+               <person xml:id="apostolos_kaklamanis">
+                  <persName>Απόστολος Κακλαμάνης</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
+               </person>
+               <person xml:id="andreas_lentakis">
+                  <persName>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/andreas_lentakis</idno>
+               </person>
                <person xml:id="pausanias_zakolikos">
                   <persName>Παυσανίας Ζακολίκος</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/pausanias_zakolikos</idno>
+               </person>
+               <person xml:id="stratis_korakas">
+                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/stratis_korakas</idno>
+               </person>
+               <person xml:id="dimitrios_kremastinos">
+                  <persName>ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_kremastinos</idno>
+               </person>
+               <person xml:id="theodoros_pagkalos">
+                  <persName>ΘΕΟΔΩΡΟΣ ΠΑΓΚΑΛΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/theodoros_pagkalos</idno>
+               </person>
+               <person xml:id="ioannis_souladakis">
+                  <persName>ΙΩΑΝΝΗΣ ΣΟΥΛΑΔΑΚΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_souladakis</idno>
+               </person>
+               <person xml:id="georgios_romaios">
+                  <persName>ΓΕΩΡΓΙΟΣ ΡΩΜΑΙΟΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/georgios_romaios</idno>
+               </person>
+               <person xml:id="ilias_bezdrebanis">
+                  <persName>ΗΛΙΑΣ ΒΕΖΔΡΕΒΑΝΗΣ</persName>
+                  <idno type="AKN">/ontology/person/akn/parliament/ilias_bezdrebanis</idno>
                </person>
                <person xml:id="foteini_stefanopoulou">
                   <persName>ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ</persName>
@@ -173,34 +201,6 @@
                <person xml:id="polloi_bouleutes">
                   <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
                   <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
-               </person>
-               <person xml:id="nikitas_kaklamanis">
-                  <persName>ΝΙΚΗΤΑΣ ΚΑΚΛΑΜΑΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_kaklamanis</idno>
-               </person>
-               <person xml:id="gerasimos_arabanis">
-                  <persName>ΓΕΡΑΣΙΜΟΣ ΑΡΑΒΑΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/gerasimos_arabanis</idno>
-               </person>
-               <person xml:id="ilias_bezdrebanis">
-                  <persName>ΗΛΙΑΣ ΒΕΖΔΡΕΒΑΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ilias_bezdrebanis</idno>
-               </person>
-               <person xml:id="apostolos_kaklamanis">
-                  <persName>Απόστολος Κακλαμάνης</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
-               </person>
-               <person xml:id="ioannis_souladakis">
-                  <persName>ΙΩΑΝΝΗΣ ΣΟΥΛΑΔΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_souladakis</idno>
-               </person>
-               <person xml:id="dimitrios_kremastinos">
-                  <persName>ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_kremastinos</idno>
-               </person>
-               <person xml:id="andreas_lentakis">
-                  <persName>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/andreas_lentakis</idno>
                </person>
             </listPerson>
          </particDesc>
@@ -619,7 +619,8 @@
                <seg>Υπάρχει λοιπόν ένα θέμα και θα ήθελα σ’ αυτό κυρίως να αναφερθώ, της περαιτέρω διεύρυνσης στην Κύπρο και στη Μάλτα. Ήταν κάτι που κατά την άποψη του δικού μας κόμματος, όταν είμαστε αντιπολίτευση έπρεπε να είχε συμφωνηθεί, να είχε μπει μέσα στο πακέτο της σημερινής διεύρυνσης. Έτσι σήμερα η Κύπρος, θα ήταν μέλος της Ευρωπαϊκής Ένωσης. Δεν συνέβη αυτό. Δεν συνέβη για λόγους που αφορούσαν την τότε κυβέρνηση και την κυπριακή ηγεσία.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Α’ Αντιπρόεδρος της Βουλής κ. ΠΑΝΑΓΙΩΤΗΣ Ν. ΚΡΗΤΙΚΟΣ):
+</desc>
             </incident>
             <u xml:id="debate_1994-04-01_speech_29" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
@@ -835,7 +836,8 @@
                <seg>Όσον αφορά τα δύο άλλα θέματα αν θέλετε το καταθέτω στη Βουλή διότι...</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)</desc>
+               <desc>(Στο σημείο αυτό ακούγεται ο χαρακτηριστικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)
+</desc>
             </incident>
             <u xml:id="debate_1994-04-01_speech_56" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
@@ -994,7 +996,8 @@
                <seg>Μετά απ’ αυτά τα περίπου ενημερωτικά, κύριε συνάδελφε, που είναι άλλωστε γνωστά σε όλους μας, η Κυβέρνηση έκρινε ότι για να βοηθήσει περισσότερο τον κλάδο της αιγοπροβατοτροφίας έπρεπε να θέσει το θέμα στην Ευρωπαϊκή Κοινότητα, όπως το θέσαμε και τον περασμένο μήνα το Φεβρουάριο και προχθές στο τελευταίο συμβούλιο Υπουργών Γεωργίας και για να βοηθήσουμε έχουμε επιλέξει τρία σημεία.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού)</desc>
+               <desc>(Στο σημείο αυτό ακούγεται ο προειδοποιητικός ήχος της λήξης του χρόνου ομιλίας του κυρίου Υπουργού).
+</desc>
             </incident>
             <u xml:id="debate_1994-04-01_speech_85" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
@@ -1102,7 +1105,8 @@
                <seg>Δεν είναι του 1992 και δεν έχει βγει άλλη από ό,τι γνωρίζω. Είναι λοιπόν ένα τεράστιο θέμα στο οποίο και σ’ αυτό πρέπει να απαντήσουμε και θα πρέπει να κληθούν και οι πρυτάνεις και να τους βάλετε κάτω τα δεδομένα τα οποία υπάρχουν στην Κοινότητα. Και δεν μπορώ να δεχθώ ότι δεν τα γνώριζαν, αλλά εν πάση περιπτώσει, δεν είναι θέμα για να μας πιάσει ο πανεπιστημιακός μας σωβινισμός, αλλά και ούτε να πάμε στην πλήρη ισοπέδωση της άλλης πλευράς που μπορεί να ζητούν ορισμένοι. Πρέπει όμως, να δούμε τι γίνεται και με αυτήν την απόφαση. Θα προχωρήσει αυτή η απόφαση; Δε θα τη δεχθείτε αυτήν την απόφαση; Θα ζητήσετε να ξαναδούν το θέμα; Είναι επίσης ερωτήματα στα οποία θα ήθελα, παρακαλώ πολύ, αν έχει κατασταλάξει το Υπουργείο, να μας δώσει μια απάντηση.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Β’ Αντιπρόεδρος της Βουλής κ. ΠΑΥΣΑΝΙΑΣ ΖΑΚΟΛΙΚΟΣ)</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Β’ Αντιπρόεδρος της Βουλής κ. ΠΑΥΣΑΝΙΑΣ ΖΑΚΟΛΙΚΟΣ)
+</desc>
             </incident>
             <u xml:id="debate_1994-04-01_speech_104" who="pausanias_zakolikos">
                <note type="speaker">Παυσανίας Ζακολίκος</note>
