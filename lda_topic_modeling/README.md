@@ -21,9 +21,3 @@ python lda.py
 ``` 
 
 >This will execute the LDA topic modelling algorithm on your text data and generate the results.
-
-Explore the Results:
-
-- Check the `/results` directory for the output files and reports generated from the topic modelling process.
-- Explore the word cloud images in the `/wordcloud_img` directory to visually understand the most common words in the topics.
-- Examine `top_terms_sorted_10.txt` and `top_terms_sorted_30.txt` for the top terms associated with each year.
