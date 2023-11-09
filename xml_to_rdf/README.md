@@ -2,7 +2,7 @@
 
 This directory contains the code for transforming XML files generated from the Greek Parliament debates into RDF triples.
 
-## File Description
+## Folder Structure
 
 - `create_rdf_members_politicalFunction.py` : This script is responsible for generating RDF triples related to the political functions and member details of the participants in the debates. It processes the XML files and extracts information about the members' political functions, gender, party affiliation, and other relevant details, creating corresponding RDF triples.
 

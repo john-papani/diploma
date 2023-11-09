@@ -13,9 +13,19 @@ The repository is structured as follows:
 - [`xml_to_rdf/`](https://github.com/john-papani/diploma/tree/master/xml_to_rdf): This directory contains the code for transforming the XML files into RDF triples.
 - [`xml_akn_files/`](https://github.com/john-papani/diploma/tree/master/xml_akn_files): Directory to store the generated Akoma Ntoso XML files.
 - [`xml_tei_files/`](https://github.com/john-papani/diploma/tree/master/xml_tei_files): Directory to store the generated TEI XML files.
+- [`lda_topic_modeling/`](https://github.com/john-papani/diploma/tree/master/lda_topic_modeling):This directory contains code related to Latent Dirichlet Allocation (LDA) - Topic modelling.
 - [`sparql_queries.txt`](https://github.com/john-papani/diploma/blob/master/sparql_queries.txt): This file provides a collection of example SPARQL queries that can be executed against the RDF data in Apache Fuseki.
 - [`requirements.txt`](https://github.com/john-papani/diploma/blob/master/requirements.txt): This file lists the Python dependencies required to run the project.
 - [`bugs.txt`](https://github.com/john-papani/diploma/blob/master/bugs.txt): This file is used to track and document any known issues or bugs in the project.
+
+## Sample
+
+You can check a representative [sample of the Greek Parliament debate held on June 8, 2018](https://www.hellenicparliament.gr/UserFiles/a08fc2dd-61a9-4a83-b09a-09f4c564609d/es20180608_1.pdf), which has been converted into both XML/LegalDocML and TEI formats.
+
+> The files are [es20180608000648.docx.xml](https://github.com/john-papani/diploma/blob/master/xml_akn_files/es20180608000648.docx.xml) and [es20180608000648.docx_tei.xml](https://github.com/john-papani/diploma/blob/master/xml_tei_files/es20180608000648.docx_tei.xml) respectively.
+
+
+_*The rdf data for this file is distributed throughout the rdf files._
 
 ## Requirements
 
@@ -83,8 +93,13 @@ To get started with the project, follow these steps:
    python create_tei_from_akn.py
    ```
 
-This script will generate TEI XML files based on the Akoma Ntoso XML files.
+   This script will generate TEI XML files based on the Akoma Ntoso XML files.
 
+9. If you want to create LDA results, navigate to `lda_topic_modeling` directory and run the folling command:
+   ```
+   python lda.py
+   ```
+   This script will generate all files for `wordcloud_img/` and results of the topic modelling process (`results/`) [per year]
 </p>
 </details>
 
@@ -98,3 +113,9 @@ This script will generate TEI XML files based on the Akoma Ntoso XML files.
 - cobalt - A lightweight python library for working with Akoma Ntoso documents.: [https://github.com/laws-africa/cobalt](https://github.com/laws-africa/cobalt)
 - RDFLib is a pure Python package for working with RDF.: [https://rdflib.readthedocs.io/en/stable/](https://rdflib.readthedocs.io/en/stable/)
 - Saxon XSLT : [https://www.saxonica.com/saxon-c/index.xml](https://www.saxonica.com/saxon-c/index.xml)
+- Python library for interactive topic model visualization. Port of the R LDAvis package. : [https://github.com/bmabey/pyLDAvis](https://github.com/bmabey/pyLDAvis)
+
+## Usage Guidelines
+- Contribution: If you find issues with the project or have improvements to suggest, feel free to open an issue or create a pull request.
+- Attribution: If you use this project in your research or applications, please provide appropriate attribution to this repository.
+- Data Integrity: While efforts have been made to ensure the accuracy of the data, please note that no dataset is perfect. Verify the data according to your use case requirements.

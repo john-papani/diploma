@@ -2,7 +2,7 @@
 
 This directory contains the code for converting Greek Parliament debate text files to XML files based on the Akoma Ntoso standard.
 
-## File Description
+## Folder Structure
 
 - `convert_to_xml.py`: This script is responsible for converting the input text files to XML files following the Akoma Ntoso schema. It utilizes the ANTLR4 grammar and parsing rules defined in the `./antlr4_grammar` directory to parse the text files and generate the corresponding XML output.
 
