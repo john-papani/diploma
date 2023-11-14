@@ -56,7 +56,7 @@ def add_to_json_upourgoi(value, json_file):
 
 def create_json_with_tenures():
     upourgoi = "../json_files/upourgoi.json"
-    with open('../useful_csv_for_parl_members/_formatted_roles_gov_members_data.csv', 'r', encoding='utf8') as file_csv:
+    with open('../useful_csv_for_parl_members/_formatted_roles_gov_members_data_11_2023.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
         for index, row in enumerate(csv_data):
@@ -148,6 +148,10 @@ def create_json_with_wikidata_tenure():
                 wiki_link = "https://www.wikidata.org/wiki/Q21029361"
             elif value['without_property'] == "πολιτισμου":
                 wiki_link = "https://www.wikidata.org/wiki/Q16331895"
+            elif value['without_property'] =="κοινωνικης συνοχης και οικογενειας":
+                wiki_link = "https://www.wikidata.org/wiki/Q120084687"
+            elif value['without_property'] =="παιδειας θρησκευματων και αθλητισμου":
+                wiki_link = "https://www.wikidata.org/wiki/Q16331885"
             else:
                 wiki_link = get_wikipedia_link(
                     value['without_property'], driver, driver2)

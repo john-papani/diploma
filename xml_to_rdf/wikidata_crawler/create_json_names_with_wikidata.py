@@ -50,15 +50,18 @@ def create_rdf_members_with_details():
     file_speakers_from_xmls = open(
         '../all_speakers_names.json', 'r', encoding='utf8')
     speakers_from_xmls = json.load(file_speakers_from_xmls)
-
     file_speakers_from_official = open(
         '../official_data_directory.json', 'r', encoding='utf8')
     speakers_from_official = json.load(file_speakers_from_official)
+    file_speakers_with_wikidata = open(new_json_file, 'r', encoding='utf8')
+    speakers_with_wikidata = json.load(file_speakers_with_wikidata)
     try:
-        with open('../useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
+        with open('../useful_csv_for_parl_members/_parl_members_activity_1989onwards_11_2023_with_gender_merged_file.csv', 'r', encoding='utf8') as file_csv:
             csv_data = (csv.reader(file_csv))
             next(csv_data, None)
             for name_speaker in speakers_from_xmls:
+                if name_speaker in speakers_with_wikidata:
+                    continue
                 wiki_link = search_for_wikidata_connection(name_speaker)
                 if name_speaker in speakers_from_official:
                     # Reset the file pointer to the beginning
@@ -78,7 +81,27 @@ def create_rdf_members_with_details():
     finally:
         end = dt.now()
         print(end-starttime)
-        new_json_file.close()
+        # new_json_file.close()
 
 
+# SPECIFIC CORRECTIONS
+# data from here=  https://w.wiki/89Mq
+def update_year_2023_data():
+    add_to_json("athanasios_xalkias","https://www.wikidata.org/wiki/Q123188665")
+    add_to_json("xaralampos_katsibardas","https://www.wikidata.org/wiki/Q123189028")
+    add_to_json("georgios_manousos","https://www.wikidata.org/wiki/Q123189154")
+    add_to_json("basileios_stigkas","https://www.wikidata.org/wiki/Q119949250")
+    add_to_json("ioannis_dimitrokallis","https://www.wikidata.org/wiki/Q123189183")
+    add_to_json("alexandros_zerbeas","https://www.wikidata.org/wiki/Q123189381")
+    add_to_json("dionusios_baltogiannis","https://www.wikidata.org/wiki/Q123189538")
+    add_to_json("georgios_aspiotis","https://www.wikidata.org/wiki/Q123189605")
+    add_to_json("mixail_gaugiotakis","https://www.wikidata.org/wiki/Q122228916")
+    add_to_json("ioannis_kontis","https://www.wikidata.org/wiki/Q123189851")
+    add_to_json("petros_dimitriadis","https://www.wikidata.org/wiki/Q123189881")
+    add_to_json("dimitrios_natsios","https://www.wikidata.org/wiki/Q123189881")
+    add_to_json("komninos_delberoudis","https://www.wikidata.org/wiki/Q122744183")
+    add_to_json("adamantios_karanastasis","https://www.wikidata.org/wiki/Q120360696")
+    add_to_json("spuridon_mpimpilas","https://www.wikidata.org/wiki/Q55846377")
+
+update_year_2023_data()
 create_rdf_members_with_details()

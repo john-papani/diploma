@@ -59,7 +59,7 @@ def convert_greek_to_english(whole_phrase):
 def create_json_parties():
     parties_json = "../json_files/parties.json"
 
-    with open('../useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
+    with open('../useful_csv_for_parl_members/_parl_members_activity_1989onwards_11_2023_with_gender_merged_file.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
         for index, row in enumerate(csv_data):
@@ -100,14 +100,18 @@ def search_for_wikidata_connection(name):
         return "https://www.wikidata.org/wiki/Q3563454" 
     elif (name == "enosi_kentroon"):
         return "https://www.wikidata.org/wiki/Q3567209"
+    elif (name == "dimokratiko_patriotiko_kinima_niki"):
+        return "https://www.wikidata.org/wiki/Q118559247"
+    elif (name =="sunaspismos_tis_aristeras_ton_kinimaton_kai_tis_oikologias"):
+        return "https://www.wikidata.org/wiki/Q219573"
     elif (name == "anexartitoi_(ektos_kommatos)"):
         return -1
 
     name = name.replace("_", " ")
 
     # Initialize the WebDriver
-    options = webdriver.EdgeOptions()
-    driver = webdriver.Edge(options=options)
+    # options = webdriver.EdgeOptions()
+    driver = webdriver.Edge()
 
     url_google = "https://www.google.com/search?q="
     search_query = f"{name} party wikidata"
