@@ -431,18 +431,17 @@ def format_speaker_information(speaker_, speaker_nickname_, flagMetaReferences=F
     return (speaker_name, speaker_info, speaker_nickname)
 
 
-datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/all_files/"
-parsed1 = parser.from_file(
-    'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/all_files/297.docx', xmlContent=True)
+main_datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/"
+datapath_2022_23 = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/year2022-23/year2022until10nov23/"
+# parsed1 = parser.from_file(
+#     'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/all_files/297.docx', xmlContent=True)
 
-# print(parsed["metadata"]["dcterms:created"])
-# print(parsed1["content"])
-# f1_path = args.outpath
-# f2_path = args.outpath2
+main_filenames = sorted([f for f in os.listdir(main_datapath) if not f.startswith('.')])
+filenames_2022_23 = sorted([f for f in os.listdir(datapath_2022_23) if not f.startswith('.')])
 
-
-filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
-print(filenames)
+# Combine the lists if needed
+filenames = main_filenames + filenames_2022_23
+print("NUMBER OF ALL FILES IN SYSTEM =",len(filenames))
 filename_freqs = defaultdict(int)
 
 record_counter = 0
@@ -488,6 +487,7 @@ log_file = open('./no_xml_files.txt', 'a', encoding="utf8")
 
 for filename in filenames:
     try:
+        datapath = main_datapath if filename in main_filenames else datapath_2022_23
         # ------- AKOMA NTOSO/xml ---
         d = Debate()
         # remove default-useless debateSection
@@ -580,7 +580,7 @@ for filename in filenames:
                            'ΤΑΧΔΙΚ', 'ΜΑΓΝΗΣΙΑ', 'ΤΟΕΒ', 'ΟΕΔΒ', 'ΑΜΥ', 'ΜΕΘ:', 'ΕΝΤΥΠΑ', 'ΠΕΧΩΔΕ', 'ΚΡΑΤΟΥΜΕΝΟΙ', 'ΑΦΙΞΗΣ', 'ΙΓΜΕ:', 'ΕΛΤΑ', 'ΣΚΟΠΙΕΣ', '-ΜΚΙΙ:',
                            'ΤΗΛΕΦ', 'ΣΑΕ', 'ΥΩΝ:', 'ΟΟΣΑ', 'ΝΟΜΟΣ', 'ΕΛΣΤΑΤ:', 'ΤΗΛΕΟΡΑΣΗ', 'ΚΕΝΤΡΩΩΝ', 'ΠΡΟΣ', 'ΔΙΑΒΙΩΣΗ', 'ΥΠΕ:', 'ΡΑΔΙΟΦΩΝΟ', 'ΕΟΚ', 'ΣΙΤΗΣΗ', 'ΣΕΠ:', 'ΟΓΑ:',
                            'Α.Π.:', 'ΙΡΑΝ', 'ΕΚΑΒ', 'ΠΕΠΕΡ:', 'ΕΛΓA:', 'ΕΡΓΑΣΙΑ', 'ΕΛΛΗΝΙΚΗ ΛΥΣΗ:', 'ΓΡΑΜΜΑΤΕΙΣ', 'ΜΕΛΗ', 'ΣΕΠΕ', 'ΣΕΛΕΤΕ', 'ΑΡΘΡΟ', 'ΑΕΙ:', 'ΕΠΕ:', 'ΠΑΣΟΚ', 'ΤΟΥ ΠΑ.ΣΟ.Κ.:',
-                           'ΗΔΙΚΑ:', 'ΕΣΟΔΑ', 'ΣΕΚ', 'ΔΕΠΑΝΟΜ', 'ΠΛΗΡΟΦΟΡΙΕΣ', 'ΑΕΠΠ:', 'ΤΗΛ.', 'ΚΠΣ', 'ΟΑΕ', 'ΙΡΑΝ', 'ΜΕΤΑΓΩΓΕΣ']
+                           'ΗΔΙΚΑ:', 'ΕΣΟΔΑ', 'ΣΕΚ', 'ΔΕΠΑΝΟΜ', 'ΠΛΗΡΟΦΟΡΙΕΣ', 'ΑΕΠΠ:', 'ΤΗΛ.', 'ΚΠΣ', 'ΟΑΕ', 'ΙΡΑΝ', 'ΜΕΤΑΓΩΓΕΣ','ΟΔΟΣΤΡΩΜΑΤΩΝ','ΣΠΑΡΤΙΑΤΕΣ']
 
         # remove extra spaces inside names
         speakers = [s.strip() for s in speakers if not any(
@@ -750,7 +750,8 @@ for filename in filenames:
 
         # print("---------------------")
         # ---- saving xml to a differnt file
-        text_file = open("../xml_akn_files/"+filename +
+        path_saving_xml = "../xml_akn_files/" if filename in main_filenames else "../xml_akn_files/xml_akn_files_2023/"
+        text_file = open(path_saving_xml+filename +
                          ".xml", "w", encoding='utf8')
         # text_file = open("./testing.xml", "w", encoding='utf8')
         n = text_file.write(xml1)

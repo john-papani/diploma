@@ -215,3 +215,4 @@ syne9 9 2015.doc: cannot access local variable 'date' where it is not associated
 synedr-12-10-01.txt: list index out of range
 synedri-12-06-01.txt: cannot access local variable 'date' where it is not associated with a value
 ΡΙΑ΄ 18-4-2022.docx: list index out of range
+5877.docx: list index out of range

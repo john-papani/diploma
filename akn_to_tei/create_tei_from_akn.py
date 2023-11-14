@@ -16,14 +16,19 @@ def transform_xml2tei_with_xslt(xml_filename, xslt_filename, result_filename):
         except Exception as e:
             log_file.write(f'{filename}: {str(e)}\n')
 
-
-datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
-filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
+main_datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
+datapath_2022_23 = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/xml_akn_files_2023/"
+main_filenames = sorted([f for f in os.listdir(main_datapath) if not f.startswith('.')])
+filenames_2022_23 = sorted([f for f in os.listdir(datapath_2022_23) if not f.startswith('.')])
+# Combine the lists if needed
+filenames = filenames_2022_23
+print("NUMBER OF ALL FILES IN SYSTEM =",len(filenames))
 xslt_filename = "./schema_dir/akn2tei.xsl"
 for counter, filename in enumerate(filenames):
     if (counter % 100 == 0):
                 print("File "+str(counter)+' from ' +
                   str(len(filenames)) + ' '+filename)
     new_filename = filename.rsplit(".", 1)[0]
-    result_filename = f"../xml_tei_files/{new_filename}_tei.xml"
+    result_filename = f"../xml_tei_files/{new_filename}_tei.xml" if filename in main_filenames else f"../xml_tei_files/xml_tei_files_2023/{new_filename}_tei.xml"
+    datapath = main_datapath if filename in main_filenames else datapath_2022_23
     transform_xml2tei_with_xslt(datapath+filename, xslt_filename, result_filename)
