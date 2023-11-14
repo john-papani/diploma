@@ -99,18 +99,18 @@ def add_column_to_csv(input_file, output_file, num):
 
 def create_json_official_parl_mem():
     official_parl_file = open(
-        "./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv", 'r', encoding='utf8')
+        "./useful_csv_for_parl_members/_parl_members_activity_1989onwards_11_2023_with_gender_merged_file.csv", 'r', encoding='utf8')
     reader = csv.reader(official_parl_file)
     next(reader, None)
-    speaker_id = 0
     json_file = "./official_data_directory.json"
     with open(json_file, 'r', encoding='utf8') as file:
         data = json.load(file)
+        speaker_id = len(data)
     for row in reader:
         if len(row) >= 3:
             name = "_".join([row[0].split(" ")[2], row[0].split(" ")[0]])
             name_ = convert_greek_to_english(name)
-            if name_ not in added_names:
+            if name_ not in data:
                 speaker_id += 1
                 added_names.add(name_)
                 data[convert_greek_to_english(name)] = speaker_id
@@ -134,7 +134,7 @@ def create_rdf_members_with_details():
         './official_data_directory.json', 'r', encoding='utf8')
     speakers_from_official = json.load(file_speakers_from_official)
     try:
-        with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
+        with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_11_2023_with_gender_merged_file.csv', 'r', encoding='utf8') as file_csv:
             csv_data = (csv.reader(file_csv))
             next(csv_data, None)
             for name_speaker in speakers_from_xmls:
@@ -204,7 +204,7 @@ def create_rdf_political_tenure_and_potical_functions():
             (URIRef(greek_lp[key]), owl.sameAs, URIRef(value))
         )
 
-    with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv', 'r', encoding='utf8') as file_csv:
+    with open('./useful_csv_for_parl_members/_parl_members_activity_1989onwards_11_2023_with_gender_merged_file.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
 
@@ -236,7 +236,7 @@ def create_rdf_political_tenure_and_potical_functions():
                 (subject, rdfs.label, Literal(f"Political Tenure {index}", lang="en")))
 
     roles = set()
-    with open('./useful_csv_for_parl_members/_formatted_roles_gov_members_data.csv', 'r', encoding='utf8') as file_csv:
+    with open('./useful_csv_for_parl_members/_formatted_roles_gov_members_data_11_2023.csv', 'r', encoding='utf8') as file_csv:
         csv_data = (csv.reader(file_csv))
         next(csv_data, None)
 
@@ -290,12 +290,12 @@ def create_rdf_political_tenure_and_potical_functions():
 
 
 # # ! this only one time
-# input_file_1 = "./files_from_opa_dritsa/parl_members_activity_1989onwards_06_2023_with_gender_filled.csv"
-# output_file_1 = "./useful_csv_for_parl_members/_parl_members_activity_1989onwards_with_gender.csv"
+# input_file_1 = "./files_from_opa_dritsa/parl_members_activity_1989onwards_11_2023_with_gender_merged_file.csv"
+# output_file_1 = "./useful_csv_for_parl_members/_parl_members_activity_1989onwards_11_2023_with_gender_merged_file.csv"
 # input_file_2 = "./files_from_opa_dritsa/extra_roles_manually_collected.csv"
 # output_file_2 = "./useful_csv_for_parl_members/_extra_roles_manually_collected.csv"
-# input_file_3 = "./files_from_opa_dritsa/formatted_roles_gov_members_data_06_2023.csv"
-# output_file_3 = "./useful_csv_for_parl_members/_formatted_roles_gov_members_data.csv"
+# input_file_3 = "./files_from_opa_dritsa/formatted_roles_gov_members_data_11_2023.csv"
+# output_file_3 = "./useful_csv_for_parl_members/_formatted_roles_gov_members_data_11_2023.csv"
 
 # # ! this only one time
 # add_column_to_csv(input_file_1, output_file_1, 2)
@@ -304,8 +304,8 @@ def create_rdf_political_tenure_and_potical_functions():
 # print("1b-OK")
 # add_column_to_csv(input_file_3, output_file_3, 1)
 # print("1c-OK")
-# create_json_official_parl_mem()
-# print("1d-OK")
+create_json_official_parl_mem()
+print("1d-OK")
 
 print("1-OK")
 create_rdf_members_with_details()

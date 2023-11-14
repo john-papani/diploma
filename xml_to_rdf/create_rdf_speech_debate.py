@@ -43,21 +43,25 @@ g_debate.bind("greek_lp", greek_lp)
 akn_namespace = {"akn": "http://docs.oasis-open.org/legaldocml/ns/akn/3.0"}
 
 
-# Define the input text
-# datapath = "./input_xml_files/"
-datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
-filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
-print(filenames)
+# Define the xml files
+main_datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
+datapath_2022_23 = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/xml_akn_files_2023/"
 
+main_filenames = sorted([f for f in os.listdir(main_datapath) if not f.startswith('.')])
+filenames_2022_23 = sorted([f for f in os.listdir(datapath_2022_23) if not f.startswith('.')])
+# Combine the lists if needed
+filenames =  main_filenames+filenames_2022_23
+print(filenames)
 log_file = open('./no_rdf_file.txt', 'a', encoding="utf8")
 
 file_per_rdf = 100
 for index, filename in enumerate(filenames):
     try:
         if (index % file_per_rdf == 0):
+            #for our starting purpose if datapath_2022-23, the down limit is 7000
             if (index == 0):
-                down_limit = 0
-                up_limit = file_per_rdf
+                down_limit = 0 if filename in main_filenames else 7000
+                up_limit = down_limit + file_per_rdf
             else:
                 g_speech.remove((None, None, None))
                 g_debate.remove((None, None, None))
@@ -66,6 +70,7 @@ for index, filename in enumerate(filenames):
             print("==== ", down_limit, " ", up_limit, " ====")
         if (index % 25 == 0):
             print(index)
+        datapath = main_datapath if filename in main_filenames else datapath_2022_23
         # Parse the XML from a file
         tree = ET.parse(datapath+filename)
         # Get the root element of the XML tree
