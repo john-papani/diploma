@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>CLARIN ERIC</authority>
-            <date when="2023-10-17+03:00">17. 10. 2023</date>
+            <date when="2023-11-23+02:00">23. 11. 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -98,113 +98,98 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <encodingDesc>
-         <classDecl>
-            <taxonomy>
-               <desc>
-                  <term>TLCRole</term>
-               </desc>
-               <category xml:id="proedros">
-                  <catDesc>
-                     <term>ΠΡΟΕΔΡΟΣ</term>
-                     <idno type="AKN">/ontology/person/akn/parliament/proedros</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
       <profileDesc>
          <particDesc>
             <listOrg>
-               <org xml:id="greek_parl">
-                  <orgName>Greek_Parliament</orgName>
-                  <idno type="AKN">/ontology/organization/akn/greek_parl</idno>
+               <org xml:id="hellenic_parliament">
+                  <orgName>hellenic_parliament</orgName>
+                  <idno type="AKN">https://www.hellenicparliament.gr/en/</idno>
                </org>
             </listOrg>
             <listPerson>
-               <person xml:id="georgios_lamproulis">
-                  <persName>ΓΕΩΡΓΙΟΣ ΛΑΜΠΡΟΥΛΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_lamproulis</idno>
-               </person>
-               <person xml:id="dimitrios_kammenos">
-                  <persName>Δημήτριος Καμμένος</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_kammenos</idno>
-               </person>
-               <person xml:id="dimitrios_kremastinos">
-                  <persName>Δημήτριος Κρεμαστινός</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_kremastinos</idno>
-               </person>
-               <person xml:id="ilias_panagiotaros">
-                  <persName>ΗΛΙΑΣ ΠΑΝΑΓΙΩΤΑΡΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ilias_panagiotaros</idno>
-               </person>
-               <person xml:id="spuridon_lukoudis">
-                  <persName>ΣΠΥΡΙΔΩΝ ΛΥΚΟΥΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/spuridon_lukoudis</idno>
-               </person>
-               <person xml:id="efi_axtsioglou">
-                  <persName>ΕΦΗ ΑΧΤΣΙΟΓΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/efi_axtsioglou</idno>
-               </person>
-               <person xml:id="ioannis_delis">
-                  <persName>ΙΩΑΝΝΗΣ ΔΕΛΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_delis</idno>
-               </person>
-               <person xml:id="konstantinos_skandalidis">
-                  <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΣΚΑΝΔΑΛΙΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/konstantinos_skandalidis</idno>
-               </person>
-               <person xml:id="xristos_katsotis">
-                  <persName>ΧΡΗΣΤΟΣ ΚΑΤΣΩΤΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/xristos_katsotis</idno>
-               </person>
-               <person xml:id="andreas_loberdos">
-                  <persName>ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/andreas_loberdos</idno>
-               </person>
-               <person xml:id="emmanouil_suntuxakis">
-                  <persName>ΕΜΜΑΝΟΥΗΛ ΣΥΝΤΥΧΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/emmanouil_suntuxakis</idno>
-               </person>
-               <person xml:id="athanasios_bardalis">
-                  <persName>ΑΘΑΝΑΣΙΟΣ ΒΑΡΔΑΛΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/athanasios_bardalis</idno>
-               </person>
-               <person xml:id="oloi_oi_bouleutes">
-                  <persName>ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/oloi_oi_bouleutes</idno>
-               </person>
                <person xml:id="ioannis_broutsis">
                   <persName>ΙΩΑΝΝΗΣ ΒΡΟΥΤΣΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_broutsis</idno>
-               </person>
-               <person xml:id="nikolaos_karathanasopoulos">
-                  <persName>ΝΙΚΟΛΑΟΣ ΚΑΡΑΘΑΝΑΣΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_karathanasopoulos</idno>
-               </person>
-               <person xml:id="athanasios_iliopoulos">
-                  <persName>ΑΘΑΝΑΣΙΟΣ ΗΛΙΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/athanasios_iliopoulos</idno>
-               </person>
-               <person xml:id="nikolaos_pappas">
-                  <persName>ΝΙΚΟΛΑΟΣ ΠΑΠΠΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_pappas</idno>
-               </person>
-               <person xml:id="dimitrios_koutsoumpas">
-                  <persName>ΔΗΜΗΤΡΙΟΣ ΚΟΥΤΣΟΥΜΠΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_koutsoumpas</idno>
-               </person>
-               <person xml:id="ioannis_gkiokas">
-                  <persName>ΙΩΑΝΝΗΣ ΓΚΙΟΚΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/ioannis_gkiokas</idno>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q12875212</idno>
                </person>
                <person xml:id="anna-misel_asimakopoulou">
                   <persName>ΑΝΝΑ-ΜΙΣΕΛ ΑΣΗΜΑΚΟΠΟΥΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/anna-misel_asimakopoulou</idno>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q16329215</idno>
+               </person>
+               <person xml:id="athanasios_bardalis">
+                  <persName>ΑΘΑΝΑΣΙΟΣ ΒΑΡΔΑΛΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q20995539</idno>
                </person>
                <person xml:id="grigorios_stogiannidis">
                   <persName>ΓΡΗΓΟΡΙΟΣ ΣΤΟΓΙΑΝΝΙΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/grigorios_stogiannidis</idno>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q44056664</idno>
+               </person>
+               <person xml:id="athanasios_iliopoulos">
+                  <persName>ΑΘΑΝΑΣΙΟΣ ΗΛΙΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="ioannis_delis">
+                  <persName>ΙΩΑΝΝΗΣ ΔΕΛΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q28362655</idno>
+               </person>
+               <person xml:id="georgios_lamproulis">
+                  <persName>ΓΕΩΡΓΙΟΣ ΛΑΜΠΡΟΥΛΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q21031017</idno>
+               </person>
+               <person xml:id="ilias_panagiotaros">
+                  <persName>ΗΛΙΑΣ ΠΑΝΑΓΙΩΤΑΡΟΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q1289527</idno>
+               </person>
+               <person xml:id="efi_axtsioglou">
+                  <persName>ΕΦΗ ΑΧΤΣΙΟΓΛΟΥ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q27733766</idno>
+               </person>
+               <person xml:id="spuridon_lukoudis">
+                  <persName>ΣΠΥΡΙΔΩΝ ΛΥΚΟΥΔΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q18396353</idno>
+               </person>
+               <person xml:id="xristos_katsotis">
+                  <persName>ΧΡΗΣΤΟΣ ΚΑΤΣΩΤΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q20127736</idno>
+               </person>
+               <person xml:id="nikolaos_karathanasopoulos">
+                  <persName>ΝΙΚΟΛΑΟΣ ΚΑΡΑΘΑΝΑΣΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q20647546</idno>
+               </person>
+               <person xml:id="andreas_loberdos">
+                  <persName>ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q499341</idno>
+               </person>
+               <person xml:id="oloi_oi_bouleutes">
+                  <persName>ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="dimitrios_kremastinos">
+                  <persName>Δημήτριος Κρεμαστινός</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q19635577</idno>
+               </person>
+               <person xml:id="dimitrios_kammenos">
+                  <persName>Δημήτριος Καμμένος</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q31284012</idno>
+               </person>
+               <person xml:id="nikolaos_pappas">
+                  <persName>ΝΙΚΟΛΑΟΣ ΠΑΠΠΑΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q7036076</idno>
+               </person>
+               <person xml:id="konstantinos_skandalidis">
+                  <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΣΚΑΝΔΑΛΙΔΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q2337038</idno>
+               </person>
+               <person xml:id="emmanouil_suntuxakis">
+                  <persName>ΕΜΜΑΝΟΥΗΛ ΣΥΝΤΥΧΑΚΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q11696884</idno>
+               </person>
+               <person xml:id="ioannis_gkiokas">
+                  <persName>ΙΩΑΝΝΗΣ ΓΚΙΟΚΑΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q20090985</idno>
+               </person>
+               <person xml:id="dimitrios_koutsoumpas">
+                  <persName>ΔΗΜΗΤΡΙΟΣ ΚΟΥΤΣΟΥΜΠΑΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q10920455</idno>
                </person>
             </listPerson>
          </particDesc>
@@ -275,13 +260,13 @@
             <p>Αθήνα, σήμερα στις 8 Ιουνίου 2018, ημέρα Παρασκευή και ώρα 10.20΄, συνήλθε στην Αίθουσα των συνεδριάσεων του Βουλευτηρίου η Βουλή σε ολομέλεια για να συνεδριάσει υπό την προεδρία του Ε΄ Αντιπροέδρου αυτής κ. ΔΗΜΗΤΡΙΟΥ ΚΡΕΜΑΣΤΙΝΟΥ.</p>
          </div>
          <div type="debateSection" subtype="main_debate_section">
-            <u xml:id="debate_2018-06-08_speech_1" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_1" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Κυρίες και κύριοι συνάδελφοι, αρχίζει η συνεδρίαση.</seg>
                <seg>(ΕΠΙΚΥΡΩΣΗ ΠΡΑΚΤΙΚΩΝ: Σύμφωνα με την από 7-6-2018 εξουσιοδότηση του Σώματος επικυρώθηκαν με ευθύνη του Προεδρείου τα Πρακτικά της ΡΛΒ΄ συνεδριάσεώς του, της Πέμπτης 7 Ιουνίου 2018, σε ό,τι αφορά την ψήφιση στο σύνολο του σχεδίου νόμου: «Αναδιοργάνωση των δομών υποστήριξης της πρωτοβάθμιας και δευτεροβάθμιας εκπαίδευσης και άλλες διατάξεις»)</seg>
                <seg>Κυρίες και κύριοι συνάδελφοι, πριν εισέλθουμε στη συζήτηση των επικαίρων ερωτήσεων, τον λόγο θα λάβει ο κ. Σκανδαλίδης, ο οποίος και τον ζήτησε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_2" who="konstantinos_skandalidis">
+            <u xml:id="debate_2018-06-08_1_speech_2" who="konstantinos_skandalidis">
                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΣΚΑΝΔΑΛΙΔΗΣ</note>
                <seg>Ευχαριστώ πολύ, κύριε Πρόεδρε.</seg>
                <seg>Για ένα λεπτό θα σας απασχολήσω. Είναι πολύ σωστή η προσπάθεια της Βουλής να διαλευκάνει διάφορες εκκρεμότητες που έχουν σχέση με θέματα διαφθοράς κ.λπ..</seg>
@@ -290,7 +275,7 @@
                <seg>Ο κ. Παπακωνσταντίνου παραπέμφθηκε για απιστία περί την υπηρεσία. Μετά από μαραθώνια διαδικασία και ταλαιπωρία έντεκα ολόκληρων χρόνων, το Εφετείο Αθηνών με την απόφασή του της 17ης Δεκεμβρίου του 2015, που καθαρογράφηκε και δημοσιεύθηκε δύο χρόνια και πλέον αργότερα, στις 25 Ιανουαρίου του 2018, αθώωσε πανηγυρικά τον κ. Παπακωνσταντίνου από την κατηγορία.</seg>
                <seg>Θεωρώ, λοιπόν, στοιχειώδη υποχρέωσή μου να εγχειρίσω στον Πρόεδρο της Βουλής σχετική επιστολή του κ. Παπακωνσταντίνου με στόχο να ανακοινωθεί στην Ολομέλεια, να καταγραφεί και να συμπεριληφθεί στα Πρακτικά της Βουλής, προκειμένου να γίνει στοιχειώδης επανόρθωση αυτής της άδικης και βαρύτατης κατηγορίας.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_3" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_3" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Ευχαριστώ, κύριε Σκανδαλίδη.</seg>
                <seg>Παρακαλώ, η επιστολή να κατατεθεί για τα Πρακτικά.</seg>
@@ -298,7 +283,7 @@
                <seg>(Να μπουν οι σελ.4-5)</seg>
                <seg>ΑΛΛΑΓΗ ΣΕΛΙΔΑΣ</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_4" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_4" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Παρακαλείται ο κύριος Γραμματέας να ανακοινώσει τις αναφορές προς το Σώμα.</seg>
                <seg>(Ανακοινώνονται προς το Σώμα από τη Γραμματέα της Βουλής κ. Χαρούλα (Χαρά) Κεφαλίδου, Βουλευτή Δράμας, τα ακόλουθα:</seg>
@@ -307,7 +292,7 @@
                <seg>Β. ΑΠΑΝΤΗΣΕΙΣ ΥΠΟΥΡΓΩΝ ΣΕ ΕΡΩΤΗΣΕΙΣ ΒΟΥΛΕΥΤΩΝ</seg>
                <seg>(Να μπει η σελ. 11 β)</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_5" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_5" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Κυρίες και κύριοι συνάδελφοι, εισερχόμαστε στη συζήτηση των</seg>
                <seg>ΕΠΙΚΑΙΡΩΝ ΕΡΩΤΗΣΕΩΝ</seg>
@@ -326,7 +311,7 @@
                <seg>Η μοναδική ερώτηση, λοιπόν, που θα συζητηθεί είναι η τρίτη με αριθμό 1704/25-5-2018 επίκαιρη ερώτηση δεύτερου κύκλου της Βουλευτού Β΄ Αθηνών της Νέας Δημοκρατίας κ. Άννας – Μισέλ Ασημακοπούλου προς τον Υπουργό Ψηφιακής Πολιτικής, Τηλεπικοινωνιών και Ενημέρωσης, με θέμα: «Ταλαιπωρία και επιβάρυνση των καταναλωτών από την καθυστέρηση απόδοσης χρηματικών ποσών που έχουν καταβάλει στα ΕΛΤΑ για εξόφληση λογαριασμών της ΔΕΗ».</seg>
                <seg>Παρακαλώ, κυρία Ασημακοπούλου, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_6" who="anna-misel_asimakopoulou">
+            <u xml:id="debate_2018-06-08_1_speech_6" who="anna-misel_asimakopoulou">
                <note type="speaker">ΑΝΝΑ-ΜΙΣΕΛ ΑΣΗΜΑΚΟΠΟΥΛΟΥ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Κύριε Υπουργέ, ενόσω εσείς ασχολείστε με την προσέλκυση παραγωγών από το Χόλυγουντ, ασχολείστε με την Ελληνική Διαστημική Υπηρεσία, υπογράφετε μνημόνια συνεργασίας για ίδρυση σχολών και μνημόνια συνεργασίας με Υπουργούς της Κυβερνήσεώς σας για έργα τα οποία εγώ ακόμα δεν έχω καταλάβει από πού θα χρηματοδοτηθούν, εδώ στην ωραία Ελλάδα συγκρούεται η πραγματικότητα με το καινούργιο προεκλογικό σας αφήγημα περί καθαρής εξόδου και επιστροφής στην κανονικότητα. Διότι δεν υπάρχει τίποτα κανονικό, όταν το 2018 οι πολίτες στήνονται στις ουρές της ΔΕΗ για να κάνουν τι; Να βρουν άκρη με τους λογαριασμούς τους, τους οποίους έχουν εξοφλήσει στα ΕΛΤΑ, που είναι της αρμοδιότητάς σας και γι’ αυτό βρισκόμαστε εδώ και το συζητάμε μαζί σήμερα. Πληρώνουν, λοιπόν, οι συνεπείς πολίτες τους λογαριασμούς τους στα ΕΛΤΑ και τα ΕΛΤΑ δεν αποδίδουν τα χρήματα στη ΔΕΗ. Αποτέλεσμα αυτού είναι να κινδυνεύουν να χάσουν την έκπτωση συνέπειας του 15% και πρέπει να πάνε στη ΔΕΗ, γιατί εμφανίζονται οι οφειλές στον επόμενο λογαριασμό ως ανεξόφλητες.</seg>
@@ -334,14 +319,13 @@
                <seg>Επ’ αφορμή αυτού το πρώτο κομμάτι της ερώτησης είναι πόσο μεγάλο είναι το άνοιγμα αυτό των ανεξόφλητων οφειλών. Πόσα χρήματα παρακρατούν, δηλαδή, τα ΕΛΤΑ από αυτά που πληρώνουν οι καταναλωτές για να πάνε στη ΔΕΗ για να πληρωθούν οι λογαριασμοί ρεύματός τους και τι τα κάνουν αυτά τα χρήματα, για να το ρωτήσω απλά;</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας της κυρίας Βουλευτού)
-</desc>
+               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας της κυρίας Βουλευτού)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_7" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_7" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Παρακαλώ, κύριε Υπουργέ, έχετε τον λόγο, για τρία λεπτά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_8" who="nikolaos_pappas">
+            <u xml:id="debate_2018-06-08_1_speech_8" who="nikolaos_pappas">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΠΑΠΠΑΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Κυρία Ασημακοπούλου, κοιτάξτε, η πραγματικότητα πάρα πολλές φορές είναι επίμονη και προσγειώνει τους πάντες. Και όπως έχετε τα τελευταία εικοσιτετράωρα προσγειωθεί στην πραγματικότητα σε σχέση με τις εξελίξεις στις διαπραγματεύσεις με την Πρώην Γιουγκοσλαβική Δημοκρατία της Μακεδονίας, διότι ακούσαμε ότι ο Αρχηγός σας δεν θα είναι απόλυτος στη λύση η οποία προκρίνεται για το όνομα και μια μετακίνηση -σας μιλάω ειλικρινώς- θα τη χαιρετίσουμε, μετακίνηση προς τις πάγιες θέσεις της ελληνικής πλευράς όπως αυτές έχουν διατυπωθεί τα τελευταία χρόνια, έτσι θα προσγειωθείτε και με το ζήτημα της ολοκλήρωσης του προγράμματος και της καθαρής εξόδου. Άρα, νομίζω θα αφήσουμε τον πανδαμάτορα χρόνο να σας προσγειώσει στην πραγματικότητα και να ασκείτε και την κριτική σας, με βάση αυτά που πραγματικά συμβαίνουν.</seg>
@@ -351,14 +335,13 @@
                <seg>Ο τζίρος τους από το 2008 ο οποίος ήταν κοντά στα 450 εκατομμύρια έφθασε το 2016 να είναι κάτω από 200 εκατομμύρια. Μιλάμε για μείωση πάνω από 50%.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Υπουργού)
-</desc>
+               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Υπουργού)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_9" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_9" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Κυρία Ασημακοπούλου, έχετε τον λόγο και πάλι.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_10" who="anna-misel_asimakopoulou">
+            <u xml:id="debate_2018-06-08_1_speech_10" who="anna-misel_asimakopoulou">
                <note type="speaker">ΑΝΝΑ-ΜΙΣΕΛ ΑΣΗΜΑΚΟΠΟΥΛΟΥ</note>
                <seg>Κύριε Υπουργέ, ξεκινάω με το ποια είναι η πραγματικότητα. Κάνατε μια αναφορά, προφανώς σε αυτά τα οποία είπε ο Σλοβάκος Ευρωβουλευτής Έντουαρντ Κούκαν, για τις δηλώσεις του Προέδρου μας του κ. Μητσοτάκη.</seg>
                <seg>Ο κ. Μητσοτάκης ήταν απολύτως σαφής και ξεκάθαρος στο ΕΛΚ. Το ότι εσείς θέλετε να απομονώσετε μια φράση, που κάποιος άλλος απομόνωσε και να του προσάψετε μια διαφορετική μεταστροφή, το λες και αστείο, καθώς και το να λέτε για Τζέκιλ και Χάιντ, γιατί το διάβασα και αυτό στην ανακοίνωση σας.</seg>
@@ -367,39 +350,39 @@
                <seg>Επειδή κάνατε μια σύντομη αναφορά στην καθολική υπηρεσία, ξέρετε πάρα πολύ καλά, κύριε Υπουργέ -γιατί το έχουμε συζητήσει και στο πλαίσιο του κοινοβουλευτικού ελέγχου- ότι για την καθολική υπηρεσία είχε βρεθεί λύση από την προηγούμενη κυβέρνηση, είχε εγκριθεί και ο κ. Σπίρτζης, ο προκάτοχός σας, ήταν αυτός ο οποίος με επιστολή του, την οποία και έχω καταθέσει στο πλαίσιο του κοινοβουλευτικού ελέγχου, αποφάσισε στις 12-10-2016 να αποσύρει το αίτημα της ελληνικής Κυβερνήσεως όχι για το ποσό των 15 εκατομμυρίων, αλλά και για τον τρόπο επιμερισμού που είχε συμφωνηθεί. Το ότι η προηγούμενη κυβέρνηση, επειδή εσείς τη ρίξατε ουσιαστικά, δεν πρόλαβε να φέρει την τροπολογία, δεν σημαίνει ότι το θέμα δεν είχε λυθεί.</seg>
                <seg>Το θέμα, λοιπόν, ο κ. Σπίρτζης αποφάσισε να μην το λύσει και ήλθατε εσείς, όταν έχει φτάσει η κατάσταση στο απροχώρητο και υπάρχουν συσσωρευμένες οφειλές και ο κόσμος ταλαιπωρείται στις ουρές, να φέρετε την τροπολογία για τα 15 εκατομμύρια και τώρα, παραμονή απάντησης της ερωτήσεώς μου στη Βουλή, μας λέτε ότι έχετε εξασφαλίσει και την εκταμίευση των χρημάτων και ότι έρχονται και άλλα 40 εκατομμύρια από κάπου αλλού.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_11" who="nikolaos_pappas">
+            <u xml:id="debate_2018-06-08_1_speech_11" who="nikolaos_pappas">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΠΑΠΠΑΣ</note>
                <seg>Έχουν καταβληθεί.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_12" who="anna-misel_asimakopoulou">
+            <u xml:id="debate_2018-06-08_1_speech_12" who="anna-misel_asimakopoulou">
                <note type="speaker">ΑΝΝΑ-ΜΙΣΕΛ ΑΣΗΜΑΚΟΠΟΥΛΟΥ</note>
                <seg>Αυτά έχουν καταβληθεί. Πολύ ωραία. Δέχομαι την απάντηση, αλλά θα ήθελα να ξέρω το εξής: Υπάρχουν ενέργειες για το μέλλον; Υπάρχει κάτι το οποίο θα μας εξασφαλίσει ότι ο κόσμος δεν θα ξαναβρίσκεται εκεί; Ό,τι και να συζητάμε, όσο και να συγκρουόμαστε εδώ μέσα, αυτός που κάθεται στην ουρά θέλει να έχει μια απάντηση για το τι θα γίνει όταν θα πάει να ξαναπληρώσει τον λογαριασμό του στον ΕΛΤΑ.</seg>
                <seg>Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_13" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_13" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Ευχαριστούμε.</seg>
                <seg>Κύριε Υπουργέ, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_14" who="nikolaos_pappas">
+            <u xml:id="debate_2018-06-08_1_speech_14" who="nikolaos_pappas">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΠΑΠΠΑΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Κυρία Ασημακοπούλου, νομίζω ότι δεν με παρακολουθήσατε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_15" who="anna-misel_asimakopoulou">
+            <u xml:id="debate_2018-06-08_1_speech_15" who="anna-misel_asimakopoulou">
                <note type="speaker">ΑΝΝΑ-ΜΙΣΕΛ ΑΣΗΜΑΚΟΠΟΥΛΟΥ</note>
                <seg>Σας παρακολούθησα.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_16" who="nikolaos_pappas">
+            <u xml:id="debate_2018-06-08_1_speech_16" who="nikolaos_pappas">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΠΑΠΠΑΣ</note>
                <seg>Σας είπα ότι το 2014 είχαμε απόρριψη του αιτήματος του Υπουργείου Υποδομών να καταβάλει χρήματα για την καθολική υπηρεσία και η απόρριψη έγινε από το Γενικό Λογιστήριο του Κράτους. Κανένα πρόβλημα δεν είχατε λύσει. Γιατί απερρίφθη; Διότι δεν υπήρχε το σαφές νομοθετικό πλαίσιο, το οποίο ήταν η αναγκαία συνθήκη για να μπορέσει να γίνει η καταβολή της αποζημίωσης καθολικής υπηρεσίας. Αυτό αυτήν τη στιγμή γίνεται.</seg>
                <seg>Επαναλαμβάνω: Θα λάβει 45 εκατομμύρια για την καθολική υπηρεσία. Έχουν ήδη εξοφληθεί 40 εκατομμύρια από οφειλές άλλων φορέων του δημοσίου που εξυπηρετούνταν από τα ΕΛΤΑ, οπότε πάμε στα 85 και θα λάβει και άλλα 20. Υπάρχουν και μικρότερες οφειλές, οι οποίες δεν συγκροτούν …</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_17" who="anna-misel_asimakopoulou">
+            <u xml:id="debate_2018-06-08_1_speech_17" who="anna-misel_asimakopoulou">
                <note type="speaker">ΑΝΝΑ-ΜΙΣΕΛ ΑΣΗΜΑΚΟΠΟΥΛΟΥ</note>
                <seg>Όλα αυτά πάνε στη ΔΕΗ, κύριε Υπουργέ;</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_18" who="nikolaos_pappas">
+            <u xml:id="debate_2018-06-08_1_speech_18" who="nikolaos_pappas">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΠΑΠΠΑΣ</note>
                <seg>Πρέπει και τα ΕΛΤΑ να προσπαθήσουν να μικρύνει το άνοιγμα όσο γίνεται και η ΔΕΗ βεβαίως να λαμβάνει τα μέτρα της, ούτως ώστε κανένας πολίτης να μην ταλαιπωρείται για καμμία μέρα. Αυτό πρέπει να γίνεται και νομίζω ότι ήμουν πάρα πολύ καθαρός.</seg>
                <seg>Τι πρέπει να γίνει από δω και εμπρός; Κοιτάξτε: Tα ΕΛΤΑ, όταν έγινε η κυβερνητική αλλαγή και επειδή εσείς δεν μπορέσατε να πείσετε κανένα κόμμα της δημοκρατικής αντιπολίτευσης να συνεχίσει ο βίος της πιο αποτυχημένης κυβέρνησης, της κυβέρνησης Σαμαρά, τα ΕΛΤΑ είχαν περίπου 200 καταστήματα, τα οποία ήταν με χειρόγραφο τρόπο και τώρα αυτό έχει ολοκληρωθεί.</seg>
@@ -410,13 +393,13 @@
                <seg>Άρα, νομίζω ότι και ο μεταξύ μας διάλογος μπορεί να γίνει πολύ πιο δημιουργικός και βεβαίως να είμαστε όλοι ενημερωμένοι όταν ερχόμαστε για τον κοινοβουλευτικό έλεγχο, για να μπορούμε να τον κάνουμε και αυτόν πιο παραγωγικό.</seg>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_19" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_19" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Και εγώ ευχαριστώ, κύριε Υπουργέ.</seg>
                <seg>Κυρίες και κύριοι συνάδελφοι, ολοκληρώθηκε η συζήτηση των επικαίρων ερωτήσεων.</seg>
                <seg>(ΑΛΛΑΓΗ ΣΕΛΙΔΑΣ ΛΟΓΩ ΑΛΛΑΓΗΣ ΘΕΜΑΤΟΣ)</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_20" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_20" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Κυρίες και κύριοι συνάδελφοι, εισερχόμαστε στην ημερήσια διάταξη των</seg>
                <seg>ΕΠΕΡΩΤΗΣΕΩΝ</seg>
@@ -426,14 +409,13 @@
                <seg>Η Βουλή σάς καλωσορίζει.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα απ’ όλες τις πτέρυγες της Βουλής)
-</desc>
+               <desc>(Χειροκροτήματα απ’ όλες τις πτέρυγες της Βουλής)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_21" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_21" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Τον λόγο έχει ο πρώτος επερωτών Βουλευτής κ. Κατσώτης.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_22" who="xristos_katsotis">
+            <u xml:id="debate_2018-06-08_1_speech_22" who="xristos_katsotis">
                <note type="speaker">ΧΡΗΣΤΟΣ ΚΑΤΣΩΤΗΣ</note>
                <seg>Ευχαριστώ πολύ, κύριε Πρόεδρε.</seg>
                <seg>Η Κοινοβουλευτική Ομάδα του ΚΚΕ έχει καταθέσει από τον Οκτώβριο του 2016 την πρόταση νόμου των πεντακοσίων δεκατριών οργανώσεων, ομοσπονδιών, εργατικών κέντρων, συνδικάτων κλαδικών ή επιχειρησιακών, όλης της χώρας.</seg>
@@ -463,11 +445,11 @@
                <seg>Η πρόταση των πεντακοσίων δεκατριών συνδικαλιστικών οργανώσεων είναι σαφής, δεν παρερμηνεύεται, δεν αφήνει παραθυράκια. Την καταθέτουμε, με την απαίτηση να γίνει συζήτηση και διεκδικούμε να γίνει νόμος του κράτους. Θα την παλέψουμε με όλες μας τις δυνάμεις μαζί με τους εργαζόμενους όλης της χώρας.</seg>
                <seg>Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_23" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_23" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Τον λόγο έχει ο Πρόεδρος της Κοινοβουλευτικής Ομάδας του Κομμουνιστικού Κόμματος Ελλάδας κ. Κουτσούμπας.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_24" who="dimitrios_koutsoumpas">
+            <u xml:id="debate_2018-06-08_1_speech_24" who="dimitrios_koutsoumpas">
                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΚΟΥΤΣΟΥΜΠΑΣ</note>
                <seg>Κυρίες και κύριοι, από ό,τι πληροφορηθήκαμε, σήμερα γίνεται στη Βουλή η κατάθεση του πολυνομοσχεδίου με τα προαπαιτούμενα της τέταρτης αξιολόγησης, με τις γνωστές σε όλους φυσικά fast track διαδικασίες που ο ΣΥΡΙΖΑ έχει μονιμοποιήσει στα χρόνια της αντιλαϊκής διακυβέρνησής του. Και, όπως άλλωστε συνηθίζεται, πριν από κάθε κατάθεση προηγείται και το γνωστό «μασάζ» σε κυβερνητικούς Βουλευτές, το οποίο βέβαια λέτε «ενημέρωση».</seg>
                <seg>Εμείς ξέρετε ότι δημόσια είπαμε -το ξέρετε αυτό- πως αυτό που περισσότερο σας χρειάζεται δεν είναι η ενημέρωση, αλλά η εξάσκηση της μνήμης σας. Ασκήσεις μνήμης χρειάζεστε, κύριοι του κυβερνώντος κόμματος, γιατί από τα πολλά αντιλαϊκά πολυνομοσχέδια έχετε χάσει πλέον τον λογαριασμό.</seg>
@@ -512,22 +494,22 @@
                <seg>Αυτή η βαρβαρότητα που ζούμε δεν είναι μονόδρομος. Κανένας συμβιβασμός, λέμε εμείς, με τα ψίχουλα και τη χαμοζωή. Στο τέλος η εργατική τάξη, οι εργαζόμενοι, όλος ο λαός, θα τα καταφέρουν. Θα βγουν τελικά νικητές, αλλά χωρίς εσάς και κυρίως κόντρα σε εσάς και τις αντιλαϊκές πολιτικές σας.</seg>
                <seg>Σας ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_25" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_25" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Και εμείς σας ευχαριστούμε, κύριε Πρόεδρε.</seg>
                <seg>Κυρίες και κύριοι συνάδελφοι, ο Ανεξάρτητος Βουλευτής κ. Θεοχάρης (Χάρης) Θεοχάρης ζητεί ολιγοήμερη άδεια απουσίας στο εξωτερικό λόγω υποχρεώσεων. Η Βουλή εγκρίνει;</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_26" who="bouleutis/es">
+            <u xml:id="debate_2018-06-08_1_speech_26" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_27" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_27" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Συνεπώς η Βουλή ενέκρινε τη ζητηθείσα άδεια.</seg>
                <seg>Προχωρούμε τώρα στον επόμενο επερωτώντα Βουλευτή, τον κ. Βαρδαλή, ο οποίος έχει τον λόγο για πέντε λεπτά για να πρωτολογήσει, σύμφωνα με τον Κανονισμό.</seg>
                <seg>Ορίστε, κύριε Βαρδαλή, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_28" who="athanasios_bardalis">
+            <u xml:id="debate_2018-06-08_1_speech_28" who="athanasios_bardalis">
                <note type="speaker">ΑΘΑΝΑΣΙΟΣ ΒΑΡΔΑΛΗΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Δεν υπάρχει καμμιά αμφιβολία ότι η κατάργηση της δυνατότητας της διαπραγμάτευσης του κατώτερου μισθού και των συλλογικών συμβάσεων από τις προηγούμενες κυβερνήσεις και η διατήρηση όλων αυτών των νόμων από την Κυβέρνηση ΣΥΡΙΖΑ - ΑΝΕΛ ήταν μια διαδικασία συμπίεσης όλων των μισθών και του κατώτατου για την προστασία των κερδών των μεγάλων επιχειρήσεων από τις επιπτώσεις της κρίσης, διαδικασία που στόχευε ιδιαίτερα στους νέους εργαζόμενους, καθιερώνοντας τον διαχωρισμό παλαιών και νέων και κάνοντας κανόνα τις ελαστικές σχέσεις εργασίας.</seg>
@@ -543,14 +525,13 @@
                <seg>Σήμερα, για παράδειγμα, υπάρχουν μέσω των προγραμμάτων του ΟΑΕΔ χιλιάδες εργαζόμενοι σε προγράμματα απασχόλησης, αναλώσιμοι, που εργάζονται σε κάθε είδους ευέλικτη εργασία, που περιφέρονται από κλάδο σε κλάδο χωρίς δικαιώματα. Δηλαδή, τσάμπα εργασία -κυρίως νεανική- μέσω της μαθητείας.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Βουλευτή)
-</desc>
+               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Βουλευτή)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_29" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_29" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Συνεχίστε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_30" who="athanasios_bardalis">
+            <u xml:id="debate_2018-06-08_1_speech_30" who="athanasios_bardalis">
                <note type="speaker">ΑΘΑΝΑΣΙΟΣ ΒΑΡΔΑΛΗΣ</note>
                <seg>Ευχαριστώ.</seg>
                <seg>Η δημιουργία περισσότερων και καλύτερων θέσεων εργασίας αποτελεί μια υπόσχεση χωρίς κανένα, μα κανένα, αντίκρισμα.</seg>
@@ -559,13 +540,13 @@
                <seg>Η μόνη δύναμη που μπορεί να φρενάρει την καπιταλιστική βαρβαρότητα είναι η εργατική τάξη μαζί με τους φυσικούς της συμμάχους, με αγώνες σκληρούς, ταξικούς που θα σπάνε τα δεσμά της εκμετάλλευσης και θα ανοίγουν τους δρόμους του μέλλοντος, αγώνες που θα διεκδικούν έναν κόσμο χωρίς εκμετάλλευση, μια κοινωνία που τον πλούτο της θα τον καρπώνονται αυτοί που τον παράγουν.</seg>
                <seg>Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_31" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_31" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Κι εγώ ευχαριστώ.</seg>
                <seg>Συνεχίζουμε με τον επόμενο επερωτώντα Βουλευτή κ. Γκιόκα.</seg>
                <seg>Παρακαλώ, κύριε Γκιόκα, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_32" who="ioannis_gkiokas">
+            <u xml:id="debate_2018-06-08_1_speech_32" who="ioannis_gkiokas">
                <note type="speaker">ΙΩΑΝΝΗΣ ΓΚΙΟΚΑΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Ένας από τους λόγους που η Κυβέρνηση δεν τόλμησε να φέρει εδώ και ενάμιση περίπου χρόνο την πρόταση νόμου του ΚΚΕ στη Βουλή για συζήτηση, πέρα από το προφανές ότι δεν θέλει και δεν πρόκειται να την κάνει αποδεκτή, είναι και για να μην αναφερθεί και να μη συζητηθεί πάλι όλη αυτή η κοροϊδία που επιχείρησε όλα αυτά τα χρόνια να κάνει προς τους εργαζόμενους και την οποία θυμόμαστε όλοι.</seg>
@@ -582,24 +563,23 @@
                <seg>Κάποιες απ‘ αυτές είναι οι ακόλουθες: «ΚΑΡΥΠΙΔΗΣ», εταιρεία «ΣΑΒΟΪΔΑΚΗΣ», απόλυση εργαζόμενης μέλους του διοικητικού συμβουλίου, επιχείρηση «GREENMEDIA» με εφαρμογή ανταπεργίας, απολύσεις και συνδικαλιστικές διώξεις σε εταιρείες «ΑΝΑΜΕΤΤ» και «ΒΙΑΝΑΤ» του Ομίλου Στασινόπουλου και πολλές άλλες, τις οποίες καταθέτουμε στα Πρακτικά και οι οποίες αποδεικνύουν ότι μάλλον δεν έχει τρομάξει και πολύ η εργοδοσία από την πολιτική σας.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ο Βουλευτής κ. Ιωάννης Γκιόκας καταθέτει για τα Πρακτικά τα προαναφερθέντα έγγραφα, τα οποία βρίσκονται στο αρχείο του Τμήματος Γραμματείας της Διεύθυνσης Στενογραφίας και Πρακτικών της Βουλής) 
-</desc>
+               <desc>(Στο σημείο αυτό ο Βουλευτής κ. Ιωάννης Γκιόκας καταθέτει για τα Πρακτικά τα προαναφερθέντα έγγραφα, τα οποία βρίσκονται στο αρχείο του Τμήματος Γραμματείας της Διεύθυνσης Στενογραφίας και Πρακτικών της Βουλής)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_33" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_33" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Ευχαριστώ.</seg>
                <seg>Προχωρούμε με τον επόμενο ομιλητή, τον Βουλευτή κ. Δελή.</seg>
                <seg>Έχετε πέντε λεπτά πρωτολογία και τρία λεπτά δευτερολογία. Θέλετε να τα συγκεράσουμε και να τα κάνουμε οχτώ;</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_34" who="ioannis_delis">
+            <u xml:id="debate_2018-06-08_1_speech_34" who="ioannis_delis">
                <note type="speaker">ΙΩΑΝΝΗΣ ΔΕΛΗΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_35" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_35" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Κύριε Δελή, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_36" who="ioannis_delis">
+            <u xml:id="debate_2018-06-08_1_speech_36" who="ioannis_delis">
                <note type="speaker">ΙΩΑΝΝΗΣ ΔΕΛΗΣ</note>
                <seg>Οι συλλογικές συμβάσεις εργασίας δεν είναι μόνο ο μισθός των εργαζομένων, είναι και οι εργασιακές σχέσεις, τα ωράρια, τα συνδικαλιστικά δικαιώματα, τα ζητήματα ασφάλειας και υγιεινής στην εργασία.</seg>
                <seg>Καταλαβαίνουμε, λοιπόν, την τεράστια σημασία που έχουν οι συμβάσεις για τους εργαζόμενους, όπως καταλαβαίνουμε και γιατί ασχολούνται τόσο πολύ με αυτές οι εργοδότες, οι καπιταλιστές και το κράτος τους, αφού ξέρουν ότι ανάλογα με το περιεχόμενο αυτών των συμβάσεων, αυξάνεται ή μειώνεται ο βαθμός εκμετάλλευσης των εργαζομένων άρα και τα κέρδη τους.</seg>
@@ -619,20 +599,20 @@
                <seg>Εδώ είναι η πρόταση που έκαναν πάνω από πεντακόσιες εργατικές οργανώσεις, που έγινε και πρόταση του ΚΚΕ! Ψηφίστε την! Καταργείστε όλους τους αντεργατικούς νόμους! Επαναφέρετε τον βασικό μισθό στα 750 ευρώ, και τις συλλογικές συμβάσεις όπως λειτουργούσαν μέχρι το 2012 και να μην ξεχνάτε, βέβαια. Περασμένα ξεχασμένα δεν πρόκειται να πουν οι εργαζόμενοι!</seg>
                <seg>Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_37" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_37" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Και εγώ ευχαριστώ.</seg>
                <seg>Ορίστε, κύριε Συντυχάκη, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_38" who="emmanouil_suntuxakis">
+            <u xml:id="debate_2018-06-08_1_speech_38" who="emmanouil_suntuxakis">
                <note type="speaker">ΕΜΜΑΝΟΥΗΛ ΣΥΝΤΥΧΑΚΗΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_39" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_39" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Και εσείς θα κάνετε χρήση δευτερολογίας;</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_40" who="emmanouil_suntuxakis">
+            <u xml:id="debate_2018-06-08_1_speech_40" who="emmanouil_suntuxakis">
                <note type="speaker">ΕΜΜΑΝΟΥΗΛ ΣΥΝΤΥΧΑΚΗΣ</note>
                <seg>Ναι ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Η στάση όλων των κομμάτων απέναντι στα αιτήματα και τους στόχους πεντακοσίων τριάντα συνδικαλιστικών οργανώσεων είναι -κατά τη γνώμη μας- ένα επιπλέον κριτήριο, αλλά και απόδειξη με ποιανού τα συμφέροντα τάσσονται.</seg>
@@ -652,13 +632,13 @@
                <seg>Τέλος -και ολοκληρώνω, κύριε Πρόεδρε- η πρόταση νόμου του ΚΚΕ, τα αιτήματα των πεντακοσίων δεκατριών σωματείων, ομοσπονδιών, εργατικών κέντρων, η υπόθεση των συλλογικών συμβάσεων είναι μια μάχη που αφορά τον μισθό, συνολικά τις εργασιακές σχέσεις, τον ημερήσιο χρόνο, την υγιεινή και την ασφάλεια στην εργασία. Είναι αγώνας για το συνολικό ξήλωμα του αντεργατικού πλαισίου. Η εργατική τάξη και τα φτωχά λαϊκά στρώματα πρέπει να ακολουθήσουν τον δρόμο του αγώνα για να ανατραπεί αυτή η πολιτική, να παλέψουν για την κάλυψη των απωλειών και την υπεράσπιση της ζωής τους, για την ανασύνταξη των δυνάμεων του ταξικού συνδικαλιστικού κινήματος, του εργατικού κινήματος συνολικά, και να ενισχύσουν το ταξικό συνδικαλιστικό κίνημα.</seg>
                <seg>Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_41" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_41" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Κι εγώ ευχαριστώ.</seg>
                <seg>Τελευταίος επερωτών Βουλευτής είναι ο Αντιπρόεδρος κ. Λαμπρούλης.</seg>
                <seg>Ορίστε, κύριε Λαμπρούλη, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_42" who="georgios_lamproulis">
+            <u xml:id="debate_2018-06-08_1_speech_42" who="georgios_lamproulis">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΛΑΜΠΡΟΥΛΗΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Η πολιτική κατεύθυνση της επίκαιρης επερώτησης που κατέθεσε το κόμμα μας, οι θέσεις που περιέχει για την κατάργηση των αντιλαϊκών μέτρων που κτυπούν τους μισθούς, τις συντάξεις, τις συλλογικές συμβάσεις, τα εργασιακά, τα ασφαλιστικά, τα κοινωνικά δικαιώματα αλλά και οι στόχοι πάλης που θέτουμε για διεκδίκηση, είναι σε αντιστοιχία με τις λαϊκές ανάγκες. Μπορούν να γίνουν όπλο στα χέρια του εργατικού λαϊκού κινήματος, να συμβάλλουν στην ενδυνάμωση της πάλης τους.</seg>
@@ -671,20 +651,19 @@
                <seg>Η κατάργηση και της ελάχιστης νομοθετικής προστασίας ή κρατικών υπηρεσιών για την προστασία της υγιεινής και ασφάλειας στην εργασία, η ουσιαστική κατάργηση των ελέγχων της ασφάλειας και της υγιεινής στους χώρους εργασίας, η απουσία αποκλειστικά κρατικού σώματος επιθεωρητών και γιατρών εργασίας, όλα αυτά αποτελούν συνειδητή πολιτική επιλογή διαχρονικά. Προϋπήρχαν της κρίσης και γιγαντώθηκαν από τις πολιτικές διαχείρισης της κρίσης προς όφελος των μονοπωλίων. Πρόκειται για μια πολιτική που αντιμετωπίζει την εργατική τάξη σαν αναλώσιμο είδος και που θυσιάζει εργάτες και εργάτριες στον βωμό του κέρδους.</seg>
                <seg>Να γιατί σήμερα γίνεται ακόμα πιο επιτακτική η ανάγκη σύνδεσης της πάλης για τα εργασιακά, ασφαλιστικά, μισθολογικά δικαιώματα, με την ένταση της εργατικής δράσης για την προστασία της ζωής, της ασφάλειας και της υγείας των εργατών και εργατριών, για ταξική σύγκρουση με το εκμεταλλευτικό σύστημα και την αντεργατική πολιτική που γεννάει και οξύνει το σύνολο των εργατικών προβλημάτων.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_43" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_43" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Προτού δώσω τον λόγο στην Υπουργό την κ. Αχτσιόγλου, κυρίες και κύριοι συνάδελφοι, έχω την τιμή να ανακοινώσω στο Σώμα ότι τη συνεδρίασή μας παρακολουθούν από τα άνω δυτικά θεωρεία, αφού προηγουμένως ξεναγήθηκαν στην έκθεση της αίθουσας «ΕΛΕΥΘΕΡΙΟΣ ΒΕΝΙΖΕΛΟΣ» και ενημερώθηκαν για την ιστορία του κτηρίου και τον τρόπο οργάνωσης και λειτουργίας της Βουλής, τριάντα τρεις μαθήτριες και μαθητές και τέσσερις εκπαιδευτικοί συνοδοί τους από το Δημοτικό Σχολείο Γαλιάς Ηρακλείου και από το 3ο Δημοτικό Σχολείο Χίου.</seg>
                <seg>Η Βουλή σάς καλωσορίζει.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα απ’ όλες τις πτέρυγες της Βουλής)
-</desc>
+               <desc>(Χειροκροτήματα απ’ όλες τις πτέρυγες της Βουλής)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_44" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_44" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Έχετε τον λόγο, κυρία Αχτσιόγλου.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_45" who="efi_axtsioglou">
+            <u xml:id="debate_2018-06-08_1_speech_45" who="efi_axtsioglou">
                <note type="speaker">ΕΦΗ ΑΧΤΣΙΟΓΛΟΥ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Κυρίες και κύριοι Βουλευτές, πολύ συχνά όταν συζητάμε για τα εργασιακά επικεντρωνόμαστε στο τι συνέβη την περίοδο 2010-2014, την περίοδο της μεγάλης απορρύθμισης των εργασιακών δικαιωμάτων και ξεχνάμε ενδεχομένως ότι ο δρόμος της απορρύθμισης στα εργασιακά είχε ξεκινήσει αρκετά χρόνια πριν. Αυτό ενδεχομένως αποδεικνύει και κάτι που είναι εξαιρετικά καθαρό: Αποδεικνύει ότι η απορρύθμιση της εργασίας δεν ήταν ένα σχέδιο επιβολής των διαθέσεων της τρόικας ή τέλος πάντων δεν ήταν μόνο αυτό, αλλά ήταν σε πολύ μεγάλο βαθμό και ένα σχέδιο το οποίο το ασπάζονταν οι προηγούμενες κυβερνήσεις ως καθαρή θέση αρχής. Και θα το εξηγήσω αυτό.</seg>
@@ -730,15 +709,14 @@
                <seg>Σας ευχαριστώ πολύ.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)
-</desc>
+               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_46" who="dimitrios_kremastinos">
+            <u xml:id="debate_2018-06-08_1_speech_46" who="dimitrios_kremastinos">
                <note type="speaker">Δημήτριος Κρεμαστινός</note>
                <seg>Ευχαριστώ κι εγώ.</seg>
                <seg>Τον λόγο έχει ο Κοινοβουλευτικός Εκπρόσωπος του Κομμουνιστικού Κόμματος Ελλάδας κ. Καραθανασόπουλος για έξι λεπτά, επειδή μίλησε ο Πρόεδρος.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_47" who="nikolaos_karathanasopoulos">
+            <u xml:id="debate_2018-06-08_1_speech_47" who="nikolaos_karathanasopoulos">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΚΑΡΑΘΑΝΑΣΟΠΟΥΛΟΣ</note>
                <seg>Εδώ ακούσαμε την προεκλογική ομιλία της κ. Αχτσιόγλου για το τι θα κάνει, για το πώς θα ζήσουν οι εργαζόμενοι τον νέο τους παράδεισο, αλλά δεν αναφέρθηκε καθόλου και μάλλον απαξίωσε τελείως την πρόταση νόμου του ΚΚΕ, που είναι η πρόταση πεντακοσίων δεκατριών ομοσπονδιών και σωματείων, την οποία επεξεργάστηκαν και μάλιστα, έχει τον βαρύγδουπο τίτλο, λέγοντας ότι είναι αντισυνταγματική αυτή η πρόταση. Μάλλον δεν την διάβασε καλά και την πέρασε πολύ πρόχειρα, λέγοντας ότι δεν είναι και ξεκάθαρη ποια συλλογική σύμβαση θα ισχύει, όταν θα υπάρχουν πολλές συλλογικές συμβάσεις. Μα, το λέμε καθαρά μέσα: «η πιο ευνοϊκή για τους εργαζόμενους». Αν δεν τα διαβάζετε πολύ καλά, δεν φταίμε εμείς, κυρία Υπουργέ.</seg>
                <seg>Βεβαίως, κατέφυγε πάλι στη γνωστή τακτική απέναντι στη Νέα Δημοκρατία. Μάλιστα, ο χρόνος έχει σταματήσει στο 2014 για την κυρία Υπουργό. Μια σειρά από επιπτώσεις του νομοθετικού πλαισίου -βεβαίως τον μεγαλύτερο βαθμό ευελιξίας στην αγορά εργασίας τον έκανε η Κυβέρνηση της Νέας Δημοκρατίας και το ΠΑΣΟΚ- τις βιώνουμε και σήμερα. Μετά το 2014 έχουν περάσει τριάμισι χρόνια, που είστε Κυβέρνηση. Και όχι μόνο δεν αντιστρέψατε αυτήν την πορεία, αλλά επιταχύνθηκε ακόμα προς το δυσμενέστερο, σε βάρος των εργαζόμενων.</seg>
@@ -746,24 +724,23 @@
                <seg>Είναι -ή μήπως όχι- ψευδές το γεγονός ότι οι περισσότερες προσλήψεις γίνονται με τη μορφή της μερικής απασχόλησης, ευέλικτης απασχόλησης σε βάρος της σταθερής εργασίας; Ανατράπηκε αυτή η εικόνα; Όχι μόνο δεν ανατράπηκε, αλλά ενισχύεται ακόμα περισσότερο και μάλιστα, η μείωση της εργασίας, όπως λέτε, είναι κάτω από αυτές τις άθλιες συνθήκες της μερικής απασχόλησης, της υποαπασχόλησης, ακόμη και των θέσεων εργασίας, που επιδοτείτε ως Υπουργείο με τα χρήματα των εργαζόμενων από τα διάφορα προγράμματα κατάρτισης και επανακατάρτισης. Χρηματοδοτείτε τους κεφαλαιοκράτες, για να μπορούν να προσλαμβάνουν για ένα μικρό διάστημα, για οκτώ μήνες, για δώδεκα μήνες, ανάλογα με τα προγράμματα, φτηνούς εργαζόμενους που τους πληρώνουν όσοι δουλεύουν.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο  Η΄ Αντιπρόεδρος της Βουλής κ. ΔΗΜΗΤΡΙΟΣ ΚΑΜΜΕΝΟΣ)
-</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο  Η΄ Αντιπρόεδρος της Βουλής κ. ΔΗΜΗΤΡΙΟΣ ΚΑΜΜΕΝΟΣ)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_48" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_48" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Κύριε Καραθανασόπουλε, είμαστε στα δέκα λεπτά. Παίρνετε και τη δευτερολογία.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_49" who="nikolaos_karathanasopoulos">
+            <u xml:id="debate_2018-06-08_1_speech_49" who="nikolaos_karathanasopoulos">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΚΑΡΑΘΑΝΑΣΟΠΟΥΛΟΣ</note>
                <seg>Ολοκληρώνω.</seg>
                <seg>Όχι μόνο, λοιπόν, δεν πάτε να αντιστρέψετε την πορεία, αλλά επιβαρύνετε και επιδεινώνετε ακόμη περισσότερο με τις δικές σας πολιτικές τη θέση της εργατικής τάξης απέναντι στους κεφαλαιοκράτες.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_50" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_50" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστώ πολύ.</seg>
                <seg>Τον λόγο έχει ο Κοινοβουλευτικός Εκπρόσωπος του ΣΥΡΙΖΑ κ. Γρηγόριος Στογιαννίδης για έξι λεπτά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_51" who="grigorios_stogiannidis">
+            <u xml:id="debate_2018-06-08_1_speech_51" who="grigorios_stogiannidis">
                <note type="speaker">ΓΡΗΓΟΡΙΟΣ ΣΤΟΓΙΑΝΝΙΔΗΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Κυρίες και κύριοι Βουλευτές, στην Ελλάδα δύο είναι οι πυλώνες του συνδικαλιστικού κινήματος: ο ν.1264/1982 και ο ν.1876/1990. Ο ν.1264/1982 καθορίζει συνδικαλιστικές ελευθερίες και ο ν.1876/1990 τις συλλογικές διαπραγματεύσεις. Τον ν.1876/1990 τον ψήφισε ομόφωνα η ελληνική Βουλή, όταν στη συγκεκριμένη κυβέρνηση συμμετείχε και η Αριστερά, μαζί μάλιστα και το Κομμουνιστικό Κόμμα. Συμφωνώ απόλυτα ότι η Αριστερά, όποτε της δίνεται η ευκαιρία, πρέπει να κυβερνά. Μόνο έτσι μπορεί να στηρίξει τα εργατικά δικαιώματα.</seg>
@@ -784,15 +761,14 @@
                <seg>Σας ευχαριστώ.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)
-</desc>
+               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_52" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_52" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστούμε πολύ τον κ. Στογιαννίδη.</seg>
                <seg>Τον λόγο έχει ο Κοινοβουλευτικός Εκπρόσωπος της Νέας Δημοκρατίας κ. Ιωάννης Βρούτσης, για έξι λεπτά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_53" who="ioannis_broutsis">
+            <u xml:id="debate_2018-06-08_1_speech_53" who="ioannis_broutsis">
                <note type="speaker">ΙΩΑΝΝΗΣ ΒΡΟΥΤΣΗΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Κυρίες και κύριοι συνάδελφοι, η επίκαιρη επερώτηση που κατέθεσε το Κομμουνιστικό Κόμμα της Ελλάδας νομίζω ότι μπαίνει σε μια χρονική συγκυρία και χρονική στιγμή που την κάνει πάρα πολύ χρήσιμη, υπό την έννοια ότι δίνεται η ευκαιρία να αναδειχθεί με τον πιο ξεκάθαρο τρόπο, τριάμισι χρόνια μετά τη διακυβέρνηση των ΣΥΡΙΖΑ - ΑΝΕΛ, η απόλυτη υποκρισία, τα ψέματα, η ιδεοληψία του ΣΥΡΙΖΑ, πόσο στοίχησαν και ποιο ήταν το τίμημα για τους εργαζόμενους και συνταξιούχους αυτής της πολιτικής του ΣΥΡΙΖΑ.</seg>
@@ -816,11 +792,11 @@
                <seg>Τι σημαίνει αυτό; Κυρίες και κύριοι συνάδελφοι, για τους εργαζόμενους και για όλους, αυτό σημαίνει η απώλεια αφορολογήτου των περίπου 3.900 ευρώ με 22% συντελεστή μας κάνει ένα νούμερο 858 ευρώ καθαρή απώλεια, κυρία Υπουργέ, δηλαδή ένας ολόκληρος μισθός χαμένος για κάθε εργαζόμενο της Ελλάδος με υπογραφή ΣΥΡΙΖΑ - ΑΝΕΛ.</seg>
                <seg>Δεν ήταν μόνο οι ομαδικές απολύσεις, λοιπόν, δεν ήταν μόνο τα ψέματα. Χάσατε έναν ολόκληρο χρόνο να αυξήσετε τον κατώτατο μισθό. Χάνουν και οι εργαζόμενοι έναν ολόκληρο μισθό λόγω της δικής σας ιδεοληψίας, αυταπάτης και ανικανότητας.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_54" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_54" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Κύριε Βρούτση, παρακαλώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_55" who="ioannis_broutsis">
+            <u xml:id="debate_2018-06-08_1_speech_55" who="ioannis_broutsis">
                <note type="speaker">ΙΩΑΝΝΗΣ ΒΡΟΥΤΣΗΣ</note>
                <seg>Έκλεισα, κύριε Πρόεδρε. Ευχαριστώ πάρα πολύ.</seg>
                <seg>Κλείνω με μία παρατήρηση την οποία οφείλω να κάνω, γιατί αφορά το σύνολο του Κοινοβουλίου. Κοιτάξτε, κυρία Υπουργέ, είναι προσωπικό το ζήτημα που θα πω. Σας αφορά προσωπικά και εσάς και το κόμμα. Η δημοκρατία μας έχει κανόνες, έχει πλαίσιο λειτουργίας. Είναι απαράδεκτο ότι σαράντα έξι Βουλευτές της Νέας Δημοκρατίας σας έκαναν ερώτηση, τους αγνοήσατε, τους περιφρονήσατε. Είναι σαράντα έξι Βουλευτές, πάνω από τη μισή κοινοβουλευτική ομάδα της Νέας Δημοκρατίας! Αφορά όλα τα κόμματα.</seg>
@@ -828,12 +804,12 @@
                <seg>Και είναι προκλητικό και προσβλητικό και για την Βουλή και για τη δημοκρατία μας να περιφρονείτε τις διαδικασίες, τους νόμους και τους Βουλευτές.</seg>
                <seg>Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_56" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_56" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστώ.</seg>
                <seg>Τον λόγο έχει ο Κοινοβουλευτικός Εκπρόσωπος της Δημοκρατικής Συμπαράταξης ΠΑΣΟΚ - ΔΗΜΑΡ κ. Ανδρέας Λοβέρδος.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_57" who="andreas_loberdos">
+            <u xml:id="debate_2018-06-08_1_speech_57" who="andreas_loberdos">
                <note type="speaker">ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ</note>
                <seg>Κύριε Πρόεδρε, κυρία και κύριε Υπουργέ, στο σχέδιο νόμου της Κυβέρνησης, που το καταλαβαίνουμε ως σχέδιο νόμου με τα προαπαιτούμενα, συμπυκνώνονται όλες εκείνες οι πολιτικές που διαψεύδουν και γελοιοποιούν τα περί καθαρής εξόδου της Κυβέρνησης. Κούρεμα συντάξεων το 2019, αφορολόγητο στις 5.000 ευρώ το 2020, κατάργηση της έκπτωσης του ΦΠΑ σε συγκεκριμένα νησιά, περιορισμός της δυνατότητας μονομερούς προσφυγής στη διαιτησία και πολλά άλλα.</seg>
                <seg>Έχουμε έναν Υπουργό, όμως, που παρ’ όλα αυτά που εισηγείται και εξηγεί στις συγκυβερνώσες Κοινοβουλευτικές Ομάδες, κωμικοποιεί την ιστορία της καθαρής εξόδου με όλα αυτά τα μέτρα και αυτά που εμπεριέχονται στο σχέδιο νόμου. Και ενώ αυτό το αποδεικνύουν οι πράξεις, οι διατάξεις, τα έργα του, έχει και το θράσος να προσποιείται τον αρχηγό της εσωκομματικής αντιπολίτευσης.</seg>
@@ -852,35 +828,34 @@
                <seg>Υπήρξε μέσα στο χρόνια της έντασης από τον κ. Κουτρουμάνη η μεγάλη παρέμβαση για τη μετενέργεια, επί καθυστερήσεως τριών μηνών να καταρτιστούν συμβάσεις και η διατήρηση των τεσσάρων βασικών επιδομάτων, στα βαρέα κι ανθυγιεινά, στα οικογενειακά επιδόματα, στις σπουδές και στα χρόνια επιδόματα.</seg>
                <seg>Τα κράτησε ο κ. Κουτρουμάνης, οι κυβερνήσεις Παπανδρέου -Παπαδήμου τα κρατήσαμε και, κύριε Βρούτση, είστε μάρτυρας, δεν τα θίξατε εσείς μετά από την κυβέρνηση Σαμαρά - Βενιζέλου. Ήσασταν Υπουργός Εργασίας όλα αυτά τα κρίσιμα χρόνια. Δεν θυμάμαι -αν φταίει η μνήμη μου παρακαλώ να μου το πείτε- να τα πειράξατε εσείς αυτά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_58" who="ioannis_broutsis">
+            <u xml:id="debate_2018-06-08_1_speech_58" who="ioannis_broutsis">
                <note type="speaker">ΙΩΑΝΝΗΣ ΒΡΟΥΤΣΗΣ</note>
                <seg>Έτσι είναι. Σωστά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_59" who="andreas_loberdos">
+            <u xml:id="debate_2018-06-08_1_speech_59" who="andreas_loberdos">
                <note type="speaker">ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ</note>
                <seg>Και ήρθαν οι δήθεν φίλοι του λαού, βλέπω εδώ εκπροσώπους του Μαρά στην Αίθουσα, να προασπιστούν τους κατώτατους μισθούς που θα τους ανέβαζαν. Τέσσερα χρόνια μετά δεν έχουν ντροπή κι έρχονται εδώ και το ξαναλένε, για να κριθούν κατά τα λόγια. Κατά τα έργα τους, όμως, θα κριθούν. Και μας λένε πολλά και διάφορα.</seg>
                <seg>Κοιτάξτε. Μοιράσατε σανό με κέντρο την Αθήνα και ακτινοθήκατε στην περιφέρεια. Τώρα που το σανό δεν καταναλώνεται εύκολα, ιδρύετε κοινωνικά σανοπωλεία και πιστεύετε ότι με έδρα τη Βουλή, το Μαξίμου και τα διάφορά σας, θα πάτε σε όλη την Ελλάδα και θα πουλήσετε όλα αυτά τα παραμύθια. Δεν τα αγοράζει κανείς. Θα κριθείτε κατά τις πράξεις σας και οι πράξεις σας είναι οδυνηρές για τον ελληνικό λαό.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό κτυπάει επαναληπτικά το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Βουλευτή)
-</desc>
+               <desc>(Στο σημείο αυτό κτυπάει επαναληπτικά το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Βουλευτή)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_60" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_60" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Κύριε Λοβέρδο, είμαστε στα εννιάμισι λεπτά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_61" who="andreas_loberdos">
+            <u xml:id="debate_2018-06-08_1_speech_61" who="andreas_loberdos">
                <note type="speaker">ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ</note>
                <seg>Είναι η τελευταία μου φράση, Πρόεδρε.</seg>
                <seg>Δεν ξέρω τι έχετε σκοπό να κάνετε. Δικοί σας άνθρωποι μιλούν για εκλογές. Συγκυβερνώντες και κυρίως κυβερνώντες μιλούν για εκλογές. Εσείς τα ξέρετε αυτά. Όποτε και να τις κάνετε, όμως, θα φάτε «μαύρο». Αυτή είναι η προοπτική σας.</seg>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_62" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_62" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστούμε πάρα πολύ.</seg>
                <seg>Παρακαλώ πολύ τον κοινοβουλευτικό εκπρόσωπο από τον Λαϊκό Σύνδεσμο - Χρυσή Αυγή κ. Ηλία Παναγιώταρο να λάβει τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_63" who="ilias_panagiotaros">
+            <u xml:id="debate_2018-06-08_1_speech_63" who="ilias_panagiotaros">
                <note type="speaker">ΗΛΙΑΣ ΠΑΝΑΓΙΩΤΑΡΟΣ</note>
                <seg>Ευχαριστώ πολύ, κύριε Πρόεδρε.</seg>
                <seg>Κατ’ αρχάς, πριν ξεκινήσω, να ευχηθώ καλή επιτυχία στον Πρόεδρο της Νέας Δημοκρατίας, που παρευρίσκεται στις εργασίες της Λέσχης Bilderberg, εκεί που δίνουν οδηγίες στα διάφορα πιόνια που τοποθετούν ανά την υφήλιο. Πήγε να πάρει οδηγίες για το πώς θα συνεχιστεί η αφαίμαξη του ελληνικού λαού.</seg>
@@ -891,14 +866,13 @@
                <seg>Καταθέτω για τα Πρακτικά τα δημοσιεύματα της εποχής από αριστερές εφημερίδες. «Το Κομμουνιστικό Κόμμα Ελλάδας απέλυσε εργαζόμενο στον Ριζοσπάστη με μνημονιακή προειδοποίηση και μισή αποζημίωση».</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό ο Βουλευτής κ. Ηλίας Παναγιώταρος καταθέτει για τα Πρακτικά τα προαναφερθέντα έγγραφα, τα οποία βρίσκονται στο αρχείο του Τμήματος Γραμματείας της Διεύθυνσης Στενογραφίας και Πρακτικών της Βουλής)
-</desc>
+               <desc>(Στο σημείο αυτό ο Βουλευτής κ. Ηλίας Παναγιώταρος καταθέτει για τα Πρακτικά τα προαναφερθέντα έγγραφα, τα οποία βρίσκονται στο αρχείο του Τμήματος Γραμματείας της Διεύθυνσης Στενογραφίας και Πρακτικών της Βουλής)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_64" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_64" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Αγαπητέ συνάδελφε, είμαστε στα εννέα λεπτά. Παρακαλώ να κλείσουμε.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_65" who="ilias_panagiotaros">
+            <u xml:id="debate_2018-06-08_1_speech_65" who="ilias_panagiotaros">
                <note type="speaker">ΗΛΙΑΣ ΠΑΝΑΓΙΩΤΑΡΟΣ</note>
                <seg>Τελειώνω σε μισό λεπτό, κύριε Πρόεδρε.</seg>
                <seg>Για να γίνουν όλα αυτά χρειάζεται ένα πραγματικά εθνικό καθεστώς, το οποίο δεν είστε εσείς ούτε οι προηγούμενοι και, δυστυχώς, δεν θα είναι ούτε οι επόμενοι.</seg>
@@ -906,23 +880,22 @@
                <seg>Ευχαριστώ πολύ.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την πτέρυγα της Χρυσής Αυγής)
-</desc>
+               <desc>(Χειροκροτήματα από την πτέρυγα της Χρυσής Αυγής)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_66" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_66" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Σας παρακαλώ, κύριε συνάδελφε, προσέξτε λίγο τις εκφράσεις σας!</seg>
                <seg>Έχει ζητήσει ο Κοινοβουλευτικός Εκπρόσωπος της Δημοκρατικής Αριστεράς ΠΑΣΟΚ - ΔΗΜΑΡ τον λόγο για διαδικαστικό λόγο.</seg>
                <seg>Ορίστε, κύριε Λοβέρδο, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_67" who="andreas_loberdos">
+            <u xml:id="debate_2018-06-08_1_speech_67" who="andreas_loberdos">
                <note type="speaker">ΑΝΔΡΕΑΣ ΛΟΒΕΡΔΟΣ</note>
                <seg>Για είκοσι δευτερόλεπτα θα ήθελα τον λόγο, κύριε Πρόεδρε.</seg>
                <seg>Θέλω να ξεκινήσω αυτό το σύντομο που θέλω να πω με τη φράση ότι προσωπικά ως καθηγητής του Δημοσίου Δικαίου έχω υπερασπιστεί όσο μπορούσα περισσότερο την έννοια του κράτους δικαίου και το αξίωμα για μια δημοκρατία, ότι η δημοκρατία δεν εκδικείται. Και ως Βουλευτής μαζί με τον κ. Κουβέλη σε ανύποπτους χρόνους έχουμε πάρει σχετικές πρωτοβουλίες για να πάρει αυτό σάρκα και οστά. Αυτό είναι θέση αρχής.</seg>
                <seg>Ωστόσο, χθες το βράδυ έγινε μια βάρβαρη επίθεση στα γραφεία του Βουλευτή, του συναδέλφου μας, κ. Μιλτιάδη Βαρβιτσιώτη. Για περίπου ένα ή δύο λεπτά δεν συνέπεσε με τους εισβολείς στον χώρο του γραφείου του. Μου είπε τώρα που τον πήρα για συμπαράσταση ότι δεν τον έχει πάρει ένας –ο κ. Τόσκας, ας πούμε- ή κάποιος από την Πλειοψηφία για μια λέξη συμπαράστασης.</seg>
                <seg>Σας καλώ, κύριε Πρόεδρε, προεδρεύοντας τώρα, να μας καλέσετε από όλες τις πλευρές της Βουλής να καταδικάσουμε αυτή τη βάρβαρη πράξη.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_68" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_68" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστώ πολύ.</seg>
                <seg>Νομίζω ότι είναι αυτονόητο. Με τον κ. Βαρβιτσιώτη, επειδή ήμουν και το πρωί σε δουλειά, θα μιλήσω σε λίγο μαζί του. Του το έχω υποσχεθεί, γιατί ήμασταν και προχθές το βράδυ μαζί σε μια εκδήλωση.</seg>
@@ -932,7 +905,7 @@
                <seg>Παρακαλώ πολύ τον επόμενο ομιλητή, Κοινοβουλευτικό Εκπρόσωπο του Ποταμιού, τον κ. Λυκούδη, να έρθει στο Βήμα.</seg>
                <seg>Ορίστε, κύριε συνάδελφε, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_69" who="spuridon_lukoudis">
+            <u xml:id="debate_2018-06-08_1_speech_69" who="spuridon_lukoudis">
                <note type="speaker">ΣΠΥΡΙΔΩΝ ΛΥΚΟΥΔΗΣ</note>
                <seg>Είναι αμέριστη και η δική μου συμπαράσταση στον συνάδελφο κ. Βαρβιτσιώτη για την άνανδρη επίθεση που δέχθηκε. Νομίζω ότι είναι και από όλους μας απόλυτη η καταδίκη σε οποιαδήποτε μορφή βίας.</seg>
                <seg>Κυρίες και κύριοι συνάδελφοι, η επίκαιρη επερώτηση του Κομμουνιστικού Κόμματος της Ελλάδας που συζητάμε σήμερα, η αργοπορία της συζήτησης της οποίας ασφαλώς και τον Κανονισμό της Βουλής παραβιάζει και εμφανείς πολιτικές σκοπιμότητες υποθάλπει, μας δίνει τη δυνατότητα να ανταλλάξουμε μεταξύ μας χρήσιμες απόψεις. Και λέω ότι υποθάλπει πολιτικές σκοπιμότητες, κατά τη γνώμη μου, γιατί για την Κυβέρνηση σε αυτή τη φάση –που νομίζω ότι κουρδίζει όλα της τα όργανα, για να παιανίσουν την καθαρή έξοδο από τα μνημόνια, εννοείται τον ερχόμενο Αύγουστο, καλώς εχόντων των πραγμάτων- τώρα είναι ίσως η κατάλληλη στιγμή για να διατυμπανισθούν η επάνοδος στις συλλογικές διαπραγματεύσεις και η αύξηση -ενδεχομένως- του κατώτατου μισθού.</seg>
@@ -950,25 +923,23 @@
                <seg>Από την άλλη μεριά, η διαδικασία καθορισμού του κατώτατου μισθού από την Κυβέρνηση αποτελεί πρακτική που ισχύει σε είκοσι από τις είκοσι επτά χώρες της Ευρώπης. Μπορεί και εδώ να γίνει με πράξη του Υπουργικού Συμβουλίου, εφόσον βεβαίως ληφθούν υπ’ όψιν τα πραγματικά δεδομένα της οικονομίας. Με την ίδια διαδικασία μειώθηκε το 2012, με την ίδια μπορεί να αυξηθεί, εφόσον προφανώς -ξαναλέω- ληφθούν υπ’ όψιν μια σειρά από κρίσιμους παράγοντες για την ελληνική οικονομία.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Αντιπροέδρου)
-</desc>
+               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Αντιπροέδρου)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_70" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_70" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστούμε πολύ τον κύριο Αντιπρόεδρο.</seg>
                <seg>Κυρίες και κύριοι συνάδελφοι, έχω την τιμή να ανακοινώσω στο Σώμα ότι τη συνεδρίασή μας παρακολουθούν από τα άνω δυτικά θεωρεία, αφού προηγουμένως ξεναγήθηκαν στην έκθεση της αίθουσας «ΕΛΕΥΘΕΡΙΟΣ ΒΕΝΙΖΕΛΟΣ» και ενημερώθηκαν για την ιστορία του κτηρίου και τον τρόπο οργάνωσης και λειτουργίας της Βουλής, τριάντα οκτώ μαθήτριες και μαθητές και πέντε συνοδοί εκπαιδευτικοί από το 1ο Δημοτικό Σχολείο Καρύστου Ευβοίας.</seg>
                <seg>Η Βουλή σάς καλωσορίζει, παιδιά.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα απ’ όλες τις πτέρυγες της Βουλής)
-</desc>
+               <desc>(Χειροκροτήματα απ’ όλες τις πτέρυγες της Βουλής)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_71" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_71" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Κυρίες και κύριοι συνάδελφοι, με την απουσία των Κοινοβουλευτικών Εκπροσώπων των Ανεξαρτήτων Ελλήνων κ. Παπαχριστόπουλου και κ. Γεωργιάδη από την Ένωση Κεντρώων θα προχωρήσουμε στη δευτερολογία του επερωτώντος Βουλευτή από το Κομμουνιστικό Κόμμα Ελλάδας κ. Χρήστου Κατσώτη.</seg>
                <seg>Ορίστε, κύριε Κατσώτη, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_72" who="xristos_katsotis">
+            <u xml:id="debate_2018-06-08_1_speech_72" who="xristos_katsotis">
                <note type="speaker">ΧΡΗΣΤΟΣ ΚΑΤΣΩΤΗΣ</note>
                <seg>Ευχαριστώ, κύριε Πρόεδρε.</seg>
                <seg>Κάποιοι Χρυσαυγίτες στο λιμάνι του Πειραιά που πρόσφεραν μέχρι τώρα τις υπηρεσίες τους ως απεργοσπάστες, αυτή τη φορά δεν τα κατάφεραν γιατί οι εργαζόμενοι δεν το επέτρεψαν. Δεν επέτρεψαν στα τσιράκια των εργοδοτών, στους δουλέμπορους, στους μαχαιροβγάλτες, να εμποδίσουν τον αγώνα τους. Αυτά τα λέω σε σχέση μ’ αυτά, που είπε εδώ η εγκληματική οργάνωση των Χρυσαυγιτών.</seg>
@@ -982,16 +953,15 @@
                <seg>Τι θα κάνετε, κυρία Υπουργέ; Σας ρωτήσαμε αν θα καταργήσετε τις ενώσεις προσώπων. Και εσείς δεν είπατε κουβέντα. Είναι κατάκτηση των εργοδοτών οι ενώσεις προσώπων. Είναι δικά τους εργαλεία. Και εσείς τα θωρακίζετε για να παίξουν τον ρόλο της μείωσης της τιμής της εργατικής δύναμης.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Βουλευτή)
-</desc>
+               <desc>(Στο σημείο αυτό κτυπάει το κουδούνι λήξεως του χρόνου ομιλίας του κυρίου Βουλευτή)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_73" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_73" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστούμε πολύ τον κ. Κατσώτη.</seg>
                <seg>Δεδομένου ότι έχει γίνει χρήση των δευτερολογιών από τους επερωτώντες Βουλευτές, τον λόγο έχει για δέκα λεπτά ο Υφυπουργός Εργασίας, Κοινωνικής Ασφάλισης και Κοινωνικής Αλληλεγγύης κ. Ηλιόπουλος.</seg>
                <seg>Ορίστε, κύριε Υπουργέ, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_74" who="athanasios_iliopoulos">
+            <u xml:id="debate_2018-06-08_1_speech_74" who="athanasios_iliopoulos">
                <note type="speaker">ΑΘΑΝΑΣΙΟΣ ΗΛΙΟΠΟΥΛΟΣ</note>
                <seg>Κύριε Πρόεδρε, κυρίες και κύριοι Βουλευτές, θα ήθελα να ξεκινήσω με κάποιες παρατηρήσεις, με βάση τη συζήτηση, που έχει γίνει μέχρι τώρα.</seg>
                <seg>Παρατήρηση νούμερο ένα. Νομίζω ότι οι φράσεις όπως «στάχτη στα μάτια», «χρησιμοποιούμε τους εργαζόμενους», «σανό» και τα λοιπά είναι βαθιά προβληματικές και περισσότερο χαρακτηρίζουν αυτόν που τις εκφέρει παρά αυτόν στον οποίον απευθύνονται. Είναι βαθιά προβληματικές γιατί στην πραγματικότητα υπονοούν ότι ο κόσμος έχει περιορισμένη αντιληπτική ικανότητα, ότι δεν καταλαβαίνει τι γίνεται, ότι μάλλον είναι χαζός, ότι έχει προβλήματα και τα λοιπά. Δεν ξέρω, μπορεί ο καθένας να κρίνει από τον περίγυρό του.</seg>
@@ -1026,15 +996,14 @@
                <seg>Ευχαριστώ.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)
-</desc>
+               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_75" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_75" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστούμε πολύ τον κύριο Υπουργό.</seg>
                <seg>Τον λόγο έχει ο Κοινοβουλευτικός Εκπρόσωπος του Κομμουνιστικού Κόμματος Ελλάδας κ. Καραθανασόπουλος για πέντε λεπτά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_76" who="nikolaos_karathanasopoulos">
+            <u xml:id="debate_2018-06-08_1_speech_76" who="nikolaos_karathanasopoulos">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΚΑΡΑΘΑΝΑΣΟΠΟΥΛΟΣ</note>
                <seg>Κύριοι της Κυβέρνησης, δίνετε καθημερινά εξετάσεις ότι είστε ικανοί να διαχειριστείτε τα πράγματα της χώρας προς όφελος του μεγάλου κεφαλαίου και σήμερα αυτό κάνετε. Μιλάτε για την υπόθεση «καθαρή έξοδος από τα μνημόνια», όμως για τους εργαζόμενους αυτό σημαίνει κατάργηση όλων των αντεργατικών νόμων και δεν λέτε κουβέντα γι’ αυτό.</seg>
                <seg>Αντίθετα, στο πλαίσιο της τέταρτης αξιολόγησης ετοιμάζετε νέα αντεργατικά μέτρα. Με περίσσιο θράσος χλευάσατε και ούτε καν αναφερθήκατε στην πρόταση νόμου του ΚΚΕ που περιλαμβάνεται στην επερώτηση, λέγοντας ότι είναι γενικόλογη, ότι είναι ένα πολιτικό κείμενο, ότι έχει θέσεις αντισυνταγματικότητας και ότι τα δικά σας μέτρα για τις συλλογικές συμβάσεις είναι αυτά που θα ισχύσουν για την επεκτασιμότητα, για την ευνοϊκότερη ρύθμιση.</seg>
@@ -1055,20 +1024,20 @@
                <seg>Η άλλη πλευρά είναι ακριβώς όταν στη θέση του καπιταλιστικού κέρδους μπουν οι ανάγκες των εργαζόμενων, όταν στο επίκεντρο του τρόπου οργάνωσης της οικονομίας και της κοινωνίας δεν θα είναι η ανταγωνιστικότητα και η καπιταλιστική κερδοφορία, αλλά θα είναι οι ανάγκες των εργαζόμενων.</seg>
                <seg>Τότε μόνο μπορεί πραγματικά να ζουν οι εργαζόμενοι με βάση τις δυνατότητες τις οποίες υπάρχουν, με βάση το επίπεδο ανάπτυξης της παραγωγικότητας της εργασίας και το επίπεδο ανάπτυξης της επιστήμης και της τεχνολογίας, αξιοποιώντας το σύνολο των παραγωγικών δυνατοτήτων του κάθε τόπου και της κάθε περιοχής. Όλο το υπόλοιπο χρονικό διάστημα απλά και μόνο δεν θα είναι τίποτα άλλο, παρά ένας μηχανισμός παραγωγής κέρδους για τους κεφαλαιοκράτες.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_77" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_77" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστούμε πολύ, κύριε Καραθανασόπουλε.</seg>
                <seg>Κυρία Υπουργέ, θέλετε τον λόγο για να κλείσουμε τη συνεδρίαση; Πόσο χρόνο χρειάζεστε;</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_78" who="efi_axtsioglou">
+            <u xml:id="debate_2018-06-08_1_speech_78" who="efi_axtsioglou">
                <note type="speaker">ΕΦΗ ΑΧΤΣΙΟΓΛΟΥ</note>
                <seg>Πέντε λεπτά.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_79" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_79" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Κυρία Υπουργέ, έχετε τον λόγο.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_80" who="efi_axtsioglou">
+            <u xml:id="debate_2018-06-08_1_speech_80" who="efi_axtsioglou">
                <note type="speaker">ΕΦΗ ΑΧΤΣΙΟΓΛΟΥ</note>
                <seg>Θα σχολιάσω και εγώ κάποια πράγματα που λέχθηκαν στη συζήτηση. Άκουσα τον κ. Βρούτση στην τοποθέτησή του και νομίζω ότι πρέπει να απαντήσω σε μερικά σημεία του, αν μη τι άλλο.</seg>
                <seg>Η τοποθέτηση του κ. Βρούτση, όπως και άλλες φορές της Νέας Δημοκρατίας, χαρακτηρίζεται από έναν ιδιότυπο ντετερμινισμό. Δηλαδή, υπονοεί και φαίνεται να το αποδέχεται ότι τα πράγματα μπορεί να ήταν πολύ άσχημα όταν ήταν στην Κυβέρνηση το κόμμα του, αλλά θα εξελίσσονταν πολύ καλύτερα στο μέλλον εάν δεν ερχόταν στην κυβέρνηση ο ΣΥΡΙΖΑ.</seg>
@@ -1091,20 +1060,19 @@
                <seg>Σας ευχαριστώ πάρα πολύ.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)
-</desc>
+               <desc>(Χειροκροτήματα από την πτέρυγα του ΣΥΡΙΖΑ)</desc>
             </incident>
-            <u xml:id="debate_2018-06-08_speech_81" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_81" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Ευχαριστούμε πάρα πολύ την κυρία Υπουργό.</seg>
                <seg>Κηρύσσεται περαιωμένη η συζήτηση επί της υπ’ αριθμόν 26/17/24-5-2018 επίκαιρης επερώτησης σχετικά με τις συλλογικές συμβάσεις εργασίας.</seg>
                <seg>Κυρίες και κύριοι συνάδελφοι, δέχεστε στο σημείο αυτό να λύσουμε τη συνεδρίαση;</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_82" who="bouleutis/es">
+            <u xml:id="debate_2018-06-08_1_speech_82" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_2018-06-08_speech_83" who="dimitrios_kammenos">
+            <u xml:id="debate_2018-06-08_1_speech_83" who="dimitrios_kammenos">
                <note type="speaker">Δημήτριος Καμμένος</note>
                <seg>Με τη συναίνεση του Σώματος και ώρα 14.01΄ λύεται η συνεδρίαση για την προσεχή Δευτέρα 11 Ιουνίου 2018 και ώρα 17.00΄, με αντικείμενο εργασιών του Σώματος: νομοθετική εργασία, σύμφωνα με την ημερήσια διάταξη που θα διανεμηθεί.</seg>
                <seg>Ο ΠΡΟΕΔΡΟΣ                                                                       ΟΙ ΓΡΑΜΜΑΤΕΙΣ</seg>

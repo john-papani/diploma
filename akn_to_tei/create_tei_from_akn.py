@@ -2,7 +2,7 @@ import os
 from saxonche import PySaxonProcessor
 
 def transform_xml2tei_with_xslt(xml_filename, xslt_filename, result_filename):
-    log_file = open('./no_xml_tei_files.txt', 'a', encoding="utf8")
+    log_file = open('./no_xml_tei_files.txt', 'a', encoding="utf-8")
 
     with PySaxonProcessor(license=False) as proc:
         try:
@@ -11,17 +11,14 @@ def transform_xml2tei_with_xslt(xml_filename, xslt_filename, result_filename):
             executable = xsltproc.compile_stylesheet(stylesheet_file=xslt_filename)
             output = executable.transform_to_string(xdm_node=document)
             
-            with open(result_filename, "w",encoding="utf-8") as file:
-                    file.write(output)
+            file =  open(result_filename, "w", encoding="utf-8")
+            file.write(output)
+            file.close()
         except Exception as e:
             log_file.write(f'{filename}: {str(e)}\n')
 
-main_datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
-datapath_2022_23 = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/xml_akn_files_2023/"
-main_filenames = sorted([f for f in os.listdir(main_datapath) if not f.startswith('.')])
-filenames_2022_23 = sorted([f for f in os.listdir(datapath_2022_23) if not f.startswith('.')])
-# Combine the lists if needed
-filenames = filenames_2022_23
+datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_github/xml_akn_files/"
+filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
 print("NUMBER OF ALL FILES IN SYSTEM =",len(filenames))
 xslt_filename = "./schema_dir/akn2tei.xsl"
 for counter, filename in enumerate(filenames):
@@ -29,6 +26,5 @@ for counter, filename in enumerate(filenames):
                 print("File "+str(counter)+' from ' +
                   str(len(filenames)) + ' '+filename)
     new_filename = filename.rsplit(".", 1)[0]
-    result_filename = f"../xml_tei_files/{new_filename}_tei.xml" if filename in main_filenames else f"../xml_tei_files/xml_tei_files_2023/{new_filename}_tei.xml"
-    datapath = main_datapath if filename in main_filenames else datapath_2022_23
+    result_filename = f"../xml_tei_files/{new_filename}_tei.xml"
     transform_xml2tei_with_xslt(datapath+filename, xslt_filename, result_filename)

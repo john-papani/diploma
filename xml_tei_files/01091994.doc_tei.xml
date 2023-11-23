@@ -11,7 +11,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>CLARIN ERIC</authority>
-            <date when="2023-10-17+03:00">17. 10. 2023</date>
+            <date when="2023-11-23+02:00">23. 11. 2023</date>
          </publicationStmt>
          <sourceDesc>
             <bibl>
@@ -98,133 +98,118 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <encodingDesc>
-         <classDecl>
-            <taxonomy>
-               <desc>
-                  <term>TLCRole</term>
-               </desc>
-               <category xml:id="proedros">
-                  <catDesc>
-                     <term>ΠΡΟΕΔΡΟΣ</term>
-                     <idno type="AKN">/ontology/person/akn/parliament/proedros</idno>
-                  </catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-      </encodingDesc>
       <profileDesc>
          <particDesc>
             <listOrg>
-               <org xml:id="greek_parl">
-                  <orgName>Greek_Parliament</orgName>
-                  <idno type="AKN">/ontology/organization/akn/greek_parl</idno>
+               <org xml:id="hellenic_parliament">
+                  <orgName>hellenic_parliament</orgName>
+                  <idno type="AKN">https://www.hellenicparliament.gr/en/</idno>
                </org>
             </listOrg>
             <listPerson>
-               <person xml:id="anastasios_gkonis">
-                  <persName>ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/anastasios_gkonis</idno>
-               </person>
-               <person xml:id="konstantinos_xatzidimitriou">
-                  <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/konstantinos_xatzidimitriou</idno>
-               </person>
-               <person xml:id="basilis_kedikoglou">
-                  <persName>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/basilis_kedikoglou</idno>
-               </person>
-               <person xml:id="dimitris_georgakopoulos">
-                  <persName>ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitris_georgakopoulos</idno>
-               </person>
-               <person xml:id="nikitas_benizelos">
-                  <persName>Νικήτας Βενιζέλος</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikitas_benizelos</idno>
-               </person>
-               <person xml:id="georgios_panagiotopoulos">
-                  <persName>ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_panagiotopoulos</idno>
-               </person>
-               <person xml:id="basileios_basilakakis">
-                  <persName>ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/basileios_basilakakis</idno>
-               </person>
-               <person xml:id="panagiotis_n._kritikos">
-                  <persName>Παναγιώτης Ν. Κρητικός</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/panagiotis_n._kritikos</idno>
-               </person>
-               <person xml:id="xristos_rokofullos">
-                  <persName>ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/xristos_rokofullos</idno>
-               </person>
-               <person xml:id="dimitrios_alampanos">
-                  <persName>ΔΗΜΗΤΡΙΟΣ ΑΛΑΜΠΑΝΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/dimitrios_alampanos</idno>
-               </person>
-               <person xml:id="apostolos_kaklamanis">
-                  <persName>Απόστολος Κακλαμάνης</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_kaklamanis</idno>
-               </person>
-               <person xml:id="konstantinos_pularinos">
-                  <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΥΛΑΡΙΝΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/konstantinos_pularinos</idno>
-               </person>
-               <person xml:id="andreas_lentakis">
-                  <persName>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/andreas_lentakis</idno>
-               </person>
-               <person xml:id="oloi_oi_bouleutes">
-                  <persName>ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/oloi_oi_bouleutes</idno>
-               </person>
-               <person xml:id="stratis_korakas">
-                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/stratis_korakas</idno>
-               </person>
-               <person xml:id="georgios_lianis">
-                  <persName>ΓΕΩΡΓΙΟΣ ΛΙΑΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_lianis</idno>
-               </person>
-               <person xml:id="apostolos_fotiadis">
-                  <persName>ΑΠΟΣΤΟΛΟΣ ΦΩΤΙΑΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/apostolos_fotiadis</idno>
-               </person>
-               <person xml:id="georgios_anomeritis">
-                  <persName>ΓΕΩΡΓΙΟΣ ΑΝΩΜΕΡΙΤΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/georgios_anomeritis</idno>
-               </person>
-               <person xml:id="antonis_skullakos">
-                  <persName>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/antonis_skullakos</idno>
-               </person>
-               <person xml:id="athanasios_mikroutsikos">
-                  <persName>ΑΘΑΝΑΣΙΟΣ ΜΙΚΡΟΥΤΣΙΚΟΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/athanasios_mikroutsikos</idno>
-               </person>
-               <person xml:id="nikolaos_farmakis">
-                  <persName>ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/nikolaos_farmakis</idno>
-               </person>
                <person xml:id="spuros_kaloudis">
                   <persName>ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/spuros_kaloudis</idno>
-               </person>
-               <person xml:id="iosif_mixelogiannis">
-                  <persName>ΙΩΣΗΦ ΜΙΧΕΛΟΓΙΑΝΝΗΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/iosif_mixelogiannis</idno>
-               </person>
-               <person xml:id="foteini_stefanopoulou">
-                  <persName>ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/foteini_stefanopoulou</idno>
-               </person>
-               <person xml:id="alexandros_desullas">
-                  <persName>ΑΛΕΞΑΝΔΡΟΣ ΔΕΣΥΛΛΑΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/alexandros_desullas</idno>
+                  <idno type="AKN">-</idno>
                </person>
                <person xml:id="polloi_bouleutes">
                   <persName>ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
-                  <idno type="AKN">/ontology/person/akn/parliament/polloi_bouleutes</idno>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="basileios_basilakakis">
+                  <persName>ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q7916956</idno>
+               </person>
+               <person xml:id="georgios_anomeritis">
+                  <persName>ΓΕΩΡΓΙΟΣ ΑΝΩΜΕΡΙΤΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q12875303</idno>
+               </person>
+               <person xml:id="konstantinos_xatzidimitriou">
+                  <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="basilis_kedikoglou">
+                  <persName>ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q16328542</idno>
+               </person>
+               <person xml:id="nikolaos_farmakis">
+                  <persName>ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="alexandros_desullas">
+                  <persName>ΑΛΕΞΑΝΔΡΟΣ ΔΕΣΥΛΛΑΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="iosif_mixelogiannis">
+                  <persName>ΙΩΣΗΦ ΜΙΧΕΛΟΓΙΑΝΝΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q61083056</idno>
+               </person>
+               <person xml:id="apostolos_kaklamanis">
+                  <persName>Απόστολος Κακλαμάνης</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q539860</idno>
+               </person>
+               <person xml:id="anastasios_gkonis">
+                  <persName>ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="antonis_skullakos">
+                  <persName>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="apostolos_fotiadis">
+                  <persName>ΑΠΟΣΤΟΛΟΣ ΦΩΤΙΑΔΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q97577563</idno>
+               </person>
+               <person xml:id="dimitrios_alampanos">
+                  <persName>ΔΗΜΗΤΡΙΟΣ ΑΛΑΜΠΑΝΟΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q19941933</idno>
+               </person>
+               <person xml:id="georgios_panagiotopoulos">
+                  <persName>ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q16512494</idno>
+               </person>
+               <person xml:id="athanasios_mikroutsikos">
+                  <persName>ΑΘΑΝΑΣΙΟΣ ΜΙΚΡΟΥΤΣΙΚΟΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q4755550</idno>
+               </person>
+               <person xml:id="georgios_lianis">
+                  <persName>ΓΕΩΡΓΙΟΣ ΛΙΑΝΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q17759773</idno>
+               </person>
+               <person xml:id="oloi_oi_bouleutes">
+                  <persName>ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="foteini_stefanopoulou">
+                  <persName>ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q12885910</idno>
+               </person>
+               <person xml:id="andreas_lentakis">
+                  <persName>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q12873648</idno>
+               </person>
+               <person xml:id="stratis_korakas">
+                  <persName>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q9251526</idno>
+               </person>
+               <person xml:id="panagiotis_n._kritikos">
+                  <persName>Παναγιώτης Ν. Κρητικός</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="konstantinos_pularinos">
+                  <persName>ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΥΛΑΡΙΝΟΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="nikitas_benizelos">
+                  <persName>Νικήτας Βενιζέλος</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q12881714</idno>
+               </person>
+               <person xml:id="dimitris_georgakopoulos">
+                  <persName>ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</persName>
+                  <idno type="AKN">-</idno>
+               </person>
+               <person xml:id="xristos_rokofullos">
+                  <persName>ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</persName>
+                  <idno type="AKN">https://www.wikidata.org/wiki/Q19726138</idno>
                </person>
             </listPerson>
          </particDesc>
@@ -248,7 +233,7 @@
             <p>Αθήνα, σήμερα την 1η Σεπτεμβρίου 1994, ημέρα Πέμπτη και ώρα 10.40’ , συνήλθε στην Αίθουσα του Βουλευτηρίου η Βουλή σε Ολομέλεια, για να συνεδριάσει υπό την Προεδρία του Προέδρου κ. ΑΠΟΣΤΟΛΟΥ ΚΑΚΛΑΜΑΝΗ.</p>
          </div>
          <div type="debateSection" subtype="main_debate_section">
-            <u xml:id="debate_1994-09-01_speech_1" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_1" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, αρχίζει η συνεδρίαση.</seg>
                <seg>Παρακαλείται ο κ. Αλέξανδρος Δεσύλλας, Βουλευτής Κέρκυρας, να διαβάσει τις αναφορές προς το Σώμα.</seg>
@@ -677,28 +662,28 @@
                <seg>Ο Αναπλ. Υπουργός</seg>
                <seg>ΧΡ. ΡΟΚΟΦΥΛΛΟΣ"</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_2" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_2" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, η Βουλευτής κα Ντόρα Μπακογιάννη ζητά την άδεια του Σώματος για ολιγοήμερη απουσία στο εξωτερικό. Εγκρίνει η Βουλή;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_3" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_3" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_4" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_4" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Συνεπώς η Βουλή ενέκρινε τη ζητηθείσα άδεια.</seg>
                <seg>Πριν εισέλθουμε στη συζήτηση των Επικαίρων Ερωτήσεων, έχω εδώ μία αίτηση των Βουλευτών κυρίων Βασίλη Κεδίκογλου και Απόστολου Φωτιάδη, που ζητούν το λόγο επί του Κανονισμού.</seg>
                <seg>Ο κ. Κεδίκογλου έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_5" who="basilis_kedikoglou">
+            <u xml:id="debate_1994-09-01_1_speech_5" who="basilis_kedikoglou">
                <note type="speaker">ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</note>
                <seg>Κύριε Πρόεδρε, έκανα κάποια ερώτηση στους Υπουργούς Εθνικής Οικονομίας, Παιδείας και Εμπορίου. Σύμφωνα με τον Κανονισμό οι Υπουργοί απαντούν στις ερωτήσεις των Βουλευτών. Αυτή είναι η υποχρέωσή τους.</seg>
                <seg>Όμως, αντί απαντήσεως, ο Υπουργός Εθνικής Οικονομίας, μου έστειλε αντίγραφο της αλληλογραφίας με τις υπηρεσίες, χωρίς μάλιστα, να γράφει ότι αποδέχεται αυτήν τη θέση και ότι αυτή είναι η θέση του Υπουργείου. Απλώς, διαβιβάζει αντίγραφο της αλληλογραφίας. Αυτό είναι ωμή παραβίαση του Κανονισμού. Εγώ ζήτησα απάντηση από τον Υπουργό, ποια είναι η άποψή του για τα ερωτήματα.</seg>
                <seg>Αφήνω και το δεύτερο του Υπουργείου Παιδείας, που είναι μέγα θέμα. Άλλα ρωτάμε και σε άλλα απαντούν. Εμείς ρωτάμε π.χ. για τη χαλαζόπτωση στα μήλα και αυτοί μας απαντούν τι συνέβη με τις ντομάτες και με άλλα αντικείμενα.</seg>
                <seg>Αυτά λοιπόν, είναι δύο περιπτώσεις ωμών παραβιάσεων του Κανονισμού. Δεν υπάρχει πραγματική πληροφόρηση, ταλαιπωρείται το Σώμα και υποβαθμίζεται το Κοινοβούλιο. Μπορεί να έχει δικαίωμα ο Υπουργός αντί να του απαντά ο Διοικητής μιας Τράπεζας, να του απαντούν κάποιοι τρίτης κατηγορίας υπάλληλοι. Είναι δικό του θέμα. Δεν μπορεί όμως να απαντούν στη Βουλή κάποιοι υπάλληλοι ενός τμήματος για λογαριασμό των Υπουργών. Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_6" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_6" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριε Κεδίκογλου, δε σας διέκοψα, παρόλο ότι δεν προβλέπεται σ’ αυτή τη διαδικασία αυτή η συζήτηση διότι το θέμα το οποίο θίξατε είναι υπαρκτό.</seg>
                <seg>Αυτό το θέμα θα έπρεπε να το θέσετε υπόψη του Προεδρείου με μία αναφορά σας, ώστε να δούμε περί τίνος πρόκειται ακριβώς, για να υπάρξει μία παρέμβαση του Προέδρου προς το συγκεκριμένο Υπουργείο. Διότι αυτήν τη στιγμή εσείς αναφέρεστε σε μία απάντηση την οποία εσείς έχετε, εσείς τη χαρακτηρίζετε ως πλήρη ή όχι, αν είναι απάντηση του Υπουργού ή όχι, ο Υπουργός δεν είναι εδώ για να σας απαντήσει και ακόμη και αν ήταν εδώ θα έπρεπε να είχε υπόψη του το φάκελο για να σας απαντήσει.</seg>
@@ -710,34 +695,34 @@
                <seg>Επειδή με ακούει και η Κυβέρνηση αυτήν τη στιγμή, επιφυλάσσομαι και εγγράφως να απευθυνθώ προς όλα τα μέλη της Κυβερνήσεως. Νομίζω ότι πρέπει να σταματήσει αυτή η τακτική. Εσωτερικώς δικαιούται και προφανώς το οφείλει ο Υπουργός να ζητάει πληροφορίες, να συνεργάζεται, να ενημερώνεται από τις υπηρεσίες και τους οργανισμούς που εποπτεύει προκειμένου να δώσει μια πλήρη απάντηση στη Βουλή. Αλλά αυτή πρέπει να είναι απάντηση δική του και όχι του οποιουδήποτε μανδαρίνου ή του οποιουδήποτε ανθυποστελέχους της υπ’ αυτόν διοικήσεως ενός τομέα του Κράτους, διότι αυτό νομίζω ότι πράγματι ούτε τον ίδιο τιμά, όταν συμβαίνει και οπωσδήποτε και τη Βουλή την υποβαθμίζει.</seg>
                <seg>Κλείνει το θέμα αυτό και εισερχόμαστε στην ημερήσια διάταξη...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_7" who="basilis_kedikoglou">
+            <u xml:id="debate_1994-09-01_1_speech_7" who="basilis_kedikoglou">
                <note type="speaker">ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</note>
                <seg>Κύριε Πρόεδρε, με συγχωρείτε...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_8" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_8" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριε Κεδίκολγου, δεν έχετε το λόγο. Ο Κανονισμός προβλέπει μία διαδικασία. Από τη διαδικασία αυτή παρεκκλίναμε, διότι έκρινα, όπως το δικαιούμαι -αυτήν την ελαστικότητα μου δίδει ο Κανονισμός- ότι είναι ένα σοβαρό θέμα.</seg>
                <seg>Με αφορμή την παρέμβασή σας αυτή, ελέχθησαν αυτά που έπρεπε να λεχθούν.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_9" who="basilis_kedikoglou">
+            <u xml:id="debate_1994-09-01_1_speech_9" who="basilis_kedikoglou">
                <note type="speaker">ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</note>
                <seg>Ναι, αλλά απευθύνατε μία μομφή, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_10" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_10" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Σε κανέναν δεν απηύθυνα μομφή. Αντιθέτως, πρέπει να είστε ικανοποιημένος, διότι δώσατε, έστω και αντικανονικώς, τη δυνατότητα να διατυπωθούν αυτές οι σωστές σκέψεις.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_11" who="basilis_kedikoglou">
+            <u xml:id="debate_1994-09-01_1_speech_11" who="basilis_kedikoglou">
                <note type="speaker">ΒΑΣΙΛΗΣ ΚΕΔΙΚΟΓΛΟΥ</note>
                <seg>Δεν προβλέπεται μία διαδικασία για τους Βουλευτές. Εσείς κάνατε μία καινοτομία και σας ευχαριστώ γι’ αυτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_12" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_12" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Η διαδικασία που προβλέπεται είναι, στο θέμα το οποίο συζητείται κάθε φορά, εάν η συζήτησή του δε γίνεται σύμφωνα με τον Κανονισμό, να ζητεί το λόγο κανείς επί του Κανονισμού.</seg>
                <seg>Σε ό,τι αφορά γενικότερα τη λειτουργία της Βουλής, γενικότερα τις σχέσεις της Βουλής με την Κυβέρνηση, δεν προβλέπεται από τον Κανονισμό συζήτηση στα πλαίσια μιας άλλης συζητήσεως, όπως είναι ένα νομοσχέδιο, όπως είναι μία επερώτηση, όπως είναι η διαδικασία των ερωτήσεων.</seg>
                <seg>Αυτό, καλώς ή κακώς, είναι το διαγραφόμενο πλαίσιο των συζητήσεων από τον Κανονισμό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_13" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_13" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, εισερχόμαστε στην ημερήσια διάταξη</seg>
                <seg>ΤΩΝ ΕΠΙΚΑΙΡΩΝ ΕΡΩΤΗΣΕΩΝ</seg>
@@ -749,7 +734,7 @@
                <seg>Ερωτάται ο κύριος Υπουργός Γεωργίας. Τι μέτρα προτίθεται να πάρει το Υπουργείο Γεωργίας και η Κυβέρνηση: α. -άμεσα για την ανακούφιση των πληγέντων και κάλυψη του απωλεσθέντος εισοδήματός τους και β. -μακροχρόνια για την τόνωση της οικονομίας της παραγωγής ώστε να επανέλθει στον πρότερό της αναπτυξιακό ρυθμό".</seg>
                <seg>Ο Υφυπουργός Γεωργίας, κ. Βασιλακάκης, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_14" who="basileios_basilakakis">
+            <u xml:id="debate_1994-09-01_1_speech_14" who="basileios_basilakakis">
                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</note>
                <seg>Κύριε Πρόεδρε, πραγματικά η φωτιά του Νομού Χανίων ήταν πολύ μεγάλη και συνέπεσε με άλλες τρεις πυρκαϊές την ίδια μέρα. Ήταν αυτή που ήταν στο Ζαρό του Ηρακλείου, ήταν η μεγάλη φωτιά της Ιεράπετρας, καθώς επίσης συνέχιζε και η πυρκαϊά στη Μυτιλήνη. Υπήρξε άμεση παρέμβαση των υπηρεσιών στο να αντιμετωπιστεί η πυρκαϊά παρά το γεγονός ότι υπήρχαν αυτά τα τρία μέτωπα.</seg>
                <seg>Ο αγαπητός συνάδελφος αναφέρει ότι υπήρξε κάποια καθυστέρηση παρουσίας αεροπλάνου, αλλά υπηρεσιακά εγώ έχω μία ενημέρωση η οποία δεν υποστηρίζει μία τέτοια άποψη. Ήταν μία πυρκαϊά η οποία ξεκίνησε, αγαπητέ συνάδελφε, στις 7 παρά τέταρτο και ξέρετε πως, στην προσπάθεια κάποιων να κάψουν ξερά χόρτα με έναν αέρα ο οποίος έφτανε τα 8 μποφώρ εκείνη τη στιγμή. Ακριβώς την επομένη το πρωί κινήθηκαν αεροσκάφη προς την περιοχή των Χανίων για την αντιμετώπιση της πυρκαϊάς.</seg>
@@ -758,11 +743,11 @@
                <seg>Θέλω να σας τονίσω πως το Υπουργείο συγκεντρώνει στοιχεία για τις ζημιές που έγιναν στη γεωργία από τις πυρκαϊές κατά το τρέχον έτος, για όλες τις πυρκαϊές όμως, αγαπητέ συνάδελφε, προκειμένου να μορφώσει μία σαφή και ολοκληρωμένη εικόνα της έκτασης και του ύψους των ζημιών, αυτών οι οποίες προκλήθηκαν από τις πυρκαϊές, για να μπορέσει στη συνέχεια να προβεί σε παραπέρα ενέργειες.</seg>
                <seg>Πρέπει να ξέρουμε δε ότι για την άμεση διευκόλυνση των προβλημάτων των ζημιωθέντων παραγωγών από τις πυρκαϊές, η Αγροτική Τράπεζα χορηγεί στους παραγωγούς, στις γεωργικές και κτηνοτροφικές εκμεταλλεύσεις που ζημιώνονται από τις δυσμενείς καιρικές συνθήκες και άλλα αίτια, τις απαραίτητες πιστωτικές διευκολύνσεις, αναστολή εξόφλησης των ληξιπροθέσμων χρεών, οφειλών, χορήγηση νέων καλλιεργητικών δανείων για να μπορέσουν να αντιμετωπίσουν οικονομικές τους δυσχέρειες από τις ζημιές που έπαθαν και να συνεχίσουν ομαλά την παραγωγική τους διαδικασία.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_15" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_15" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κ. Μιχελογιάννης έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_16" who="iosif_mixelogiannis">
+            <u xml:id="debate_1994-09-01_1_speech_16" who="iosif_mixelogiannis">
                <note type="speaker">ΙΩΣΗΦ ΜΙΧΕΛΟΓΙΑΝΝΗΣ</note>
                <seg>Κύριε Πρόεδρε, κατ’ αρχάς σας ευχαριστώ που κάνατε πλήρη ανάγνωση της ερωτήσεως και είναι γνωστά τα δεδομένα και δεν θα τα επαναλάβω πλέον εγώ.</seg>
                <seg>Εγώ δεν αμφισβητώ την άμεση επέμβαση των τοπικών υπηρεσιών και το πόσα πολλά προσέφεραν και πόσο πολύ αγωνίστηκαν για να σταματήσουν την πυρκαϊά, αμφισβητώ όμως ότι πήγαν τα αεροπλάνα την άλλη ημέρα το πρωί, πήγαν την άλλη ημέρα το απόγευμα. Πήγαν πολλά αεροπλάνα, όπως ακριβώς είπατε, τις επόμενες ημέρες και αυτό δείχνει κατά τη γνώμη μου -και δεν είστε εσείς υπεύθυνος γι’ αυτό- μία κακή εκτίμηση του μεγέθους της πυρκαϊάς στην αρχή.</seg>
@@ -771,17 +756,17 @@
                <seg>Επίσης έχω να σας πω ότι ο περιφερειάρχης, η Κυβέρνηση, ανέθεσε στο Γεωτεχνικό Επιμελητήριο, στην ομάδα του Γεωτεχνικού Επιμελητηρίου που κάνει τη μελέτη "ανάπτυξη ορεινού όγκου Δυτικής Κρήτης", να συντάξει μία πρόσθετη μελέτη ανάπτυξης για την περιφέρεια Ανατολικού Σελήνου, για να ενταχθεί αυτή η περιφέρεια και αυτό το πρόγραμμα ανάπτυξης έργων στο Κοινοτικό Πρόγραμμα ΛΙΝΤΕΡ-2.</seg>
                <seg>Έγιναν ήδη οι προκαταρκτικές εργασίες, έγιναν οι συνεννοήσεις με τους προέδρους κοινοτήτων, τη Διεύθυνση Γεωργίας Χανίων, τη Διεύθυνση Δασών και τον ΟΑΔΙΚ και προτάθηκαν τα έργα που αναφέρονται στην παροχή τεχνικής στήριξης, επαγγελματικής κατάρτισης, στις μικρές επιχειρήσεις, στην επιτόπια αξιοποίηση και εμπορία αγροτικής παραγωγής, στη βελτίωση του περιβάλλοντος και γενικά περιμένουμε πράγματι με το πρόγραμμα ΛΙΝΤΕΡ-2 να ανακουφισθεί η περιοχή και με το σχέδιο αυτό ανάπτυξης, το κοινοτικό, να δούνε μία βελτίωση περαιτέρω οι κάτοικοι για να επανέλθει ο ρυθμός ανάπτυξης της περιοχής Ανατολικού Σελήνου. Ήταν αυτή η πυρκαϊά η μεγαλύτερη που έγινε ποτέ στο Νομό Χανίων.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_17" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_17" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κύριος Υφυπουργός Γεωργίας έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_18" who="basileios_basilakakis">
+            <u xml:id="debate_1994-09-01_1_speech_18" who="basileios_basilakakis">
                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</note>
                <seg>Κύριε Πρόεδρε, τόνισα νομίζω, ότι την ίδια μέρα υπήρχαν άλλες 4 πυρκαϊές. Και είναι σίγουρο, αγαπητέ συνάδελφε, αν είναι να εκτιμηθεί μία κατάσταση, παίρνοντας υπόψη μόνο την πυρκαϊά των Χανίων, ενδεχομένως στις εκτιμήσεις σας να έχετε δίκαιο. Αν όμως είναι να αντιμετωπισθεί συνολικότερα ένα μέτωπο 4 πυρκαϊών που βασανίζει την ίδια στιγμή τον ελλαδικό χώρο, όπως καταλαβαίνετε χρειάζεται ένας σχεδιασμός κεντρικότερος. Και σας είπα ότι η διάθεση των αεροσκαφών έγινε με την εκτίμηση των ζημιών που μπορούσαν να προκληθούν από τις πυρκαϊές, καθώς επίσης παίρνοντας υπόψη και τις δυσμενείς καιρικές συνθήκες, γιατί ξέρετε πολύ καλά ότι μερικές φορές υπάρχουν τα αεροπλάνα και δεν μπορούν να ρίξουν νερό, γιατί πρώτα δεν μπορούν να πάρουν νερό, αφού δεν μπορούν να προσθαλασσωθούν.</seg>
                <seg>Σε ό,τι έχει να κάνει επίσης, με τις αποζημιώσεις, σας είπα ότι βρισκόμαστε ακόμη μέσα σε πυρηνική περίοδο. Αυτή τελειώνει στις 15 του Οκτώβρη. Εμείς συγκεντρώνουμε στοιχεία από όλη την Ελλάδα και οι υπηρεσίες καταγράφουν τις ζημιές σε όλο τον ελλαδικό χώρο. Επομένως, αυτά θα τα εκτιμήσουμε μόλις ολοκληρωθεί η περισυλλογή αυτών των στοιχείων.</seg>
                <seg>Το σχέδιο δε, ανάπτυξης, το οποίο λέτε ότι επεξεργάσθηκε το ΕΘΙΑΓΕ, εκεί στην περιοχή και έγινε μία πρόταση, είναι κάτι σημαντικό που μπορούμε να το δούμε, να το εξετάσουμε, να το συζητήσουμε και ενδεχόμενα πραγματικά να λυθούν και προβλήματα τα οποία έχουν σχέση και με τις ζημιές που προκλήθηκαν από την πυρκαϊά.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_19" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_19" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Δεύτερη επίκαιρη ερώτηση, πρώτης επιλογής, είναι η με αριθμό 37/30-8-94, του Βουλευτή της Νέας Δημοκρατίας κ. Βασιλείου Μπεκίρη, προς τον Υπουργό Δημόσιας Τάξης, σχετικά με τις προθέσεις της Κυβέρνησης για ανάκληση των μαζικών μεταθέσεων Αστυνομικών από το Νομό Αχαΐας.</seg>
                <seg>Η ερώτηση του κ. Μπεκίρη έχει ως εξής, συνοπτικώς: "Η ομαδική μετάθεση 127 στελεχών της Αστυνομίας από το Νομό Αχαΐας σε διάφορες περιοχές της Ελλάδος, έχει προκαλέσει μεγάλη αναστάτωση στην Αστυνομία και την κοινή γνώμη. Όλοι οι κοινωνικοί φορείς της Πάτρας, ανεξάρτητα από την πολιτική τους τοποθέτηση, με επικεφαλής το Δήμαρχο, έχουν εκφρασθεί δημόσια υπέρ της ματαίωσης των μεταθέσεων.</seg>
@@ -799,29 +784,29 @@
                <seg>Ήταν λοιπόν, καθήκον μας να πάρουμε τους πλεονάζοντες, και από την Αχαΐα 127, και από τα Τρίκαλα 103 και από την Αιτωλία 15 και από την Ακαρνανία 40 και από την Αλεξανδρούπολη 15 και από την Άρτα 40 και από τη Δράμα 20 και από την Ηλεία 10 και από τη Φθιώτιδα 50, και από την Πρέβεζα 50, και από την Καρδίτσα 75, και από τις Σέρρες κ.λπ.... για να μην απαριθμήσω όλους τους πλεονάζοντες νομούς, προκειμένου να κάνουμε τη σύμμετρη ανακατανομή της δύναμης της Αστυνομίας.</seg>
                <seg>Θα έπρεπε, αν έπρεπε να κατηγορηθούμε και να μας μεμφθείτε, κύριε συνάδελφε, να μας μεμφθείτε, διότι δεν το κάναμε νωρίτερα αυτό το οποίο κάνουμε σήμερα. Μη ξεχνάτε, ότι οι αστυνομικοί δεν έχουν το αμετάθετο. Όσο μπορώ να ξέρω, οι μόνοι οι οποίοι έχουν το αμετάθετο εν Ελλάδι, είναι οι Μητροπολίτες. Γνωρίζουν ότι είναι δημόσιοι υπάλληλοι...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_20" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_20" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Και αυτό είναι σχετικό, όπως γνωρίζετε, ως ενδιατρίβων και γενικότερο στα θέματα αυτά!</seg>
                <seg>ΣΤΥΛΙΑΝΟΣ-ΑΓΓΕΛΟΣ ΠΑΠΑΘΕΜΕΛΗΣ (Υπ. Δημόσιας Τάξης): Μάλλον είχαν το αμετάθετο ή οφείλουν να το έχουν, κατά τους κανόνες του Κανονικού Δικαίου, αλλά κατά τους κανόνες της κοσμικής νομοθεσίας, έχει τροποποιηθεί και εκεί...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_21" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_21" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>"Κατ’ οικονομία" το λένε.</seg>
                <seg>ΣΤΥΛΙΑΝΟΣ-ΑΓΓΕΛΟΣ ΠΑΠΑΘΕΜΕΛΗΣ (Υπ. Δημόσιας Τάξης): Αλλά θα ήθελα, εν πάση περιπτώσει, να πληροφορήσω το Σώμα, κύριε Πρόεδρε, ότι εμείς έχουμε ευαισθησίες ίσες τουλάχιστον μ’ αυτές που έχει ο ερωτών συνάδελφος. Πρέπει να σας πω ότι οι μετακινήσεις αυτές των πλεοναζόντων προς τους ελλειμματικούς νομούς έγιναν αποκλειστικά από τους τοπικούς διευθυντές Αστυνομίας, οι οποίοι με εντολή του Αρχηγού του Σώματος εκλήθησαν να συντάξουν τους σχετικούς καταλόγους επί των οποίων δεν επήλθε καμιά μεταβολή. Δεν έχουν καμία σχέση με τις κομματικές τοποθετήσεις. Άλλωστε, εγώ κατηγορούμαι από τους συναδέλφους του ΠΑ.ΣΟ.Κ., ότι μετεκινήθη μεγάλος αριθμός προσκειμένων, εντός ή εκτός εισαγωγικών, εις το ΠΑ.ΣΟ.Κ..</seg>
                <seg>Θα ήθελα να πληροφορήσω επίσης το Σώμα, ότι η εντολή ήταν πρώτον, να μετακινηθούν οι επιθυμούντες, δεύτερον οι άγαμοι και οι εξ αυτών νεότεροι στην ηλικία, τρίτον οι έγγαμοι άνευ τέκνων, τέταρτον οι έγγαμοι μετά τέκνων με λιγότερες υποχρεώσεις και μεταξύ των εγγάμων και εχόντων τις αυτές οικογενειακές υποχρεώσεις υπήρξαν και άλλα κριτήρια προτεραιότητας. Μ’ αυτά τα αντικειμενικά κριτήρια έγιναν οι μετακινήσεις. Εάν κάπου υπάρχει μια ακραία περίπτωση αδικίας -και μου ανεφέρθη από τους συναδέλφους της Αχαΐας η περίπτωση μιας νεαράς αστυφυλακίνας η οποία είναι έγκυος, αυτή ακυρώνεται αμέσως ...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_22" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_22" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριε Υπουργέ, στη δευτερολογία σας θα συμπληρώσετε.</seg>
                <seg>ΣΤΥΛΙΑΝΟΣ-ΑΓΓΕΛΟΣ ΠΑΠΑΘΕΜΕΛΗΣ (Υπ. Δημόσιας Τάξης): Τελειώνω, κύριε Πρόεδρε.</seg>
                <seg>Και θα σας πω, ότι σε κάθε περίπτωση εμείς έχουμε ετοιμάσει ένα προεδρικό διάταγμα το οποίο προβλέπει εφεξής τις μεταθέσεις των αστυνομικών να γίνονται με αντικειμενικά κριτήρια.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_23" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_23" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Παρακαλώ στη δευτερολογία σας, κύριε Υπουργέ, να συμπληρώσετε.</seg>
                <seg>ΣΤΥΛΙΑΝΟΣ-ΑΓΓΕΛΟΣ ΠΑΠΑΘΕΜΕΛΗΣ (Υπ. Δημόσιας Τάξης): Θα συμπληρώσω στη δευτερολογία μου, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_24" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_24" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κ. Μπεκίρης έχει το λόγο.</seg>
                <seg>ΒΑΣΙΛΕΙΟΣ ΜΠΕΚΙΡΗΣ: Κύριε Πρόεδρε, ο κύριος Υπουργός με απογοήτευσε, όπως απογοήτευσε προχθές και όλους που τον επεσκέφθημεν στο Υπουργείο Δημοσίας Τάξεως.</seg>
@@ -830,34 +815,34 @@
                <seg>Νομίζω ότι ο κύριος Υπουργός πρέπει να το δει προσωπικά το θέμα, διότι το ανέθεσε στα κομματικά όργανα.</seg>
                <seg>Αυτό που λέει ο κύριος Υπουργός είναι σωστό και είναι σωστή η εγκύκλιος που έστειλε αλλά δεν εφαρμόζεται καθόλου. Έχουν αναλάβει ορισμένοι κομματικοί, οι οποίοι έχουν κάνει μία καθαρά κομματική επιλογή. Και θα έλεγα ότι στην Πάτρα έχουν έλθει 200 αστυνομικοί τον τελευταίο καιρό με μετάθεση, οι οποίοι είναι κλεισμένοι στην Ασφάλεια ή στα άλλα Αστυνομικά Τμήματα και δεν στελεχώνουν τις διάφορες υπηρεσίες, όπως είναι τα Αστυνομικά Τμήματα και οι Αστυνομικοί Σταθμοί. Νομίζω ότι πρέπει να ανοίξουν οι Αστυνομικοί Σταθμοί και να σταλεί και άλλη δύναμη στην Πάτρα, διότι η υπάρχουσα δεν επαρκεί.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_25" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_25" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κύριος Υπουργός έχει το λόγο.</seg>
                <seg>ΣΤΥΛΙΑΝΟΣ-ΑΓΓΕΛΟΣ ΠΑΠΑΘΕΜΕΛΗΣ (Υπ. Δημόσιας Τάξης):Δεν καταλαβαίνω τις κατηγορίες για κομματισμό. Τουλάχιστον δεν έπρεπε να τις απευθύνει σε μένα ο κύριος συνάδελφος και το ξέρει πάρα πολύ καλά. Δεν μπορώ να καταλάβω. Άκουσα από τους συναδέλφους που ήλθαν στο γραφείο μου μαζί και το συνάδελφο ότι οι περισσότεροι ανήκουν στη Νέα Δημοκρατία και οι λιγότεροι στο ΠΑ.ΣΟ.Κ.. Αν συμβαίνει αυτό είναι μία αναλογία φυσική στο Σώμα αυτό και δε θέλω να αναφερθώ σε λεπτομέρειες. Πάντως θα επαναλάβω για πολλοστή φορά ότι κανένα κομματικό κριτήριο δε χρησιμοποιήθηκε στην περίπτωση αυτή. Και επιτέλους υπάρχει μία κοινή λογική. Δεν είναι δυνατόν να υπάρχουν περιοχές με πλεονάζοντες και περιοχές ελλειμματικές.</seg>
                <seg>Θα ήθελα και εγώ αυτήν τη στιγμή να πω ότι έχουμε ένα έλλειμμα συνολικό στο Σώμα αυτήν την ώρα 2000 αστυνομικών, έχουμε ζητήσει από το Υπουργείο Οικονομικών τις δαπάνες για την πρόσληψη 3000. Εάν βοηθήσετε όλοι θα στείλουμε μερικούς απ’ αυτούς στην Πάτρα για να ικανοποιήσουμε τον κύριο συνάδελφο.</seg>
                <seg>Αλλά θέλω να πληροφορήσω το Σώμα ότι είμαστε έτοιμοι με ένα προεδρικό διάταγμα που αφορά την αντικειμενικοποίηση των προϋποθέσεων για τη μετάθεση των αστυνομικών. Ένα σύστημα το οποίο προσιδιάζει εν πολλοίς με αυτό που ισχύει στη Δημόσια Εκπαίδευση, αλλά βεβαίως έχει και τις αναγκαίες αποκλίσεις οι οποίες υπαγορεύονται από την ιδιοτυπία του Σώματος. Δηλαδή αναζητήσαμε να έχουμε μία χρυσή τομή ανάμεσα σε σταθερά στοιχεία αλλά και σε ορισμένα μεταβλητά τα οποία είναι αναγκαία από την ίδια την αποστολή της Αστυνομίας. Μεταξύ αυτών των στοιχείων και των ρυθμίσεων που προβλέπονται στο υπό δημοσίευση προεδρικό διάταγμα, υπάρχει και η πρόβλεψη οι μεταθέσεις να γίνονται άπαξ του έτους κατά μήνα Ιούνιο, να αναγγέλλονται τότε και να πραγματώνονται εντός του Αυγούστου για να μη δημιουργούνται προβλήματα οικογενειακά και άλλα. Ευχαριστώ πολύ, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_26" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_26" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, παράκληση των συναδέλφων, κυρίων Ανδρέα Λεντάκη και Στρατή Κόρακα όπως και του Υπουργού κ. Ανδρέα Μικρούτσικου και του Υφυπουργού κ. Γιώργου Λιάνη, είναι, εάν συναινείτε, να προταχθούν αυτές οι δύο επίκαιρες ερωτήσεις.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_27" who="nikolaos_farmakis">
+            <u xml:id="debate_1994-09-01_1_speech_27" who="nikolaos_farmakis">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</note>
                <seg>Κύριε Πρόεδρε, έχουμε αντιρρήσεις. Όλοι βιαζόμαστε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_28" who="stratis_korakas">
+            <u xml:id="debate_1994-09-01_1_speech_28" who="stratis_korakas">
                <note type="speaker">ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</note>
                <seg>Ζήτησα να προταχθεί η δική μου ερώτηση πρώτη στις ερωτήσεις δεύτερης επιλογής.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_29" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_29" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κατά συνέπεια, αν συμφωνείτε, να συζητηθεί η ερώτηση του κ. Λεντάκη προς τον κ. Μικρούτσικο λόγω των κωλυμάτων που επικαλούνται. Οκτώ λεπτά είναι αυτά, κύριε Φαρμάκη. Εύχομαι να είναι καρποφόρος και δημιουργικός ο υπόλοιπος χρόνος των 24 ωρών που έχουμε όλοι στη διάθεσή μας, ώστε να είμαστε ανεκτικοί και σε μία μικρή καθυστέρηση.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_30" who="nikolaos_farmakis">
+            <u xml:id="debate_1994-09-01_1_speech_30" who="nikolaos_farmakis">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</note>
                <seg>Έπρεπε να είμαι στις 11 η ώρα στον Ευαγγελισμό σε προκαθορισμένη σύσκεψη.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_31" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_31" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Έχετε δίκιο.</seg>
                <seg>Παρακαλώ να προταχθούν, εφόσον προεβλήθη ο λόγος και είθισται να γίνονται δεκτά τέτοια αιτήματα, αλλά θα είναι σύντομοι και στην ανάπτυξή τους οι κύριοι συνάδελφοι. Θα προταχθεί η με αριθμό 390/31-8-94 επίκαιρη ερώτηση δεύτερης επιλογής του Βουλευτή της Πολιτικής Άνοιξης κ. Ανδρέα Λεντάκη προς τον Υπουργό Πολιτισμού, "σχετικά με τις προθέσεις της Κυβέρνησης για πλήρωση θέσεων προσωπικού αρχαιολογικών χώρων και τροποποίηση του ωραρίου λειτουργίας των αρχαιολογικών χώρων και Μουσείων".</seg>
@@ -871,7 +856,7 @@
                <seg>2) Αν σκοπεύει να τροποποιήσει το ωράριο λειτουργίας των αρχαιολογικών χώρων και Μουσείων.".</seg>
                <seg>Ο κύριος Υπουργός Πολιτισμού έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_32" who="athanasios_mikroutsikos">
+            <u xml:id="debate_1994-09-01_1_speech_32" who="athanasios_mikroutsikos">
                <note type="speaker">ΑΘΑΝΑΣΙΟΣ ΜΙΚΡΟΥΤΣΙΚΟΣ</note>
                <seg>Κύριε Πρόεδρε, πιστεύω ότι ο κ. Λεντάκης κατ’ αρχήν θίγει ένα πραγματικά πολύ σοβαρό θέμα. Υπάρχει όντως πρόβλημα. Από την άλλη μεριά βέβαια έχω την αίσθηση ότι είναι λίγο υπερβολικός όταν λέει "αντ’ αυτού όμως γίνονται μάρτυρες της αδιαφορίας και της ανευθυνότητας που μαστίζει το δημόσιο τομέα και κατ’ επέκταση...".</seg>
                <seg>Αυτό το θέμα απασχολεί πάρα πολύ το Υπουργείο Πολιτισμού και κάνει τεράστιες προσπάθειες και μάλιστα, προκειμένου να καλύψει ανάγκες φυλακτικού προσωπικού των Μουσείων και αρχαιολογικών χώρων, προσλαμβάνει και προσέλαβε και αυτήν τη χρονιά έκτακτο εποχιακό προσωπικό για να επιμηκύνει το ωράριο λειτουργίας κατά τους θερινούς μήνες αρχαιολογικών χώρων και Μουσείων και για να ενισχύσει την ασφάλεια και τη φύλαξη των Μουσείων. Συνεπώς, δεν είναι αδιάφορο. Έχει δει το πρόβλημα και στα μέτρα του δυνατού -διότι υπάρχει και μία δημοσιονομική πολιτική η οποία δυστυχώς δεν μπορεί να ξεπερασθεί- προσπαθεί να κάνει ό,τι μπορεί. Βέβαια εδώ πρέπει να πω, αγαπητέ κύριε Λεντάκη, ότι ανακαλύπτονται καινούριοι αρχαιολογικοί χώροι κάθε μέρα και νομίζω ότι πάντοτε -δυστυχώς- θα είμαστε πιο πίσω από τις πραγματικές μας ανάγκες, αν θέλουμε να είμαστε ρεαλιστές.</seg>
@@ -880,26 +865,26 @@
                <seg>Σε ό,τι αφορά τώρα στο χώρο της Αρχαίας Αγοράς Αθηνών, θέλω να πω το εξής: Η λειτουργία είναι μέχρι τις 3.00’ η ώρα. Μου το είπατε και χθες που συναντηθήκαμε. Πιθανότατα να έχετε δίκιο, ως προς το ότι πρέπει αυτή, όπως κάποιες άλλες που κάναμε, να επιμηκυνθεί.</seg>
                <seg>Πάντως, σε σχέση με το πώς λειτουργεί τόσα χρόνια, λειτούργησε και φέτος. Συμφωνώ όμως μαζί σας ότι σε μια σειρά Μουσεία και σε μια σειρά χώρους θα πρέπει να επιμηκύνουμε, πάση θυσία, το ωράριο, διότι πρώτα απ’ όλα είναι και κάτι πάρα πολύ απλό: κερδίζουμε και εισιτήρια απογευματινά, πράγμα το οποίο μπορεί να μας κάνει να έχουμε μία ισορροπία σε έσοδα και έξοδα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_33" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_33" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κ. Λεντάκης έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_34" who="andreas_lentakis">
+            <u xml:id="debate_1994-09-01_1_speech_34" who="andreas_lentakis">
                <note type="speaker">ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</note>
                <seg>Κύριε Πρόεδρε, κατ’ αρχάς να ευχαριστήσω για τη ρύθμιση και να πω ότι ο κύριος Υπουργός παρεδέχθη ότι όντως υπάρχει πρόβλημα. Στη συνάντηση που είχαμε χθες του έθεσα υπόψη ένα σημείο. Τρεις μεγάλοι αρχαιολογικοί χώροι στην Αθήνα υπάρχουν, πολύ μεγάλοι. Ο ένας είναι η Ακρόπολη ο δεύτερος είναι η Αρχαία Αγορά που είναι ο μεγαλύτερος υπαίθριος χώρος και ο τρίτος είναι ο Κεραμεικός. Στην Αρχαία Αγορά κλείνει η πύλη στις 3 η ώρα. Είδα εκεί δύο τουρίστριες που ήρθαν για να μπουν και τους είπαν ότι 3 η ώρα κλείνει, ενώ οι τουριστικοί οδηγοί λένε ότι είναι ως τις 7. Δηλαδή, οι μεν τουριστικοί οδηγοί λένε ότι είναι ως τις 7, η πύλη λέει ως τις 3. Και είπε ένας απ’ αυτούς " Φαίνεται ότι νομίζω πώς είναι όπως στην Ακρόπολη που είναι διπλή βάρδια". Τι συμβαίνει δηλαδή; Έχουμε διπλή βάρδια -και πολύ σωστά- οπότε λειτουργεί καθ’ όλη τη διάρκεια της ημέρας στην Ακρόπολη η φύλαξη, δεν έχουμε διπλή βάρδια στο χώρο του Θησείου και της Αρχαίας Αγοράς και είναι αυτονόητο ότι δεν μπορεί να λειτουργήσει ένας φύλακας από το πρωί μέχρι το βράδυ. Άρα, κλείνει το μεσημέρι. Δεν είναι δυνατόν στο μεγαλύτερο αρχαιολογικό χώρο της Ελλάδος -και εννοώ τον περιφραγμένο- τον πιο σημαντικό της Αθήνας, σε τουριστική περίοδο, να κλείνει στις 3 η ώρα. Κατά συνέπεια, θα πρέπει να υπάρξει προσωπικό -αυτό είναι και το αίτημα- ώστε να λειτουργεί και το απόγευμα. Να το κάνουμε αυτό.</seg>
                <seg>Ένα δεύτερο παράδειγμα: είχα πάει στην Αίγινα με το γιο μου για να δει και αυτός το Ναό της Αφαίας. Ήταν μέρα γιορτής. Φυσικά στη γιορτή πήγε πάρα πολύς κόσμος. Λέει "είναι κλειστά λόγω αργίας!". Αυτές τις μέρες είναι που θα πάνε και οι Έλληνες και οι τουρίστες!</seg>
                <seg>Για το μωσαϊκό της Αρεθούσας υπάρχουν και άλλα. Έχει άδεια δηλαδή ο φύλακας και δεν αντικαθίσταται. Κατά συνέπεια, αυτό που λέω "ανοργανωσιά" είναι σ’ αυτό το σημείο. Να πάρουμε υπόψη ότι: ναι, θα πάρει ο φύλακας την άδεια, αλλά θα υπάρξει δεύτερος φύλακας. Διαφορετικά θα υπάρξει κλοπή. Έτσι έγιναν οι κλοπές και στο Μουσείο της Τεγέας, διότι πήγαν σαν κύριοι οι κλέφτες και τα πήραν όταν είχε άδεια το προσωπικό και δεν υπήρχε άλλος φύλακας. Αυτό είναι το αίτημα. Όταν δηλαδή δίνετε άδειες, να υπάρχει δεύτερος και να λειτουργεί ο χώρος της Αγοράς ως τις 7 το απόγευμα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_35" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_35" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κύριος Υπουργός, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_36" who="athanasios_mikroutsikos">
+            <u xml:id="debate_1994-09-01_1_speech_36" who="athanasios_mikroutsikos">
                <note type="speaker">ΑΘΑΝΑΣΙΟΣ ΜΙΚΡΟΥΤΣΙΚΟΣ</note>
                <seg>Κύριε Πρόεδρε, δε θέλω να πω τίποτα. Θα συμφωνήσω με τον κ. Λεντάκη, δεν μπορώ να μη συμφωνήσω. Υπάρχει πρόβλημα. Μόνο που θέλω να διαβεβαιώσω τον κ. Λεντάκη -και το Σώμα βέβαια- ότι γίνονται τεράστιες προσπάθειες, γιατί οι απαιτήσεις για φυλακτικό προσωπικό είναι μεγάλες. Χρειάζονται χιλιάδες, γιατί ευτυχώς η Χώρα μας είναι γεμάτη αρχαιολογικούς χώρους. Κάτι τέτοιο είπε και ο κύριος Υπουργός Δημοσίας Τάξεως προηγουμένως. Είπε ότι θέλει 3.000 αστυφύλακες και ο Υπουργός Γεωργίας θέλει άλλους 5.000. Υπάρχει λοιπόν ένα πρόβλημα. Αυτό δεν μπορεί να μην το δούμε συνολικά και να το δούμε αποκομμένα.</seg>
                <seg>Έχετε δίκιο, κύριε Λεντάκη. Το ξέρουμε το πρόβλημα, κάνουμε ότι μπορούμε, αλλά μέσα στα πλαίσια μιας οικονομικής πολιτικής. Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_37" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_37" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, η καλή συνάδελφος κα Φωτεινή Στεφανοπούλου και ο καλός, επίσης, συνάδελφος κ. Βασιλακάκης, παραχωρούν τη θέση της επίκαιρης ερώτησής τους, ώστε να συζητηθεί προηγουμένως η επίκαιρη ερώτηση των κυρίων Ροκόφυλλου και Φαρμάκη και έτσι να μην υπάρξει καθυστέρηση γι’ αυτούς.</seg>
                <seg>Θα συζητηθεί, λοιπόν, η τέταρτη επίκαιρη ερώτηση, πρώτης επιλογής, με αριθμό 385 της 31.8.94 του Βουλευτή του Κ.Κ.Ε. κ. Στρατή Κόρακα, προς τον Υπουργό Βιομηχανίας, Ενέργειας και Τεχνολογίας "σχετικά με τις προθέσεις της Κυβέρνησης για ακύρωση των συμφωνιών πώλησης των εργοστασίων του Ομίλου της Πειραϊκής Πατραϊκής κ.λπ.".</seg>
@@ -908,7 +893,7 @@
                <seg>Γιατί η Κυβέρνηση δέχεται τις νομοθετικές ρυθμίσεις - σκάνδαλο της Νέας Δημοκρατίας που ξεπουλάνε τη δημόσια περιουσία;"</seg>
                <seg>Ο Αναπληρωτής Υπουργός Βιομηχανίας, Ενέργειας και Τεχνολογίας κ. Χρήστος Ροκόφυλλος έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_38" who="xristos_rokofullos">
+            <u xml:id="debate_1994-09-01_1_speech_38" who="xristos_rokofullos">
                <note type="speaker">ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</note>
                <seg>Δύο λόγια πρώτα απ’ όλα, κύριε Πρόεδρε, για τη δική μας συνέπεια, την οποία φαίνεται να αμφισβητεί ο αγαπητός συνάδελφος στην ερώτησή του.</seg>
                <seg>Εμείς ποτέ δεν είπαμε πως βιομηχανικές επιχειρήσεις, όπως η Πειραϊκή-Πατραϊκή και άλλες, πρόκειται να μεταβληθούν σε τμήματα του κρατικού μηχανισμού. Έπεσαν κάποτε έξω, ίσως γιατί αντίξοες αντικειμενικές συνθήκες τις οδήγησαν σε κάποιο κατήφορο, ίσως γιατί ανθρώπινα σφάλματα βοήθησαν συνεργώντας προς αυτήν την κατεύθυνση. Εμείς από το 1984, όταν δημιουργήσαμε για πρώτη φορά Χώρα μας έναν Οργανισμό Ανασυγκρότησης Επιχειρήσεων (Ο.Α.Ε.), φιλοδοξούσαμε ένα πράγμα: Να βοηθήσουμε αυτές τις επιχειρήσεις να ανασυγκροτηθούν, να σταθούν στα πόδια τους, έτσι ώστε να ξαναγυρίσουν και πάλι με κανονικές διαφανείς διαδικασίες στον ιδιωτικό τομέα της οικονομίας, στον οποίο από τη φύση τους ανήκουν.</seg>
@@ -918,61 +903,61 @@
                <seg>Χώρες που αγνόησαν το κόστος, είχαν τις γνωστές συνέπειες που όλοι μας έχουμε μπροστά στα μάτια μας και για τις οποίες δεν χρειάζεται καν να μιλάμε. Κανένας δεν δικαιούται να αγνοεί το οικονομικό κόστος, εκτός πια κι αν θελήσει να φύγει απ’ αυτό τον κόσμο τον φθαρτό και πραγματικό και να πάει σε κάποιους άλλους κόσμους όπου εκεί η φαντασία επιτρέπει τα πάντα! Το κόστος δυστυχώς κανείς δεν μπορεί να το αγνοήσει.</seg>
                <seg>Ποινικές ευθύνες δε, για τις οποίες υπαινίσσεστε, πιθανόν να έχουν όσοι άφησαν να δημιουργηθεί αυτό, το χωρίς λόγο, κόστος των 160 δισ. δραχμών. Όχι εκείνοι οι οποίοι φειδόμενοι και κηδόμενοι του δημοσίου συμφέροντος και των χρημάτων των φορολογουμένων, εννοούν να σταματήσουν την αιμορραγία και να ξαναβάλουν σε τροχιά, παραγωγική και δημιουργική, με θέσεις εργασίας εγγυημένες, όλες αυτές τις μονάδες που σκουριάζουν από την απραξία τόσα χρόνια.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_39" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_39" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κ. Κόρακας έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_40" who="stratis_korakas">
+            <u xml:id="debate_1994-09-01_1_speech_40" who="stratis_korakas">
                <note type="speaker">ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</note>
                <seg>Κύριε Πρόεδρε, πράγματι δεν ξέρει κανείς από πού να αρχίσει και πού να τελειώσει στα 2 λεπτά που έχει, ωστόσο εγώ επιμένω ότι η νομοθεσία των ιδιωτικοποιήσεων που πέρασε η Νέα Δημοκρατία, βρήκε αντίθετο το ΠΑ.ΣΟ.Κ., είχε υποσχεθεί ότι θα την ακυρώσει και όμως, προχωράει με περισσότερη επιμέλεια και με περισσότερη, αν θέλετε, βιασύνη. Είχε δεσμευθεί, εν πάση περιπτώσει, το ΠΑ.ΣΟ.Κ. σε ορισμένα πράγματα, δεν τα τηρεί και γι’ αυτό κρίνεται και επικρίνεται.</seg>
                <seg>Σχετικά με την Πειραϊκή - Πατραϊκή πράγματι το ιστορικό είναι ότι τα θαλασσοδάνεια τα έδωσε η Νέα Δημοκρατία, ύστερα οι Κατσαμπέοι άρπαξαν 40 δισ. περίπου, τα χάρισε το ΠΑ.ΣΟ.Κ., λες και ήταν της μάνας του ή του πατέρα του, έριξε άλλα 160 δισ. στην Πειραϊκή - Πατραϊκή, όπως είπε ο κύριος Υπουργός, για να την ξαναστήσει στα πόδια, την γκρέμισε ταυτόχρονα το 1986, διασπώντας την σε αυτόνομες μονάδες το κάθε εργοστάσιο, για να μπορέσει καλύτερα να την ξεπουλήσει και φθάσαμε εκεί που είμαστε σήμερα, 7.500 εργαζόμενοι, 35 δισ. εξαγωγές, 11 εργοστάσια, 3 πρατήρια, από τις μεγαλύτερες στην Ευρώπη και αυτήν τη στιγμή δεν υπάρχει τίποτα. Το κυριότερο είναι ότι από εκεί που μας χρωστούν οι περίφημοι αυτοί ιδιώτες, μας τρώνε και το βόδι τώρα.</seg>
                <seg>Πάρτε παράδειγμα την επιχείρηση Γαβριήλ - Παπαθανασίου. Τίποτε δε δίνει ουσιαστικά, όπως και στη Σάμο, όπως και στους Φιλιάτες, όπως και στο Καρπενήσι. Δε δίνουν απολύτως τίποτα αν τα βάλετε κάτω. Επιπλέον, αξιοποιούν τα ακίνητα, αξιοποιούν τα αποθέματα, αξιοποιούν τα πάντα, τσεπώνουν έναν πακτωλό χρημάτων και έρχεται ο Παπαθανασίου και ζητάει επιπλέον. Ζητάει 600 εκατ. δραχμές, ζητάει απολύοντας το προσωπικό ο ίδιος, από τον Ο.Α.Ε. να καταβάλει τις αποζημιώσεις και τους μισθούς, για να πάρει αυτός αυτό που θέλει. Στη Σάμο, παντού, απολύουν τους συνδικαλιστές, απολύουν τους κομμουνιστές και υπάρχουν συγκεκριμένα στοιχεία.</seg>
                <seg>Κύριε Πρόεδρε, εμείς επιμένουμε ότι πρόκειται για σκάνδαλο διπλό. Και γιατί πουλιέται μία επιχείρηση που έπρεπε να μείνει στο Δημόσιο, αγκωνάρι της ελληνικής βιομηχανίας και οικονομίας και γιατί πουλιέται σε εξευτελιστική τιμή. Μιλάμε για την "ΑΓΕΤ ΗΡΑΚΛΗΣ". Τι περισσότερο γίνεται εδώ πέρα; Άρα, λοιπόν, θα πάμε πάλι σε Ειδικά Δικαστήρια; Θα πάμε πάλι στον εισαγγελέα; Και πού πάει αυτή η υπόθεση; Ανακαλέστε αυτήν την πολιτική, δεσμευθείτε ότι επανέρχεται στον έλεγχο του ευρύτερου Δημοσίου, στον Ο.Α.Ε., για να μείνει αυτή η επιχείρηση στα χέρια του Δημοσίου. Οι εργαζόμενοι εγγυώνται ότι θα είναι κερδοφόρα. Πολύ λιγότερα θα είναι τα έξοδα και το βάρος για το Δημόσιο. Σταματήστε αυτήν τη δογματική εφαρμογή των διαταγών του Μάαστριχτ και της Ευρωπαϊκής Ένωσης.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_41" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_41" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κύριος Υπουργός έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_42" who="xristos_rokofullos">
+            <u xml:id="debate_1994-09-01_1_speech_42" who="xristos_rokofullos">
                <note type="speaker">ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</note>
                <seg>Αμετανόητος ο πράγματι συμπαθής συνάδελφος, ο κ. Κόρακας, εννοεί να εκπέμπει κατηγορίες, οι οποίες γνωρίζει και ο ίδιος ότι είναι εντελώς αβάσιμες.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_43" who="stratis_korakas">
+            <u xml:id="debate_1994-09-01_1_speech_43" who="stratis_korakas">
                <note type="speaker">ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</note>
                <seg>Ξέρετε πολύ καλά τι λέμε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_44" who="xristos_rokofullos">
+            <u xml:id="debate_1994-09-01_1_speech_44" who="xristos_rokofullos">
                <note type="speaker">ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</note>
                <seg>Κύριε Κόρακα, για να βρούμε το τίμημα μιας επιχείρησης, δεν έχουμε άλλον τρόπο από το να κάνουμε ένα διαφανή δημόσιο διαγωνισμό. Η αγορά θα δείξει το πραγματικό τίμημα της στιγμής. Κανένας άλλος, κυριολεκτικά κανένας άλλος. Και αυτό κάνουμε.</seg>
                <seg>Εσείς προσπαθήσατε να κάνετε κάποιες αήθεις συγκρίσεις με την "ΑΓΕΤ ΗΡΑΚΛΗΣ", για την οποία γνωρίζετε ότι ο διαγωνισμός ήταν στημένος. Οφείλετε να το γνωρίζετε, και αν δεν το γνωρίζετε ή το αμφισβητείτε, τόσο το χειρότερο για σας.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_45" who="stratis_korakas">
+            <u xml:id="debate_1994-09-01_1_speech_45" who="stratis_korakas">
                <note type="speaker">ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</note>
                <seg>...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_46" who="xristos_rokofullos">
+            <u xml:id="debate_1994-09-01_1_speech_46" who="xristos_rokofullos">
                <note type="speaker">ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</note>
                <seg>Γνωρίζετε ότι είναι ενδεχόμενο -θα το δει η Βουλή και θα αποφανθεί μετά από λίγες μέρες- να έχουν δοθεί μίζες αρκετών δισ. Υπάρχουν τέτοια πράγματα στην Πειραϊκή - Πατραϊκή; Έ, όχι βέβαια! Εκτός εάν πράγματι νομίζετε το αντίθετο. Τότε να κάνετε τότε μία επερώτηση.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_47" who="stratis_korakas">
+            <u xml:id="debate_1994-09-01_1_speech_47" who="stratis_korakas">
                <note type="speaker">ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</note>
                <seg>...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_48" who="xristos_rokofullos">
+            <u xml:id="debate_1994-09-01_1_speech_48" who="xristos_rokofullos">
                <note type="speaker">ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</note>
                <seg>Εμείς κάνουμε διαγωνισμούς άψογους, κατά πάντα τίμιους, για να μπορέσουν αυτές οι μονάδες να μπουν επιτέλους στο δρόμο της παραγωγής...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_49" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_49" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριε Κόρακα, σας παρακαλώ. Μη διακόπτετε, για να απαντήσει ο Υπουργός, όπως μιλήσατε σεις. Δεν είναι σωστές αυτές οι διακοπές.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_50" who="xristos_rokofullos">
+            <u xml:id="debate_1994-09-01_1_speech_50" who="xristos_rokofullos">
                <note type="speaker">ΧΡΗΣΤΟΣ ΡΟΚΟΦΥΛΛΟΣ</note>
                <seg>...για να μπορέσουν αυτές οι μονάδες να γίνουν παραγωγικές, κύριε Κόρακα, και για να μπορέσουν οι εργαζόμενοι να είναι πράγματι εργαζόμενοι και όχι "πρώην εργαζόμενοι", όπως τους αποκαλεί συχνά ο Τύπος και όπως είναι η πραγματική τους ιδιότητα τώρα. Και για να πετύχουμε τις καλύτερες δυνατές τιμές και για να μην μπορεί κανείς να μιλάει για ξεπούλημα, αλλά για πραγματική πώληση, γι’ αυτό το λόγο δεν φεισθήκαμε δαπανών, για να κάνουμε και τη συντήρηση του εργοστασίου που πουλάμε, έτσι ώστε ο κάθε επίδοξος επενδυτής να βλέπει ότι δεν πρόκειται για ένα άθροισμα, για να μην πω ένα άθυρμα, από διάφορες μηχανές, αλλά για ένα παραγωγικό μηχανισμό, ικανό να παραγάγει προϊόντα ποιότητας.</seg>
                <seg>Kαι δε φειδόμεθα επίσης και δαπανών, για να εκπαιδεύσουμε και να μετεκπαιδεύσουμε και να καταρτίσουμε το προσωπικό, με ένα και μόνο σκοπό: να διευκολύνουμε την πώληση με καλούς όρους. Και όταν λέμε όρους, δεν εννοούμε μόνο το τίμημα. Εννοούμε τη διάρκεια της λειτουργίας της επιχείρησης και, κυρίως, τον αριθμό θέσεων εργασίας.</seg>
                <seg>Ευχαριστώ πολύ, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_51" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_51" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ακολουθεί η πρώτη επίκαιρη ερώτηση δεύτερης επιλογής με αριθμό 379/30-8-94 του Βουλευτή του Πανελληνίου Σοσιαλιστικού Κινήματος (ΠΑ.ΣΟ.Κ.) κ. Απόστολου Φωτιάδη προς τον Υπουργό Υγείας, Πρόνοιας και Κοινωνικών Ασφαλίσεων, "σχετικά με τους λόγους καθυστέρησης λειτουργίας του νέου νοσοκομείου Διδυμοτείχου".</seg>
                <seg>Η ερώτηση του κυρίου Φωτιάδη συνοπτικώς έχει ως εξής:</seg>
@@ -985,7 +970,7 @@
                <seg>3.- Γιατί καθυστερεί η προκήρυξη των 12 θέσεων προσωπικού και ποιος ο λόγος μείωσης του αριθμού τους;"</seg>
                <seg>Ο Υφυπουργός Υγείας, Πρόνοιας και Κοινωνικών Ασφαλίσεων, κ. Φαρμάκης, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_52" who="nikolaos_farmakis">
+            <u xml:id="debate_1994-09-01_1_speech_52" who="nikolaos_farmakis">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</note>
                <seg>Κύριε Πρόεδρε, μας κάνει εντύπωση η σκληρότητα του κειμένου της επίκαιρης ερώτησης που συζητούμε. Ο αγαπητός συνάδελφος, κ. Φωτιάδης, απευθύνει ερώτηση σε λάθος κυβέρνηση. Σε άλλη κυβέρνηση έπρεπε να απευθύνει αυτήν την ερώτηση.</seg>
                <seg>Το νοσοκομείο του Διδυμοτείχου πράγματι ταλαιπωρήθηκε κατασκευαστικά πολλά χρόνια. Όμως, για το ότι δεν είναι ακόμη σε λειτουργία, δεν ευθύνεται το δεκάμηνο της διακυβέρνησης της Χώρας από το ΠΑ.ΣΟ.Κ.. Δεν υπάρχει καμία αθέτηση υπεσχημένων. Και δεν υπάρχει καμία βραδυπορία στην έναρξη λειτουργίας του νοσοκομείου.</seg>
@@ -996,11 +981,11 @@
                <seg>Αλλά εκείνο που δεν αντιλαμβάνεται το Υπουργείο και δεν αντιλαμβάνεται και το συνάδελφο που ταυτίζεται διεκδικητικά με όποιους για άλλους λόγους δημιουργούν το θέμα τοπικά, είναι γιατί δεν μεταφέρεται το νοσοκομείο από τις παλιές του εγκαταστάσεις στο καινούριο νοσοκομείο που πράγματι είναι έτοιμο εδώ και δύο χρόνια. Και κόπηκε εκεί και κάποια κορδέλα, όπως είχε γίνει σε πολλές τέτοιες μονάδες, από τον προηγούμενο πρωθυπουργό και από την προηγούμενη κυβέρνηση. Δεν υπάρχει λοιπόν, αθέτηση υπεσχημένων. Ο νέος οργανισμός του νοσοκομείου με τις προβλεπόμενες πιστώσεις θα είναι σε ισχύ από την 1-1-95.</seg>
                <seg>Οι διαδικασίες των προκηρύξεων με βάση τον παλαιό οργανισμό και την κατ’ εξαίρεση έγκριση, όπως σας είπα, του Υπουργικού Συμβουλίου προχωρεί και θα ολοκληρωθεί εντός μηνός περίπου. Συνεπώς, είναι θέμα να συστήσει ή να βοηθήσει και ο κύριος συνάδελφος προς το διοικητικό συμβούλιο να γίνει η άμεση μεταφορά, για να μην ταλαιπωρείται το προσωπικό και οι πολίτες, από τις παλαιές στις νέες έτοιμες εγκαταστάσεις του νοσοκομείου. Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_53" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_53" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κ. Φωτιάδης έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_54" who="apostolos_fotiadis">
+            <u xml:id="debate_1994-09-01_1_speech_54" who="apostolos_fotiadis">
                <note type="speaker">ΑΠΟΣΤΟΛΟΣ ΦΩΤΙΑΔΗΣ</note>
                <seg>Κύριε Πρόεδρε, κύριε Yπουργέ, κύριοι συνάδελφοι, δεν είναι σκληρή η γλώσσα η οποία χρησιμοποιήθηκε στην επίκαιρη ερώτηση, αλλά είναι ακόμα σκληρότερη η συγκεκριμένη πραγματικότητα.</seg>
                <seg>Γνωρίζετε, κύριε Υπουργέ, ότι στο νοσοκομείου Διδυμοτείχου στοιβάζονται συγχρόνως ασθενείς μαζί με ποντίκια, ακρίδες, κατσαρίδες, τα πάντα. Είναι γνωστό πια το φαινόμενο και έχει γίνει αποδεκτό και από το Υπουργείο. Αυτό είναι το πρώτο θέμα.</seg>
@@ -1011,11 +996,11 @@
                <seg>Το τόνισα πράγματι και μέσα στη ερώτηση ότι δε ζητάμε δαπάνη, αλλά μόνο πρόβλεψη τυπικά 30.000.000 εκατ. Και πολλά βάζω, ούτε 30.000.000 εκατ. είναι για τον υπόλοιπο χρόνο, μέχρι το τέλος του έτους. Είναι 250.000.000 εκατ. σε ετήσια βάση, αλλά για τους 2-3 μήνες που μας απομένουν είναι 30.000.000 εκατ.</seg>
                <seg>Επομένως, πιστεύω ότι ακριβώς αυτή η αγανάκτηση η οποία διακατέχει όχι τον ερωτώντα, αλλά την κοινωνία του Διδυμοτείχου και τα 80 χωριά που εξυπηρετεί το συγκεκριμένο νοσοκομείο 100.000 κατοίκους, είναι δικαιολογημένη. Και θα πρέπει με την ευαισθησία που έχει το Υπουργείο, να δείξει και την ευαισθησία του και για το Διδυμότειχο, κατά άμεση προτεραιότητα, χωρίς να αμφισβητούμε και τις ανάγκες των υπολοίπων περιοχών, αλλά και του κέντρου. Αλλά πραγματικά, προκαλεί τους κατοίκους του βορείου Έβρου όταν ακούν, καινούριο νοσοκομείο στην Ελευσίνα να λειτουργεί, ενώ το νοσοκομείο του Διδυμοτείχου δε λειτουργεί εδώ και δύο χρόνια.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_55" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_55" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κύριος Υπουργός έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_56" who="nikolaos_farmakis">
+            <u xml:id="debate_1994-09-01_1_speech_56" who="nikolaos_farmakis">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</note>
                <seg>Κύριε συνάδελφε, δε θέλω να με απαλλάξετε των ευθυνών επειδή είμαι νέος Υφυπουργός. Πρέπει να σας πω ότι η απάντησή μου έχει σχέση με μία πλήρη ενημέρωση και συζήτηση και με τους προηγούμενους της πολιτικής ηγεσίας του Υπουργείου που χειρίστηκαν το θέμα.</seg>
                <seg>Mου λέτε ότι υπάρχουν 25 αιτήσεις μετατάξεων από την Αθήνα ή όπου αλλού, προς το Διδυμότειχο που θα μπορούσαν να έρθουν εάν υπήρχαν οι θέσεις του νέου οργανισμού. Θέλω να σας πληροφορήσω -και παρακαλώ η ενημέρωσή σας, εάν το επιθυμείτε, να γίνει πληρέστερη στο Υπουργείο- ότι κανένα αίτημα μετάταξης προς το νοσοκομείο του Διδυμοτείχου από την Αθήνα δεν εκκρεμεί στο Υπουργείο.</seg>
@@ -1023,15 +1008,15 @@
                <seg>Δεύτερο θέμα. Είναι πράγματι έτσι όπως το λέτε, οι άνθρωποι, τα ποντίκια, οι κατσαρίδες και άλλα. Εάν μου επιτρέπετε, ρητορικά να σας ρωτήσω: Γιατί από το Μάρτη, αλλά και τώρα που σας το λέω, δε μεταφέρετε άμεσα το νοσοκομείο από τον απαράδεκτο χώρο στον καινούριο χώρο, που είναι έτοιμος; Σε τι σας ενοχλεί ο οργανισμός; Έχουμε προβλήματα για να εγκρίνουμε τον οργανισμό. Σας είπα ότι θα ισχύσει από 1-1-95.</seg>
                <seg>Είναι σημαντικό θέμα για το Διδυμότειχο και για τη Θράκη η λειτουργία αυτού του νοσοκομείου. Αφού, λοιπόν, υπάρχει θέμα απαράδεκτων συνθηκών μέσα στις οποίες λειτουργεί το παλιό νοσοκομείο, γιατί δεν μεταφέρεστε σήμερα, με το προσωπικό που έχετε, στο καινούριο νοσοκομείο, στις νέες σύγχρονες εγκαταστάσεις; Ποιος είναι ο λόγος που θέλετε πρώτα τον οργανισμό και μετά να πάτε; Μεταφερθείτε από σήμερα, για να απαλλαγείτε από αυτές τις κακές συνθήκες και θα περιμένετε 1-2 μήνες για να έρθει και η ώρα της εφαρμογής του νέου οργανισμού.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_57" who="apostolos_fotiadis">
+            <u xml:id="debate_1994-09-01_1_speech_57" who="apostolos_fotiadis">
                <note type="speaker">ΑΠΟΣΤΟΛΟΣ ΦΩΤΙΑΔΗΣ</note>
                <seg>Δεν υπάρχουν ειδικότητες.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_58" who="nikolaos_farmakis">
+            <u xml:id="debate_1994-09-01_1_speech_58" who="nikolaos_farmakis">
                <note type="speaker">ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</note>
                <seg>Έχουν προκηρυχθεί 13 θέσεις νέων γιατρών, αλλά μέχρι να ολοκληρωθεί η πρόσληψή τους -δε θα αργήσει πέραν του μηνός- μεταφερθείτε. Αυτό έχω να σας πω σαν Υπουργείο, για να ζητήσω και εγώ από άλλους ευθύνες και θα δούμε σαν ηγεσία τι θα γίνει με τη λειτουργία του διοικητικού συμβουλίου.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_59" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_59" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ακολουθεί η με αριθμό κατάθεσης 374 της 29-8-94 επίκαιρη ερώτηση δεύτερης επιλογής του Βουλευτή της Νέας Δημοκρατίας κ. Αλέξανδρου Δεσύλλα προς τον Υπουργό Μεταφορών και Επικοινωνιών "σχετικά με την επίλυση προβλημάτων του αεροδρομίου της Κέρκυρας".</seg>
                <seg>Η ερώτηση του κ. Δεσύλλα συνοπτικώς έχει ως εξής: "Η χαώδης κατάσταση που υπάρχει στο αεροδρόμιο της Κέρκυρας τους θερινούς αυτούς μήνες από τις καθυστερήσεις των αεροσκαφών της Ολυμπιακής Αεροπορίας και κυρίως από την έλλειψη ανεκτής έστω εξυπηρέτησης των διακινουμένων ημεδαπών και αλλοδαπών επισκεπτών του νησιού, κανονικά θα έπρεπε ήδη να είχε προκαλέσει την παρέμβαση της Κυβέρνησης της Χώρας.</seg>
@@ -1039,33 +1024,33 @@
                <seg>Ερωτάται ο Υπουργός Μεταφορών και Επικοινωνιών να πληροφορήσει τη Βουλή, αν η Κυβέρνηση προτίθεται να ασχοληθεί κατά προτεραιότητα με τα προβλήματα αυτά του αεροδρομίου της Κέρκυρας, διαθέτοντας τον απαιτούμενο χρόνο από άλλες άσχετες με τα καθήκοντά της ενασχολήσεις".</seg>
                <seg>Ο Υφυπουργός Μεταφορών και Επικοινωνιών κ. Δημήτριος Αλαμπάνος έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_60" who="dimitrios_alampanos">
+            <u xml:id="debate_1994-09-01_1_speech_60" who="dimitrios_alampanos">
                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΑΛΑΜΠΑΝΟΣ</note>
                <seg>Κύριε Πρόεδρε, στις περιόδους αιχμής, όπως είναι οι καλοκαιρινοί μήνες, παρατηρούνται καθυστερήσεις σε όλα τα αεροδρόμια από τα πιο μικρά μέχρι τα πιο μεγάλα ακόμα και τα πλέον σύγχρονα ευρωπαϊκά.</seg>
                <seg>Φέτος, όπως σε όλη την Ευρώπη, έτσι και στην Ελλάδα, είχαμε να αντιμετωπίσουμε και το μεγάλο πρόβλημα της απεργίας των ελεγκτών εναέριας κυκλοφορίας, που συνέβαλε κατά πολύ στην ύπαρξη αυτών των καθυστερήσεων.</seg>
                <seg>Οι αυξημένες όμως, συγκριτικά με πέρυσι, καθυστερήσεις στο αεροδρόμιο της Κέρκυρας, οφείλονται σε αυξημένη κίνηση που παρουσίασε το αεροδρόμιο αυτό, αλλά οφείλονται και στην έλλειψη του αυτοματοποιημένου συστήματος ελέγχου εναέριας κυκλοφορίας, για το οποίο όλοι γνωρίζουμε ότι βρίσκεται σε εξέλιξη ένα πρόγραμμα εκσυγχρονισμού, που τελειώνει σε λίγους μήνες.</seg>
                <seg>Ένας ακόμα λόγος που συμβάλλει στις καθυστερήσεις είναι οι καιρικές συνθήκες που επικρατούν στο αεροδρόμιο της Κέρκυρας. Άλλος λόγος είναι οι παραβιάσεις που οφείλονται στα slots των ξένων αεροπορικών εταιρειών και στις καθυστερημένες αφίξεις των αεροσκαφών των ξένων αεροπορικών εταιρειών και των τσάρτερς. Ένας ακόμα λόγος είναι το γεγονός ότι οι αεροπορικές εταιρείες...</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_61" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_61" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Όσον αφορά αυτούς τους όρους, όπως slots, τσάρτερς και όλα τα άλλα, μήπως θα πρέπει να ζητάτε από τις υπηρεσίες σας τους αντίστοιχους ελληνικούς όρους, για να τους αναφέρετε στην Ελληνική Βουλή;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_62" who="konstantinos_pularinos">
+            <u xml:id="debate_1994-09-01_1_speech_62" who="konstantinos_pularinos">
                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΠΥΛΑΡΙΝΟΣ</note>
                <seg>Επί τέλους ήταν καιρός να ειπωθούν αυτά τα σωστά. Εύγε, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_63" who="dimitrios_alampanos">
+            <u xml:id="debate_1994-09-01_1_speech_63" who="dimitrios_alampanos">
                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΑΛΑΜΠΑΝΟΣ</note>
                <seg>Κύριε Πρόεδρε, ελπίζω ότι επικοινωνούμε και είναι γνωστοί αυτοί οι όροι.</seg>
                <seg>Υπάρχουν και άλλοι λόγοι. Ορισμένες αεροπορικές εταιρίες εκτός της ΚΑΛΗΔΟΝΙΑ έχουν καταργήσει το σύστημα μεταφοράς των αποσκευών από την κοίτη των αεροσκαφών με αποτέλεσμα να δυσχεραίνεται η φορτοεκφόρτωση.</seg>
                <seg>Επίσης, πράγματι έγιναν προσλήψεις από τον Ολυμπιακή Αεροπορία. Παρά τα οικονομικά προβλήματα που υπάρχουν, προσλήφθηκαν εργάτες, τεχνίτες, χειριστές ανυψωτικών μηχανημάτων, για να αντιμετωπισθεί ο φόρτος εργασίας της θερινής περιόδου. Οι προσλήψεις αυτές έγιναν μακριά από κάθε είδους κομματισμό, βάσει του ν. 2190/94. Οι προσλήψεις ανακοινώθηκαν στον Τύπο, αλλά ήταν κατά 20% λιγότερες φέτος. Αυτό δεν δείχνει κομματικό φανατισμό, ούτε φαυλότητα που μπορούσε να παρατηρηθεί σε άλλες εποχές.</seg>
                <seg>Ακόμη στις 4 Αυγούστου έγινε και μία σύσκεψη στη Δημαρχία της Κέρκυρας στην οποία συμμετείχαν όλοι οι παράγοντες, μπήκαν κάποιες παράμετροι και ελαττώθηκαν σημαντικά τα προβλήματα του αεροδρομίου της Κέρκυρας.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_64" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_64" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Το λόγο έχει ο κ. Δεσύλλας.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_65" who="alexandros_desullas">
+            <u xml:id="debate_1994-09-01_1_speech_65" who="alexandros_desullas">
                <note type="speaker">ΑΛΕΞΑΝΔΡΟΣ ΔΕΣΥΛΛΑΣ</note>
                <seg>Ασφαλώς, κύριε Υπουργέ, θα συμφωνείτε ότι τα υπάρχοντα στοιχεία στο Υπουργείο σας από τις αρχές του 1994, έδειχναν ότι θα υπήρχε μία ιδιαίτερα αυξημένη κίνηση στο αεροδρόμιο της Κέρκυρας. Θα προσετίθεντο αυτές οι 3 νέες θέσεις στάθμευσης αεροσκαφών. Ο προγραμματισμός των αεροσκαφών που είχε ήδη αναγγελθεί, ήταν για μεγαλύτερα αεροπλάνα και άρα για περισσότερους επιβάτες στην πίστα.</seg>
                <seg>Άρα, όταν υπήρχαν αυτά τα δεδομένα δεν ήταν δυνατόν η Ολυμπιακή Αεροπορία να προχωρήσει σε μείωση προσωπικού, χωρίς παράλληλα να προσθέσει μηχανήματα για να προσφέρει τις εξυπηρετήσεις που έπρεπε. Αντίθετα, προχώρησε στη μείωση προσωπικού και δεν ενίσχυσε τα μέσα υποστήριξης. Τα αποτελέσματα ήταν ιδιαίτερα τραγικά. Είχαμε καθυστερήσεις 4 ωρών. Όταν το Κράτος πληρώνει πολλά χρήματα για να κάνει διαφήμιση του ελληνικού τουρισμού, δεν είναι δυνατόν η Πολιτεία να ολιγωρεί και να μειώνει το προσωπικό του αεροδρομίου, χωρίς παράλληλα να προσφέρει την οργάνωση που θα μπορούσε να συμπληρώσει το προσωπικό.</seg>
@@ -1073,24 +1058,24 @@
                <seg>Τελικά, κύριε Πρόεδρε, νομίζω ότι σ’ αυτήν την περίπτωση συμβαίνει αυτό που πολλές φορές έχουμε καταγγείλει. Υπάρχει έλλειψη συντονισμού της κυβερνητικής πολιτικής σε όλα τα επίπεδα. Αποτέλεσμα αυτής της έλλειψης συντονισμού είναι αυτά που συμβαίνουν σήμερα που τα γνωρίζει ο Ελληνικός Λαός και τα υφίσταται καθημερινά.</seg>
                <seg>ΠΡΟΕΔΡΟΣ (Απόστολος Κακλαμάνης) Ο κύριος Υπουργός έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_66" who="dimitrios_alampanos">
+            <u xml:id="debate_1994-09-01_1_speech_66" who="dimitrios_alampanos">
                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΑΛΑΜΠΑΝΟΣ</note>
                <seg>Πίστευα ότι σκοπός της ερώτησης ήταν η προώθηση και η επίλυση των προβλημάτων που αντιμετωπίζει το αεροδρόμιο της Κέρκυρας. Όμως δεν άργησε να φανεί ότι στόχος δεν ήταν η επίλυση, αλλά ο Υπουργός Μεταφορών, ο οποίος είναι και υποψήφιος δήμαρχος της Αθήνας. Δεν το περίμενα αυτό, διότι εξέχων Έλληνας πολιτικός, ο οποίος αρθρογραφεί κάθε Κυριακή στην έγκυρη εφημερίδα "ΤΟ ΒΗΜΑ", επιβράβευσε, όπως και όλη η Βουλή, τον Υπουργό Μεταφορών κατά καιρούς, για τις προσπάθειες που έκανε για την Κέρκυρα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_67" who="spuros_kaloudis">
+            <u xml:id="debate_1994-09-01_1_speech_67" who="spuros_kaloudis">
                <note type="speaker">ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ</note>
                <seg>Ναι, κύριε Υφυπουργέ, αλλά τώρα η κατάσταση είναι απαράδεκτη.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_68" who="dimitrios_alampanos">
+            <u xml:id="debate_1994-09-01_1_speech_68" who="dimitrios_alampanos">
                <note type="speaker">ΔΗΜΗΤΡΙΟΣ ΑΛΑΜΠΑΝΟΣ</note>
                <seg>Επαναλαμβάνω, ότι υπάρχουν μηχανήματα, αλλά υπάρχει μια δυσκολία να συμμορφωθούν οι αεροπορικές εταιρίες.</seg>
                <seg>Προσωπικό προσλήφθηκε. Δεν προσλήφθηκε το ανάλογο, λέτε εσείς, εργατοτεχνικό προσωπικό. Νομίζω όμως, ότι με την παρέμβαση που έγινε στις 4 Αυγούστου στο Δημαρχιακό Κατάστημα, μπήκαν βάσεις για να αντιμετωπιστεί το πρόβλημα. Και νομίζω ότι είναι σε ικανοποιητικό δρόμο η εξέλιξη και η λειτουργία του αεροδρομίου της Κέρκυρας.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_69" who="spuros_kaloudis">
+            <u xml:id="debate_1994-09-01_1_speech_69" who="spuros_kaloudis">
                <note type="speaker">ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ</note>
                <seg>Κύριε Υπουργέ, είναι απαράδεκτη η κατάσταση. Λυπάμαι που το λέω.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_70" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_70" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ακολουθεί η μεταφερθείσα τρίτη επίκαιρη ερώτηση πρώτης επιλογής με αριθμό 381/30-8-94, της Βουλευτού της Πολιτικής Άνοιξης, κας Φωτεινής Στεφανοπούλου προς τους Υπουργούς Γεωργίας, Βιομηχανίας-Ενέργειας και Τεχνολογίας, σχετικά με την καταβολή αποζημιώσεως στους σταφιδοκαλλιεργητάς και ελαιοκαλλιεργητάς του Νομού Ηλείας, οι οποίοι επλήγησαν από την πρόσφατη πυρκαϊά.</seg>
                <seg>Η ερώτηση της κας Στεφανοπούλου συνοπτικώς έχει ως εξής:</seg>
@@ -1105,7 +1090,7 @@
                <seg>Και η ερώτηση αυτή είναι αρκετά εκτεταμένη.</seg>
                <seg>Ο Υφυπουργός Γεωργίας, κ. Βασίλειος Βασιλακάκης, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_71" who="basileios_basilakakis">
+            <u xml:id="debate_1994-09-01_1_speech_71" who="basileios_basilakakis">
                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</note>
                <seg>Κύριε Πρόεδρε, σ’ αυτήν την Αίθουσα έχει χιλιοειπωθεί, και όλοι μας έχουμε συμφωνήσει, για το πόσο σημαντικό είναι το δάσος και πόσο αναγκαίο είναι να το προστατεύσουμε. Αυτό συμφωνήθηκε από όλες τις δυνάμεις και έχουμε καταλήξει, ότι είναι υπόθεση όλων μας και μέσα από μία διακομματική προσπάθεια θα επιχειρηθεί η αντιμετώπιση του προβλήματος.</seg>
                <seg>Επίσης, τόνισα πάρα πολλές φορές, αγαπητοί συνάδελφοι, ότι δε θέλω να καταφεύγω σε συγκριτικά μεγέθη στατιστικών στοιχείων. Αλλά από τα στοιχεία που εσείς η ίδια αναφέρετε για τα 335.000 στρέμματα που λέτε φέτος και τα 540.000 στρέμματα της προηγούμενης χρονιάς, πρέπει να θεωρηθεί, ότι είμαστε σε καλό δρόμο. Και ούτε πάλι το επικαλούμαι, όπως σας είπα, γιατί δεν είναι κάτι που θέλω να το επικαλούμαι, επειδή η πυρκαϊά είναι ένας παράγοντας που δεν μπορεί να προβλεφθεί. Μπορεί να προκύψει κάθε ώρα και στιγμή.</seg>
@@ -1116,26 +1101,26 @@
                <seg>Πολύ γενικά θα αναφέρω, όπως και προηγούμενα, πως η καταγραφή των ζημιών γίνεται για όλες τις πυρκαϊές που συμβαίνουν στη Χώρα μας σε αυτήν την περίοδο που τελειώνει -το τόνισα- στις 15 του Οκτώβρη. Αποτιμώνται οι ζημιές από τις αρμόδιες υπηρεσίες και θα υπάρξει η δυνατότητα μιας συνολικής εκτίμησης των προβλημάτων και των ζημιών που έχουν προκληθεί από τις πυρκαϊές και ανάλογα θα προχωρήσουμε στην αντιμετώπιση απάλειψης των προβλημάτων των αγροτών.</seg>
                <seg>Ξέρετε δε ότι η Αγροτική Τράπεζα σε τέτοιες περιπτώσεις κινείται με διάθεση να απαλύνει το πρόβλημα, δανειοδοτώντας και ενισχύοντας, ώστε οι δραστηριότητές τους να ενισχυθούν.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_72" who="foteini_stefanopoulou">
+            <u xml:id="debate_1994-09-01_1_speech_72" who="foteini_stefanopoulou">
                <note type="speaker">ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ</note>
                <seg>Παγώνει όμως τα χρέη, κύριε Υπουργέ; Αυτό είναι το ζητούμενο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_73" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_73" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Η κα Στεφανοπούλου έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_74" who="foteini_stefanopoulou">
+            <u xml:id="debate_1994-09-01_1_speech_74" who="foteini_stefanopoulou">
                <note type="speaker">ΦΩΤΕΙΝΗ ΣΤΕΦΑΝΟΠΟΥΛΟΥ</note>
                <seg>Με έκπληξη άκουσα τον κύριο Υπουργό να λέει ότι το θέμα της προστασίας των δασών από τις πυρκαϊές θα αποτελέσει το αντικείμενο μελέτης μιας Διακομματικής Επιτροπής. Εγώ θέλω να επικαλεστώ το πόρισμα το οποίο κατατέθηκε σ’ αυτήν τη Βουλή από μία Διακομματική Κοινοβουλευτική Επιτροπή για τη μελέτη σε βάθος του προβλήματος των πυρκαϊών και την υπόδειξη τρόπων οργάνωσης και μέσων για την μακροπρόθεσμη και αποτελεσματική αντιμετώπισή της.</seg>
                <seg>Αυτό το πόρισμα κατατέθηκε το Μάη του 1993 και μέχρι σήμερα, σχεδόν 1,5 χρόνο αργότερα δεν έχει συζητηθεί. Και αυτό πιστεύω ότι καταδεικνύει και το μέγεθος της αδιαφορίας για τη μάστιγα των πυρκαϊών που αφήνει στο δρόμο χιλιάδες αγροτικές οικογένειες κάθε χρόνο, αλλά και το μέγεθος της αδιαφορίας για τους θεσμούς, διότι υποθέτω ότι οι Διακομματικές Επιτροπές γίνονται για να συνεισφέρουν σε κάτι και όχι για το θεαθείναι.</seg>
                <seg>Εγώ πάντως θέλω να σας ζητήσω, κύριε Υπουργέ, να δεσμευθείτε πάνω σε συγκεκριμένα μέτρα και σε συγκεκριμένο χρονοδιάγραμμα. Να μην αοριστολογούμε για το τι θα γίνει. Οι άνθρωποι καταστράφηκαν ολοσχερώς. Το τοπίο στο Νομό Ηλείας είναι σεληνιακό και επικαλούμαι τη μαρτυρία του Γενικού Γραμματέα Δασών, ο οποίος πήρε το ελικόπτερο, ήρθε πράγματι στο Νομό και είδε "ιδίοις όμμασι" τι έγινε. Είναι κρανίου τόπος. Επιπλέον οι άνθρωποι αυτοί δεν έχουν άλλο τρόπο να ζήσουν, από τη στιγμή που καταστράφηκε και η σοδειά τους, αλλά και το φυτικό τους κεφάλαιο.</seg>
                <seg>Θα σας επιστήσω δε την προσοχή και στο εξής: Ανακοινώθηκε στις 23 Αυγούστου ότι εντός των ημερών θα έλθουν οι γεωπόνοι οι οποίοι θα προβούν στην εκτίμηση των ζημιών. Διανύουμε ήδη τη δέκατη μέρα και οι γεωπόνοι δεν έχουν πάει. Ελπίζω, τουλάχιστον, να μη συμβεί με τους γεωπόνους, αυτό που συνέβη με το πόρισμα, κύριε Υπουργέ. Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_75" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_75" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κύριος Υφυπουργός έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_76" who="basileios_basilakakis">
+            <u xml:id="debate_1994-09-01_1_speech_76" who="basileios_basilakakis">
                <note type="speaker">ΒΑΣΙΛΕΙΟΣ ΒΑΣΙΛΑΚΑΚΗΣ</note>
                <seg>Κύριε Πρόεδρε, η αγαπητή συνάδελφος σίγουρα δεν κατάλαβε καλά τι εννοούσα όταν είπα, ότι το δικαιούμαστε σε κάποια πλαίσια της απόφασης της Διακομματικής Επιτροπής που λειτούργησε για ένα διάστημα. Ήμουν μέλος της επιτροπής αυτής, δούλεψα στην επιτροπή αυτή, ξέρω τα δεδομένα. Υπήρξε αίτηση από τον αγαπητό συνάδελφο τον κ. Σκυλλάκο να συζητηθεί, πραγματικά το πόρισμα. Είχα επαφή και με τον κ. Σκυλλάκο και με τον κ. Κοσκινά, οι οποίοι τότε ο ένας ήταν πρόεδρος και ο άλλος γενικός γραμματέας της επιτροπής. Και συμφωνήσαμε ότι, εάν συζητηθεί μέσα στην πυρηνική περίοδο, θα εξαντληθεί σαν μία κουβέντα επερώτησης, οπότε θα πάει χαμένη η δουλειά μιας προσπάθειας 50 συνεδριάσεων περίπου της επιτροπής με πλούσιο υλικό, γιατί πραγματικά καταδεικνύεται πως κάθε μέρα υπάρχουν επίκαιρες ερωτήσεις για το ίδιο θέμα. Το πρόβλημα είναι επίκαιρο.</seg>
                <seg>Θα ήταν λοιπόν η κουβέντα γύρω από το πόρισμα μία επίκαιρη απλώς και μόνο επερώτηση σκληρή, που δε θα έδινε περιθώρια να σταθούμε πραγματικά στις αποφάσεις, τις οποίες πήραμε. Και συμφωνήσαμε μόλις τελειώσει η πυρηνική περίοδος να μπει με προτεραιότητα το πόρισμα και να το κουβεντιάσουμε.</seg>
@@ -1143,16 +1128,16 @@
                <seg>Τόνισα δε σε ότι έχει σχέση με τις αποζημιώσεις -πέρα απ’ ότι ο καθένας πονάει για τον τόπο του, ας δεχθούμε ότι το πρόβλημα είναι πανελλαδικό πρώτα και κύρια - ότι υπάρχει μία κίνηση προς την κατεύθυνση να καταγραφούν όλα τα δεδομένα των ζημιών σε πανελλαδική βάση. Να υπάρξει μία εκτίμηση των πάντων γιατί τα 2.500 στρέμματα που ανέφερα σε σας από τα οποία μόνο τα 700 είναι καλλιεργούμενη γη, καταλαβαίνετε πόσο μικρό πρόβλημα είναι από την προηγούμενη ερώτηση που κατέθεσε ο κ. Μιχελογιάννης, που αναφερόμαστε σε 12.000 στρέμματα καλλιεργούμενη γη μονοκαλλιεργητών.</seg>
                <seg>Όλα πρέπει να συνεκτιμηθούν. Δεχθείτε ότι πραγματικά υπάρχει μέριμνα και φροντίδα από μέρους της Κυβέρνησης και ότι αν καλοπροαίρετα κινηθούμε όλοι θα βρεθούμε σε ένα δρόμο επίλυσης των προβλημάτων.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_77" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_77" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Αν και έχει παρέλθει ο χρόνος της συζήτησης των επικαίρων ερωτήσεων θα συζητήσουμε και την τελευταία επίκαιρη ερώτηση δεύτερης επιλογής -γιατί είναι και το θέμα πολύ ενδιαφέρον και θα ήταν κρίμα να μην τη συζητήσουμε- με τη συγκατάθεση του Σώματος.</seg>
                <seg>Συμφωνεί το Σώμα;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_78" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_78" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_79" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_79" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Συνεπώς θα συζητήσουμε και την τελευταία με αριθμό 386/31.8.94 επίκαιρη ερώτηση δεύτερης επιλογής του Βουλευτή του Κ.Κ.Ε. κ. Στρατή Κόρακα προς τους Υπουργούς Προεδρίας της Κυβέρνησης Δικαιοσύνης και Πολιτισμού, "σχετικά με τα μέτρα που προτίθεται να λάβει η Κυβέρνηση για την καλύτερη οργάνωση διεξαγωγής των αγώνων του ποδοσφαιρικού πρωταθλήματος".</seg>
                <seg>Η ερώτηση του κ. Κόρακα έχει ως εξής: "Μόνο σαν αυθαίρετη και απαράδεκτη μπορεί να χαρακτηρισθεί η ενέργεια της ΕΠΑΕ, να απαγορεύσει στα συνεργεία της κρατικής τηλεόρασης την είσοδο στους αθλητικούς χώρους για τη λήψη στιγμιότυπων, από τους αγώνες της αρχής του ποδοσφαιρικού πρωταθλήματος, προκειμένου αυτά να προβληθούν στα δελτία ειδήσεων των κρατικών καναλιών, ενώ ταυτόχρονα επέτρεπε την είσοδο των τηλεοπτικών συνεργείων ιδιωτικών καναλιών.</seg>
@@ -1160,50 +1145,50 @@
                <seg>Γι’ αυτό ερωτώνται, οι κύριοι Υπουργοί, εάν προτίθεται η Κυβέρνηση να προχωρήσει άμεσα στη λήψη όλων εκείνων των μέτρων που θα αποτρέπουν την επανάληψη παρόμοιων αυθαίρετων ενεργειών στο μέλλον".</seg>
                <seg>Ο Υφυπουργός Πολιτισμού επί θεμάτων αθλητισμού κ. Λιάνης έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_80" who="georgios_lianis">
+            <u xml:id="debate_1994-09-01_1_speech_80" who="georgios_lianis">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΛΙΑΝΗΣ</note>
                <seg>Κύριε Πρόεδρε, βρίσκω εύστοχη την επίκαιρη ερώτηση του κ. Κόρακα γιατί πράγματι σύμφωνα με το άρθρο 45 του ν.1958/91 επιτρέπεται η ελεύθερη λήψη και η προβολή στιγμιότυπων από οποιουσδήποτε αγώνες των ΠΑΕ σε ειδησιογραφικές και μόνο εκπομπές στις οποίες η μετάδοση αυτή αποτελεί το κύριο θέμα. Πρέπει να υπάρχει μία εύλογη χρονική απόσταση μέσα στην ίδια μέρα, τριών ωρών, για να μεταδίδονται αυτά τα στιγμιότυπα. Πρέπει να πω ότι πραγματικά η ΕΠΑΕ αυθαίρετα δεν επέτρεψε στην κρατική τηλεόραση να περάσει μέσα στους αγωνιστικούς χώρους για να πάρει τα στιγμιότυπα αυτά.</seg>
                <seg>Ήδη το θέμα, κύριε Κόρακα, έχει λήξει. Έχει γίνει ανταλλαγή επιστολών μεταξύ των ΕΡΤ και της ΕΠΑΕ. Η επιστολή της ΕΠΑΕ προς την ΕΡΤ έθετε ως προϋπόθεση για να παίρνει αυτά τα στιγμιότυπα η ΕΡΤ να δώσει μία εγγυητική επιστολή της τάξεως των 20 εκατ. δραχμών και κάτι ακόμη, ένα χρέος παλιό να αποσβεστεί.</seg>
                <seg>Είναι σαφώς κατά τη γνώμη μου και παράνομη και αυθαίρετη όπως τόνισα αυτή η ενέργεια. Ο κ. Δέδες με τον οποίο και αλληλογραφήσαμε και μιλήσαμε στο τηλέφωνο μας διαβεβαίωσε κατηγορηματικά ότι κάτι τέτοιο από τη μεριά της ΕΠΑΕ δεν πρόκειται να ξαναγίνει και έτσι τα κρατικά κανάλια απρόσκοπτα θα μπορούν να παίρνουν τα στιγμιότυπα για να μπορούν να τα μεταδίδουν και να τα βλέπουν οι Έλληνες φίλαθλοι.</seg>
                <seg>Πάντως θα πρέπει να πω ότι αυτό έγινε από τη μεριά της ΕΠΑΕ για τη μονόπλευρη πληροφόρηση μόνο σε σχέση με τα ιδιωτικά κανάλια. Καταλαβαίνω την αγωνία σας για το ποιες σχέσεις πρέπει να διέπουν τα μέσα μαζικής επικοινωνίας -έχω και εγώ την ίδια αγωνία- αλλά η αιτία όπως σας είπα είναι τελείως διαφορετική.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_81" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_81" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κ. Στρατής Κόρακας έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_82" who="stratis_korakas">
+            <u xml:id="debate_1994-09-01_1_speech_82" who="stratis_korakas">
                <note type="speaker">ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</note>
                <seg>Κύριε Πρόεδρε, όπως αναφέρουμε πρόκειται για μία απαράδεκτη ενέργεια της ΕΠΑΕ, η οποία απαγόρευσε όπως λέμε και στην ερώτησή μας την είσοδο των κρατικών καναλιών ενώ επέτρεψε την είσοδο των ιδιωτικών καναλιών. Με ποιο πρόσχημα και επιχείρημα δεν έχει αυτή τη στιγμή ιδιαίτερη σημασία. Και λέμε ότι ήταν απαράδεκτη γιατί πέρα από το ότι στερεί τα κρατικά μέσα ενημέρωσης από το κοινωνικό δικαίωμα πληροφόρησης της κοινής γνώμης, ξεχνάει η ΕΠΑΕ ότι το Δημόσιο ανέλαβε πάνω από 20 δισ. δραχμές χρέη τους, χρέη που φορτώθηκε ο Ελληνικός Λαός.</seg>
                <seg>Και εδώ πρέπει να πούμε ότι πραγματικά η Κυβέρνηση -φαίνεται και από το επεισόδιο αυτό- παγιδεύεται στην ίδια την πολιτική της που προωθεί την ασυδοσία των συγκροτημάτων που ελέγχουν τα ιδιωτικά κανάλια.</seg>
                <seg>Πιστεύουμε, κύριε Πρόεδρε, ότι θα πρέπει να ληφθούν άμεσα μέτρα, ανεξάρτητα αν με το θόρυβο που σηκώθηκε η ΕΠΑΕ έκανε πίσω αυτήν τη στιγμή. Πρέπει να ληφθούν άμεσα μέτρα και την εφαρμογή του νόμου αλλά και για την, αν θέλετε, επιπλέον λήψη και νομοθετικών μέτρων ώστε να είναι απόλυτα κατοχυρωμένα και να μην έχουν κανένα λόγο να πουν οι ΠΑΕ, αυτό που μας ενδιαφέρει αυτήν τη στιγμή, για την είσοδο των κρατικών καναλιών στους χώρους διεξαγωγής των αγώνων.</seg>
                <seg>Κατά τα άλλα την έστω προσωρινή δέσμευση της ΕΠΑΕ για τη μη επανάληψη τέτοιων επεισοδίων τη θεωρούμε ως θετική πρέπει όμως να μη μείνουμε σε τέτοιου είδους απλές δεσμεύσεις.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_83" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_83" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Ο κύριος Υφυπουργός έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_84" who="georgios_lianis">
+            <u xml:id="debate_1994-09-01_1_speech_84" who="georgios_lianis">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΛΙΑΝΗΣ</note>
                <seg>Το μόνο που θέλω να προσθέσω, κύριε Πρόεδρε, είναι ότι η Κυβέρνηση δεν παγιδεύεται σε καμία πολιτική σε σχέση με τα μέσα μαζικής επικοινωνίας και αντίθετα, κύριε Κόρακα, θα μου επιτρέψετε να πω ότι ο κ. Βενιζέλος επέδειξε θα έλεγα ιδιαίτερη ευαισθησία στο θέμα που γνωρίζετε ότι προέκυψε πρόσφατα σε σχέση και πάλι με την ΕΠΑΕ, σε σχέση με την καλωδιακή λεγόμενη τηλεόραση, όπου μόνο αυτό που υπονοείτε ή μάλλον, σαφέστατα είπατε δε συμβαίνει. Αντίθετα περιφρούρησε το δικαίωμα ακριβώς της ελεύθερης δυνατότητας που έχουν όλοι να μπορούν στο μέλλον να χειριστούν τα ζητήματα της καλωδιακής τηλεόρασης ισότιμα και ισόνομα, όπως αρμόζει σε μία ευνομούμενη πολιτεία. Συνεπώς αυτό που είπατε δεν ισχύει.</seg>
                <seg>Το δεύτερο: Πράγματι έχουμε επιστήσει στην ΕΠΑΕ την προσοχή για το ζήτημα και αν επαναληφθεί θα υπάρξει συγκεκριμένη αν θέλετε ακραία επίπτωση, δηλαδή αν ξαναυπάρξει παράβαση του ν.1958/91.</seg>
                <seg>Συνεπώς, δε νομίζω ότι μπορεί κανένας να προσθέσει τίποτε, κύριε Πρόεδρε, πέραν αυτών. Η ΕΠΑΕ, είμαι βέβαιος ότι, θα επιτρέψει στα κρατικά κανάλια, από την ερχόμενη αγωνιστική Κυριακή, να παρακολουθούν τους αγώνες και να δίνουν στους Έλληνες φιλάθλους τα στιγμιότυπα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_85" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_85" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, ολοκληρώθηκε η συζήτηση των επικαίρων ερωτήσεων και εισερχόμαστε στην ημερήσια διάταξη</seg>
                <seg>ΤΗΣ ΝΟΜΟΘΕΤΙΚΗΣ ΕΡΓΑΣΙΑΣ</seg>
                <seg>Ψήφιση στο σύνολο του σχεδίου νόμου του Υπουργείου Γεωργίας "Εφαρμογή του Κανονισμού της ΕΟΚ αριθμός 2079/92 και ρύθμιση συναφών θεμάτων". Επειδή κατά τη συζήτηση του νομοσχεδίου ενσωματώθηκε μία τροπολογία θα προστεθεί στον τίτλο του νομοσχεδίου "και άλλες διατάξεις".</seg>
                <seg>Ερωτάται η Βουλή, αν γίνεται δεκτό και στο σύνολο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_86" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_86" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_87" who="stratis_korakas">
+            <u xml:id="debate_1994-09-01_1_speech_87" who="stratis_korakas">
                <note type="speaker">ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</note>
                <seg>Κατά πλειοψηφία.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_88" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_88" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Συνεπώς το σχέδιο νόμου του Υπουργείου Γεωργίας "Εφαρμογή του Κανονισμού της Ε.Ο.Κ. αριθμός 2079/92 ρύθμιση συναφών θεμάτων και άλλες διατάξεις" έγινε δεκτό σε μόνη συζήτηση κατ’ αρχήν κατ’ άρθρο και στο σύνολό του ως έχει διανεμηθεί, κατά πλειοψηφία και έχει ως εξής:</seg>
                <seg>Εφαρμογή του Κανονισμού (Ε.Ο.Κ.) αριθ. 2079/1992, ρύθμιση συναφών θεμάτων και άλλες διατάξεις</seg>
@@ -1243,15 +1228,15 @@
                <seg>Άρθρο 6</seg>
                <seg>Η ισχύς του νόμου αυτού αρχίζει από τη δημοσίευσή του στην Εφημερίδα της Κυβερνήσεως.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_89" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_89" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, παρακαλώ το Σώμα να εξουσιοδοτήσει το Προεδρείο για την υπ’ ευθύνη του επικύρωση των Πρακτικών της σημερινής συνεδριάσεως μέχρις αυτού του σημείου.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_90" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_90" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_91" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_91" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Η Βουλή παρέσχε τη ζητηθείσα εξουσιοδότηση.</seg>
                <seg>Κύριοι συνάδελφοι, εισερχόμεθα στη συζήτηση του νομοσχεδίου του Υπουργείου Οικονομικών: "Μόνη συζήτηση επί της αρχής, των άρθρων και του συνόλου του σχεδίου νόμου: "Κύρωση του Κώδικα Φορολογίας Εισοδήματος".</seg>
@@ -1259,17 +1244,17 @@
                <seg>Επίσης από την πλευρά της Πολιτικής Άνοιξης ορίζεται ειδικός αγορητής ο Βουλευτής, κ. Κωνσταντίνος Χατζηδημητρίου.</seg>
                <seg>Ο κύριος Υφυπουργός Οικονομικών έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_92" who="dimitris_georgakopoulos">
+            <u xml:id="debate_1994-09-01_1_speech_92" who="dimitris_georgakopoulos">
                <note type="speaker">ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</note>
                <seg>Κύριε Πρόεδρε, θέλω να κάνω μια μικρή διόρθωση, επειδή το νομοσχέδιο συζητείται ως κώδικας. Αντί της φράσης "τον αρμόδιο προϊστάμενο της δημόσιας οικονομικής υπηρεσίας" να τεθεί "τον προϊστάμενο της αρμόδιας δημόσιας οικονομικής υπηρεσίας" στις εξής περιπτώσεις: Στη σελίδα 159 άρθρο 78 παράγραφος 2 στη σειρά 5. Στη σελίδα 160 άρθρο 81 παράγραφοι 1 και 5 στις σειρές 4 και 5. Στη σελίδα 161 άρθρο 82 παράγραφος 4 σειρά 16. Στη σελίδα 162 άρθρο 83 παράγραφος 3, στις σειρές 7 και 14. Και στη σελίδα 164 στο άρθρο 87, παράγραφος 2, σειρά 3. Παρακαλώ να γίνουν αυτές οι αλλαγές.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_93" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_93" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Καλώς κύριε Υπουργέ.</seg>
                <seg>Κύριοι συνάδελφοι, γνωρίζετε ότι το νομοσχέδιο συζητείται με την ειδική διαδικασία που ορίζει το Σύνταγμα και ο Κανονισμός της Βουλής.</seg>
                <seg>Ο Εισηγητής της Πλειοψηφίας κ. Γεώργιος Ανωμερίτης, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_94" who="georgios_anomeritis">
+            <u xml:id="debate_1994-09-01_1_speech_94" who="georgios_anomeritis">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΑΝΩΜΕΡΙΤΗΣ</note>
                <seg>Κύριοι συνάδελφοι, γνωρίζετε ότι η φορολογική μεταρρύθμιση που ξεκινάει από την κυβέρνηση του Ελευθερίου Βενιζέλου το 1919, εδώ δηλαδή και 75 χρόνια, ακολουθήθηκε από μια σειρά νόμων για την φορολόγηση του εισοδήματος των φυσικών προσώπων και των Α.Ε., ιδιαίτερα στη δεκαετία του 1950, αφού ίσως τότε και μετά τον πόλεμο υπήρξε μια καλύτερη πορεία της μεγέθυνσης της οικονομίας του τόπου.</seg>
                <seg>Φυσικά αυτά τα βασικά νομοθετήματα, τόσο του 1919, όσο και τα μετέπειτα, ιδιαίτερα, όπως είπα της δεκαετίας του ‘ 50, υπέστησαν αναρίθμητες μεταβολές μέσα από 150 νομοθετήματα και υπουργικές αποφάσεις που ακολούθησαν τη βασική φορολογική μεταρρύθμιση της κυβέρνησης Βενιζέλου.</seg>
@@ -1278,14 +1263,13 @@
                <seg>Αυτό το πολυδαίδαλο σύστημα δεν έθετε, όμως, στη γωνία τον ανίσχυρο πολίτη.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής, κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)
-</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής, κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</desc>
             </incident>
-            <u xml:id="debate_1994-09-01_speech_95" who="nikitas_benizelos">
+            <u xml:id="debate_1994-09-01_1_speech_95" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
                <seg>Ο εισηγητής της Μειοψηφίας κ. Γκόνης, Βουλευτής Επικρατείας, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_96" who="anastasios_gkonis">
+            <u xml:id="debate_1994-09-01_1_speech_96" who="anastasios_gkonis">
                <note type="speaker">ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</note>
                <seg>Κύριοι συνάδελφοι, η πολυνομία, σε ομοίας κατηγορίας σχέσεις και αντικείμενα, είναι μία γραφειοκρατική νόσος, η οποία βασανίζει την πολιτική, κοινωνική και οικονομική ζωή της Χώρας μας. Η πολυνομία κατατρώγει τη δημιουργική προσπάθεια, δημιουργεί πολύχρονες και πολυδάπανες δικαστικές περιπέτειες, βασανίζει τον ερμηνευτή και εφαρμοστή του νόμου, αποτελεί ανασχετικό παράγοντα προόδου, κυρίως της οικονομικής κοινωνικής προόδου, περιπλέκει τις σχέσεις μεταξύ των πολιτών και μεταξύ κράτους και πολιτών και μετατρέπει, σε πολλές περιπτώσεις, τον πολίτη σε αντίδικο του κράτους.</seg>
                <seg>Διατάξεις βασικών κλάδων του δικαίου, θεμελιώδεις για την ομαλή λειτουργία της κοινωνίας και της οικονομίας, βρίσκονται κατεσπαρμένες σε πολυπληθείς νόμους και μάλιστα πολλές φορές σε νόμους με διαφορετικό κύριο περιεχόμενο. Ένα θλιβερό φαινόμενο, μαζί με όλα τα άλλα, που μαστίζουν τη δημόσια ζωή.</seg>
@@ -1322,15 +1306,15 @@
                <seg>Επαναλαμβάνω ότι, σύμφωνα με όσα προεκτάθηκαν, είναι πρόδηλη η χρησιμότητα της προτεινόμενης προς κύρωση κωδικοποίησης-ταξινόμησης και είναι ο καταλληλότερος τρόπος που επελέγη για την πραγματοποίησή της. Παρά δε το γεγονός ότι διατηρώ επιφυλάξεις ως προς ορισμένες από τις κωδικοποιούμενες διατάξεις, αποδέχομαι το σχέδιο νόμου "Κύρωση του Κώδικα Φορολογίας Εισοδήματος". Ευχαριστώ.</seg>
             </u>
             <incident>
-               <desc>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)
-</desc>
+               <desc>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)</desc>
             </incident>
-            <u xml:id="debate_1994-09-01_speech_97" who="nikitas_benizelos">
+            <u xml:id="debate_1994-09-01_1_speech_97" who="nikitas_benizelos">
                <note type="speaker">Νικήτας Βενιζέλος</note>
                <seg>Κύριοι Βουλευτές, έχω την τιμή να ανακοινώσω προς το Σώμα ότι από την εισαγγελική αρχή υπεβλήθη αίτηση για την παροχή από την Βουλή αδείας διώξεως κατά του Βουλευτού κ. Αθανασίου Γιαννόπουλου. Παραπέμπεται στην αρμόδια διαρκή επιτροπή.</seg>
                <seg>Ο ειδικός αγορητής της Πολιτικής Άνοιξης κ. Χατζηδημητρίου, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_98" who="konstantinos_xatzidimitriou">
+            <u xml:id="debate_1994-09-01_1_speech_98"
+               who="konstantinos_xatzidimitriou">
                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ</note>
                <seg>Κύριε Πρόεδρε, η συζήτηση του παρόντος νομοσχεδίου δεν έχει πολιτικό αντικείμενο. Και λέω ότι δεν έχει πολιτικό αντικείμενο, για το λόγο ότι δεν εισάγεται καμία νομοθετική ρύθμιση, αλλά απλώς, για μία πλευρά της ζωής των πολιτών και του Κράτους μας, η οποία είναι η φορολογία του εισοδήματος, η οποία μέχρι τώρα έχει ρυθμιστεί ή έχουν γίνει επεμβάσεις στον τομέα αυτόν με 150 νόμους, γίνεται μία προσπάθεια να περισταλεί αυτό το κομφούζιο, αυτό το χάος και να έχουμε ένα ενιαίο κείμενο, ούτως ώστε και οι Έλληνες πολίτες, αλλά και αυτοί οι οποίοι καλούνται να κάνουν χρήση των διατάξεων αυτών, είτε ως υπάλληλοι του Κράτους είτε ως φορολογούμενοι είτε ως δικαστές, που καλούνται να εφαρμόσουν τη φορολογική νομοθεσία, να έχουν τη δυνατότητα της εκ του ασφαλούς και με ταχύτητα, χωρίς χάσιμο χρόνου, ενεργείας.</seg>
                <seg>Θα μπω στον πειρασμό να κάνω μία παρατήρηση, γιατί θα έλεγα ότι προεκλήθην από τις τοποθετήσεις των άλλων συναδέλφων.</seg>
@@ -1340,11 +1324,12 @@
                <seg>Από εκεί και μετά, παρά το ότι μπήκαμε μέσα στην Ε.Ο.Κ., παρά το ότι είχαμε μεταφορά κεφαλαίων, παρά το ότι είχαμε την πρόκληση και την ευκαιρία μεγαλύτερων αγορών, για να δραστηριοποιηθεί και το ελληνικό επιχειρηματικό δαιμόνιο, παρά ταύτα, βαίνουμε προς την καταστροφή.</seg>
                <seg>Συνεπώς και οι υπάλληλοι, κύριε συνάδελφε, που έγιναν από 100.000 το 1980, 600.000 το 1988, δεν έγιναν μόνοι τους.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_99" who="georgios_panagiotopoulos">
+            <u xml:id="debate_1994-09-01_1_speech_99" who="georgios_panagiotopoulos">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</note>
                <seg>Ποια κυβέρνηση ήταν μέχρι το 1980;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_100" who="konstantinos_xatzidimitriou">
+            <u xml:id="debate_1994-09-01_1_speech_100"
+               who="konstantinos_xatzidimitriou">
                <note type="speaker">ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΗΜΗΤΡΙΟΥ</note>
                <seg>Κυβερνούσε το Κόμμα της Νέας Δημοκρατίας. Αυτό δεν είναι μυστικό, ούτε χρειάζεται αποκρυπτογράφηση για να γίνει φανερό.</seg>
                <seg>Ήθελα όμως να σας πω, κύριε συνάδελφε, ότι μέχρι τότε επικεφαλής της Νέας Δημοκρατίας ήταν ο σημερινός Πρόεδρος της Δημοκρατίας, που απέδειξε, μετά την έξοδό του, ότι ήταν προσωπική του επιτυχία και όχι του απρόσωπου κομματικού μηχανισμού. Και επειδή κεντρίζετε τη συζήτηση, έχω να σας κάνω την ιστορική, αν θέλετε, παρατήρηση ότι ποτέ κανένας απρόσωπος κομματικός μηχανισμός δεν πήρε ένα λαό από στάση αδρανείας, να τον οδηγήσει στην οδό της προόδου. Πάντοτε οι ηγέτες που είχαν τη δυνατότητα να λάβουν τα μηνύματα των καιρών και να χαράξουν πορείες και το ανάστημα να τεθούν επικεφαλής της πορείας, κατάφεραν να τραβήξουν τους λαούς στις οδούς της προόδου.</seg>
@@ -1363,10 +1348,9 @@
                <seg>Ως νομικός έχω διατρέξει τον κίνδυνο, στα κεφάλαιά του, στις ενότητές του, διαβάζοντας τα άρθρα. Οφείλω να ομολογήσω ότι είναι τέτοιας ευχρηστότητας που και ο μη νομικός πολίτης, εάν προμηθευτεί πλέον αυτήν την κωδικοποιημένη νομοθεσία, όπως την κάνατε, θα έχει την ευχέρεια να γνωρίζει τι διέπει τη μοίρα του φορολογικά, απέναντι στο Ελληνικό Κράτος.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ)
-</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Πρόεδρος της Βουλής κ. ΑΠΟΣΤΟΛΟΣ ΚΑΚΛΑΜΑΝΗΣ)</desc>
             </incident>
-            <u xml:id="debate_1994-09-01_speech_101" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_101" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Κύριοι συνάδελφοι, η Διαρκής Επιτροπή Δημόσιας Διοίκησης, Δημόσιας Τάξης και Δικαιοσύνης καταθέτει την έκθεσή της στο σχέδιο νόμου του Υπουργείου Εσωτερικών "Συμπλήρωση διατάξεων για τη νομαρχιακή αυτοδιοίκηση και άλλες διατάξεις".</seg>
                <seg>Έχω την τιμή να σας εισηγηθώ την ομόφωνη απόφαση της Διασκέψεως των Προέδρων σ’ ό,τι αφορά και το νομοθετικό έργο και το έργο του Κοινοβουλευτικού Ελέγχου της προσεχούς εβδομάδας.</seg>
@@ -1376,29 +1360,29 @@
                <seg>Τέλος, την Πέμπτη, πριν από τη συνεδρίαση νομοθετικού έργου, θα συζητηθούν κατ’ αρχήν αιτήσεις άρσεως ασυλίας Βουλευτών.</seg>
                <seg>Ακολούθως, εάν χρειασθεί, θα συνεχισθεί η συζήτηση επί των άρθρων και επί των τροπολογιών του νομοσχεδίου, όπως σας προανέφερα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_102" who="georgios_panagiotopoulos">
+            <u xml:id="debate_1994-09-01_1_speech_102" who="georgios_panagiotopoulos">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</note>
                <seg>Δε θα γίνουν Τμήματα Διακοπών, κύριε Πρόεδρε;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_103" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_103" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Αυτό είναι ελπίδα και στόχος του Προέδρου που και αυτός έχει ανάγκη διακοπών. Βλέπετε όμως ότι οι συνάδελφοί μας της Εξεταστικής Επιτροπής για την "ΑΓΕΤ-ΗΡΑΚΛΗΣ" με το έργο που ήσαν υποχρεωμένοι να φέρουν εις πέρας μας καθυστέρησαν και ούτε Τμήματα Διακοπών έγιναν και άλλα προβλήματα προέκυψαν.</seg>
                <seg>Κύριοι συνάδελφοι, συμφωνεί η Βουλή επ’ αυτών;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_104" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_104" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_105" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_105" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Συνεπώς η Βουλή δέχθηκε ομοφώνως όσα εισηγήθηκα σχετικά με τον Κοινοβουλευτικό Έλεγχο και με το νομοθετικό έργο που θα έχει η Βουλή την επόμενη εβδομάδα.</seg>
                <seg>Ο Κοινοβουλευτικός Εκπρόσωπος της Νέας Δημοκρατίας, κ. Παναγιωτόπουλος, παλιός και αγαπητός φίλος, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_106" who="georgios_panagiotopoulos">
+            <u xml:id="debate_1994-09-01_1_speech_106" who="georgios_panagiotopoulos">
                <note type="speaker">ΓΕΩΡΓΙΟΣ ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ</note>
                <seg>Δε ζήτησα το λόγο, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_107" who="apostolos_kaklamanis">
+            <u xml:id="debate_1994-09-01_1_speech_107" who="apostolos_kaklamanis">
                <note type="speaker">Απόστολος Κακλαμάνης</note>
                <seg>Είναι μία μικρή ένδειξη για την ειλικρίνεια των αισθημάτων.</seg>
                <seg>Κύριοι συνάδελφοι, θα εκφωνηθεί τώρα το Δελτίο Επικαίρων Ερωτήσεων της Δευτέρας 5ης Σεπτεμβρίου 1994.</seg>
@@ -1410,86 +1394,85 @@
                <seg>Έκτη είναι η με αριθμό 388/31-8-94 επίκαιρη ερώτηση του Βουλευτή του Κομμουνιστικού Κόμματος της Ελλάδος, κ. Δήμου Κουμπούρη, προς τους Υπουργούς Γεωργίας, Περιβάλλοντος Χωροταξίας και Δημοσίων Έργων, "σχετικά με τα μέτρα προστασίας του Εθνικού Δρυμού της Πάρνηθας".</seg>
                <seg>Ο Υφυπουργός Οικονομικών, κ. Δημήτριος Γεωργακόπουλος, έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_108" who="dimitris_georgakopoulos">
+            <u xml:id="debate_1994-09-01_1_speech_108" who="dimitris_georgakopoulos">
                <note type="speaker">ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</note>
                <seg>Κύριοι συνάδελφοι, δεν πρόκειται περί ενός νέου φορολογικού νόμου όπως πολύ σωστά επισημάνθηκε από τους συναδέλφους. Πρόκειται για την κωδικοποίηση της φορολογίας εισοδήματος. Ήταν έκδηλη η ανάγκη να γίνει αυτό για όλους αυτούς οι οποίοι ασχολούνται με το δίκαιο της φορολογίας και όχι μόνο γι’ αυτούς. Και οι ερευνητές των Πανεπιστημίων είχαν μεγάλη ανάγκη αυτής της κωδικοποίησης.</seg>
             </u>
             <incident>
-               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ).
-</desc>
+               <desc>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ).</desc>
             </incident>
-            <u xml:id="debate_1994-09-01_speech_109" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_109" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Ο κ. Γκόνης έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_110" who="anastasios_gkonis">
+            <u xml:id="debate_1994-09-01_1_speech_110" who="anastasios_gkonis">
                <note type="speaker">ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</note>
                <seg>Για ένα λεπτό, κύριε Πρόεδρε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_111" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_111" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Όσο θέλετε.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_112" who="anastasios_gkonis">
+            <u xml:id="debate_1994-09-01_1_speech_112" who="anastasios_gkonis">
                <note type="speaker">ΑΝΑΣΤΑΣΙΟΣ ΓΚΟΝΗΣ</note>
                <seg>Απλώς ήθελα να κάνω μία επισήμανση. Έχω την προσωπική άποψη ότι ο υψηλότερος δείκτης πολιτισμού ενός λαού είναι ο δείκτης της φορολογικής συνειδήσεως την οποία έχει. Για την απόκτηση δε αυτής της φορολογικής συνειδήσεως πρέπει να συντρέχουν δύο προϋποθέσεις:</seg>
                <seg>Πρώτον, ο δίκαιος φορολογικός νόμος -και το επεσήμανα αυτό- και δεύτερον, η γνώση του φορολογικού συστήματος, το οποίο πρέπει να είναι εκλαϊκευμένο έτσι, ώστε να είναι κατανοητό στον κάθε πολίτη, ανάλογα με την οικονομική του δραστηριότητα. Δηλαδή, και ένας του δημοτικού σχολείου, ή είναι μισθωτός ή ένας μικροεπαγγελματίας, διαβάζοντας τις διατάξεις του νόμου να ξέρει να κάνει μόνος του τη φορολογική του δήλωση.</seg>
                <seg>Αποτελεί πράγματι μία αξιέπαινη προσπάθεια και θα καταχωρηθεί στο ενεργητικό της θητείας σας, αξιότιμε κύριε Υπουργέ, η προσπάθειά σας για την κωδικοποίηση της φορολογικής νομοθεσίας ευρύτερα. Βέβαια, δυσκολίες πολλές θα αντιμετωπίσετε και στο Φ.Π.Α. εκτός από τους φόρους καταναλώσεως. Πάντως όμως είναι μία προσπάθεια η οποία πρέπει να προχωρήσει και θα είναι εξαιρετικά επωφελής. Εύχομαι δε, την προσπάθεια τη δική σας να μιμηθούν και τα άλλα Υπουργεία, γιατί όπως εισαγωγικά είπα στην ομιλία μου, η πολυνομία που κρατεί στον Τόπο μας, είναι μία βαρειά νόσος, η οποία επηρεάζει δυσμενώς και την πολιτική και την οικονομική και την κοινωνική μας ζωή. Ευχαριστώ.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_113" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_113" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Ο κ. Σκυλλάκος έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_114" who="antonis_skullakos">
+            <u xml:id="debate_1994-09-01_1_speech_114" who="antonis_skullakos">
                <note type="speaker">ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</note>
                <seg>Θέλω να δηλώσω ότι εμείς το ψηφίζουμε το νομοσχέδιο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_115" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_115" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Ο κύριος Υφυπουργός έχει το λόγο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_116" who="dimitris_georgakopoulos">
+            <u xml:id="debate_1994-09-01_1_speech_116" who="dimitris_georgakopoulos">
                <note type="speaker">ΔΗΜΗΤΡΗΣ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ</note>
                <seg>Θα αναφερθώ μόνο στο θέμα της φορολογικής συνείδησης που ανέφερε ο κ. Γκόνης. Πράγματι είναι πάρα πολύ σημαντικό να μπορέσουμε να περάσουμε το θέμα της φορολογικής συνείδησης στους Έλληνες πολίτες, γιατί αν πραγματικά, όπως είπατε, ο δείκτης πολιτισμού ενός λαού κρίνεται και από τον υψηλό δείκτη φορολογικής συνείδησης που έχει, σας πληροφορώ ότι, αν πράγματι μπορέσουμε να ανεβάσουμε αυτόν το δείκτη φορολογικής συνείδησης, τότε πολλά από τα προβλήματα της ελληνικής κοινωνίας θα λυθούν. Γιατί σήμερα πραγματικά με την μέχρι τώρα πορεία της Χώρας μας, εδώ και 170 χρόνια, αυτός ο δείκτης της φορολογικής συνείδησης είναι πολύ χαμηλός.</seg>
                <seg>Αν μπορέσουμε να κάνουμε τον Ελληνικό Λαό να συνειδητοποιήσει ότι είναι προς το συμφέρον του, τότε πραγματικά δε θα υπάρχουν προβλήματα δημοσιονομικά στη Χώρα μας γιατί εισοδήματα υπάρχουν.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_117" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_117" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Κηρύσσεται περαιωμένη η συζήτηση επί της αρχής του σχεδίου νόμου του Υπουργείου Οικονομικών "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" και ερωτάται το Σώμα, αν γίνεται δεκτό το νομοσχέδιο "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" επί της αρχής.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_118" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_118" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_119" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_119" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς το σχέδιο νόμου του Υπουργείου Οικονομικών "Κύρωση του Κώδικα Φορολογίας Εισοδήματος", έγινε δεκτό επί της αρχής ομοφώνως.</seg>
                <seg>Εισερχόμεθα στην ψήφιση των άρθρων.</seg>
                <seg>Ερωτάται το Σώμα, αν γίνεται δεκτό το άρθρο πρώτο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_120" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_120" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_121" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_121" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς το άρθρο πρώτο έγινε δεκτό ομοφώνως.</seg>
                <seg>Ερωτάται το Σώμα, αν γίνεται δεκτό το άρθρο δεύτερο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_122" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_122" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_123" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_123" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς το άρθρο δεύτερο έγινε δεκτό ομοφώνως.</seg>
                <seg>Το σχέδιο νόμου "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" έγινε δεκτό κατ’ αρχήν, κατ’ άρθρο, και ερωτάται το Σώμα αν γίνεται δεκτό και στο σύνολο.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_124" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_124" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Δεκτό, δεκτό.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_125" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_125" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Το σχέδιο νόμου έγινε δεκτό και στο σύνολο.</seg>
                <seg>Συνεπώς το σχέδιο νόμου αρμοδιότητας Υπουργείου Οικονομικών "Κύρωση του Κώδικα Φορολογίας Εισοδήματος" έγινε δεκτό σε μόνη συζήτηση κατ’ αρχήν, κατ’ άρθρο και στο σύνολο και έχει ως εξής:</seg>
@@ -1626,20 +1609,20 @@
                <seg>ΠΑΡΕΜΒΑΛΛΕΤΑΙ ΠΙΝΑΚΑΣ)</seg>
                <seg>(ΠΑΡΕΜΒΑΛΛΕΤΑΙ ΠΙΝΑΚΑΣ)</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_126" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_126" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Παρακαλώ το Σώμα να εξουσιοδοτήσει το Προεδρείο για την υπ’ ευθύνη του κύρωση των Πρακτικών της σημερινής συνεδρίασης ως προς την ψήφιση αυτού του νομοσχεδίου.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_127" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_127" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_128" who="panagiotis_kritikos">
+            <u xml:id="debate_1994-09-01_1_speech_128" who="panagiotis_kritikos">
                <note type="speaker">Παναγιώτης Κρητικός</note>
                <seg>Συνεπώς παρεσχέθη η ζητηθείσα εξουσιοδότηση.</seg>
                <seg>Κύριοι συνάδελφοι, δέχεστε να λύσουμε τη Συνεδρίαση;</seg>
             </u>
-            <u xml:id="debate_1994-09-01_speech_129" who="bouleutis/es">
+            <u xml:id="debate_1994-09-01_1_speech_129" who="bouleutis/es">
                <note type="speaker">βουλευτης/ες</note>
                <seg>Μάλιστα, μάλιστα.</seg>
                <seg>Με τη συναίνεση του Σώματος και ώρα 13.20 λύεται η Συνεδρίαση για την προσεχή Δευτέρα 5 Σεπτεμβρίου 1994 και ώρα 18.00 με αντικείμενο ημερήσιας διατάξεως κοινοβουλευτικό έλεγχο σύμφωνα με την ημερήσια διάταξη η οποία θα κυκλοφορήσει.</seg>
