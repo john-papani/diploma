@@ -4,13 +4,26 @@ import traceback
 import xml.etree.ElementTree as ET
 
 conn = sqlite3.connect(
-    'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/myharvester.db')
+    'C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/my_harvester_last.db')
 cursor = conn.cursor()
+
+def total_files():
+    try:
+            cursor.execute(
+                f"SELECT COUNT(*) AS rowCount FROM debates WHERE fileLocalName IS NOT NULL")
+            rows = cursor.fetchall()
+            folder_path = "../xml_akn_files/"
+            files = [file for file in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, file))]
+            file_count = len(files)
+            print(f"#files_db = {file_count} : #file_xml = {(rows[0][0])} => succeed ==  {round(file_count/rows[0][0]*100,2)}%")
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 
 def starting_files_per_year_in_db():
     try:
-        for year in range(1989, 2023):
+        for year in range(1989, 2024):
             cursor.execute(
                 f"SELECT fileLocalPath, fileLocalName, debateDate FROM debates WHERE strftime('%Y', datetime(debateDate/1000, 'unixepoch')) = '{year}' AND fileLocalName IS NOT NULL")
             rows = cursor.fetchall()
@@ -21,7 +34,7 @@ def starting_files_per_year_in_db():
 
 def xml_per_year_based_on_db():
     try:
-        for year in range(1989, 2023):
+        for year in range(1989, 2024):
             cursor.execute(
                 f"SELECT fileLocalPath, fileLocalName, debateDate FROM debates WHERE strftime('%Y', datetime(debateDate/1000, 'unixepoch')) = '{year}' AND fileLocalName IS NOT NULL")
             rows = cursor.fetchall()
@@ -42,7 +55,7 @@ def xml_per_year_based_on_db():
 
 def speeches_per_year_based_on_xml():
     try:
-        for year in range(1989, 2023):
+        for year in range(1989, 2024):
             cursor.execute(
                 f"SELECT fileLocalPath, fileLocalName, debateDate FROM debates WHERE strftime('%Y', datetime(debateDate/1000, 'unixepoch')) = '{year}' AND fileLocalName IS NOT NULL")
             rows = cursor.fetchall()
@@ -85,7 +98,6 @@ def files_per_period():
         cursor.execute(
             "SELECT debatePeriod, count(fileLocalName) FROM debates WHERE fileLocalName IS NOT NULL GROUP BY debatePeriod ORDER by debatePeriod")
         rows = cursor.fetchall()
-      
         for row in rows:
             cursor.execute(
                 f'SELECT fileLocalPath, fileLocalName FROM debates WHERE debatePeriod = "{row[0]}"')
@@ -99,9 +111,9 @@ def files_per_period():
                     str(row_[1]) + str(".xml")
                 file_path = file_path.replace("//", "/")
                 if os.path.exists(file_path):
-                        exist += 1
+                    exist += 1
                 else:
-                        not_exist += 1
+                    not_exist += 1
             print(f"{row[0]}: exist= {exist}, not_exist= {not_exist}")
             # print(f"{row[0]}, {exist}, {not_exist}")
 
@@ -109,6 +121,8 @@ def files_per_period():
     except Exception as e:
         print(f"An error occurred: {traceback.format_exc()}")
 
+total_files()
+print("\n\n------------------------\n\n")
 starting_files_per_year_in_db()
 print("\n\n------------------------\n\n")
 xml_per_year_based_on_db()

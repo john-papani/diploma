@@ -28,7 +28,7 @@ import spacy
 # cursor = conn.cursor()
 
 conn = sqlite3.connect(
-   "C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/myharvester.db")
+   "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/my_harvester_last.db")
 cursor = conn.cursor()
 
 
@@ -195,7 +195,7 @@ def lda_f(data_words, title):
 
 def topic_modelling_per_year():
     try:
-        for year in range(1989, 2023):
+        for year in range(1989, 2024):
             filenames = list()
             cursor.execute(
                 f"SELECT fileLocalPath, fileLocalName, debateDate FROM debates WHERE strftime('%Y', datetime(debateDate/1000, 'unixepoch')) = '{year}' AND fileLocalName IS NOT NULL")

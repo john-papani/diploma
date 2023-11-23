@@ -304,7 +304,7 @@ def create_rdf_political_tenure_and_potical_functions():
 # print("1b-OK")
 # add_column_to_csv(input_file_3, output_file_3, 1)
 # print("1c-OK")
-create_json_official_parl_mem()
+# create_json_official_parl_mem()
 print("1d-OK")
 
 print("1-OK")
