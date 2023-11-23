@@ -69,14 +69,17 @@ def create_rdf_members_with_details():
                     next(csv_data, None)
                     for row in csv_data:
                         if str(row[6]) == str(name_speaker):
-                            gender = row[5]
+                            # gender = row[5]
                             if (wiki_link != -1 and wiki_link != None):
                                 add_to_json(name_speaker, wiki_link)
+                            else:
+                                add_to_json(name_speaker, "-")
                             break
                 else:
-
                     if (wiki_link != -1 and wiki_link != None):
                         add_to_json(name_speaker, wiki_link)
+                    else:
+                        add_to_json(name_speaker, "-")
 
     finally:
         end = dt.now()
@@ -87,21 +90,36 @@ def create_rdf_members_with_details():
 # SPECIFIC CORRECTIONS
 # data from here=  https://w.wiki/89Mq
 def update_year_2023_data():
-    add_to_json("athanasios_xalkias","https://www.wikidata.org/wiki/Q123188665")
-    add_to_json("xaralampos_katsibardas","https://www.wikidata.org/wiki/Q123189028")
-    add_to_json("georgios_manousos","https://www.wikidata.org/wiki/Q123189154")
-    add_to_json("basileios_stigkas","https://www.wikidata.org/wiki/Q119949250")
-    add_to_json("ioannis_dimitrokallis","https://www.wikidata.org/wiki/Q123189183")
-    add_to_json("alexandros_zerbeas","https://www.wikidata.org/wiki/Q123189381")
-    add_to_json("dionusios_baltogiannis","https://www.wikidata.org/wiki/Q123189538")
-    add_to_json("georgios_aspiotis","https://www.wikidata.org/wiki/Q123189605")
-    add_to_json("mixail_gaugiotakis","https://www.wikidata.org/wiki/Q122228916")
-    add_to_json("ioannis_kontis","https://www.wikidata.org/wiki/Q123189851")
-    add_to_json("petros_dimitriadis","https://www.wikidata.org/wiki/Q123189881")
-    add_to_json("dimitrios_natsios","https://www.wikidata.org/wiki/Q123189881")
-    add_to_json("komninos_delberoudis","https://www.wikidata.org/wiki/Q122744183")
-    add_to_json("adamantios_karanastasis","https://www.wikidata.org/wiki/Q120360696")
-    add_to_json("spuridon_mpimpilas","https://www.wikidata.org/wiki/Q55846377")
+    add_to_json("athanasios_xalkias",
+                "https://www.wikidata.org/wiki/Q123188665")
+    add_to_json("xaralampos_katsibardas",
+                "https://www.wikidata.org/wiki/Q123189028")
+    add_to_json("georgios_manousos",
+                "https://www.wikidata.org/wiki/Q123189154")
+    add_to_json("basileios_stigkas",
+                "https://www.wikidata.org/wiki/Q119949250")
+    add_to_json("ioannis_dimitrokallis",
+                "https://www.wikidata.org/wiki/Q123189183")
+    add_to_json("alexandros_zerbeas",
+                "https://www.wikidata.org/wiki/Q123189381")
+    add_to_json("dionusios_baltogiannis",
+                "https://www.wikidata.org/wiki/Q123189538")
+    add_to_json("georgios_aspiotis",
+                "https://www.wikidata.org/wiki/Q123189605")
+    add_to_json("mixail_gaugiotakis",
+                "https://www.wikidata.org/wiki/Q122228916")
+    add_to_json("ioannis_kontis", "https://www.wikidata.org/wiki/Q123189851")
+    add_to_json("petros_dimitriadis",
+                "https://www.wikidata.org/wiki/Q123189881")
+    add_to_json("dimitrios_natsios",
+                "https://www.wikidata.org/wiki/Q123189881")
+    add_to_json("komninos_delberoudis",
+                "https://www.wikidata.org/wiki/Q122744183")
+    add_to_json("adamantios_karanastasis",
+                "https://www.wikidata.org/wiki/Q120360696")
+    add_to_json("spuridon_mpimpilas",
+                "https://www.wikidata.org/wiki/Q55846377")
 
-update_year_2023_data()
+
 create_rdf_members_with_details()
+update_year_2023_data()

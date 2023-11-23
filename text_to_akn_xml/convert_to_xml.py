@@ -1,19 +1,25 @@
+from DebateGrammarParser import DebateGrammarParser
+from DebateGrammarLexer import DebateGrammarLexer
+from random import randint
+import traceback
 from lxml.builder import ElementMaker
 from lxml import etree as ET
 from cobalt import Debate
 from antlr4 import *
 from tika import parser
 from datetime import datetime as dt
+import time
 import numpy as np
 from collections import defaultdict
 import re
 import os
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import json
 
 import sys
 sys.path.append('../antlr4_grammar')
-from DebateGrammarLexer import DebateGrammarLexer
-from DebateGrammarParser import DebateGrammarParser
 
 E = ElementMaker(nsmap={None: 'http://docs.oasis-open.org/legaldocml/ns/akn/3.0'},
                  namespace='http://docs.oasis-open.org/legaldocml/ns/akn/3.0')
@@ -82,6 +88,10 @@ def create_scene_akn(xeir_sxolio):
 
 def create_speeches_akn(speaker, speeches, num):
     date_ = get_date(record_date).strftime('%Y-%m-%d')
+    with open("./dates_num_debate.json", 'r') as file:
+        data = json.load(file)
+    if date_ in data:
+        num_debate = data[date_]
     speaker_englishVersion = convert_greek_to_english(speaker)
     speech_ = speeches.split("\n")
     speech_.pop()
@@ -89,7 +99,7 @@ def create_speeches_akn(speaker, speeches, num):
                   for i in range(len(speech_)) if speech_[i] != '']
     speech = E.speech(
         ET.XML(f"<from>{str(speaker)}</from>"),
-        *paragraphs, by=f"{speaker_englishVersion}", eId=f'debate_{date_}_speech_{num}'
+        *paragraphs, by=f"{speaker_englishVersion}", eId=f'debate_{date_}_{num_debate}_speech_{num}'
     )
     return speech
 
@@ -227,16 +237,35 @@ def create_parl_proceedings_akn(tree):
 
 def create_meta_references_akn(type, name):
     name_ = convert_greek_to_english(name)
+    file_names_with_wikidata_ = "../xml_to_rdf/wikidata_crawler/names_with_wikidata.json"
+    file_names_with_wikidata = open(file_names_with_wikidata_)
+    names_with_wikidata = json.load(file_names_with_wikidata)
+    # print(name_)
+    if name_ in names_with_wikidata:
+        wiki_link = names_with_wikidata[name_]
+    else:
+        wiki_link = search_for_wikidata_connection(name_)
+        add_to_wiki_json(name_, wiki_link, file_names_with_wikidata_)
+
     if type == "TLCPerson":
         meta_reference = E.TLCPerson(
-            eId=name_, href="/ontology/person/akn/parliament/"+str(name_), showAs=name)
+            eId=name_, href=wiki_link, showAs=name)
     elif type == "TLCRole":
         meta_reference = E.TLCRole(
-            eId=name_, href="/ontology/person/akn/parliament/"+str(name_), showAs=name)
+            eId=name_, href=wiki_link, showAs=name)
     elif type == "TLCOrganization":
         meta_reference = E.TLCOrganization(
             eId=name_, href="/ontology/organization/akn/parliament/"+str(name_), showAs=name)
     return meta_reference
+
+
+def add_to_wiki_json(name_speaker, wiki_link, json):
+    with open(json, 'r', encoding='utf8') as file:
+        data = json.load(file)
+    data[name_speaker] = wiki_link
+    # Save the updated JSON data to the file
+    with open(json, 'w', encoding='utf8') as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
 
 
 def create_preface_akn(debate, tree):
@@ -260,15 +289,23 @@ def create_preface_akn(debate, tree):
     return
 
 
-def edit_meta_debate_akn(current_record_date):
+def edit_meta_debate_akn(current_record_date, filename):
     date_ = current_record_date.strftime('%Y-%m-%d')
+    with open("./dates_num_debate.json", 'r') as file:
+        data = json.load(file)
+    if date_ in data:
+        num = data[date_]
+    else:
+        num = 0
+    num += 1
     d.expression_date = str(date_)
     d.manifestation_date = str(date_)
     d.manifestation_format = "xml"
-    d.frbr_uri = "/akn/gr/debate/"+str(date_)+"/1/"
+    d.frbr_uri = "/akn/gr/debate/"+str(date_)+"/"+str(num)+"/"
     d.frbr_uri.work_componenent = ""
     d.language = "gr"
     d.title = "ΠΡΑΚΤΙΚΑ ΒΟΥΛΗΣ " + str(date_)
+    add_to_dates_json(date_, num, "./dates_num_debate.json")
 
 
 # Cleaning and formatting speakers data
@@ -431,17 +468,91 @@ def format_speaker_information(speaker_, speaker_nickname_, flagMetaReferences=F
     return (speaker_name, speaker_info, speaker_nickname)
 
 
-main_datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/"
-datapath_2022_23 = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/year2022-23/year2022until10nov23/"
+def add_to_dates_json(date, num, json_file):
+    try:
+        # Read the existing data from the JSON file
+        with open(json_file, 'r', encoding='utf8') as file:
+            data = json.load(file)
+        data[date] = num
+        # Save the updated JSON data to the file
+        with open(json_file, 'w', encoding='utf8') as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
+
+    except FileNotFoundError:
+        print(f"Error: File not found - {json_file}")
+    except json.JSONDecodeError:
+        print(f"Error: JSON decoding failed for file - {json_file}")
+    except Exception as ex:
+        print(
+            f"Error: An unexpected error occurred - {traceback.format_exc()}")
+
+#add names to json with 2023 parlmembers 
+def update_year_2023_data():
+    file_names_with_wikidata_ = "../xml_to_rdf/wikidata_crawler/names_with_wikidata.json"
+    add_to_wiki_json("athanasios_xalkias",
+                     "https://www.wikidata.org/wiki/Q123188665", file_names_with_wikidata_)
+    add_to_wiki_json("xaralampos_katsibardas",
+                     "https://www.wikidata.org/wiki/Q123189028", file_names_with_wikidata_)
+    add_to_wiki_json("georgios_manousos",
+                     "https://www.wikidata.org/wiki/Q123189154", file_names_with_wikidata_)
+    add_to_wiki_json("basileios_stigkas",
+                     "https://www.wikidata.org/wiki/Q119949250", file_names_with_wikidata_)
+    add_to_wiki_json("ioannis_dimitrokallis",
+                     "https://www.wikidata.org/wiki/Q123189183", file_names_with_wikidata_)
+    add_to_wiki_json("alexandros_zerbeas",
+                     "https://www.wikidata.org/wiki/Q123189381", file_names_with_wikidata_)
+    add_to_wiki_json("dionusios_baltogiannis",
+                     "https://www.wikidata.org/wiki/Q123189538", file_names_with_wikidata_)
+    add_to_wiki_json("georgios_aspiotis",
+                     "https://www.wikidata.org/wiki/Q123189605", file_names_with_wikidata_)
+    add_to_wiki_json("mixail_gaugiotakis",
+                     "https://www.wikidata.org/wiki/Q122228916", file_names_with_wikidata_)
+    add_to_wiki_json(
+        "ioannis_kontis", "https://www.wikidata.org/wiki/Q123189851", file_names_with_wikidata_)
+    add_to_wiki_json("petros_dimitriadis",
+                     "https://www.wikidata.org/wiki/Q123189881", file_names_with_wikidata_)
+    add_to_wiki_json("dimitrios_natsios",
+                     "https://www.wikidata.org/wiki/Q123189881", file_names_with_wikidata_)
+    add_to_wiki_json("komninos_delberoudis",
+                     "https://www.wikidata.org/wiki/Q122744183", file_names_with_wikidata_)
+    add_to_wiki_json("adamantios_karanastasis",
+                     "https://www.wikidata.org/wiki/Q120360696", file_names_with_wikidata_)
+    add_to_wiki_json("spuridon_mpimpilas",
+                     "https://www.wikidata.org/wiki/Q55846377", file_names_with_wikidata_)
+
+update_year_2023_data()
+def search_for_wikidata_connection(name):
+    name = name.replace("_", " ")
+    # Initialize the WebDriver
+    options = webdriver.EdgeOptions()
+    driver = webdriver.Edge(options=options)
+
+    url_google = "https://www.google.com/search?q="
+    search_query = f"{name} wikidata parliament"
+    driver.get(url_google + search_query)
+    time.sleep(1)
+    search_results = driver.find_elements(By.CSS_SELECTOR, "div.g")
+    if search_results:
+        first_result = search_results[0]
+        link_element = first_result.find_element(By.CSS_SELECTOR, "a")
+        result_link = link_element.get_attribute("href")
+
+        # Close the WebDriver
+        driver.close()
+        # Check if the link starts with "www.wikidata.org/"
+        if result_link.startswith("https://www.wikidata.org/wiki/Q"):
+            return result_link
+        else:
+            return "-"
+
+
+datapath = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/all_files/"
 # parsed1 = parser.from_file(
 #     'C:/Users/johnp/Documents/ECE_NTUA/diploma/official_data_fromKoniaris/files/all_files/297.docx', xmlContent=True)
 
-main_filenames = sorted([f for f in os.listdir(main_datapath) if not f.startswith('.')])
-filenames_2022_23 = sorted([f for f in os.listdir(datapath_2022_23) if not f.startswith('.')])
+filenames = sorted([f for f in os.listdir(datapath) if not f.startswith('.')])
 
-# Combine the lists if needed
-filenames = main_filenames + filenames_2022_23
-print("NUMBER OF ALL FILES IN SYSTEM =",len(filenames))
+print("NUMBER OF ALL FILES IN SYSTEM =", len(filenames))
 filename_freqs = defaultdict(int)
 
 record_counter = 0
@@ -487,7 +598,6 @@ log_file = open('./no_xml_files.txt', 'a', encoding="utf8")
 
 for filename in filenames:
     try:
-        datapath = main_datapath if filename in main_filenames else datapath_2022_23
         # ------- AKOMA NTOSO/xml ---
         d = Debate()
         # remove default-useless debateSection
@@ -495,11 +605,11 @@ for filename in filenames:
         d.debateBody.attrib.pop("eId")
         speech_num = 0
         # ----- meta references ---
-        d.meta.references.TLCOrganization.attrib["eId"] = "greek_parl"
-        d.meta.references.TLCOrganization.attrib["href"] = "/ontology/organization/akn/greek_parl"
-        d.meta.references.TLCOrganization.attrib["showAs"] = "Greek_Parliament"
-        meta_proedros = create_meta_references_akn("TLCRole", "ΠΡΟΕΔΡΟΣ")
-        d.meta.references.append(meta_proedros)
+        d.meta.references.TLCOrganization.attrib["eId"] = "hellenic_parliament"
+        d.meta.references.TLCOrganization.attrib["href"] = "https://www.hellenicparliament.gr/en/"
+        d.meta.references.TLCOrganization.attrib["showAs"] = "hellenic_parliament"
+        # meta_proedros = create_meta_references_akn("TLCRole", "ΠΡΟΕΔΡΟΣ")
+        # d.meta.references.append(meta_proedros)
         parsed = parser.from_file(datapath+filename, xmlContent=True)
         parsed1true = False
         # parsed = parsed1
@@ -538,9 +648,14 @@ for filename in filenames:
         main_text = re.sub(r'Επιστροφή\s*στην\s*κορυφη\s*', '', main_text)
         # Creates a list of tuples e.g. (' ΠΡΟΕΔΡΕΥΩΝ (Βαΐτσης Αποστολάτος):', ' ΠΡΟΕΔΡΕΥΩΝ', '', '(Βαΐτσης Αποστολάτος)')
         speakers_groups = re.findall(
-            r"(([Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
+            # r"\n\s*(([Α-ΩΆ-ΏΪΫΪ́Ϋ́-]{2,})(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
+            "\n\s*(([Α-ΩΆ-ΏΪΫΪ́Ϋ́-]{2,})(\s+\([A-ZΑ-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
+            # r"\n*[ \t]+(([Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
+            # r"(\n(\s\\t)*)(([Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
+            # r"(([Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:)",
             # r"(([Α-ΩΆ-ΏΪΫΪ́Ϋ́-]{2,})+(\s+\([Α-ΩΆ-Ώα-ωά-ώϊϋΐΰΪΫΪ́Ϋ́-]+\))?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́.]+)?(\s+[Α-ΩΆ-ΏΪΫΪ́Ϋ́-]+)*\s*(\(.*?\))?\s*\:\s)",
-            main_text.split('\n', 1)[1])
+            # main_text.split('\n', 1)[1])
+            main_text)
 
         # --- ANTLR4 parameters
         input_stream = InputStream(introduction)
@@ -551,7 +666,7 @@ for filename in filenames:
         set_record_values(tree)
         current_record_datetime = get_date(record_date)
         # print(current_record_datetime)
-        edit_meta_debate_akn(current_record_datetime)
+        edit_meta_debate_akn(current_record_datetime, filename)
         create_preface_akn(d, tree)
 
         debateSection_preamble = create_preamble_akn(
@@ -580,7 +695,7 @@ for filename in filenames:
                            'ΤΑΧΔΙΚ', 'ΜΑΓΝΗΣΙΑ', 'ΤΟΕΒ', 'ΟΕΔΒ', 'ΑΜΥ', 'ΜΕΘ:', 'ΕΝΤΥΠΑ', 'ΠΕΧΩΔΕ', 'ΚΡΑΤΟΥΜΕΝΟΙ', 'ΑΦΙΞΗΣ', 'ΙΓΜΕ:', 'ΕΛΤΑ', 'ΣΚΟΠΙΕΣ', '-ΜΚΙΙ:',
                            'ΤΗΛΕΦ', 'ΣΑΕ', 'ΥΩΝ:', 'ΟΟΣΑ', 'ΝΟΜΟΣ', 'ΕΛΣΤΑΤ:', 'ΤΗΛΕΟΡΑΣΗ', 'ΚΕΝΤΡΩΩΝ', 'ΠΡΟΣ', 'ΔΙΑΒΙΩΣΗ', 'ΥΠΕ:', 'ΡΑΔΙΟΦΩΝΟ', 'ΕΟΚ', 'ΣΙΤΗΣΗ', 'ΣΕΠ:', 'ΟΓΑ:',
                            'Α.Π.:', 'ΙΡΑΝ', 'ΕΚΑΒ', 'ΠΕΠΕΡ:', 'ΕΛΓA:', 'ΕΡΓΑΣΙΑ', 'ΕΛΛΗΝΙΚΗ ΛΥΣΗ:', 'ΓΡΑΜΜΑΤΕΙΣ', 'ΜΕΛΗ', 'ΣΕΠΕ', 'ΣΕΛΕΤΕ', 'ΑΡΘΡΟ', 'ΑΕΙ:', 'ΕΠΕ:', 'ΠΑΣΟΚ', 'ΤΟΥ ΠΑ.ΣΟ.Κ.:',
-                           'ΗΔΙΚΑ:', 'ΕΣΟΔΑ', 'ΣΕΚ', 'ΔΕΠΑΝΟΜ', 'ΠΛΗΡΟΦΟΡΙΕΣ', 'ΑΕΠΠ:', 'ΤΗΛ.', 'ΚΠΣ', 'ΟΑΕ', 'ΙΡΑΝ', 'ΜΕΤΑΓΩΓΕΣ','ΟΔΟΣΤΡΩΜΑΤΩΝ','ΣΠΑΡΤΙΑΤΕΣ']
+                           'ΗΔΙΚΑ:', 'ΕΣΟΔΑ', 'ΣΕΚ', 'ΔΕΠΑΝΟΜ', 'ΠΛΗΡΟΦΟΡΙΕΣ', 'ΑΕΠΠ:', 'ΤΗΛ.', 'ΚΠΣ', 'ΟΑΕ', 'ΙΡΑΝ', 'ΜΕΤΑΓΩΓΕΣ', 'ΟΔΟΣΤΡΩΜΑΤΩΝ', 'ΣΠΑΡΤΙΑΤΕΣ']
 
         # remove extra spaces inside names
         speakers = [s.strip() for s in speakers if not any(
@@ -714,7 +829,7 @@ for filename in filenames:
                         debateSectionParts = create_speeches_akn(
                             speaker=speaker_name, speeches=splited_text[0], num=speech_num)
                         debateSection_main.append(debateSectionParts)
-                        assd = regex_finded.search(speech).group()
+                        assd = regex_finded.search(speech).group().strip()
                         debateSectionParts = create_scene_akn(
                             xeir_sxolio=assd)
                         debateSection_main.append(debateSectionParts)
@@ -744,14 +859,11 @@ for filename in filenames:
                     debateSection_main.append(debateSectionParts)
                     speech = speech.replace(
                         ilektroniki_katametrisi_regex.search(speech).group(), '')
-
         xml1 = d.to_xml(encoding='unicode', pretty_print=True)
-        # print(xml1)
 
         # print("---------------------")
         # ---- saving xml to a differnt file
-        path_saving_xml = "../xml_akn_files/" if filename in main_filenames else "../xml_akn_files/xml_akn_files_2023/"
-        text_file = open(path_saving_xml+filename +
+        text_file = open("../xml_akn_files/"+filename +
                          ".xml", "w", encoding='utf8')
         # text_file = open("./testing.xml", "w", encoding='utf8')
         n = text_file.write(xml1)

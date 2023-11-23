@@ -26,29 +26,28 @@
         </FRBRManifestation>
       </identification>
       <references source="#cobalt">
-        <TLCOrganization eId="greek_parl" href="/ontology/organization/akn/greek_parl" showAs="Greek_Parliament"/>
-        <TLCRole eId="proedros" href="/ontology/person/akn/parliament/proedros" showAs="ΠΡΟΕΔΡΟΣ"/>
-        <TLCPerson eId="georgios_tzitzikostas" href="/ontology/person/akn/parliament/georgios_tzitzikostas" showAs="ΓΕΩΡΓΙΟΣ ΤΖΙΤΖΙΚΩΣΤΑΣ"/>
-        <TLCPerson eId="nikitas_benizelos" href="/ontology/person/akn/parliament/nikitas_benizelos" showAs="Νικήτας Βενιζέλος"/>
-        <TLCPerson eId="apostolos_athanasios_tsoxatzopoulos" href="/ontology/person/akn/parliament/apostolos_athanasios_tsoxatzopoulos" showAs="ΑΠΟΣΤΟΛΟΣ ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ"/>
-        <TLCPerson eId="georgios_daskalakis" href="/ontology/person/akn/parliament/georgios_daskalakis" showAs="ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ"/>
-        <TLCPerson eId="merikoi_bouleutes" href="/ontology/person/akn/parliament/merikoi_bouleutes" showAs="ΜΕΡΙΚΟΙ ΒΟΥΛΕΥΤΕΣ"/>
-        <TLCPerson eId="apostolos_kaklamanis" href="/ontology/person/akn/parliament/apostolos_kaklamanis" showAs="Απόστολος Κακλαμάνης"/>
-        <TLCPerson eId="andreas_lentakis" href="/ontology/person/akn/parliament/andreas_lentakis" showAs="ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ"/>
-        <TLCPerson eId="pausanias_zakolikos" href="/ontology/person/akn/parliament/pausanias_zakolikos" showAs="Παυσανίας Ζακολίκος"/>
-        <TLCPerson eId="oloi_oi_bouleutes" href="/ontology/person/akn/parliament/oloi_oi_bouleutes" showAs="ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ"/>
-        <TLCPerson eId="koinonikon_asfaliseon" href="/ontology/person/akn/parliament/koinonikon_asfaliseon" showAs="ΚΟΙΝΩΝΙΚΩΝ ΑΣΦΑΛΙΣΕΩΝ"/>
-        <TLCPerson eId="dimitrios_kremastinos" href="/ontology/person/akn/parliament/dimitrios_kremastinos" showAs="ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ"/>
-        <TLCPerson eId="stratis_korakas" href="/ontology/person/akn/parliament/stratis_korakas" showAs="ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ"/>
-        <TLCPerson eId="nikolaos_katsaros" href="/ontology/person/akn/parliament/nikolaos_katsaros" showAs="Νικόλαος Κατσαρός"/>
-        <TLCPerson eId="apostolos-athanasios_tsoxatzopoulos" href="/ontology/person/akn/parliament/apostolos-athanasios_tsoxatzopoulos" showAs="ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ"/>
-        <TLCPerson eId="antonis_skullakos" href="/ontology/person/akn/parliament/antonis_skullakos" showAs="ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ"/>
-        <TLCPerson eId="ioannis_kefalogiannis" href="/ontology/person/akn/parliament/ioannis_kefalogiannis" showAs="ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ"/>
-        <TLCPerson eId="stauros_soumakis" href="/ontology/person/akn/parliament/stauros_soumakis" showAs="ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ"/>
-        <TLCPerson eId="nikolaos_farmakis" href="/ontology/person/akn/parliament/nikolaos_farmakis" showAs="ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ"/>
-        <TLCPerson eId="spuros_kaloudis" href="/ontology/person/akn/parliament/spuros_kaloudis" showAs="ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ"/>
-        <TLCPerson eId="grigoris_niotis" href="/ontology/person/akn/parliament/grigoris_niotis" showAs="ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ"/>
-        <TLCPerson eId="polloi_bouleutes" href="/ontology/person/akn/parliament/polloi_bouleutes" showAs="ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ"/>
+        <TLCOrganization eId="hellenic_parliament" href="https://www.hellenicparliament.gr/en/" showAs="hellenic_parliament"/>
+        <TLCPerson eId="spuros_kaloudis" href="-" showAs="ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ"/>
+        <TLCPerson eId="polloi_bouleutes" href="-" showAs="ΠΟΛΛΟΙ ΒΟΥΛΕΥΤΕΣ"/>
+        <TLCPerson eId="dimitrios_kremastinos" href="https://www.wikidata.org/wiki/Q19635577" showAs="ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ"/>
+        <TLCPerson eId="nikolaos_farmakis" href="-" showAs="ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ"/>
+        <TLCPerson eId="stauros_soumakis" href="https://www.wikidata.org/wiki/Q58091" showAs="ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ"/>
+        <TLCPerson eId="apostolos_kaklamanis" href="https://www.wikidata.org/wiki/Q539860" showAs="Απόστολος Κακλαμάνης"/>
+        <TLCPerson eId="pausanias_zakolikos" href="-" showAs="Παυσανίας Ζακολίκος"/>
+        <TLCPerson eId="antonis_skullakos" href="-" showAs="ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ"/>
+        <TLCPerson eId="georgios_daskalakis" href="https://www.wikidata.org/wiki/Q18572849" showAs="ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ"/>
+        <TLCPerson eId="oloi_oi_bouleutes" href="-" showAs="ΟΛΟΙ ΟΙ ΒΟΥΛΕΥΤΕΣ"/>
+        <TLCPerson eId="nikolaos_katsaros" href="https://www.wikidata.org/wiki/Q58619135" showAs="Νικόλαος Κατσαρός"/>
+        <TLCPerson eId="andreas_lentakis" href="https://www.wikidata.org/wiki/Q12873648" showAs="ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ"/>
+        <TLCPerson eId="stratis_korakas" href="https://www.wikidata.org/wiki/Q9251526" showAs="ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ"/>
+        <TLCPerson eId="apostolos_athanasios_tsoxatzopoulos" href="https://www.wikidata.org/wiki/Q620468" showAs="ΑΠΟΣΤΟΛΟΣ ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ"/>
+        <TLCPerson eId="nikitas_benizelos" href="https://www.wikidata.org/wiki/Q12881714" showAs="Νικήτας Βενιζέλος"/>
+        <TLCPerson eId="apostolos-athanasios_tsoxatzopoulos" href="https://www.wikidata.org/wiki/Q620468" showAs="ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ"/>
+        <TLCPerson eId="georgios_tzitzikostas" href="https://www.wikidata.org/wiki/Q14865188" showAs="ΓΕΩΡΓΙΟΣ ΤΖΙΤΖΙΚΩΣΤΑΣ"/>
+        <TLCPerson eId="merikoi_bouleutes" href="-" showAs="ΜΕΡΙΚΟΙ ΒΟΥΛΕΥΤΕΣ"/>
+        <TLCPerson eId="ioannis_kefalogiannis" href="https://www.wikidata.org/wiki/Q20995445" showAs="ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ"/>
+        <TLCPerson eId="ethnikis_paideias_kai_thriskeumaton_dimosias_taxis" href="-" showAs="ΕΘΝΙΚΗΣ ΠΑΙΔΕΙΑΣ ΚΑΙ ΘΡΗΣΚΕΥΜΑΤΩΝ ΔΗΜΟΣΙΑΣ ΤΑΞΗΣ"/>
+        <TLCPerson eId="grigoris_niotis" href="-" showAs="ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ"/>
       </references>
     </meta>
     <preface>
@@ -65,7 +64,7 @@
         <p>Αθήνα, σήμερα την 1η Μαρτίου 1994, ημέρα Τρίτη και ώρα 18.10’ , συνήλθε στην Αίθουσα συνεδριάσεων του Βουλευτηρίου η Βουλή σε Ολομέλεια για να συνεδριάσει υπό την Προεδρία του Προέδρου κ. ΑΠΟΣΤΟΛΟΥ ΚΑΚΛΑΜΑΝΗ.</p>
       </debateSection>
       <debateSection name="main_debate_section">
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_1">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_1">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Κύριοι συνάδελφοι, αρχίζει η συνεδρίαση.</p>
           <p>Παρακαλείται η Γραμματέας κα Ροδούλα Ζήση, Βουλευτής Μαγνησίας, να διαβάσει τις αναφορές προς το Σώμα.</p>
@@ -311,7 +310,7 @@
           <p>Ο Υπουργός</p>
           <p>ΑΛΕΞ. ΠΑΠΑΔΟΠΟΥΛΟΣ"</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_2">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_2">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Κύριοι συνάδελφοι, ο Πρόεδρος της Κυβερνήσεως έστειλε στον Πρόεδρο της Βουλής των Ελλήνων το κατωτέρω έγγραφο:</p>
           <p>"ΘΕΜΑ: Κυβερνητική μεταβολή.</p>
@@ -325,18 +324,18 @@
           <p>Ο Πρωθυπουργός</p>
           <p>Ανδρέας Γ. Παπανδρέου"</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_3">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_3">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Κύριοι Βουλευτές, εισερχόμαστε στην ημερήσια διάταξη</p>
           <p>ΤΗΣ ΝΟΜΟΘΕΤΙΚΗΣ ΕΡΓΑΣΙΑΣ</p>
           <p>Έχω την τιμή να ανακοινώσω προς το Σώμα ότι ο Πρόεδρος της Προανακριτικής Επιτροπής "Για την παρακολούθηση των τηλεφωνικών συνδιαλέξεων των πολιτικών αντιπάλων της προηγούμενης κυβέρνησης, στελεχών της κυβέρνησης και άλλων προσώπων", της οποίας οι εργασίες λήγουν την 3η Μαρτίου 1994, μου απέστειλε έγγραφο με το οποίο μου γνωρίζει την ομόφωνη πρόταση της Επιτροπής για εικοσαήμερη παράταση των εργασιών της, προκειμένου να ολοκληρώσει το έργο της και συντάξει το σχετικό πόρισμα.</p>
           <p>Εγκρίνει η Βουλή;</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_4">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_4">
           <from>βουλευτης/ες</from>
           <p>Μάλιστα, μάλιστα.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_5">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_5">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Συνεπώς η Βουλή εγκρίνει ομοφώνως.</p>
           <p>Θα προηγηθεί η προεκφώνηση των νομοσχεδίων που έχουν εγγραφεί στην ημερήσια διάταξη, ώστε για όσα από αυτά δεν υπάρχει αντίρρηση να γίνουν δεκτά χωρίς συζήτηση.</p>
@@ -349,48 +348,48 @@
           <p>Ακολουθεί το νομοσχέδιο του Υπουργείου Εξωτερικών.</p>
           <p>Μόνη συζήτηση επί της αρχής, των άρθρων και του συνόλου του σχεδίου νόμου: "Σύσταση διπλωματικών αρχών και άλλες διατάξεις".</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_6">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_6">
           <from>βουλευτης/ες</from>
           <p>Κρατείται.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_7">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_7">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Επομένως κρατείται και θα συζητηθεί κατά τον Κανονισμό.</p>
           <p>Τέλος, το νομοσχέδιο του Υπουργείου Περιβάλλοντος, Χωροταξίας και Δημοσίων Έργων.</p>
           <p>Μόνη συζήτηση επί της αρχής, των άρθρων και του συνόλου του σχεδίου νόμου: "Κύρωση σύμβασης για τη βιολογική ποικιλότητα".</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_8">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_8">
           <from>βουλευτης/ες</from>
           <p>Κρατείται.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_9">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_9">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Και αυτό κρατείται και θα συζητηθεί κατά τον Κανονισμό.</p>
           <p>Ψήφιση στο σύνολο του σχεδίου νόμου αρμοδιότητας Υπουργείου Υγείας, Πρόνοιας και Κοινωνικών Ασφαλίσεων: "Αποκατάσταση του Εθνικού Συστήματος Υγείας και άλλες διατάξεις".</p>
           <p>Ο κύριος Υπουργός έχει το λόγο.</p>
         </speech>
-        <speech by="dimitrios_kremastinos" eId="debate_1994-03-01_speech_10">
+        <speech by="dimitrios_kremastinos" eId="debate_1994-03-01_1_speech_10">
           <from>ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ</from>
           <p>Θα γίνουν ορισμένες νομοτεχνικές μεταβολές, μεταφορές, ενιαιοποίηση διατάξεων κ.λπ. στο σχέδιο νόμου τις οποίες θα διαβάσω.</p>
           <p>Το άρθρο 16 του σχεδίου αναδιατυπώνεται ως εξής: "Το άρθρο 142 του ν. 2071/1992 καταργείται από της ισχύος του".</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_11">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_11">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Σ’ αυτό το άρθρο αν θυμάμαι καλά...</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_12">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_12">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Κύριε Κεφαλογιάννη, ας τελειώσει ο κύριος Υπουργός και εν συνεχεία κάνετε...</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_13">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_13">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε...</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_14">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_14">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Με ενδιαφέρει να μην υπάρξει κανένα λάθος στα πρακτικά.</p>
         </speech>
-        <speech by="dimitrios_kremastinos" eId="debate_1994-03-01_speech_15">
+        <speech by="dimitrios_kremastinos" eId="debate_1994-03-01_1_speech_15">
           <from>ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ</from>
           <p>1. Οι παράγραφοι 1, 2, 3, 4 και 6 της υπ’ αριθμ. 297/36 τροπολογίας που έχει ενταχθεί στο σχέδιο νόμου ως άρθρο 11, οι παράγραφοι 1 και 2 της υπ’ αριθμ. 308/44 τροπολογίας που έχει ενταχθεί στο σχέδιο ως άρθρο 12, καθώς και οι υπ’ αριθμ. 294/33 (άρθρο 16 του σχεδίου), 288/27 (άρθρο 17 του σχεδίου) και 302/40 (άρθρο 20 του σχεδίου) τροπολογίες, θα αποτελέσουν ενιαίο άρθρο το οποίο θα ενταχθεί στο σχέδιο νόμου μετά το άρθρο 7 και θα λάβει αριθμό 8, υπό τον τίτλο "Ειδικές Ρυθμίσεις" και αντίστοιχα με παραγράφους 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.</p>
           <p>2. Η παράγραφος 5 της υπ’ αριθμ. 297/36 τροπολογίας (άρθρο 11 του σχεδίου νόμου), η παράγραφος 3 της υπ’ αριθμ. 308/44 τροπολογίας (άρθρο 12 του σχεδίου νόμου), καθώς και οι υπ’ αριθμ. 287/26 (άρθρο 13 του σχεδίου), 289/28 (άρθρο 14 του σχεδίου), 290/29 (άρθρο 15 του σχεδίου) και 230/25 (άρθρο 19 του σχεδίου νόμου) τροπολογίες θα αποτελέσουν ενιαίο άρθρο το οποίο θα λάβει αριθμό 9 υπό τον τίτλο "Θέματα Ιατρών" και αντίστοιχα με παραγράφους 1, 2, 3, 4, 5 και 6.</p>
@@ -402,65 +401,65 @@
           <p>8. Το τελευταίο άρθρο υπ’ αριθμ. 21 του σχεδίου νόμου θα λάβει αριθμό 15".</p>
           <p>Ευχαριστώ κύριε Πρόεδρε.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_16">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_16">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Ο κ. Κεφαλογιάννης έχει το λόγο.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_17">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_17">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε, θα ήθελα μερικές διευκρινήσεις εκ μέρους του κυρίου Υπουργού.</p>
           <p>Κύριε Υπουργέ, η τροπολογία που αναφέρεται στο ότι καταργείται το άρθρο 142 του νόμου 2071/92, είναι ασφαλώς η πρώτη, η εμπρόθεσμη τροπολογία η οποία είχε υπογραφεί από έναν και μόνο συνάδελφο και όχι η εκπρόθεσμος η οποία είχε υπογραφεί από τρεις συναδέλφους.</p>
         </speech>
-        <speech by="dimitrios_kremastinos" eId="debate_1994-03-01_speech_18">
+        <speech by="dimitrios_kremastinos" eId="debate_1994-03-01_1_speech_18">
           <from>ΔΗΜΗΤΡΙΟΣ ΚΡΕΜΑΣΤΙΝΟΣ</from>
           <p>Είναι η τροπολογία όπως ακριβώς ψηφίστηκε εκείνο το βράδυ, διότι δεν είχε γίνει δεκτή ακριβώς όπως είχε διατυπωθεί. Η αρχική διατύπωση ήταν: "Η διάταξη του άρθρου 142 του ν. 2071/92 καταργείται από της ισχύος της". Και στη συνέχεια άλλαξε και έγινε "Το άρθρο 142 του ν. 2071/92 καταργείται ...".</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_19">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_19">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Το λέγω αυτό γιατί είχαν κατατεθεί δύο τροπολογίες. Η μία ήταν εμπρόθεσμη και η άλλη εκπρόθεσμη. Συζητούμε για την εμπρόθεσμη τροπολογία;</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_20">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_20">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Δεν έχει καμία σημασία αυτό, κύριε Κεφαλογιάννη.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_21">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_21">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Μία άλλη διευκρίνηση θέλω, κύριε Υπουργέ. Θεσμοθετείτε ξεχωριστό άρθρο, δηλαδή αυτό που περιλαμβάνετε στο σημείωμα που μας δώσατε "2.Η παράγραφος 5 της υπ’ αριθμ. 297/36 τροπολογίας... θ’ αποτελέσουν ενιαίο άρθρο το οποίο θα λάβει αριθμό 9, υπό τον τίτλο "Θέματα ιατρών" και αντίστοιχα με παραγράφους 1,2,3,4,5 και 6" ,έτσι είχε διατυπωθεί κατά τη συζήτηση που έγινε εδώ;</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_22">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_22">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Κύριε Κεφαλογιάννη, με συγχωρείτε. Δεν είναι θέμα ουσίας. Εάν ήταν θέμα ουσίας, δε θα συζητούσαμε. Εδώ γίνεται μία νομοτεχνική διατύπωση. Συγκροτείται ένα άρθρο από τις παραγράφους αυτές που είναι σε διάφορες τροπολογίες .</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_23">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_23">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε, δεν έχουμε καμία αντίρρηση. Όμως απολύτως κανονικό δεν είναι, διότι αυτό θα έπρεπε να είχε ανακοινωθεί κατά τη συζήτηση του νομοσχεδίου και να ψηφισθεί από την Ολομέλεια της Βουλής. Πάντως δεν έχουμε καμία αντίρρηση να ψηφισθεί και στο σύνολο το νομοσχέδιο.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_24">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_24">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Πάντως σύμφωνα με τον Κανονισμό κατά την ψήφιση του νομοσχεδίου στο σύνολο, μπορούν να γίνουν νομοτεχνικές προσαρμογές.</p>
           <p>Ο κ. Κόρακας έχει το λόγο.</p>
         </speech>
-        <speech by="stratis_korakas" eId="debate_1994-03-01_speech_25">
+        <speech by="stratis_korakas" eId="debate_1994-03-01_1_speech_25">
           <from>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</from>
           <p>Κύριε Πρόεδρε, αναφορικά με αυτό που είπε ο κ. Κεφαλογιάννης, θέλω να πω, ότι η αρχική διάταξη έλεγε "το άρθρο 142 καταργείται" και τώρα λέγει " η διάταξη του άρθρου 142". Δεν έχω το άρθρο.</p>
         </speech>
-        <speech by="nikolaos_farmakis" eId="debate_1994-03-01_speech_26">
+        <speech by="nikolaos_farmakis" eId="debate_1994-03-01_1_speech_26">
           <from>ΝΙΚΟΛΑΟΣ ΦΑΡΜΑΚΗΣ</from>
           <p>Το αντίστροφο είναι τώρα, κύριε Κόρακα.</p>
         </speech>
-        <speech by="stratis_korakas" eId="debate_1994-03-01_speech_27">
+        <speech by="stratis_korakas" eId="debate_1994-03-01_1_speech_27">
           <from>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</from>
           <p>Καλώς.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_28">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_28">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Ερωτάται το Σώμα, εάν γίνεται δεκτό το νομοσχέδιο του Υπουργείου Υγείας, Πρόνοιας και Κοινωνικών Ασφαλίσεων και στο σύνολο, σύμφωνα και με τις νομοτεχνικές παρατηρήσεις και διορθώσεις του κυρίου Υπουργού.</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_29">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_29">
           <from>βουλευτης/ες</from>
           <p>Δεκτό, δεκτό.</p>
         </speech>
-        <speech by="stratis_korakas" eId="debate_1994-03-01_speech_30">
+        <speech by="stratis_korakas" eId="debate_1994-03-01_1_speech_30">
           <from>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</from>
           <p>Κατά πλειοψηφία.</p>
           <p>ΠΡΟΕΔΡΟΣ (Απόστολος Κακλαμάνης) Το νομοσχέδιο έγινε δεκτό και στο σύνολο κατά πλειοψηφία.</p>
@@ -653,74 +652,74 @@
           <p>Αθήνα, 1994</p>
           <p>ΟΙ ΥΠΟΥΡΓΟΙ</p>
           <p>ΟΙΚΟΝΟΜΙΚΩΝ ΕΡΓΑΣΙΑΣ ΥΓΕΙΑΣ, ΠΡΟΝΟΙΑΣ ΚΑΙ</p>
+          <p>ΚΟΙΝΩΝΙΚΩΝ ΑΣΦΑΛΙΣΕΩΝ</p>
         </speech>
-        <speech by="koinonikon_asfaliseon" eId="debate_1994-03-01_speech_31">
-          <from>ΚΟΙΝΩΝΙΚΩΝ ΑΣΦΑΛΙΣΕΩΝ</from>
-          <p>ΕΘΝΙΚΗΣ ΠΑΙΔΕΙΑΣ ΚΑΙ ΘΡΗΣΚΕΥΜΑΤΩΝ ΔΗΜΟΣΙΑΣ ΤΑΞΗΣ</p>
+        <speech by="ethnikis_paideias_kai_thriskeumaton_dimosias_taxis" eId="debate_1994-03-01_1_speech_31">
+          <from>ΕΘΝΙΚΗΣ ΠΑΙΔΕΙΑΣ ΚΑΙ ΘΡΗΣΚΕΥΜΑΤΩΝ ΔΗΜΟΣΙΑΣ ΤΑΞΗΣ</from>
           <p>ΠΡΟΕΔΡΟΣ (Απόστολος Κακλαμάνης): Κύριοι συνάδελφοι, παρακαλώ το Σώμα να εξουσιοδοτήσει το Προεδρείο για την υπεύθυνη του επικύρωση των Πρακτικών ως προς την ψήφιση του ως άνω νομοσχεδίου.</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_32">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_32">
           <from>βουλευτης/ες</from>
           <p>Μάλιστα, μάλιστα.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_33">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_33">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Το Σώμα παρέσχε τη ζητηθείσα εξουσιοδότηση.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_34">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_34">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Εισερχόμεθα στη συζήτηση επί της αρχής των άρθρων και του συνόλου του σχεδίου νόμου αρμοδιότητας Υπουργείου Εσωτερικών: "Κύρωση της 93/81/ ΕΥΡΑΤΟΜ, ΕΚΑΧ, ΕΟΚ, απόφασης του Συμβουλίου της 1ης Φεβρουαρίου 1993 για την τροποποίηση της Πράξης που αφορά την εκλογή των αντιπροσώπων στο Ευρωπαϊκό Κοινοβούλιο με άμεση καθολική ψηφοφορία, η οποία προσαρτάται στην απόφαση 76/787/ΕΚΑΧ, ΕΟΚ, ΕΥΡΑΤΟΜ του Συμβουλίου της 20ης Σεπτεμβρίου 1976, εκλογή αντιπροσώπων στο Ευρωπαϊκό Κοινοβούλιο, άσκηση του δικαιώματος του εκλέγειν και του εκλέγεσθαι κατά τις εκλογές του Ευρωπαϊκού Κοινοβουλίου από τους πολίτες της Ευρωπαϊκής Ένωσης που κατοικούν στην Ελλάδα και δεν είναι Έλληνες πολίτες, σε συμμόρφωση προς την 93/109/ΕΚ Οδηγία του Συμβουλίου της Ευρωπαϊκής Ένωσης και τροποποίηση του π.δ. 353/1993".</p>
           <p>Ο Εισηγητής της Πλειοψηφίας κ. Σταύρος Σουμάκης έχει το λόγο.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_35">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_35">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Κύριε Πρόεδρε, παρακαλώ να προηγηθώ.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_36">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_36">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Ο κύριος Υπουργός, κύριε Σουμάκη, έχει το λόγο. Περάστε στο Βήμα και στο μεταξύ θα μιλήσει ο κύριος Υπουργός.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_37">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_37">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Κύριε Πρόεδρε, για το χρόνο συζήτησης θα ήθελα να σας κάνω μια πρόταση. Στην Επιτροπή -και μπορούν να το διαβεβαιώσουν οι παριστάμενοι και των άλλων κομμάτων- είχαμε νομίζω μια σύμπνοια και μια ομόφωνη, κατά κάποιον τρόπο, προσέγγιση του περιεχομένου και των ρυθμίσεων, που προβλέπει αυτό το νομοσχέδιο.</p>
           <p>Θα πρότεινα λοιπόν, όσον αφορά τη διάρκεια συζήτησης, αν είναι δυνατόν...</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_38">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_38">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Κύριε Υπουργέ, με συγχωρείτε. Εδώ, όπως βλέπουμε, υπάρχει λογικό ενδιαφέρον του Σώματος. Δε νομίζω, ότι θα απασχοληθεί το Σώμα σε πολλές συνεδριάσεις με το νομοσχέδιο.</p>
           <p>Κατά συνέπεια, προχωρούμε με την κανονική διαδικασία και υποθέτω ότι, εντός της εβδομάδας, θα το έχουμε ψηφίσει.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_39">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_39">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Μόνη παράκληση -επειδή και στην Κοινοβουλευτική Επιτροπή είχα θέσει ότι προτίθεμαι να θέσω ως τροπολογία και ρύθμιση για το θέμα της πολιτιστικής πρωτεύουσας της Θεσσαλονίκης- να καταθέσω αύριο το πρωί αυτήν την τροπολογία ώστε να συζητηθεί μέσα στο συγκεκριμένο χρονικό διάστημα αυτής της εβδομάδας.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_40">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_40">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Ορίστε, κύριε Τζιτζικώστα.</p>
         </speech>
-        <speech by="georgios_tzitzikostas" eId="debate_1994-03-01_speech_41">
+        <speech by="georgios_tzitzikostas" eId="debate_1994-03-01_1_speech_41">
           <from>ΓΕΩΡΓΙΟΣ ΤΖΙΤΖΙΚΩΣΤΑΣ</from>
           <p>Κύριε Πρόεδρε να μας δώσετε τουλάχιστον χρόνο να μελετήσουμε αυτήν την τροπολογία.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_42">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_42">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Καλώς.</p>
           <p>Δεν υπάρχει αντίρρηση. Προχωρούμε.</p>
           <p>Κύριε Κεφαλογιάννη, κύριε Σκυλλάκο- από την Πολιτική Άνοιξη δεν είναι κανείς αυτήν τη στιγμή- νομίζω ότι μπορούμε να προχωρήσουμε και να καλύψουμε εντός της εβδομάδας το νομοσχέδιο και τις τροπολογίες του.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_43">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_43">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Συμφωνούμε, κύριε Πρόεδρε.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_44">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_44">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Συμφωνούμε.</p>
         </speech>
-        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_speech_45">
+        <speech by="apostolos_kaklamanis" eId="debate_1994-03-01_1_speech_45">
           <from>Απόστολος Κακλαμάνης</from>
           <p>Ο κ. Σουμάκης έχει το λόγο.</p>
         </speech>
-        <speech by="stauros_soumakis" eId="debate_1994-03-01_speech_46">
+        <speech by="stauros_soumakis" eId="debate_1994-03-01_1_speech_46">
           <from>ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ</from>
           <p>Κύριε Πρόεδρε, κυρίες και κύριοι συνάδελφοι, έχω την τιμή να εισηγούμαι το παρόν σχέδιο νόμου, που η Κυβέρνηση σήμερα φέρνει ενώπιόν σας και που αφορά τον τρόπο διεξαγωγής των προσεχών ευρωεκλογών.</p>
           <p>Με το παρόν σχέδιο νόμου, συντελείται μια ουσιαστική αλλαγή στη διαδικασία διενέργειας των εκλογών για το Ευρωπαϊκό Κοινοβούλιο στη Χώρα μας. Περιέχει τις απαραίτητες νομοθετικές ρυθμίσεις, που προσαρμόζουν τις διαδικασίες εκλογής με εκείνες της βούλησης του Ευρωπαϊκού Συμβουλίου, κυρώνοντας αποφάσεις και οδηγίες του, υλοποιώντας όμως και σημαντικές αποφάσεις της Κυβέρνησης για τον τρόπο διεξαγωγής των εκλογών προς ανάδειξη των Ελλήνων Ευρωβουλευτών στο Ευρωπαϊκό Κοινοβούλιο.</p>
@@ -733,13 +732,12 @@
           <p>Διαπιστώνει κανείς ότι, μέσα απ’ αυτήν τη διαρκή εξέλιξη της Ευρωπαϊκής Ένωσης, το Ευρωπαϊκό Κοινοβούλιο από τα πρώτα 78, ας πούμε διορισμένα μέλη, θα φθάσει τα 564 μετά τις προσεχείς ευρωεκλογές. Και πρέπει να τονίσουμε κάτι που πολλές φορές διαφεύγει της προσοχής. Ότι το Ευρωπαϊκό Κοινοβούλιο αποτελεί ένα μοναδικό πολυεθνικό δημοκρατικό θεσμό, τα μέλη του οποίου εκλέγονται με άμεσες και ελεύθερες εκλογές, ταυτόχρονα σε όλες τις χώρες μέλη, κάθε 5 χρόνια.</p>
           <p>Κυρίες και κύριοι συνάδελφοι, η διαρκής αυτή εξέλιξη ανάγκασε το Συμβούλιο των Υπουργών την 1-2-1993 να λάβει την υπ’ αριθμ. 93/81 απόφαση, η κύρωση της οποίας επιχειρείται με την ψήφιση του παρόντος σχεδίου νόμου.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Δ’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΟΛΑΟΣ ΚΑΤΣΑΡΟΣ)
-</scene>
-        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_speech_47">
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Δ’ Αντιπρόεδρος της Βουλής κ. ΝΙΚΟΛΑΟΣ ΚΑΤΣΑΡΟΣ)</scene>
+        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_1_speech_47">
           <from>Νικόλαος Κατσαρός</from>
           <p>Ο Εισηγητής της Νέας Δημοκρατίας, κ. Τζιτζικώστας, έχει το λόγο.</p>
         </speech>
-        <speech by="georgios_tzitzikostas" eId="debate_1994-03-01_speech_48">
+        <speech by="georgios_tzitzikostas" eId="debate_1994-03-01_1_speech_48">
           <from>ΓΕΩΡΓΙΟΣ ΤΖΙΤΖΙΚΩΣΤΑΣ</from>
           <p>Κύριοι συνάδελφοι, το υπό συζήτηση νομοσχέδιο ρυθμίζει πέντε κύρια θέματα.</p>
           <p>Το πρώτο είναι η κύρωση της από 1.2.1993 απόφασης του Συμβουλίου της Ευρωπαϊκής Ενώσεως δια του οποίου ανακαθορίζεται ο αριθμός των εδρών στο Ευρωκοινοβούλιο.</p>
@@ -759,19 +757,19 @@
           <p>Εμείς θα προτιμούσαμε να έγραφε ξεκάθαρα τρεις λέξεις "ετεροδημότης δεν ψηφίζει", εφόσον έχει ακολουθηθεί αυτήν τη διαδικασία. Έτσι θα είναι ξεκάθαρο και για τους εκλογικούς αντιπροσώπους και για όλο τον κόσμο που θα βρίσκεται στο χώρο και στο κατάστημα της ψηφοφορίας, ότι δεν μπορεί πλέον να ψηφίσει, γιατί έχει ακολουθήσει τη διαδικασία η οποία προβλέπεται από τα σχετικά άρθρα του παρόντος νομοσχεδίου, οπότε θα έχει ψηφίσει ως ετεροδημότης. Αυτό θα μας γλιτώσει ίσως από περιπλοκές, οι οποίες μπορεί να δημιουργηθούν, εάν μερικοί θερμόαιμοι σκεφθούν ότι θα μπορούσαν να είχαν διπλοψηφίσει και να βοηθήσουν το κόμμα τους με δύο ψήφους.</p>
           <p>Κυρίες και κύριοι συνάδελφοι, νομίζω ότι το υπό συζήτηση νομοσχέδιο μας βρίσκει σύμφωνους και τα υπόλοιπα θέματα, τα οποία παρουσιάζονται, θα τα συζητήσουμε στην κατ’ άρθρο συζήτηση. Σας ευχαριστώ.</p>
         </speech>
-        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_speech_49">
+        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_1_speech_49">
           <from>Νικόλαος Κατσαρός</from>
           <p>Από την Πολιτική Άνοιξη, ποιος θα μιλήσει;</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_50">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_50">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Εγώ, κύριε Πρόεδρε, αλλά θα ήθελα να μιλήσω πιο ύστερα.</p>
         </speech>
-        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_speech_51">
+        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_1_speech_51">
           <from>Νικόλαος Κατσαρός</from>
           <p>Ο Κοινοβουλευτικός Εκπρόσωπος του ΚΚΕ, κ. Σκυλλάκος, έχει το λόγο.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_52">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_52">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Η ΕΟΚ και όπως σήμερα ονομάζεται Ευρωπαϊκή Ένωση, δεν είναι μόνο μία Ένωση των πολυεθνικών και των πολιτικών τους εκπροσώπων για να επιταχύνουν τους ρυθμούς της όποιας ανάπτυξης, προς όφελος τους και όχι προς όφελος των λαών. Δηλαδή δεν έχει μόνο οικονομικούς στόχους, αλλά χρειάζεται και άλλα μέσα για να πετύχει αυτούς τους οικονομικούς στόχους, ακόμη και τους στόχους στην κοινή εξωτερική πολιτική και στην κοινή άμυνα που και αυτοί οι στόχοι της εξωτερικής πολιτικής υπηρετούν τους οικονομικούς στόχους των πολυεθνικών. Είναι ένας μηχανισμός, που δεν πρέπει να το κρύβουμε, πολύ αντιδημοκρατικός. Καμία σχέση με τον κοινοβουλευτισμό, όπως τον γνωρίσαμε εκατοντάδες χρόνια και στη Χώρα μας, αλλά και σε άλλες χώρες από παλιότερα.</p>
           <p>Ποιος αποφασίζει για τα μεγάλα θέματα; Αποφασίζει το Ευρωκοινοβούλιο. Αφαιρούνται αρμοδιότητες από τα Εθνικά Κοινοβούλια και τις παίρνουν αυτό τις αρμοδιότητες αυτές.</p>
@@ -786,19 +784,19 @@
           <p>Το πολιτικό συμπέρασμα που μπορούμε να βγάλουμε είναι το εξής: Η Νέα Δημοκρατία έχει τη δική της λογική. Το ίδιο και η Πολιτική Άνοιξη. Το ΠΑ.ΣΟ.Κ. όμως λέει ότι δεν είναι καλό το Μάαστριχτ όσο θα ήθελε και ότι έχει σχέση με το Μάαστριχτ, αλλά αυτό μπορεί να αλλάξει στη πορεία με τη μεταρρύθμιση που μπορεί να γίνει το 1996 ή εάν επικρατήσουν σε ολόκληρη την Ευρώπη σοσιαλιστικές κυβερνήσεις. Είχατε όμως δέσμευση για την απλή αναλογική. Τώρα χωρίς να υπάρχει λόγος έρχεσθε και την καταργείτε. Το συμπέρασμα είναι ότι η Σοσιαλδημοκρατία και το ΠΑ.ΣΟ.Κ. υποτάσσονται στη λογική των κυρίαρχων κύκλων της ΕΟΚ σε όλα τα ζητήματα, ακόμα και σε επιμέρους.</p>
           <p>Εδώ θα πρέπει να σημειώσουμε ότι βάζετε και το όριο 5%, για να αποκλεισθεί η πιθανότητα συνένωσης δυνάμεων μικρότερων κομμάτων. Δηλαδή ένα κόμμα που έχει 15% και ένα άλλο που έχει 20% μπορούν να κάνουν συμμαχία για να εκπροσωπηθούν στο Κοινοβούλιο. Τα μικρότερα δεν μπορούν να το κάνουν αυτό. Είναι αυτό πλουραλισμός; Όχι. Αυτή είναι λοιπόν η βασική μας αντίθεση και γι’ αυτό καταψηφίζουμε το παρόν νομοσχέδιο.</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_53">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_53">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Ολόκληρο το καταψηφίζετε;</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_54">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_54">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Υπάρχουν και τα άρθρα. Τώρα μιλάμε επί της αρχής.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_55">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_55">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Στην Επιτροπή άλλη ήταν η θέση σας.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_56">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_56">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Σήμερα συζητάμε επί της αρχής. Από τη στιγμή που καταργείτε την απλή αναλογική και βάζετε πλαφόν, θα ψηφίσουμε κατά της αρχής. Τις διατάξεις που έχουν σχέση με τους ετεροδημότες παρά τις επιφυλάξεις μας θα τις ψηφίσουμε.</p>
           <p>Υπάρχει και άλλη διάταξη που έχει σχέση με το δικαίωμα ψήφου των αλλοδαπών στην Ελλάδα. Η αντίθεσή μας εδώ δεν είναι τόσο επί της ουσίας, γιατί από τη στιγμή που είσαι στην Ευρωπαϊκή Ένωση είσαι αναγκασμένος να ακολουθήσεις αυτές τις διατάξεις. Η αντίθεσή μας είναι από θέση αρχής για το πώς βλέπουμε εμείς τη λαϊκή κυριαρχία. Βλέπουμε ότι συνεχώς συρρικνώνεται η λαϊκή κυριαρχία όπως και η εθνική ανεξαρτησία μας. Το Ελληνικό Κοινοβούλιο χάνει συνεχώς αρμοδιότητες και ο Έλληνας πολίτης παύει να μεταδίδει τη γνώμη του μέσω των εκπροσώπων του στα κέντρα λήψης των αποφάσεων.</p>
@@ -807,68 +805,68 @@
           <p>Άλλη παρατήρηση είναι για την υποχρεωτικότητα της ψηφοφορίας.</p>
           <p>Χθες ήμουν με τον Πρόεδρο του Γαλλικού Κοινοβουλίου και ήταν και οι συνεργάτες του, οι οποίοι με ρώτησαν τι θα γίνει με τις εκλογές. Τους είπα ότι είναι υποχρεωτικές οι εκλογές και τους φάνηκε πολύ παράξενο. Είμαστε ίσως η μοναδική χώρα στην Ευρώπη που βάζουμε την υποχρεωτικότητα και μάλιστα τόσο γενικευμένη ...</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_57">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_57">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Στο Σύνταγμα όμως.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_58">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_58">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Στο Σύνταγμα. Αλλά υπάρχει και νόμος που είναι συνταγματικός -δεν είναι αντισυνταγματικός- που λέει ότι όταν είναι η απόσταση πάνω από 200 χιλιόμετρα μπορεί και να μην ψηφίσει.</p>
           <p>Υπάρχει το ερώτημα: Ως τις 24 του μηνός που πρέπει να τρέξουν στους δήμους και στις κοινότητες και στις νομαρχίες να καταθέσουν τις αιτήσεις τους, για να μπορούν να ψηφίσουν στον τόπο κατοικίας και όχι στον τόπο που είναι γραμμένοι, θα προλάβει το σύνολο των ετεροδημοτών; Εσείς υπολογίζετε με στοιχεία του Υπουργείου ότι θα προλάβει το 10% με 15%. Με τον υπόλοιπο κόσμο τι θα γίνει; Είναι υποχρεωμένοι να πάνε 200, 400, 500 χιλιόμετρα; Και έβαλα το εξής ζήτημα: Ποιος θα πληρώσει αυτά τα έξοδα; Τουλάχιστον ας βγείτε σήμερα να πείτε ότι "θα πάτε στην Κρήτη, θα πάτε στην Αλεξανδρούπολη, δωρεάν, όλοι". Διότι δεν μπορείς να τον απειλείς τον άλλον με φυλάκιση, να τον απειλείς ότι δεν θα πάρει διαβατήριο ή με άλλα διοικητικά μέτρα και να μη του δίνεις τη δωρεάν διακίνηση. Ή θα πρέπει να επανέλθετε σ’ αυτό που ισχύει με τις εκλογές του Ελληνικού Κοινοβουλίου, ότι σε απόσταση πάνω από 200 χιλιόμετρα δεν είναι υποχρεωτικό. Μπλέκουμε και με άλλα ζητήματα που ίσως θα έπρεπε να μας τα εξηγήσετε. Έτσι όπως είναι διατυπωμένο, υποχρεώνει και τους μετανάστες.</p>
           <p>Είναι υποχρεωτικό και για το μετανάστη. Ένας που μένει στην τάδε πόλη και δεν πάει να ψηφίσει γιατί είναι μεγάλες οι αποστάσεις, θα απειλείται και αυτός με ποινή φυλάκισης; Θα απειλείται και αυτός με το να του αφαιρέσουμε το διαβατήριο; Δεν έχει ξεκαθαριστεί στην επιτροπή αυτό.</p>
         </speech>
-        <speech by="apostolos_athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_59">
+        <speech by="apostolos_athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_59">
           <from>ΑΠΟΣΤΟΛΟΣ ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Το συζητήσαμε στην επιτροπή αυτό.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_60">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_60">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Το συζητήσαμε, αλλά δεν πήραμε απάντηση.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_61">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_61">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Εξαιρείται ρητώς. Σας το είπα.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_62">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_62">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Δεν εξαιρείται ρητώς. Αν το προσέξετε νομοτεχνικά, δεν εξαιρείται ρητώς.</p>
           <p>Έχουμε δύο-τρεις επιμέρους παρατηρήσεις τις οποίες θα συζητήσουμε και στα άρθρα. Ποιες είναι αυτές; Πρώτον, δεν εξασφαλίζεται ότι ο αλλοδαπός που θα ψηφίσει θα έχει δικαίωμα ψήφου. Στηρίζεστε μόνο σε υπεύθυνη δήλωση. Σε τίποτα άλλο. Ούτε να φέρει το διαβατήριο, μόνο να δείξει την ταυτότητα ή το διαβατήριο. Δε φέρνει εκλογικό βιβλιάριο ή εκλογική κάρτα που έχει εκεί. Ενώ για να βάλει υποψηφιότητα κάποιος ξένος του ζητάμε πιστοποιητικό από την πατρίδα του ότι δεν έχει εκπέσει του δικαιώματος του εκλέγεσθαι, για το δικαίωμα του εκλέγειν στο άρθρο 4 παρ.3α -αν το προσέξετε- γίνεται με υπεύθυνη δήλωση και στο άρθρο 4 παρ.3β χρειάζεται μόνο αποδεικτικό ταυτότητας. Και στο άρθρο 5 παρ.2β χρειάζεται βεβαίωση των αρμόδιων διοικητικών αρχών από τη χώρα που προέρχεται, ότι δεν εξέπεσε του δικαιώματος του εκλέγεσθαι.</p>
           <p>Η δεύτερη παρατήρηση είναι για το αν έχει τη δυνατότητα να διπλοψηφίσει. Ούτε αυτό εξασφαλίζεται. Διότι λέει ότι θα ψηφίσει στην Ελλάδα και αφού δεν του έχουμε πάρει το γαλλικό ή το ιταλικό διαβατήριο, ή δεν το έχουμε σημειώσει στο διαβατήριο ότι ψήφισε στην Ελλάδα, μπορεί να πεταχθεί στην Ελλάδα και να ψηφίσει και σε μία άλλη χώρα. Δεν προβλέπεται τίποτα.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_63">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_63">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Θα έχουμε τέτοια περίπτωση;</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_64">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_64">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Εγώ δε λέω ότι θα έχουμε. Πιστεύω ότι θα είναι ελάχιστοι οι αλλοδαποί που θα ψηφίσουν αυτήν τη φορά στη Χώρα μας. Και ίσως να μη είναι κανένας που θα διπλοψηφίσει. Αλλά φτιάχνουμε ένα νόμο και ο νόμος αυτός πρέπει να είναι σωστός. Πρέπει να προσεχθούν αυτά τα ζητήματα. Δεν αποτελούν λόγο αυτά για να καταψηφίσουμε τις σχετικές διατάξεις, απλώς το επισημαίνουμε, γιατί όλοι ενδιαφερόμαστε -νομίζω- να μην υπάρχουν παραθυράκια.</p>
           <p>Τέλος υπάρχει το εξής, στο οποίο μου απαντήσατε γενικά. Αποφύγατε ουσιαστικά την απάντηση για τους αλλοδαπούς που θα ψηφίζουν με ειδικές καταστάσεις, και για τους δημόσιους υπάλληλους που θα ψηφίζουν με το βιβλιάριο.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_65">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_65">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Με ειδικούς καταλόγους.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_66">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_66">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Με ειδικούς καταλόγους, αλλά χωρίς βιβλιάριο.</p>
           <p>Για τις Ευρωεκλογές μιλάμε. Γιατί άλλη στάση να κρατούμε για τους αλλοδαπούς και άλλη στάση για τους δημόσιους υπαλλήλους;</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_67">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_67">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Είναι δύο διαφορετικά πράγματα.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_68">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_68">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Δεν είναι δύο διαφορετικά πράγματα. Είναι με ειδικές καταστάσεις η μία κατηγορία και με ειδικές καταστάσεις η άλλη. Όταν την έχει στην υπηρεσία του κάποιος, μπορεί να πάρει το βιβλιάριο και να πάει να ψηφίσει αλλού. Ενώ έτσι, έρχεται με το βιβλιάριο ο δημόσιος υπάλληλος, βάζουμε επάνω τη σφραγίδα ότι ψήφισε και δυσκολεύεται μετά να πάει να ψηφίσει αλλού. Πρέπει να σχίσει το χαρτί, ή να αλλοιώσει το βιβλιάριο για να μπορέσει να πάει να ψηφίσει. Είναι αίτημα που υποβάλαμε και παλαιότερα και στις προηγούμενες εκλογές επί Νέας Δημοκρατίας. Θα μπορούσατε να δεχθείτε αυτές τις παρατηρήσεις, να τις προσέξετε για να μην υπάρχουν παραθυράκια.</p>
           <p>Καταλήγοντας θέλω να πω το εξής: Το θέμα του πλαφόν και του δικαιώματος να ψηφίζουν οι αλλοδαποί είναι οι αιτίες που καταψηφίζουμε επί της αρχής το νομοσχέδιο. Τις άλλες διατάξεις, που ίσως μπορούν κάπως να βελτιωθούν σε ορισμένα σημεία που έχουν σχέση με τους ετεροδημότες, θα τις ψηφίσουμε. Πρέπει όμως να σημειώσουμε ότι το θέμα των ετεροδημοτών πρέπει να λυθεί ριζικά με τη μηχανοργάνωση, με κάρτα εκλογέα, όπως γίνεται στο εξωτερικό, για να εξασφαλιστεί πλήρως αυτό το δικαίωμα σε όλους. Ευχαριστώ.</p>
         </speech>
-        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_speech_69">
+        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_1_speech_69">
           <from>Νικόλαος Κατσαρός</from>
           <p>Κύριοι συνάδελφοι, έχω την τιμή να ανακοινώσω στο Σώμα, ότι, η Διαρκής Επιτροπή Κοινωνικών Υποθέσεων καταθέτει την έκθεσή της στην πρόταση νόμου αρμοδιότητας του Υπουργείου Εργασίας "Κύρωση της 151 Διεθνούς Σύμβασης Εργασίας για την προστασία του δικαιώματος οργάνωσης και της διαδικασίας καθορισμού των όρων απασχόλησης στη Δημόσια Διοίκηση".</p>
           <p>Επίσης έχω την τιμή να σας ανακοινώσω ότι, ο Κοινοβουλευτικός Εκπρόσωπος της Πολιτικής Άνοιξης κ. Νικήτας Κακλαμάνης, ορίζει ως Ειδικό Αγορητή για τη συζήτηση του παρόντος νομοσχεδίου το Βουλευτή κ. Λεντάκη.</p>
           <p>Ο κ. Λεντάκης έχει το λόγο.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_70">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_70">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Κύριε Πρόεδρε, η συζήτηση πάνω στο σημερινό νομοσχέδιο ουσιαστικά αφορά την προσχώρηση της Ελλάδος σε μία διεθνή σύμβαση. Πρόκειται να κυρώσουμε μία σύμβαση η οποία ισχύει για όλα τα κράτη-μέλη της ΕΟΚ. Συνεπώς είναι μία αντίστοιχη προσαρμογή της δικής μας νομοθεσίας, ώστε να μπορούν οι Έλληνες πολίτες αλλά και οι αλλοδαποί οι οποίοι διαμένουν στην Ελλάδα να ψηφίζουν στις Ευρωεκλογές, όπως και οι Έλληνες πολίτες που διαμένουν στο εξωτερικό, στις χώρες δηλαδή της Ευρωπαϊκής Ένωσης αντίστοιχα, να μπορούν να ψηφίζουν.</p>
           <p>Επομένως, ουσιαστικά δεν μπορεί να υπάρξει καμία διαφωνία πάνω σ’ αυτόν τον τομέα. Η προσχώρηση αυτή είναι και υποχρεωτική και αυτονόητη και είναι λογικό να μην διαφωνήσουμε επ’ αυτού. Τα σημεία, όμως, που θα ήθελα να επισημάνω και που χρήζουν ιδιαίτερης προσοχής και ρυθμίσεως είναι δύο.</p>
@@ -879,36 +877,36 @@
           <p>Το ίδιο ισχύει και για την περίπτωση των εκλογικών καταλόγων, όσον αφορά τους δημοσίους υπαλλήλους, οι οποίοι ψηφίζουν με καταστάσεις και όχι με το βιβλιάριό τους, οπότε τους δίνεται η δυνατότητα να ψηφίσουν με την εκλογική κατάσταση εδώ το πρωί, να φύγουν με το αυτοκίνητό τους και να πάνε κάπου αλλού να ψηφίσουν. Δε λέμε να πάρουν το αεροπλάνο, γιατί και με το αυτοκίνητο μπορούν να φθάσουν σε ένα κοντινό μέρος και να ψηφίσουν.</p>
           <p>Άρα να ψηφίζει και ο δημόσιος υπάλληλος με το βιβλιάριο και όχι απλώς με εκλογικές καταστάσεις. Θα είναι εγγεγραμμένος στην εκλογική κατάσταση, ότι είναι δημόσιος υπάλληλος και θα μπει η σφραγίδα ότι ψήφισε. Κατά συνέπεια, δεν θα μπορεί να κάνει διπλοψηφία, διότι θα φαίνεται ότι έχει ψηφίσει ή θα πρέπει να αφαιρέσει φύλλα, πράγμα που θα αποκαλυφθεί. Ταυτοχρόνως να υπάρχει η ποινή, όπως είπα προηγουμένως, η οποία θα είναι βαρύτατη και κατά συνέπεια θα σκεφθεί πάρα πολύ να προβεί σε μία τέτοια παραβίαση.</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_71">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_71">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Μου επιτρέπετε μία διακοπή;</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_72">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_72">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Βεβαιότατα.</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_73">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_73">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Να διευκρινίσω για τους δημοσίους υπαλλήλους, για να μην γίνει καμία παρανόηση. Είναι γνωστό, πως όσοι ψηφίζουν με καταστάσεις, τα βιβλιάριά τους παρακρατούνται από τις υπηρεσίες τους, σφραγίζονται και παραδίδονται μετά τις εκλογές. Αυτό είναι πάγια τακτική από την πάγια εκλογική νομοθεσία. Επομένως, δεν ισχύει αυτό που λέτε, ότι μπορεί να πάει να ψηφίσει με το βιβλιάριό του, γιατί δεν το έχει.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_74">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_74">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Μπορεί. Επειδή τελικά θα πρέπει να έχουμε διατάξεις, οι οποίες θα διασφαλίζουν την εγγύηση ότι δε θα χρησιμοποιηθούν...</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_75">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_75">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Θα μπορούσαμε να έχουμε έναν αστυνόμο δίπλα σε έναν ψηφοφόρο τότε! Θέμα συνείδησης είναι αυτό.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_76">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_76">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Να ψηφίζουν με το βιβλιάριό τους. Γιατί να παρακρατείται από κάποια υπηρεσία; Και πού ξέρω εγώ αν αυτή η υπηρεσία δεν μπορεί να δώσει κάποια βιβλιάρια επιλεκτικά σε ορισμένους και να πάνε να ψηφίσουν; Δεν έχω εμπιστοσύνη σε αυτό το σημείο. Στην Ελλάδα βρισκόμαστε και γνωρίζουμε τα πάντα και πώς γίνονται.</p>
           <p>Είναι γεγονός αυτό που λέτε, ότι παρακρατούνται από την υπηρεσία τα βιβλιάρια. Όμως, επιλεκτικά, η υπηρεσία μπορεί να δώσει σε κάποιους τα βιβλιάρια και να πάνε στον τόπο προελεύσεως και να ψηφίσουν και εκεί.</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_77">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_77">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Τότε μιλάμε για συνωμοσία και δε μιλάμε για ψηφοφορία!</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_78">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_78">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Βεβαίως.</p>
           <p>Κοιτάξτε, η νομοθεσία θα πρέπει να υπάρχει. Καλός είναι ο αγιασμός, αλλά να έχουμε και μία γάτα! Δηλαδή, θα πρέπει να διασφαλίζουμε τα πάντα. Εδώ νομοθετούμε. Δεν μπορούμε να αποκλείουμε εμείς τη δυνατότητα αυτή. Επειδή, λοιπόν, δεν μπορεί να αποκλεισθεί αυτή η δυνατότητα, θα πρέπει να την αποκλείουμε νομοθετικά.</p>
@@ -917,19 +915,19 @@
           <p>Θα κάνω μία ερώτηση και θα ήθελα την απάντησή σας εδώ, κύριε Υπουργέ, γιατί θα βοηθήσει. Το ότι καθιερώνεται για πρώτη φορά το δικαίωμα των ετεροδημοτών να ψηφίζουν στον τόπο κατοικίας τους τώρα και να μην πηγαίνουν στον τόπο προελεύσεως, αυτό θα επεκταθεί και για τις εθνικές εκλογές; Το λέω γιατί εδώ ψηφίζουμε τώρα μόνο για τις Ευρωεκλογές. Θα ήταν καλό να επεκταθεί και για τις εθνικές εκλογές, ώστε να έχουμε μία ρύθμιση, η οποία θα δίνει αυτή τη δυνατότητα.</p>
           <p>Ένα άλλο ερώτημα που μπαίνει είναι το εξής: Οι Έλληνες οι οποίοι δεν κατοικούν στην Ευρώπη, που έχουν δικαίωμα ψήφου και κατοικούν στην Αφρική, στην Αμερική, θα μπορούν να ψηφίσουν; Βάσει του νόμου, νομίζω ότι απαγορεύεται, γιατί δεν είναι σε χώρες της ΕΟΚ.</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_79">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_79">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Ναι.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_80">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_80">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Όμως, στις εθνικές εκλογές, π.χ. στη Γαλλία, που οι Γάλλοι του εξωτερικού ψηφίζουν για τις γαλλικές εκλογές, τώρα θα ψηφίσουν στις Ευρωεκλογές οι Γάλλοι υπήκοοι που είναι εκτός ευρωπαϊκού χώρου;</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_81">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_81">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Μόνο αυτοί που βρίσκονται σε χώρα της Ευρωπαϊκής Ένωσης.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_82">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_82">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Άρα, είναι γενική ρύθμιση για όλους. Εφόσον είναι γενική ρύθμιση για όλους, άρα για μας δεν μπορεί να ισχύσει μία εξαίρεση.</p>
           <p>Συμφωνούμε, αλλά το μόνο που θα ήθελα να επισημάνω είναι ότι, ενώ βαδίζουμε προς την Ευρωπαϊκή Ένωση -και λέω βαδίζουμε και επιμένω, γιατί είμαι αρκετά σκεπτικιστής, σήμερα κιόλας είχαμε ενέργειες μελών και εκπροσώπων της Ευρωπαϊκής Ένωσης κατά της Ελλάδος- και ενώ υποτίθεται ότι πρέπει να θεσμοθετήσουμε αυτήν την ενιαία ιθαγένεια, τον ενιαίο ευρωπαϊκό χώρο, το ενιαίο κράτος, που θα έχει ενιαία πολιτική και εξωτερική και αμυντική, εν τούτοις οι εταίροι είναι συντεταγμένοι με τον Γκλιγκόροφ, εναντίον της Ελλάδος και εκφράζουν με κάθε τρόπο αυτήν την αντίθεσή τους.</p>
@@ -938,11 +936,11 @@
           <p>Εν τούτοις, ξέρουμε ότι οι ενώσεις αυτές ορισμένες φορές αρχίζουν να δρουν αυτονόμως, με δικό τους κριτήριο, οπότε θα πρέπει να υπάρχει μία αντίστοιχη εγρήγορση και από τα Εθνικά Κοινοβούλια ώστε να μην υποστούν μειώσεις. Αυτή είναι μία γενικότερη παρατήρηση.</p>
           <p>Συμφωνούμε και θα το ψηφίσουμε.</p>
         </speech>
-        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_speech_83">
+        <speech by="nikolaos_katsaros" eId="debate_1994-03-01_1_speech_83">
           <from>Νικόλαος Κατσαρός</from>
           <p>Ο κ. Νιώτης έχει το λόγο.</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_84">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_84">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Κύριε Πρόεδρε, κύριοι συνάδελφοι, μπορεί το φερόμενο προς συζήτηση σήμερα νομοσχέδιο να έχει κυρίως διαδικαστικό χαρακτήρα ή να έχει ουσιαστικά το χαρακτήρα κύρωσης υποχρεωτικών διατάξεων από πλευράς Ευρωπαϊκής Ένωσης, σύμφωνα με τις διατάξεις της ήδη κυρωθείσας από εμάς συμβάσεως και συνθήκης του Μάαστριχτ. Είναι, όμως, ένα σημαντικό νομοθέτημα, γιατί εμπεριέχει διατάξεις οι οποίες εισάγονται, ανακατανέμουν τη δομή και τους θεσμούς και σηματοδοτούν τη νέα προοπτική και τη σχέση της Πατρίδας μας με την Ευρωπαϊκή Ένωση. Γι’ αυτό είναι άξιο σχολιασμού.</p>
           <p>Ήδη οι προλαλήσαντες αναφέρθηκαν αναλυτικά στα βασικά σημεία του νομοθετήματος. Θα ήθελα να αναφερθώ και εγώ στο πρώτο ζήτημα το οποίο θέτει το παρόν νομοσχέδιο, δηλαδή στον ανακαθορισμό των εδρών. Εκείνο που είναι αξιόλογο να σχολιάσει κανείς και αποτελεί σημαντική πρόοδο για τα δεδομένα της Ευρωπαϊκής Ένωσης είναι πώς για πρώτη φορά αυτή η συντελούμενη ανακατανομή θεσμοθετείται με κριτήριο αναλογικό και αντικειμενικό, δηλαδή τον πληθυσμό κάθε κράτους, και όχι με το σωρευτικό και πάντως μονοδιάστατο κριτήριο των μεγάλων κρατών, που μέχρι σήμερα ίσχυε ισοπεδωτικά για τις μεγάλες κρατικές οντότητες της Ευρωπαϊκής Ένωσης, βεβαίως πριν από το Μάαστριχτ. Είναι μία πρόοδος. Σηματοδοτώ και καταγράφω αυτό το κριτήριο, δηλαδή ότι η ανακατανομή γίνεται με αντικειμενικό και αποδεκτό τρόπο με βάση τον πληθυσμό.</p>
@@ -956,14 +954,13 @@
           <p>Και εδώ, κύριοι συνάδελφοι, το ερώτημα που τίθεται είναι ο ρόλος του Εθνικού Κοινοβουλίου σε σχέση με το Ευρωπαϊκό Κοινοβούλιο. Σήμερα με τη λογική που έχει η Κυβέρνηση και είναι μια σημαντική ευκαιρία, μπορούμε να επηρεάσουμε τα πράγματα στην κατεύθυνση μιας καλύτερης συνεργασίας του Εθνικού Κοινοβουλίου με το Ευρωπαϊκό Κοινοβούλιο. Χρειαζόμαστε ρόλους που να προκύπτουν μέσα από θεσμικά κατοχυρωμένες διαδικασίες ώστε και οι ντιρεκτίβες και οι οδηγίες τουλάχιστον ενημερωτικά να έρχονται σε ειδική διαδικασία ενώπιον των εθνικών κοινοβουλίων, αλλά και οι επιτροπές να συνεργάζονται πολύ πιο τακτικά με το Ευρωπαϊκό Κοινοβούλιο και με τα όργανα της Κομισιόν.</p>
           <p>Σε ότι αφορά το πλαφόν του 3 ή 5% για τις ενστάσεις που τέθηκαν η γνώμη μου είναι μια απλούστευση ενός δημοκρατικού πλαισίου, ότι δηλαδή θα έπρεπε να αφήσουμε και τις μικρότερες δυνάμεις μέσα στην Ευρώπη να καταγράφονται, ίσως είναι υπερβολή, γιατί υπάρχει η δυνατότητα μιας ελεύθερης έκφρασης και συσπείρωσης αυτών των μικρών δυνάμεων στην Ευρώπη μέσα από συνασπισμούς. Άλλωστε και τώρα έτσι λειτουργούν στο Ευρωπαϊκό Κοινοβούλιο. Δε θέλω να κάνω ιδιαίτερη αναφορά για το ποια εθνική σημασία έχει και ίσως δεν το έχει καταλάβει ή δε θέλει να το καταλάβει ο εκπρόσωπος του Κ.Κ.Ε.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)
-</scene>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_85">
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Ε Αντιπρόεδρος της Βουλής κ. ΝΙΚΗΤΑΣ ΒΕΝΙΖΕΛΟΣ)</scene>
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_85">
           <from>Νικήτας Βενιζέλος</from>
           <p>Το Προεδρείο έλαβε την εξής επιστολή από τη Νέα Δημοκρατία: "Σας γνωρίζω ότι Kοινοβουλευτικός Eκπρόσωπος της Νέας Δημοκρατίας στο νομοσχέδιο για τις ευρωεκλογές ορίζεται ο Βουλευτής κ. Ιωάννης Κεφαλογιάννης". Υπογράφει ο Πρόεδρος της Νέας Δημοκρατίας, κ. Μιλτιάδης Έβερτ.</p>
           <p>Ο Υπουργός Εσωτερικών έχει το λόγο.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_86">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_86">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Κύριε Πρόεδρε, κυρίες και κύριοι συνάδελφοι, η εισήγηση του συναδέλφου κ. Σουμάκη παρουσιάζοντας τη φιλοσοφία του σχεδίου νόμου το οποίο συζητάμε σήμερα νομίζω ότι ήταν πλήρης, ολοκληρωμένη, λεπτομερειακή όσον αφορά τις αλλαγές που προωθούμε, ώστε να μη χρειάζεται από την πλευρά τη δική μου να προσθέσω πολλά στα όσα ο συνάδελφος μου έχει αναφερθεί.</p>
           <p>Επιτρέψτε μου όμως να τονίσω με 2-3 παρατηρήσεις το τι επιτυγχάνουμε ως Ελληνικό Κοινοβούλιο με την ψήφιση του συγκεκριμένου σχεδίου νόμου. Προωθούμε ένα σημαντικό βήμα σχετικά με την αρχή της ευρωπαϊκής ιθαγένειας που θεσπίστηκε με τη συμφωνία του Μάαστριχτ, ως καταξιωμένη δημοκρατική αρχή για όλους τους Ευρωπαίους πολίτες που ταυτίζεται ως έννοια με μια σειρά από δικαιώματα, βασικότερο των οποίων είναι το δικαίωμα του εκλέγειν και εκλέγεσθαι για κάθε Ευρωπαίο πολίτη σε όλες τις ευρωπαϊκές χώρες μέλη της Ευρωπαϊκής Ένωσης.</p>
@@ -975,11 +972,11 @@
           <p>Μα, κυρίες και κύριοι συνάδελφοι, είναι σαφές πως όταν υπάρχει ένα ενιαίο ψηφοδέλτιο εθνικής εμβέλειας, για όλη την ελληνική επικράτεια, η μόνη διαδικασία η οποία είναι δυνατόν να εφαρμοστεί είναι η απλή αναλογική. Δεν υπάρχει πλειοψηφικό σύστημα. Είναι η γνησιότατη απλή αναλογική, γιατί έχουμε ένα ουσιαστικά και μόνο ψηφοδέλτιο για όλη την επικράτεια. Η αρχή που εισάγεται με τον ορισμό του ορίου για την εκλογή των Ευρωβουλευτών, του 3% δεν αλλοιώνει σε τίποτα την αρχή της απλής αναλογικής. Και δεν υπάρχει ούτε στο μυαλό του νομοθέτη, ούτε στις προθέσεις της Κυβερνήσεως οιοδήποτε άλλο κριτήριο για την πρόταση και εφαρμογή του 3%, πέραν μιας αρχής η οποία στηρίζεται στην εξής διαπίστωση:</p>
           <p>Από τη στιγμή που μιλάμε για ενιαία εκλογική διαδικασία για όλες τις χώρες κράτη-μέλη της ΕΟΚ που ζητούμε να εφαρμοστεί για την εκλογή των Ευρωβουλευτών, δεν είναι δυνατόν για ένα θέμα, όπως είναι το όριο εκλογής Ευρωβουλευτή, η Ελλάδα να διαφοροποιείται. Και επειδή, όπως ξέρετε, υπάρχει ένα ψήφισμα του Ευρωπαϊκού Κοινοβουλίου το οποίο προτείνει ως όριο για την εκλογή των Ευρωβουλευτών το 3% και επειδή αντίστοιχα και στη σοσιαλιστική ομάδα εμείς αποδεχθήκαμε ενιαία...</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_87">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_87">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Στην αρχή ήσασταν αντίθετοι.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_88">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_88">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Άλλο θέμα το τι μιλάμε για το Εθνικό Κοινοβούλιο και τις εθνικές συνθήκες και άλλο όταν συζητάμε σε ένα ευρύτερο πλαίσιο συμμετοχής όπου συμφωνούμε ενιαίους κανόνες. Αυτό δε μας εμποδίζει, επειδή πιστεύουμε ότι δεν αντιστρατεύεται ούτε την αρχή της απλής αναλογικής ούτε περιορίζει σε τίποτα τη δυνατότητα οποιουδήποτε είτε κόμματος είτε απλού πολίτη να εκπροσωπηθεί στο Κοινοβούλιο, την αποδοχή αυτής της αρχής του ορίου του 3% για την εκλογή στο Ευρωκοινοβούλιο.</p>
           <p>Επομένως και από αυτήν την άποψη, νομίζω ότι δεν ευσταθούν οι οποιεσδήποτε κριτικές παρατηρήσεις που επιχειρούν να γίνουν προς αυτήν την πλευρά.</p>
@@ -990,11 +987,11 @@
           <p>Επομένως, η μόνη δυνατότητα συμμετοχής του στις Ευρωεκλογές θα είναι να ασκήσει το εκλογικό δικαίωμα στους νέους εκλογικούς καταλόγους στον τόπο κατοικίας του, όπου για πρώτη φορά θα περιλαμβάνεται ως ετεροδημότης που δύναται να ψηφίσει στον τόπο κατοικίας του.</p>
           <p>Βλέπω ότι ο κ. Λεντάκης θέλει να παρέμβει. Ευχαρίστως.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_89">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_89">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Μια ερώτηση θέλω να κάνω. Αυτή η διατύπωση, ο "ετεροδημότης", θα είναι στον εκλογικό κατάλογο της περιοχής της καταγωγής του;</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_90">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_90">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Ναι. Θα είναι στον εκλογικό κατάλογο της περιοχής της καταγωγής του, εκεί που είναι πάγια εγγεγραμμένος, έτσι ώστε εάν πάει εκεί να του πούνε ότι εδώ λέει ετεροδημότης, άρα ψηφίζεις κάπου αλλού.</p>
           <p>Άρα λοιπόν, στο βαθμό που δηλωθεί ο οποιοσδήποτε Έλληνας ετεροδημότης, ότι θέλει να ψηφίσει στον τόπο κατοικίας του, αποκτά το δικαίωμα και δεν μπορεί να πάει να ξαναψηφίσει. Αυτό σημαίνει κάτι:</p>
@@ -1005,11 +1002,11 @@
           <p>Ο δε Έλληνας πολίτης, στον οποίο δε θα δοθεί η δυνατότητα να ψηφίσει για τα ελληνικά κόμματα στην Ευρωβουλή, είναι αντικείμενο διένεξης μεταξύ των υπολοίπων κομμάτων στη Χώρα στην οποία κατοικεί -το Βέλγιο, η Γερμανία, η Ολλανδία- οι οποίοι θα ενδιαφέροντο βεβαίως να αξιοποιήσουν την ψήφο του, για να μπορέσουν να αυξήσουν το δικό τους αριθμό ή ποσοστό των εδρών που θα πάρουν στο επίπεδο της εθνικής χώρας στην οποία ανήκουν.</p>
           <p>Να λοιπόν γιατί, -έχει πολύ ενδιαφέρον νομίζω- οι περίπου 400.000 Έλληνες που κατοικούν στη Γερμανία, να έχουν τη δυνατότητα συμμετοχής στις ψηφοφορίες, στις εκλογές.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_91">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_91">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Ως πότε θα έχουν το δικαίωμα αυτό;</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_92">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_92">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Μέχρι την 24η Μαρτίου. Δίνουμε τη δυνατότητα σε όλους τους Έλληνες στο εξωτερικό, εφ’ όσον δηλωθούν στα Προξενεία όπου ήδη έχει ξεκινήσει μια προσπάθεια ενημέρωσης από τις 15 Ιανουαρίου περίπου- να λάβουν μέρος σε αυτή τη διαδικασία των εκλογών.</p>
           <p>Επίσης, με αφορμή την παρατήρηση του κυρίου συναδέλφου, θα ήθελα να ενημερώσω το Σώμα ότι το Υπουργείο Εσωτερικών στα πλαίσια της ευθύνης την οποία έχει για αντικειμενική διεξαγωγή των εκλογών και πλήρη ενημέρωση των πολιτών, ώστε να μπορούν να αξιοποιήσουν τις δυνατότητες τις οποίες προωθεί το συγκεκριμένο σχέδιο νόμου, προβλέπουμε από την 4η Μαρτίου μέχρι και την 24η Μαρτίου -δηλαδή 3 εβδομάδες ακριβώς- την πραγματοποίηση μιας ενημερωτικής επικοινωνιακής παρέμβασης σε όλα τα επίπεδα με τηλεόραση, ραδιόφωνο, τοπικό τύπο σε όλη την Ελλάδα και στο εξωτερικό, έτσι ώστε να μπορέσουν οι πάντες να ενημερωθούν για την κρίσιμη ημερομηνία της δήλωσης στα Προξενεία, ώστε να μπορέσουμε να ολοκληρώσουμε τους εκλογικούς καταλόγους, έγκαιρα και αξιόπιστα, για να μπορέσουν να λάβουν μέρος στις διαδικασίες.</p>
@@ -1021,31 +1018,30 @@
           <p>Δεν προβλέπεται -γιατί άκουσα ότι υπάρχει αντίρρηση για τη συμμετοχή στις εκλογές άλλων ευρωπαίων πολιτών- προνομιακή μεταχείριση για κανέναν.</p>
           <p>Είναι βέβαιο ότι στις επόμενες ευρωεκλογές και μάλλον και στις μεθεπόμενες πολύ μικρό, σε σχέση με τον αριθμό των Ελλήνων ψηφοφόρων, θα είναι το ποσοστό πιθανών αλλοδαπών ψηφοφόρων από τα άλλα κράτη- μέλη, που θα θελήσουν να αξιοποιήσουν τις δυνατότητες τις εκλογικές στην Ελλάδα. Οπωσδήποτε όμως, έχει μια σημασία -όπως σας είπα προηγουμένως-για τους Έλληνες ψηφοφόρους, που ζουν στις υπόλοιπες ευρωπαϊκές χώρες. Είναι σημαντικός ο αριθμός τους. Έχουμε ένα έλλειμμα ενδιαφέροντος -όλες οι κυβερνήσεις στο παρελθόν- για τη δυνατότητα των Ελλήνων που κατοικούν στις άλλες ευρωπαϊκές χώρες, να έχουν το ίδιο δικαίωμα εκλέγειν και εκλέγεσθαι, όπως οι Έλληνες ψηφοφόροι στην πατρίδα. Και εδώ, επιτρέψτε μου να πω, κυρίες και κύριοι συνάδελφοι, ότι, με αφορμή το ενιαίο της εκλογικής διαδικασίας, που κατοχυρώνεται με την απόφαση του Συμβουλίου Υπουργών από 28-12-93 και την οποία εμείς ερχόμαστε να κυρώσουμε σήμερα με αυτήν την πράξη νόμου, για πρώτη φορά η Ελληνική Κυβέρνηση αποκτά ένα επιπρόσθετο επιχείρημα, έναντι ορισμένων ευρωπαϊκών κυβερνήσεων, οι οποίες μέχρι σήμερα ήταν αρνητικές στο να ασκούν οι Έλληνες πολίτες το εκλογικό τους δικαίωμα και στις εθνικές εκλογές της Ελλάδος, στη χώρα στην οποία κατοικούν. Και αναφέρομαι συγκεκριμένα στη Γερμανία. Όλες οι κυβερνήσεις μέχρι σήμερα έκαναν παρεμβάσεις, για να μπορέσουν να ασκήσουν οι Έλληνες ψηφοφόροι το εκλογικό τους δικαίωμα. Και είχαμε βρει αντίρρηση. Πιστεύω ότι, με αφορμή αυτήν τη ρύθμιση της ενιαίας εκλογικής διαδικασίας, που εφαρμόζεται για τις Ευρωεκλογές και η οποία βέβαια, συνεπάγεται και την ελεύθερη συμμετοχή σε εκλογική αντιπαράθεση για πάλη ιδεών και απόψεων κάτι το οποίο δεν μπορεί κανείς πια να περιορίσει, πολύ δύσκολα θα μπορέσει πλέον από εδώ και πέρα, εν όψει και των επερχόμενων εθνικών εκλογών η Γερμανική Κυβέρνηση να αρνηθεί αυτό το δικαίωμα στους Έλληνες συμπατριώτες μας, οι οποίοι μένουν και κατοικούν για πολλά χρόνια στο εξωτερικό. Και έτσι, με βάση αυτήν την αρχή και με μία -όπως ευελπιστώ- ομόφωνη τοποθέτηση του Ελληνικού Κοινοβουλίου πάνω σε αυτές τις ευρωπαϊκές ρυθμίσεις που ενιαία ισχύουν για όλους τους Έλληνες πολίτες, θα μπορέσουμε να διεκδικήσουμε με αποφασιστικότητα και το δικαίωμα συμμετοχής στις εθνικές εκλογές για όλους τους Έλληνες μετανάστες οι οποίοι ζουν στην Ευρώπη και ιδιαίτερα στη Γερμανία.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_93">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_93">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Σε όλο το κόσμο, όχι μόνο στη Γερμανία.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_94">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_94">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Εκείνο που μας ενδιαφέρει είναι να το διασφαλίσουμε σε ευρωπαϊκό επίπεδο. Γιατί οι ενιαίες ρυθμίσεις ισχύουν για την Ευρωπαϊκή Ένωση. Δεν μπορούμε να το απαιτήσουμε ούτε από την Αυστραλία ούτε από τις ΗΠΑ, γιατί δεν δεσμεύονται από αυτές τις ρυθμίσεις.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_95">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_95">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Είναι θέμα διακρατικών συμφωνιών.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_96">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_96">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Για τις εθνικές ελληνικές εκλογές, αυτό που αποκτούμε ως επιπλέον επιχείρημα, απέναντι των Γερμανών, που το αρνούντο μέχρι σήμερα, είναι η αποδοχή αυτών των ρυθμίσεων που πλέον στερούν της γερμανικής κυβερνήσεως το δικαίωμα να αρνηθεί τη συμμετοχή των Ελλήνων πολιτών, για να ασκήσουν το εκλογικό τους δικαίωμα στη Γερμανία για τις ελληνικές εθνικές εκλογές.</p>
           <p>Με αυτές τις επιπρόσθετες σκέψεις και παρατηρήσεις, σε όσα ο εισηγητής μας ήδη παρουσίασε, πιστεύω ότι διαθέτει, το σχέδιο νόμου το οποίο καταθέσαμε, όλα εκείνα τα στοιχεία , ώστε να τύχει της γενικής και πλήρους αποδοχής του Σώματος το οποίο και σας προτείνω.</p>
           <p>Σας ευχαριστώ.</p>
         </speech>
-        <scene>(Χειροκροτήματα από την Πτέρυγα του ΠΑ.ΣΟ.Κ)
-</scene>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_97">
+        <scene>(Χειροκροτήματα από την Πτέρυγα του ΠΑ.ΣΟ.Κ)</scene>
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_97">
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο Κοινοβουλευτικός Εκπρόσωπος της Νέας Δημοκρατίας κ. Κεφαλογιάννης, έχει το λόγο.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_98">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_98">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κυρίες και κύριοι συνάδελφοι, το νομοσχέδιο, το οποίο συζητούμε απόψε, το θεωρώ ως ένα από τα σημαντικότερα νομοσχέδια τα οποία ψηφίζει η Βουλή των Ελλήνων. Και τούτο, διότι, μετά την ένταξη της Χώρας μας στην Ευρωπαϊκή Κοινότητα, μετά την ψήφιση της Συνθήκης του Μάαστριχτ από το 98% περίπου των Βουλευτών του Ελληνικού Κοινοβουλίου, το υπό ψήφιση νομοσχέδιο έρχεται να καθιερώσει την έννοια της ευρωπαϊκής ιθαγένειας, δηλαδή του κοινοτικού πολίτη, ο οποίος έχει ίσα δικαιώματα και ίσες υποχρεώσεις σε μία διευρυμένη Ευρώπη, όπου έχει πλέον και τη δυνατότητα του εκλέγειν και εκλέγεσθαι και να συμμετέχει μέσω του Ευρωπαϊκού Κοινοβουλίου που αναβαθμίζονται οι αρμοδιότητες του στη δημιουργία της Ενωμένης Ευρώπης.</p>
           <p>Και αυτό είναι πάρα πολύ σημαντικό, γιατί γίνεται ένα επιπλέον βήμα προς την Ευρωπαϊκή Ολοκλήρωση. Ακόμη, θα έρθει σαν συνέχεια και θα υλοποιηθεί μια άλλη διάταξη της Συνθήκης του Μάαστριχτ, όπου θα δίνει τη δυνατότητα στον κοινοτικό πλέον πολίτη να συμμετέχει και στις δημοτικές εκλογές, στον τόπο κατοικίας του, ανεξάρτητα από την υπηκοότητα την οποία φέρει.</p>
@@ -1072,45 +1068,44 @@
           <p>Πιστεύω ότι, αν αυτή είναι η φιλοδοξία του Υπουργείου των Εσωτερικών, αυτή η φιλοδοξία δεν υλοποιείται με το υπό κρίση νομοσχέδιο, κύριε Υπουργέ. Δέχομαι όμως την άποψη τη δική σας, ότι θα αποτελέσει έναν οδηγό, έναν πιλότο. Αλλά δεν λύνει το πρόβλημα.</p>
           <p>Η πρόταση της Νέας Δημοκρατίας, είναι ότι στο λεκανοπέδιο της Αττικής, αλλά και στη μείζονα περιφέρεια της Θεσσαλονίκης, εμείς δεν θέτουμε την προϋπόθεση εγγραφής στους εκλογικούς καταλόγους, αλλά δημιουργούμε εκλογικά τμήματα ψηφίσεως ετεροδημοτών, τα οποία καθορίζονται δι’ αποφάσεως του νομάρχου. Ο κάθε ετεροδημότης του κάθε νομού, γνωρίζει σε ποια περιοχή της μείζονος περιφέρειας θα πάει να ψηφίσει, και έτσι δίνουμε τη δυνατότητα σε όλους τους ετεροδημότες να επιτελέσουν το ύψιστο χρέος τους προς τη δημοκρατία, με τη συμμετοχή τους.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_99">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_99">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Μόνο με το βιβλιάριο.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_100">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_100">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Με το εκλογικό βιβλιάριο.</p>
           <p>Το πρόβλημα το οποίο ετέθη, κύριε Κοινοβουλευτικέ Εκπρόσωπε της Πολιτικής Άνοιξης, ήταν κατά πόσο διασφαλίζουμε το αδιάβλητο και την περίπτωση της διπλοψηφίας.</p>
           <p>Η πρόταση νόμου που έχουμε καταθέσει, προβλέπει δρακόντειες διατάξεις στις περιπτώσεις αυτές, μία εκ των οποίων είναι η υποχρεωτική επιβεβαίωση από τους δικαστικούς λειτουργούς των ετεροδημοτών που ψήφισαν στις δύο μείζονες περιφέρειες Αθηνών και Θεσσαλονίκης και θα ελεγχθούν στους Νομούς στους οποίους είναι εγγεγραμμένοι. Δηλαδή, θα επιβεβαιωθεί όσοι ετεροδημότες του Νομού Ρεθύμνης ψηφίσουν εδώ. Οι κατάλογοι ετεροδημοτών θα πάνε σε κάθε κοινότητα και θα ελεγχθούν. Βέβαια, το χρονικό διάστημα είναι μακρό και είναι μια διαδικασία που θα απαιτήσει ορισμένους μήνες. Αλλά, πιστεύω ότι με την αύξηση των ποινών με χρηματικά πρόστιμα που επιβάλλουμε στην πρόταση νόμου της Νέας Δημοκρατίας -και εγώ προσωπικά πιστεύω ότι δε θα βρεθεί κανένας Έλληνας πολίτης...</p>
         </speech>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_101">
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_101">
           <from>Νικήτας Βενιζέλος</from>
           <p>Κύριε Κεφαλογιάννη, περάσατε τα δύο λεπτά που ζητήσατε.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_102">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_102">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Τελείωσα, κύριε Πρόεδρε. Εξάλλου, δε βλέπω και ιδιαίτερη προθυμία συμμετοχής στη συζήτηση σήμερα. Επομένως, πιστεύω ότι το νομοσχέδιο θα τελειώσει σύντομα. Και εμείς σαν Αντιπολίτευση πρέπει να έχουμε τη δυνατότητα λόγου ...</p>
         </speech>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_103">
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_103">
           <from>Νικήτας Βενιζέλος</from>
           <p>Δηλαδή, να καταργήσουμε τον Κανονισμό;</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_104">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_104">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Συμφωνώ μαζί σας. Μία ανοχή ζήτησα για να ολοκληρώσω το θέμα των ετεροδημοτών, για να μη ξαναπάρω το λόγο.</p>
         </speech>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_105">
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_105">
           <from>Νικήτας Βενιζέλος</from>
           <p>Μα, έχετε δευτερολογία. Αυτή είναι η πρωτολογία σας. Σας παρακαλώ, τελειώστε.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_106">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_106">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Τελειώνοντας, κύριε Πρόεδρε, θα ήθελα να τονίσω ότι εμείς από την πλευρά τη δική μας ως Νέα Δημοκρατία με την πρόταση την οποία έχουμε καταθέσει πριν έλθει προς ψήφιση το νομοσχέδιο το οποίο συζητάμε σήμερα, δίναμε λύση για όλους τους ετεροδημότες. Αυτό το οποίο σήμερα θεσμοθετούμε, δηλαδή της εγγραφής εις τους οικείους δήμους ή κοινότητες ετεροδημοτών, θα μπορεί να εφαρμοστεί στον υπόλοιπο ελλαδικό χώρο, όπου κατοικεί περίπου το 10% των ετεροδημοτών της Χώρας.</p>
           <p>Το πρόβλημα, λοιπόν, είναι οι ετεροδημότες του λεκανοπεδίου της Αττικής και της Θεσσαλονίκης. Και στο πρόβλημα αυτό εμείς από την πλευρά τη δική μας δίνουμε λύση, λύση που, όταν θα διαβάσετε την πρόταση νόμου αυτή, πιστεύω ότι θα την υιοθετήσετε.</p>
           <p>Με αυτές τις παρατηρήσεις τελείωσα, κύριε Πρόεδρε. Ευχαριστώ για την ανοχή σας. Εμείς ως Νέα Δημοκρατία θα ψηφίσουμε το νομοσχέδιο επί της αρχής του.</p>
         </speech>
-        <scene>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)
-</scene>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_107">
+        <scene>(Χειροκροτήματα από την Πτέρυγα της Νέας Δημοκρατίας)</scene>
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_107">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>(Στο σημείο αυτό ο Βουλευτής κ. Ι. Κεφαλογιάννης καταθέτει στα Πρακτικά τα σχετικά έγγραφα τα οποία έχουν ως εξής:</p>
           <p>"ΥΠΟΥΡΓΕΙΟ ΕΣΩΤΕΡΙΚΩΝ</p>
@@ -1190,11 +1185,11 @@
           <p>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</p>
           <p>ΥΠΟΥΡΓΟΣ ΕΣΩΤΕΡΙΚΩΝ")</p>
         </speech>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_108">
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_108">
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο Κοινοβουλευτικός Εκπρόσωπος του Κ.Κ.Ε. κ. Σκυλλάκος, έχει το λόγο.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_109">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_109">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Οι αναφορές που γίνονται για τη δημοκρατία στην Ευρωπαϊκή Ένωση και για τα βήματα, νομίζω ότι δεν έχουν σχέση με την πραγματικότητα. Εξήγησα στην προηγούμενη ομιλία μου για το ρόλο του Κοινοβουλίου, για το ρόλο του Συμβουλίου των Πρωθυπουργών, των Υπουργών, για το ρόλο της Κομισιόν. Να μην επαναλάβω αυτά, απλώς να υπενθυμίσω δύο θέματα, γιατί ακούγεται ξανά ότι το 98% της Ελληνικής Βουλής ψήφισε το Μάαστριχτ. Του Ελληνικού Λαού;</p>
           <p>Τα Κόμματα όλα εδώ θέλησαν να μη γίνει δημοψήφισμα. Και γνωρίζετε πολύ καλά τα γκάλοπ, ότι θα ήταν πολύ μεγάλο το ποσοστό εκείνο το οποίο θα αντιδρούσε στις επιλογές σας, όπως γίνεται και σε άλλες χώρες.</p>
@@ -1205,38 +1200,38 @@
           <p>Επίσης, λειτουργεί αποτρεπτικά στο να τολμήσει κάποιος νέος πολιτικός σχηματισμός να διεκδικήσει έδρα. Μπαίνει στο στίβο μία ομάδα ανθρώπων, θέλουν να κάνουν μία πολιτική κίνηση και με το 3% και τα άλλα πλαφόν, τα οποία μπαίνουν σταθερά, αποτρέπεται το να ακουστούν φωνές και συσπειρώνονται όλοι στα δύο, τρία μεγαλύτερα Κόμματα.</p>
           <p>Συμφωνούμε με την αφαίρεση του 5% για τους συνασπισμούς, καλό είναι, αλλά έχω ένα ερώτημα: Η κατάργησή του δεν έρχεται σε αντίθεση με την ενιαία ρύθμιση που ψηφίστηκε στο Ευρωκοινοβούλιο και που δεσμευτήκατε στη σοσιαλιστική ομάδα;</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_110">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_110">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Μόνο για το 3%.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_111">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_111">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Μόνο για το 3%. Το 5% ήταν πρωτοβουλία δική σας, εδώ στην Ελλάδα;</p>
         </speech>
-        <speech by="georgios_daskalakis" eId="debate_1994-03-01_speech_112">
+        <speech by="georgios_daskalakis" eId="debate_1994-03-01_1_speech_112">
           <from>ΓΕΩΡΓΙΟΣ ΔΑΣΚΑΛΑΚΗΣ</from>
           <p>Ήταν υπέρβαση δική μας!</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_113">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_113">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Καλώς λέμε ότι καταργείται το 5%, αλλά είχα την απορία, πώς επιμένουμε στο 3%, για την ενιαία ρύθμιση και στο 5% όχι.</p>
           <p>Στο δεύτερο που επιμένω, είναι η υποχρεωτική ψηφοφορία γι’ αυτούς που δεν θα προλάβουν στις 24 του μηνός. Τι θα γίνει, όμως, για το φτωχότερο κόσμο, το μισθοσυντήρητο, που δεν του φτάνουν τα λεφτά να πάει -με άλλα άτομα της</p>
           <p>οικογένειας, μαζί με τα παιδιά καμία φορά, γιατί δεν έχει πού να τα αφήσει- ιδιαίτερα στις μεγάλες αποστάσεις, στην Κρήτη, στα νησιά; Ποιος θα τα πληρώσει αυτά;</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_114">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_114">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Να δηλώσουν έως τις 24 του μηνός.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_115">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_115">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Δε θα δηλώσουν ως τις 24 του μηνός, παρά την καμπάνια που θα γίνει. Δεν έχει εθιστεί ο κόσμος, δεν έχει πειστεί, ο χρόνος είναι λίγος. Είναι ένα αντικειμενικό πρόβλημα. Άλλο να είχαμε ένα χρόνο μπροστά μας, να το συζητούσαμε.</p>
           <p>Εν πάση περιπτώσει περιμένουμε μία απάντηση στην πρότασή μας -δε ζητάμε τίποτα τρομερό- να μεταφερθούν δωρεάν. Δεν είναι σωστό, τα Κόμματα που έχουν χρήματα, να πληρώσουν τα έξοδα μεταφοράς και οι άλλοι να έχουν σοβαρότερο πρόβλημα και να απειλούνται με ποινή φυλάκισης και με διοικητικά μέτρα. Δεν είναι δημοκρατικό αυτό.</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_116">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_116">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Τι να γίνει;</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_117">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_117">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Να παραχωρηθούν δωρεάν εισιτήρια, για να μεταφερθούν. Δεν είναι σωστό, δεν είναι δημοκρατικό; Τώρα κατά 50% γίνεται η έκπτωση. Να είναι δωρεάν. Δεν μιλάω για αεροπλάνο, εννοώ για καράβια και τα άλλα μέσα συγκοινωνίας.</p>
           <p>Μία άλλη παρατήρηση που έχω, κύριε Υπουργέ, είναι ότι επείγει να συγκροτηθεί η Διακομματική Επιτροπή. Δεν αφορά το νομοσχέδιο, αφορά όμως πρώτα και κύρια την καμπάνια που ξεκινά στις 4 του μηνός. Διότι η καμπάνια αυτή εντάξει να λέει "ελάτε να γραφτείτε στους ειδικούς εκλογικούς καταλόγους ως ετεροδημότες", αλλά το τι μήνυμα θα περνάει σε σχέση με τις Ευρωεκλογές είναι ένα ζήτημα. Πρέπει να ξεκινήσει η Διακομματική Επιτροπή το έργο της από την αρχή, χωρίς να υπάρχει μεροληψία υπέρ της μίας άποψης για την ΕΟΚ ή υπέρ της άλλης άποψης για την ΕΟΚ. Μιλάω κυρίως για τα μέσα μαζικής ενημέρωσης.</p>
@@ -1245,47 +1240,47 @@
           <p>Δεν αφορά το νομοσχέδιο, αλλά αυτό είναι ένα πολιτικό πρόβλημα. Θα επιβάλλετε εσείς αρχές στο πώς θα επιλέγει το ΚΚΕ ή το κάθε Κόμμα τους Ευρωβουλευτές του ή τη λίστα; Και αν δεν εφαρμόζονται αυτές οι αρχές, τι εννοείτε; Δεν θα υπάρχει η χρηματοδότηση;</p>
           <p>Δεν το έχω καταλάβει. Ίσως να μην είναι γραμμένο σωστά στα Πρακτικά. Θα ήθελα μία διευκρίνιση όσον αφορά αυτό.</p>
         </speech>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_118">
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_118">
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο κ. Σουμάκης, Εισηγητής της Πλειοψηφίας, έχει το λόγο.</p>
         </speech>
-        <speech by="stauros_soumakis" eId="debate_1994-03-01_speech_119">
+        <speech by="stauros_soumakis" eId="debate_1994-03-01_1_speech_119">
           <from>ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ</from>
           <p>Κύριε Πρόεδρε, μετά βέβαια από τη σύμφωνο γνώμη των περισσοτέρων στην Αίθουσα αυτή, δε θα είχε να πει κανείς τίποτα σε σχέση με τη συζήτηση που προηγήθηκε γι’ αυτό το τόσο σημαντικό νομοσχέδιο. Πραγματικά πιο σημαντικό είναι ακόμη ότι συμφωνούμε σχεδόν όλοι.</p>
           <p>Δεν είναι περίεργο, κύριε Σκυλλάκο, ότι πρέπει να συμφωνούμε σε κάποια πράγματα και ούτε υποκρύπτει κάποια συνωμοσία, που είπατε για την Ευρωβουλή. Συμφωνίες αυτού του είδους -που μάλιστα έχουν, θα έλεγα, όχι και τόσο μεγάλη σημασία για ορισμένα πράγματα- είναι πολύ μικρότερης σημασίας από άλλες συμφωνίες, που καμιά φορά κάνουν τα Κόμματα και οι οποίες έχουν τεράστιες επιπτώσεις στην πολιτική ζωή του Τόπου. Δεν είναι κακό. Καλό είναι να υπάρχουν συμφωνίες πότε-πότε.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_120">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_120">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Πού διαφωνείτε;</p>
         </speech>
-        <speech by="stauros_soumakis" eId="debate_1994-03-01_speech_121">
+        <speech by="stauros_soumakis" eId="debate_1994-03-01_1_speech_121">
           <from>ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ</from>
           <p>Δε διαφωνούμε. Εσείς διαφωνείτε και βλέπετε να υποκρύπτονται παράνομες και σατανικές συνωμοσίες των μεγάλων κομμάτων στην Ευρωβουλή.</p>
           <p>Κύριοι συνάδελφοι, ο καθένας έχει τις απόψεις του για το Μάαστριχτ. Κανείς δεν έχει ισχυριστεί -και θα ήταν λάθος- ότι το Μάαστριχτ είναι πανάκεια της πορείας των κρατών-μελών. Αντίθετα, κάθε στιγμή πρέπει να παλεύουμε σε μία προσπάθεια βελτίωσης αυτής της Συνθήκης.</p>
           <p>Το ΠΑ.ΣΟ.Κ. έχει μεν συμφωνήσει, αλλά έχει διατυπώσει τις θέσεις του, τις ενστάσεις του, έχει κρατήσει τις επιφυλάξεις του και σαφώς θα πρέπει πάντα να παλεύουμε σ’ αυτήν την κατεύθυνση. Μία κατεύθυνση, όμως, που προσδιορίζεται πραγματικά από ένα δεδομένο: Ότι είμαστε στην Ευρωπαϊκή Ένωση. Αυτό να το ξεκαθαρίσουμε. Αλλά δεν θα πρέπει σε καμία περίπτωση να αναγάγουμε ότι η Ευρωπαϊκή Ένωση είναι η πανάκεια των πάντων.</p>
           <p>Εδώ μπαίνει ένα άλλο ζήτημα: Η συμμετοχή του πολίτη. Άκουσα τον αξιότιμο κ. Κεφαλογιάννη να αναγνωρίζει τα οφέλη της Ευρωπαϊκής Ένωσης. Αυτό είναι σημαντικό μεν, αλλά θα γίνει, όμως, πιο ουσιαστική η συμμετοχή του Έλληνα πολίτη, όταν δει ότι πραγματικά σέβονται τις απόψεις του κάθε μέλους της κάθε χώρας. Γιατί το λέω αυτό; Πιστεύετε ότι βοηθάνε οι τελευταίες εξελίξεις της συμπεριφοράς της Ευρωπαϊκής Ένωσης απέναντι στο πρόβλημα της Χώρας μας; Δεν βοηθούν. Ο Έλληνας πολίτης αυτήν τη στιγμή διαμορφώνει αρνητική θέση. Και αυτό γιατί; Γιατί πράγματι υπάρχει έλλειμμα Δημοκρατίας. Εάν οι αποφάσεις επαίρνοντο σε επίπεδο Ευρωπαϊκού Κοινοβουλίου, τότε σίγουρα θα είχαμε και μία άλλη συμπεριφορά των εταίρων μας προς τα εκεί πρέπει να προσπαθήσουμε. Εκεί επάνω πρέπει να παλέψουμε, ώστε οι αποφάσεις να μην είναι υπόθεση των 12 Υπουργών ή των 12 Πρωθυπουργών, αν θέλετε. Θα πρέπει να πάει στο πραγματικά λαϊκό όργανο, το όργανο της λαϊκής έκφρασης που είναι το Ευρωπαϊκό Κοινοβούλιο.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_122">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_122">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Αυτό είπα και εγώ.</p>
         </speech>
-        <speech by="stauros_soumakis" eId="debate_1994-03-01_speech_123">
+        <speech by="stauros_soumakis" eId="debate_1994-03-01_1_speech_123">
           <from>ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ</from>
           <p>Ίσως να το παρανόησα.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_124">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_124">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Μου επιτρέπετε;</p>
         </speech>
-        <speech by="stauros_soumakis" eId="debate_1994-03-01_speech_125">
+        <speech by="stauros_soumakis" eId="debate_1994-03-01_1_speech_125">
           <from>ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ</from>
           <p>Παρακαλώ.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_126">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_126">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Είπα ακριβώς ότι η ενίσχυση του Ευρωπαϊκού Κοινοβουλίου μειώνει τις αποφάσεις που ελάμβαναν πρώτα οι Υπουργοί των Εξωτερικών, δηλαδή το Συμβούλιο των Υπουργών των Εξωτερικών, όπως και το Συμβούλιο Κορυφής των Πρωθυπουργών, διότι ενισχύεται ακριβώς η λαϊκή κυριαρχία των Ευρωπαϊκών χωρών μέσω των Ευρωβουλευτών σαν εκφραστών αυτής της λαϊκής κυριαρχίας και επομένως ενισχύεται το Ευρωπαϊκό Κοινοβούλιο.</p>
         </speech>
-        <speech by="stauros_soumakis" eId="debate_1994-03-01_speech_127">
+        <speech by="stauros_soumakis" eId="debate_1994-03-01_1_speech_127">
           <from>ΣΤΑΥΡΟΣ ΣΟΥΜΑΚΗΣ</from>
           <p>Σίγουρα, αλλά δε φτάνει μόνο αυτό. Πρέπει να περάσουν οι αρμοδιότητες εκείνες στο Ευρωπαϊκό Κοινοβούλιο -πραγματικά να χαράσσεται η πολιτική- και να παίρνονται οι αποφάσεις από αυτό το όργανο και όχι από τους επικεφαλείς ή, αν θέλετε, από τους Υπουργούς των χωρών-μελών. Μόνο έτσι θα πεισθεί ο Ευρωπαίος πολίτης ή ο πολίτης της Ευρώπης αν θέλετε, ότι πράγματι βαδίζουμε σε μία δημοκρατικότερη Ευρώπη.</p>
           <p>Εδώ είναι και κάτι άλλο, το οποίο άκουσα από τον κ. Σκυλλάκο, για τα 200 χιλιόμετρα κ.λπ.. Το παρόν νομοσχέδιο βοηθάει στην όσο γίνεται μεγαλύτερη συμμετοχή. Αυτό είναι δεδομένο και εκεί κατατείνει.</p>
@@ -1296,11 +1291,11 @@
           <p>Δεν έχω να προσθέσω τίποτα περισσότερο. Εκείνο που έχει σημασία είναι πως με το παρόν νομοσχέδιο πραγματικά εισάγεται μια καινούρια λογική στον τρόπο της εκλογικής διαδικασίας. Σίγουρα θα αποτελέσει μια σημαντική εμπειρία η εφαρμογή του μέτρου των ετεροδημοτών και θα βγουν τα απαραίτητα συμπεράσματα. Κατά την άποψή μου, θα πρέπει η Βουλή να συμφωνήσει ομόφωνα, αν είναι δυνατόν, σε αυτό το τόσο σημαντικό βήμα που επιχειρεί σήμερα με αυτό το σχέδιο νόμου η Κυβέρνηση.</p>
           <p>Ευχαριστώ.</p>
         </speech>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_128">
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_128">
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο κ. Λεντάκης Ειδικός Αγορητής της Πολιτικής Άνοιξης, έχει το λόγο.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_129">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_129">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Κύριε Πρόεδρε, κατ’ αρχάς θα ήθελα να πω και εγώ και με τη σειρά μου, ότι κανείς μέσα στην Αίθουσα αυτή δε θεώρησε, ότι είναι πανάκεια η συμφωνία του Μάαστριχτ. Θεωρήσαμε όμως ότι είναι ένα πάρα πολύ θετικό βήμα, ένα πρώτο βήμα, που ξεπέρασε πάρα πολλές δυσχέρειες που εμπόδιζαν την ενοποίηση της Ευρώπης. Ήταν ένα βήμα προς τα εμπρός αλλά φυσικά ήταν απλώς ένα βήμα προς τα εμπρός. Δε σήμαινε, ότι από εκεί και πέρα είχαν λυθεί τα ζητήματα. Έμεναν πάρα πολλά ζητήματα ανοιχτά. Είχαμε επισημάνει το δημοκρατικό έλλειμμα που υπάρχει και που, όπως είπε και ο κ. Σουμάκης και ο κ. Κεφαλογιάννης, εκφράζεται από το γεγονός, ότι το Ευρωπαϊκό Κοινοβούλιο είναι υποβαθμισμένο έναντι της Kομισιόν, του Συμβουλίου Υπουργών και του Συμβουλίου Κορυφής.</p>
           <p>Κατά συνέπεια, η γραφειοκρατία μέσα στο Συμβούλιο της Ευρώπης, στην Ενωμένη Ευρώπη, παίζει ακόμη έναν πολύ πιο καθοριστικό ρόλο απ’ ό,τι οι εκλεγμένοι αντιπρόσωποι. Και αυτό ακριβώς υποδηλώνει το έλλειμμα της Δημοκρατίας. Δεν είναι δυνατόν οι διορισμένοι υπάλληλοι, αυτοί που αποτελούν τη γραφειοκρατία, να έχουν το πάνω χέρι και να είναι οι ρυθμιστές, ενώ οι αντιπρόσωποι των λαών της Ευρώπης να μην έχουν τον κυρίαρχο λόγο. Αυτό σημαίνει, ότι θα πρέπει να μετατεθεί η ευθύνη και το βάρος στο Ευρωκοινοβούλιο και ότι αυτό θα πρέπει να ενδυναμωθεί. Αυτό όμως σημαίνει ότι θα υπάρξει αποδυνάμωση των Εθνικών Κοινοβουλίων, αφού οι ενιαίες αποφάσεις θα παίρνονται στο Ευρωκοινοβούλιο, στις Βρυξέλλες. Σημαίνει όμως ταυτόχρονα αναβάθμιση των ίδιων των Εθνικών Κοινοβουλίων, τα οποία θα πρέπει πια να σκέπτονται ευρωπαϊκά. Θα πρέπει να είναι ενήμερα, θα πρέπει να αναδιαρθρώσουν τις υπηρεσίες τους και κατά συνέπεια θα μπορούν να επεξεργάζονται την ευρωπαϊκή πολιτική μέσα στον εθνικό τους χώρο.</p>
@@ -1310,39 +1305,38 @@
           <p>Δεύτερη παρατήρηση, είναι αυτή που έκανε ο κύριος Υπουργός για την 24η Μαρτίου. Είναι πολύ μικρό το χρονικό διάστημα. Δεν θα προλάβουμε. Αντιλαμβάνομαι βέβαια ότι χρειάζεται κάποια διαδικασία για να γίνουν οι εκλογικοί κατάλογοι μέχρι τον Ιούνιο. Όμως μια παράταση μέχρι την 10η Απριλίου, δεν θα ήταν τόσο τρομακτική, δεν θα πέφταμε έξω με ένα 15θημερο. Αρκετός κόσμος δεν θα το αντιληφθεί. Με την πρες κόνφερανς που δώσατε πιστεύω ότι σημαντικός αριθμός θα ενημερωθεί και τη θεωρώ πάρα πολύ χρήσιμη. Βέβαια από την άλλη και τα κόμματα θα δουλέψουν για να ενημερώσουν και τους ψηφοφόρους τους. Όμως πιστεύω ακράδαντα ότι μια παράταση 15 ημερών θα είναι επωφελής για όλους και έτσι θα προλάβουν να κάνουν και αυτήν τη δήλωση.</p>
           <p>Το τρίτο στοιχείο είναι η αναφορά του κυρίου Υπουργού για τις εθνικές εκλογές. Είπατε ότι θα λάβετε υπόψη τα συμπεράσματα που θα βγουν από αυτήν την πρακτική, είπατε ακόμα ότι θα επιδιώξετε το δικαίωμα των μεταναστών να ψηφίζουν στις εθνικές εκλογές. Βεβαίως θα πρέπει και τα πληρώματα των πλοίων και των μεταναστών αλλά σε όλο τον κόσμο. Νομίζω ότι υπάρχει το στοιχείο της αμοιβαιότητας όπως π.χ. οι Αμερικανοί ψηφίζουν για τις εθνικές τους εκλογές εδώ στην πρεσβεία τους. Δεν ξέρω αν μπορούν να αποτρέψουν το δικαίωμα των Ελλήνων πολιτών που κατοικούν στις ξένες χώρες να πάνε στις πρεσβείες και να ψηφίσουν. Θεωρείται ελληνικό έδαφος και μπορούν να ασκήσουν το δικαίωμα ψήφου, για την εκλογή Βουλευτών.</p>
         </speech>
-        <speech by="spuros_kaloudis" eId="debate_1994-03-01_speech_130">
+        <speech by="spuros_kaloudis" eId="debate_1994-03-01_1_speech_130">
           <from>ΣΠΥΡΟΣ ΚΑΛΟΥΔΗΣ</from>
           <p>Νομίζω ότι υπάρχει Συνταγματικό κώλυμα.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_131">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_131">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Δε νομίζω, γιατί αν είναι έτσι, σημαίνει ότι κώλυμα Συνταγματικό υπάρχει και τώρα για τις Ευρωεκλογές. Από τη στιγμή που μπορούν να ψηφίσουν για τις Ευρωεκλογές, δε νομίζω ότι υπάρχει δέσμευση να ψηφίσουν και για τις εθνικές εκλογές. Αυτά ήθελα να πω. Ευχαριστώ.</p>
         </speech>
-        <speech by="nikitas_benizelos" eId="debate_1994-03-01_speech_132">
+        <speech by="nikitas_benizelos" eId="debate_1994-03-01_1_speech_132">
           <from>Νικήτας Βενιζέλος</from>
           <p>Ο κ. Κεφαλογιάννης έχει το λόγο ως Κοινοβουλευτικός Εκπρόσωπος της Νέας Δημοκρατίας.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_133">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_133">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε, δε μου δόθηκε η ευκαιρία στην πρωτολογία μου να διατυπώσω ορισμένες άλλες απόψεις όπως π.χ. για την παρατήρηση που έκανε ο εισηγητής της Πλειοψηφίας κατά πόσο οι εταίροι μας συμπεριφέρονται σωστά σε μια κρίση ενός εθνικού μας προβλήματος. Δε θα ήθελα στη σημερινή συζήτηση να βάλουμε αυτό το ζήτημα που όντως είναι υπαρκτό και δημιουργεί μια άλλη παράμετρο έναντι των όσων υποστηρίζουμε εμείς στην Αίθουσα αυτή για την αντίληψη την οποία διαμορφώνει ο Ελληνικός Λαός από τη συμπεριφορά των εταίρων μας.</p>
         </speech>
-        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Β’ Αντιπρόεδρος της Βουλής κ. ΠΑΥΣΑΝΙΑΣ ΖΑΚΟΛΙΚΟΣ).
-</scene>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_134">
+        <scene>(Στο σημείο αυτό την Προεδρική Έδρα καταλαμβάνει ο Β’ Αντιπρόεδρος της Βουλής κ. ΠΑΥΣΑΝΙΑΣ ΖΑΚΟΛΙΚΟΣ).</scene>
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_134">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ο κ. Νιώτης έχει το λόγο για να δευτερολογήσει.</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_135">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_135">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Κύριε Πρόεδρε, στη δευτερολογία μου θέλω να συνεισφέρω στους προβληματισμούς γύρω από το πλαφόν του 3% που έθεσε ο εκπρόσωπος του ΚΚΕ. Με αφορμή και όσα γράφονται στην έκθεση της επιστημονικής επιτροπής θυμίζω ότι το άρθρο 138 παρ. 3 της Συνθήκης ορίζει ότι το Ευρωπαϊκό Κοινοβούλιο καταρτίζει σχέδιο για την διεξαγωγή των Ευρωεκλογών με άμεση καθολική ψηφοφορία, κατά ενιαία διαδικασία για όλα τα κράτη μέλη. Βεβαίως κάτι τέτοιο δεν έχει γίνει μέχρι σήμερα, αλλά οπωσδήποτε όταν νομοθετούμε σήμερα, δε νομοθετούμε για φέτος. Νομοθετούμε και για τα επόμενα χρόνια. Υπάρχει ήδη το υπ’ αριθμ. Α 3-381/92 ψήφισμα του Ευρωπαϊκού Κοινοβουλίου, που βεβαίως δεν είναι η απόφαση που ορίζει το άρθρο 138, αλλά δίνει κατευθύνσεις και μιλάει για ενιαία εκλογική διαδικασία. Μεταξύ των άλλων αρχών αναφέρεται στο δικαίωμα των κρατών μελών να θεσμοθετήσουν ένα ελάχιστο όριο μεταξύ 3% και 5%. Μετά την παρέμβαση του κυρίου Υπουργού των Εσωτερικών που το πλαφόν του 5% πάει στο 3% μπορούμε να θεωρούμε πως είμαστε στο πλαίσιο εναρμόνισης και στην πορεία που θα θεσμοθετηθεί με την ενιαία διαδικασία που θα ψηφίσει -εκτιμάται σύντομα- το Ευρωπαϊκό Κοινοβούλιο.</p>
           <p>Αλλά και επί της ουσίας, μετά τη νέα τοποθέτηση του κυρίου Υπουργού των Εσωτερικών για το 3% έχουμε ή δεν έχουμε αναλογική εκπροσώπηση; Για να πάρεις έδρα θέλεις 4%. Δεν ξέρω, κύριε Σκυλλάκο, τι θα γίνει εδώ. Μιλάμε για μία λογική και για μία σύγκλιση ρευμάτων σε σχέση με το μέλλον της Ευρώπης. Δεν καταλαβαίνω, σ’ αυτό το πολυπόθητο όραμα για το μέλλον της Ευρώπης, έχει θέση και ο τελευταίος αυτόνομος πολίτης; Δηλαδή δεν μπορεί να συγκληθεί με ένα άλλο ρεύμα αυτόνομων ή συνασπισμών που τώρα στην Ελλάδα το λέμε 3%; Αυτό πιθανότατα διευκολύνει και το ΚΚΕ να βρει συγκλίνοντα ρεύματα, αν θα βρει βέβαια γιατί έχει απόκλιση από την Ευρώπη. Είσθε οι μόνοι που εξακολουθείτε να μην έχετε καμία πορεία ταύτισης προς το Ευρωπαϊκό όραμα.</p>
           <p>Θα μου επιτρέψει και ο κ. Κεφαλογιάννης, παρ’ όλο που με τη δευτερολογία του περίπου επανέφερε τα πράγματα, να πω τα εξής: Κύριε Κεφαλογιάννη, είπατε ότι όσοι ψηφίσαμε το Μάαστριχτ -και ήμουν και εγώ ένας απ’ αυτούς- είμαστε περήφανοι. Δεν είμαστε περήφανοι. Είμαστε ικανοποιημένοι γιατί πήραμε τη σωστή επιλογή και το 1980 ήταν σωστή και καλή επιλογή. Αλλά όχι κι έτσι ότι "γιατί είμεθα Έλληνες αλλά είμαστε και περήφανοι διότι ανήκουμε στην Ευρωπαϊκή Ένωση"! Είμαστε περήφανοι γιατί συμμετέχουμε σ’ αυτόν τον ενιαίο Ευρωπαϊκό στίβο, γιατί μπορούμε να παίζουμε ένα ρόλο, γιατί μπορούμε να επιδιώκουμε σκοπούς οι οποίοι ακόμα δεν έχουν εκπληρωθεί. Αλλά δεν είμαστε περήφανοι. Να μην αναχθούμε τώρα σ’ αυτά που θέσατε πριν. Θα είμαι, προσωπικά εγώ, περήφανος εάν κατοχυρώσουμε την ενιαία εξωτερική πολιτική και την ενιαία αμυντική ευρωπαϊκή στρατηγική, εάν κατοχυρώσουμε την Ευρώπη της μιας ταχύτητας, εάν το Ευρωπαϊκό Κοινοβούλιο εκτός από το να ψηφίζουν όλοι οι πολίτες έχει και αρμοδιότητες και περνάει εκείνο την πολιτική στην Κομισιόν και όχι η Κομισιόν να περνάει εκείνα που θέλει, εάν η κοινωνική Ευρώπη -που είναι τα ζητήματα που θέτει το ΠΑ.ΣΟ.Κ. και η Ελληνική Προεδρία- βρουν συγκλίνοντα ρεύματα, και στη συντηρητική πτέρυγα του Ευρωπαϊκού Κοινοβουλίου, εάν το οικονομίστικο μοντέλο που εσείς προωθείτε με τους εταίρους σας στον όμιλο των Ευρωπαϊκών πολιτικών παρατάξεων αντικατασταθεί με μία Ευρώπη των οραμάτων και των πολιτών, βεβαίως τότε θα είμαστε περήφανοι. Και αυτό το όραμα θέλουμε να το κάνουμε πράξη αλλά όχι στους Ευρωπαϊκούς βερμπαλισμούς. Τουλάχιστον με αφορμή τη σωστά θετική υπερψήφιση του Μάαστριχτ.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_136">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_136">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ο Υπουργός Εσωτερικών κ. Τσοχατζόπουλος έχει το λόγο.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_137">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_137">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Κύριε Πρόεδρε, κυρίες και κύριοι συνάδελφοι, αισθάνομαι την ανάγκη, επειδή ακούστηκαν και ορισμένες ηχηρές εκφράσεις σχετικά με τη σημασία και το νόημα της συνθήκης του Μάαστριχτ, να υπενθυμίσω αυτό που είπα και στην εισηγητική μου έκθεση αλλά και στην επιτροπή ότι η κατάθεση από την πλευρά της Κυβερνήσεως ενός σχεδίου νόμου που ενοποιεί τις διαδικασίες εκλογής αντιπροσώπων για το Ευρωκοινοβούλιο, δε σημαίνει ούτε μυθοποίηση ούτε αποδοχή της διαδικασίας του Μάαστριχτ και του περιεχομένου της Συμφωνίας του Μάαστριχτ, όπως αυτό είναι σήμερα, ως τη λύση ή το πρότυπο των προβλημάτων της Χώρας μας.</p>
           <p>Απεναντίας έχουμε τονίσει επανειλημμένως ότι η συμφωνία του Μάαστριχτ για εμάς είναι ένα εισιτήριο προς την πορεία της Ευρωπαϊκής ενοποίησης, που δικαιούνται όλοι οι Ευρωπαϊκοί Λαοί που συμμετέχουν σ’ αυτήν την πορεία. Και με δημοκρατικές διαδικασίες συμμετέχουμε σ’ έναν αγώνα αντιπαράθεσης ιδεών, απόψεων, αρχών, προτύπων και αξιών, μέσα από τις οποίες και θα κριθεί τελικά το περιεχόμενο της πορείας.</p>
@@ -1365,13 +1359,12 @@
           <p>Δεύτερον, μπορούμε έμπρακτα να δοκιμάσουμε, σ’ αυτές τις Ευρωεκλογές, τη δυνατότητα οι ετεροδημότες να ψηφίσουν στον τόπο κατοικίας τους, εφόσον το δηλώσουν μέχρι τις 24 Μαρτίου σε οποιαδήποτε νομαρχία, δήμο ή κοινότητα της περιοχής στην οποία κατοικούν και ελπίζουμε ότι αυτό, και μέσα και από τη συζήτηση στο Ευρωκοινοβούλιο, να βρει τη μεγαλύτερη δυνατή στήριξη. Συγχρόνως, καλούμε όλα τα μέσα επικοινωνίας, δημόσια και ιδιωτικά, να φροντίσουν, αυτές τις τρεις εβδομάδες, να στηρίξουν την προσπάθεια του Υπουργείου Εσωτερικών και της Κυβερνήσεως για πλατιά ενημέρωση του πολίτη, ώστε να αξιοποιηθεί αυτή η δυνατότητα που, σε τελική ανάλυση, και θα αυξήσει το ποσοστό συμμετοχής των Ελλήνων πολιτών στις Ευρωεκλογές, και θα μειώσει στο ελάχιστο το κόστος που συνεπάγεται για την εθνική οικονομία η πραγματοποίηση των Ευρωεκλογών.</p>
           <p>Με αυτές τις σκέψεις, κύριε Πρόεδρε, θα ήθελα να παρακαλέσω να προχωρήσουμε στην ψήφιση του νομοσχεδίου επί της αρχής.</p>
         </speech>
-        <scene>(Χειροκροτήματα από την Πτέρυγα του ΠΑ.ΣΟ.Κ.)
-</scene>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_138">
+        <scene>(Χειροκροτήματα από την Πτέρυγα του ΠΑ.ΣΟ.Κ.)</scene>
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_138">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ο Κοινοβουλευτικός Εκπρόσωπος της Νέας Δημοκρατίας κ. Κεφαλογιάννης έχει το λόγο.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_139">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_139">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε, παίρνω το λόγο γιατί έχω την αίσθηση ότι απόψε προέκυψε ένα πολιτικό θέμα σ’ αυτήν τη συζήτηση. Δεν ξέρω, αν είναι σκόπιμη η επιλογή από την Πλευρά της Κυβέρνησης αλλά οφείλετε να το διευκρινίσετε. Γιατί ορισμένοι ομιλητές, μεταξύ των οποίων ο εισηγητής της Πλειοψηφίας αλλά και ο προηγούμενος συνάδελφος που πήρε το λόγο από την πλευρά του ΠΑ.ΣΟ.Κ. αλλά και ο Υπουργός, μίλησαν ως να αμφιταλαντεύονται κατά πόσο η θέση της παράταξής τους είναι σωστή στην ευρωπαϊκή πορεία.</p>
           <p>Δεν είπα ότι εγώ είμαι υπερήφανος για το Μάαστριχτ. Γιατί το Μάαστριχτ θέτει προϋποθέσεις που θα σας πω. Είμαι, όμως, υπερήφανος, γιατί η Νέα Δημοκρατία αταλάντευτα ακολούθησε μία ευρωπαϊκή πορεία την οποία ακολούθησαν εν συνεχεία και όλα τα κόμματα της Αντιπολίτευσης.</p>
@@ -1382,135 +1375,135 @@
           <p>Πήραμε μια απόφαση εδώ. Αυτή η απόφαση είναι ότι είμαστε σταθερά προσανατολισμένοι προς την ευρωπαϊκή ενοποίηση; Εάν ναι, εκεί να δίνουμε τις όποιες μάχες και πρώτοι και καλύτεροι εμείς, σημαιοφόροι. Και εμείς τις δώσαμε σαν σημαιοφόροι, για να ενταχθούμε στην Ευρωπαϊκή Ένωση.</p>
           <p>Και όχι, αφού μπήκαμε μέσα, να αρχίσουμε τις αμφιταλαντεύσεις, κατά πόσο η πορεία αυτή είναι σωστή και ωφέλιμη για το Έθνος και τον Ελληνικό Λαό.</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_140">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_140">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Μα, κύριε Κεφαλογιάννη...</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_141">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_141">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Αυτά είπατε και μη διακόπτετε. Είπατε ότι "εμείς είμαστε απλώς ικανοποιημένοι και όχι υπερήφανοι".</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_142">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_142">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Κύριε Πρόεδρε, παρακαλώ το λόγο επί προσωπικού θέματος, να δώσω εξηγήσεις.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_143">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_143">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Να εξηγήσετε ό,τι θέλετε.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_144">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_144">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Παρακαλώ, κύριε συνάδελφε, δε δημιουργήθηκε προσωπικό θέμα.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_145">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_145">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Και θα είμαι, κύριε συνάδελφε, ιδιαίτερα ικανοποιημένος και ευτυχής εάν με τις εξηγήσεις τις δικές σας ...</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_146">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_146">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>(δεν ακούστηκε) ...</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_147">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_147">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κατ’ αρχάς μην είσθε αγενής. Είσθε νέος Βουλευτής, μπήκατε μέσα στην Αίθουσα αυτή ...</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_148">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_148">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Σας παρακαλώ, κύριε συνάδελφε!</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_149">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_149">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Ό,τι σας λέω εγώ! Και το "αυτός," ο κύριος συνάδελφος, να το πει στον αδελφό του ή σε άλλο και να μάθει ότι εδώ είναι ιερός χώρος που ο καθένας μας οφείλει να σέβεται ...</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_150">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_150">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Δεν καταλαβαίνω την έκρηξή σας, κύριε Κεφαλογιάννη. Τον αποκαλέσατε αήθη.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_151">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_151">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Δεν είπα αήθης, κύριε Πρόεδρε. Ακούσατε όμως τον κύριο συνάδελφο τι είπε;</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_152">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_152">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Με συγχωρείτε, αυτήν τη λέξη άκουσα από εσάς, δεν την άκουσα από τον κύριο συνάδελφο.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_153">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_153">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Πάντοτε όταν θέλετε να αποκρύψετε ...</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_154">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_154">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Με συγχωρείτε, κύριε συνάδελφε, αλλά εσείς έχετε το μικρόφωνο, γι’ αυτό σας άκουσα. Δεν είχε μικρόφωνο ο κύριος συνάδελφος. Τι θέλετε; Να μπορώ να ακούσω τι φωνάζει από κάτω;</p>
           <p>Σας παρακαλώ, λοιπόν, κύριοι συνάδελφοι, να λήξει αυτό το θέμα.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_155">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_155">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε, θα ήθελα να παρακαλέσω πολύ τον κύριο συνάδελφο, ο οποίος είναι πολύ νέος σ’ αυτό το Κοινοβούλιο, να μάθει ότι το Κοινοβούλιο είναι χώρος λόγου και αντιλόγου. Είναι για ανταλλαγή επιχειρημάτων, δεν είναι για ανταλλαγή ούτε ύβρεων ούτε οποιωνδήποτε άλλων εκφράσεων, γιατί απάδουν στην ιερότητα του χώρου αυτού.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_156">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_156">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Θα το διδάξουμε οι παλαιότεροι αυτό, κύριε συνάδελφε. Αυτός είναι ο στόχος μας.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_157">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_157">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Δε νομίζω ότι προκάλεσα ποτέ.</p>
           <p>Προκαλώ κάποιο συνάδελφο να μου πει ότι είπα μία λέξη, η οποία να ήταν προσβλητική γι’ αυτόν. Ποτέ δεν έγινε αυτό παρά μόνο μετά από πρόκληση.</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_158">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_158">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Τόση ώρα τι λέτε;</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_159">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_159">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Σας παρακαλώ, να τελειώσει πρώτα ο κ. Κεφαλογιάννης.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_160">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_160">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Δεν έχω κανένα λόγο, κύριε Πρόεδρε, και σε τελευταία ανάλυση είναι και συγχωριανός. Δεν έχω κανένα λόγο και αν πράγματι δεν το είπε ο κύριος συνάδελφος δεν έχω λόγο να αντιδικώ μαζί του.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_161">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_161">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Το θέμα έληξε, κύριοι συνάδελφοι.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_162">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_162">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Τελειώνοντας, κύριε Πρόεδρε, θα ήθελα να πω ότι η Συνθήκη του Μάαστριχτ όπως ξέρουμε όλοι μας, στοχεύει στην πολιτική, οικονομική και νομισματική ενοποίηση της Ευρώπης. Αλλά συγχρόνως, θέτει και ορισμένες προϋποθέσεις για να φθάσει η Χώρα μας με τις καλύτερες δυνατές προϋποθέσεις σ’ αυτή την ενοποιημένη Ευρώπη. Θέτει προϋποθέσεις σωστής οικονομικής ανάπτυξης και πορείας, της Χώρας με χαμηλό πληθωρισμό με μειωμένο εξωτερικό χρέος, με μειωμένο το χρέος σε σχέση με το ΑΕΠ. Και βεβαίως σε αυτό έχουμε υποχρέωση όλοι να βοηθήσουμε, για να μπορεί η Χώρας μας να φθάσει με τις καλύτερες δυνατότητες σε αυτό ακριβώς που όλοι επιδιώκουμε. Ευχαριστώ, κύριε Πρόεδρε.</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_163">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_163">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Κύριε Πρόεδρε, παρακαλώ το λόγο επί προσωπικού.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_164">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_164">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Δεν υπάρχει προσωπικό, κύριε συνάδελφε, την στιγμή κατά την οποία ο αγορητής ανακάλεσε όλα εκείνα τα οποία είπε.</p>
         </speech>
-        <speech by="grigoris_niotis" eId="debate_1994-03-01_speech_165">
+        <speech by="grigoris_niotis" eId="debate_1994-03-01_1_speech_165">
           <from>ΓΡΗΓΟΡΗΣ ΝΙΩΤΗΣ</from>
           <p>Μα, είναι γραμμένα στα Πρακτικά.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_166">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_166">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Έχει σημασία η κατάληξη του προσωπικού, κύριε συνάδελφε.</p>
           <p>Ο κ. Κεφαλογιάννης ανακάλεσε. Δεν είπατε, κύριε Κεφαλογιάννη, ...</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_167">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_167">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Δεν έχω κανένα λόγο, κύριε Πρόεδρε, να σβηστούν και από τα Πρακτικά.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_168">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_168">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Αυτό ακριβώς. Το θέμα έληξε και δεν υπάρχει προσωπικό θέμα.</p>
           <p>Η κατάληξη του προσωπικού σας θέματος, κύριε συνάδελφε, θα είναι να διαγραφούν από τα Πρακτικά. Διεγράφησαν και έληξε η ιστορία.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_169">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_169">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Κύριε Πρόεδρε, παρακαλώ το λόγο.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_170">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_170">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ορίστε, κύριε Υπουργέ, έχετε το λόγο.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_171">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_171">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Κύριε Πρόεδρε, κυρίες και κύριοι συνάδελφοι, προτού κλείσουμε τη συζήτηση, νομίζω ότι οφείλω μία σύντομη απάντηση στον Κοινοβουλευτικό Εκπρόσωπο της Νέας Δημοκρατίας. Πρώτον, γιατί νομίζω ότι όλοι μας συμφωνούμε ότι είναι αναφαίρετο δικαίωμα του κάθε μέλους του Κοινοβουλίου να εκθέτει ελεύθερα και αβίαστα την άποψή του. Εκείνο όμως, το οποίο δεν έχει δικαίωμα σ’ αυτό το Σώμα το κάθε μέλος, είναι είτε να υποδεικνύει συναδέλφους του με ποιο τρόπο μπορούν ή πρέπει να εκφρασθούν, πολύ δε λιγότερο, να αισθάνεται ότι είναι τιμητής απόψεων που εκείνος νομίζει ως θέσφατες, τη στιγμή που δε συνειδητοποιεί πιθανόν τη βασική πολιτική διαφορά με την οποία προσεγγίζουν άλλοι, αυτό που εκείνος πιστεύει ως αποκλειστικό, μοναδικό ή θέσφατο.</p>
           <p>Και για να γίνω πιο σαφής. Νομίζω ότι δεν υπάρχει καμία αμφιβολία -ούτε το έκρυψε ποτέ το ΠΑ.ΣΟ.Κ., το λέει ξεκάθαρα- πως η Συμφωνία του Μάαστριχτ βεβαίως προβλέπει κάποιους σημαντικούς στόχους που είναι αποδεκτοί και γι’ αυτό ακριβώς τους στηρίξαμε και τους ψηφίσαμε. Η Συνθήκη του Μάαστριχτ προβλέπει τη δυνατότητα οικονομικής και νομισματικής ένωσης και πάνω απ’ όλα την προοπτική της πολιτικής συνεργασίας και της κοινής άμυνας και αμυντικής πολιτικής για όλες τις ευρωπαϊκές χώρες. Αυτοί είναι οι στόχοι.</p>
@@ -1520,173 +1513,173 @@
           <p>Δε νομίζω όμως, ότι σήμερα είναι η μέρα, ο χρόνος και ο τόπος για να επεκταθούμε σ’ αυτό το θέμα. Απλώς δε διαφωνούμε και ο καθένας μπορεί να έχει την άποψή του. Και είναι διαφορετική η άποψή μας μεταξύ της συναινετικής και της προοδευτικής πολιτικής. Αλλά αυτό δεν μας εμποδίζει στο θέμα της διαδικασίας -που είναι πράγματι κατοχύρωση και διεύρυνση των δικαιωμάτων των Ευρωπαίων πολιτών, άρα και των Ελλήνων πολιτών- να συμφωνήσουμε να ψηφίσουμε αυτήν τη διαδικασία που προτείνει το σχέδιο νόμου. Και αυτό ώστε πραγματικά μέσα απ’ αυτήν την εξέλιξη, που την κατοχυρώνει πράγματι η συμφωνία του Μάαστριχτ -γιατί προβλέπεται αυτή η ενιαία εκλογική νομοθεσία και ρύθμιση- να την αξιοποιήσουμε στη βάση της κατοχύρωσης της ευρωπαϊκής ιθαγένειας για να αναβαθμιστεί το Ευρωκοινοβούλιο, που σε τελική ανάλυση -και εδώ συμφωνώ με τον κ. Κεφαλογιάννη- είναι πράγματι δυναμωμένο. Η μοναδική δυνατότητά μας, όμως, είναι να περιορίσουμε την αποκλειστικότητα και μονολιθικότητα των αποφάσεων των κεντρικών οργάνων. Και γι’ αυτόν ακριβώς το λόγο, νομίζω σήμερα μπορούμε, κύριε Πρόεδρε, να προχωρήσουμε, έστω και αν έχουμε διαφορετικές απόψεις για το περιεχόμενο των πολιτικών, στο να ψηφίσουμε τις διαδικασίες εκείνες που θα μας δώσουν τη δυνατότητα στο Ευρωκοινοβούλιο να έχουν οι Έλληνες μια πιο δυνατή και πιο αποτελεσματική φωνή απ’ ότι στο παρελθόν. Ευχαριστώ.</p>
         </speech>
         <scene>(Χειροκροτήματα από την Πτέρυγα του ΠΑ.ΣΟ.Κ.)</scene>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_172">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_172">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_173">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_173">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Κυρίες και κύριοι συνάδελφοι, δεν υπάρχει άλλος ομιλητής. Κηρύσσεται περαιωμένη η συζήτηση επί της αρχής του νομοσχεδίου.</p>
           <p>Ερωτάται το Σώμα, εάν γίνεται δεκτό επί της αρχής το συζητούμενο νομοσχέδιο.</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_174">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_174">
           <from>βουλευτης/ες</from>
           <p>Δεκτό, δεκτό.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_175">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_175">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Συνεπώς το σχέδιο νόμου "Κύρωση της 93/81/ΕΥΡΑΤΟΜ, ΕΚΑΧ, Ε.Ο.Κ. απόφασης του Συμβουλίου της 1ης Φεβρουαρίου 1993 για την τροποποίηση της Πράξης που αφορά την εκλογή των αντιπροσώπων στο Ευρωπαϊκό Κοινοβούλιο με άμεση καθολική ψηφοφορία, η οποία προσαρτάται στην απόφαση 76/787/ΕΚΑΧ, Ε.Ο.Κ. ΕΥΡΑΤΟΜ του Συμβουλίου της 20ης Σεπτεμβρίου 1976- εκλογή αντιπροσώπων στο Ευρωπαϊκό Κοινοβούλιο, άσκηση του εκλογικού δικαιώματος του εκλέγειν και εκλέγεσθαι κατά τις εκλογές του Ευρωπαϊκού Κοινοβουλίου από τους πολίτες της Ευρωπαϊκής Ένωσης που κατοικούν στην Ελλάδα και δεν είναι Έλληνες πολίτες, σε συμμόρφωση προς την 93/109/Ε.Κ. Οδηγία του Συμβουλίου της Ευρωπαϊκής Ένωσης και τροποποίηση του π.δ. 353/1993" έγινε δεκτό ομόφωνα επί της αρχής.</p>
           <p>Εισερχόμαστε στη συζήτηση των άρθρων.</p>
           <p>Επί του άρθρου πρώτου...</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_176">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_176">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Κύριε Πρόεδρε, το λόγο.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_177">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_177">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ορίστε, κύριε Υπουργέ, έχετε το λόγο.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_178">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_178">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Επί της διαδικασίας, θα ήθελα να μιλήσω. Καταλαβαίνω, ότι το Προεδρείο θεωρεί ότι στις 21.30’ είναι πολύ νωρίς να τελειώσουμε και θα πρέπει να συνεχίσουμε. Θα θέλατε όμως, να δούμε μέχρι πού θα προχωρήσουμε σήμερα, έτσι ώστε να μπορέσουμε αύριο να αξιοποιήσουμε την ημέρα και για τα άρθρα και για τις τροπολογίες; Θα θέλατε να προτείνουμε κάποια διαδικασία;</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_179">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_179">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Μη βιάζεστε, θα το βρούμε.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_180">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_180">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε, το λόγο.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_181">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_181">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ορίστε, κύριε Κεφαλογιάννη.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_182">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_182">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Κύριε Πρόεδρε, είπαμε ότι επί της αρχής ψηφίζουμε το νομοσχέδιο, διότι είναι ένας κρίκος στην προσπάθεια που γίνεται και που θα γίνεται και στο μέλλον από όλες τις χώρες της Ευρώπης, έως ότου φτάσουμε στην ολοκλήρωση της ευρωπαϊκής ενοποίησης.</p>
           <p>Νομίζω όμως, ότι επειδή τα άρθρα είναι λίγα και έχουν αναφερθεί σ’ αυτά οι εισηγητές, δε θα υπάρξει μεγάλη συζήτηση για την ψήφισή τους. Επομένως, αν το Προεδρείο, η Κυβέρνηση και οι συνάδελφοι συμφωνούν, να αφήσουμε τη συζήτηση για αύριο. Και αν θέλει η Κυβέρνηση, να δεσμευτεί το Σώμα ότι αύριο θα ψηφίσουμε το νομοσχέδιο, εγώ δεν έχω καμία αντίρρηση.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_183">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_183">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ο κ. Λεντάκης έχει το λόγο.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_184">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_184">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Συμφωνώ με όσα είπαν ο κ. Κεφαλογιάννης και ο κύριος Υπουργός. Είναι 15 άρθρα. Αν αφαιρέσετε τα 3, μένουν 12 και επ’ αυτών δεν υπάρχει διαφωνία. Άρα, μπορούμε να τα συζητήσουμε αύριο. Να δεσμευτούμε γι’ αυτό.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_185">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_185">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Κύριοι συνάδελφοι, θέλω τη συναίνεση του Σώματος γι’ αυτό, γιατί υπάρχει ένα σημαντικό νομοσχέδιο του Υπουργείου Εξωτερικών. Αυτήν την εβδομάδα πρέπει να έχουμε ψηφίσει κι εκείνο το νομοσχέδιο.</p>
           <p>Ερωτάται λοιπόν, το Σώμα, αν συμφωνεί να τελειώσουμε αύριο τη συζήτηση των άρθρων του νομοσχεδίου.</p>
         </speech>
-        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_speech_186">
+        <speech by="ioannis_kefalogiannis" eId="debate_1994-03-01_1_speech_186">
           <from>ΙΩΑΝΝΗΣ ΚΕΦΑΛΟΓΙΑΝΝΗΣ</from>
           <p>Συμφωνώ, κύριε Πρόεδρε.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_187">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_187">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Κι εμείς συμφωνούμε, κύριε Πρόεδρε.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_188">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_188">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Συνεπώς, το Σώμα συμφώνησε ομοφώνως να τελειώσουμε αύριο τη συζήτηση των άρθρων του νομοσχεδίου.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_189">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_189">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Θέλω όμως να κάνω σαφές, κύριε Πρόεδρε, ότι τις τροπολογίες που είπα στην αρχή, θα μπορέσουμε να τις συζητήσουμε.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_190">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_190">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Είπαμε ότι αύριο θα τελειώσουμε τα πάντα, μαζί με τις τροπολογίες.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_191">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_191">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Θα πρότεινα όμως, κύριε Πρόεδρε, για να κερδίσουμε χρόνο, να συζητήσουμε τα πρώτα 3,4 άρθρα τώρα, αφού είναι γενικής κατεύθυνσης. Να τα ψηφίσουμε τώρα. Οι ετεροδημότες αρχίζουν από το 6ο άρθρο.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_192">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_192">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Κύριε Υπουργέ, όλοι οι συνάδελφοι συμφωνούν να τελειώσουμε αύριο τα άρθρα.</p>
         </speech>
-        <speech by="andreas_lentakis" eId="debate_1994-03-01_speech_193">
+        <speech by="andreas_lentakis" eId="debate_1994-03-01_1_speech_193">
           <from>ΑΝΔΡΕΑΣ ΛΕΝΤΑΚΗΣ</from>
           <p>Κύριε Υπουργέ, να τα βάλουμε κατά ενότητες.</p>
         </speech>
-        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_speech_194">
+        <speech by="apostolos-athanasios_tsoxatzopoulos" eId="debate_1994-03-01_1_speech_194">
           <from>ΑΠΟΣΤΟΛΟΣ-ΑΘΑΝΑΣΙΟΣ ΤΣΟΧΑΤΖΟΠΟΥΛΟΣ</from>
           <p>Καλά. Τότε να πούμε ότι θα συζητήσουμε κατά κατηγορίες τα άρθρα σε 3 ενότητες.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_195">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_195">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Ναι, και θα ολοκληρωθεί η συζήτηση μαζί με τις τροπολογίες.</p>
           <p>Κύριοι συνάδελφοι, έχουν διανεμηθεί τα Πρακτικά των συνεδριάσεων της Πέμπτης 17 Φεβρουαρίου 1994 και της Παρασκευής 18 Φεβρουαρίου 1994 και ερωτάται το Σώμα, αν επικυρούνται.</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_196">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_196">
           <from>βουλευτης/ες</from>
           <p>Μάλιστα, μάλιστα.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_197">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_197">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Συνεπώς τα Πρακτικά της Πέμπτης 17 Φεβρουαρίου 1994 και της Παρασκευής 18 Φεβρουαρίου 1994 επικυρώθηκαν.</p>
         </speech>
-        <speech by="stratis_korakas" eId="debate_1994-03-01_speech_198">
+        <speech by="stratis_korakas" eId="debate_1994-03-01_1_speech_198">
           <from>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</from>
           <p>Κύριε Πρόεδρε, μια δήλωση θα ήθελα να κάνω. Για την ψήφιση επί της αρχής, ισχύει η δήλωση του Κοινοβουλευτικού μας Εκπροσώπου. Είναι όμως εδώ ο κ. Σκυλλάκος.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_199">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_199">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Κύριε Πρόεδρε, επί της αρχής εμείς δεν συμφωνούμε.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_200">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_200">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Κύριε Σκυλλάκο, δε συμφωνήσαμε ομόφωνα ότι θα ψηφίσουμε το νομοσχέδιο αύριο;</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_201">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_201">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Επί της αρχής, εμείς λέμε "κατά πλειοψηφία".</p>
         </speech>
-        <speech by="stratis_korakas" eId="debate_1994-03-01_speech_202">
+        <speech by="stratis_korakas" eId="debate_1994-03-01_1_speech_202">
           <from>ΣΤΡΑΤΗΣ ΚΟΡΑΚΑΣ</from>
           <p>Έγινε ομόφωνη ψήφιση.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_203">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_203">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Αφού λείπατε, τι να κάναμε, να σας αναζητήσουμε; Τι διαδικασία είναι αυτή, κύριε Σκυλλάκο;</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_204">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_204">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Μπορεί να διορθωθεί αυτό;</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_205">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_205">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Πέστε μου εσείς, πώς μπορεί να διορθωθεί.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_206">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_206">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Γνωρίζετε, κύριε Πρόεδρε, ότι στην ομιλία μου είπα ότι το καταψηφίζουμε και μετά βγήκα έξω από την Αίθουσα, να κάνω ένα τηλέφωνο.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_207">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_207">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Κύριε συνάδελφε, να βρούμε την εξής λύση. Αύριο, στη συζήτηση του άρθρου 1 να γίνει μία καταχώρηση ότι απουσιάζατε και ότι δεν ψηφίσατε επί της αρχής το νομοσχέδιο.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_208">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_208">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Όμως η δεοντολογία λέει ότι όταν ένα Κόμμα σαφώς έχει τοποθετηθεί κατά, τότε πρέπει να γράφεται "κατά πλειοψηφία".</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_209">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_209">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Εγώ ρώτησα και η Βουλή απήντησε ότι ομόφωνα ψηφίζει το νομοσχέδιο. Τι πρόβλημα έχετε, αν κάνετε αύριο αυτήν τη δήλωση; Όσα είπατε τώρα καταχωρήθηκαν στα Πρακτικά και αύριο μπορείτε να κάνετε τη δήλωσή σας.</p>
         </speech>
-        <speech by="antonis_skullakos" eId="debate_1994-03-01_speech_210">
+        <speech by="antonis_skullakos" eId="debate_1994-03-01_1_speech_210">
           <from>ΑΝΤΩΝΗΣ ΣΚΥΛΛΑΚΟΣ</from>
           <p>Καλώς.</p>
         </speech>
-        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_speech_211">
+        <speech by="pausanias_zakolikos" eId="debate_1994-03-01_1_speech_211">
           <from>Παυσανίας Ζακολίκος</from>
           <p>Κύριοι συνάδελφοι, στο σημείο αυτό δέχεσθε να λύσουμε τη συνεδρίαση;</p>
         </speech>
-        <speech by="bouleutis/es" eId="debate_1994-03-01_speech_212">
+        <speech by="bouleutis/es" eId="debate_1994-03-01_1_speech_212">
           <from>βουλευτης/ες</from>
           <p>Μάλιστα, μάλιστα.</p>
           <p>Με τη συναίνεση του Σώματος και ώρα 21.38’ λύεται η συνεδρίαση για αύριο Τετάρτη 2 Μαρτίου 1994 και ώρα 18.00’ με αντικείμενο εργασιών του Σώματος κοινοβουλευτικό έλεγχο, αναφορές ερωτήσεις και στη συνέχεια νομοθετική εργασία σύμφωνα με την ημερήσια διάταξη.</p>

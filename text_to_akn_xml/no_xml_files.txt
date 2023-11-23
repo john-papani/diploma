@@ -1,3 +1,4 @@
+01_06_1998.txt: <class 'NoneType'>
 01_10_97.txt: 'oκτωβριου'
 09_10_96.txt: list index out of range
 12071994.doc: list index out of range
@@ -37,6 +38,7 @@
 21121993.doc: cannot access local variable 'date' where it is not associated with a value
 22_2_2002.txt: list index out of range
 28_02_97.txt: cannot access local variable 'date' where it is not associated with a value
+28_7_99.txt: <class 'NoneType'>
 2925.txt: list index out of range
 296.docx: object of type 'NoneType' has no len()
 29_9_99.txt: list index out of range
@@ -71,6 +73,7 @@
 5347.doc: cannot access local variable 'date' where it is not associated with a value
 5348.doc: time data '199-5-19' does not match format '%Y-%m-%d'
 5350.doc: list index out of range
+5352.doc: <class 'NoneType'>
 5401.doc: list index out of range
 5402.doc: list index out of range
 5404.doc: list index out of range
@@ -111,6 +114,7 @@
 5783.doc: list index out of range
 5825.doc: list index out of range
 5829.doc: list index out of range
+5877.docx: list index out of range
 589.docx: list index out of range
 595.docx: list index out of range
 5_8_99.txt: list index out of range
@@ -121,6 +125,7 @@ ES000422.txt: list index out of range
 ES000512.txt: list index out of range
 ES000523.txt: list index out of range
 ES000823.txt: list index out of range
+ES000824.txt: expected string or bytes-like object, got 'float'
 ES050208.txt: list index out of range
 ES991105.txt: list index out of range
 ES991215.txt: list index out of range
@@ -131,10 +136,13 @@ Es000223a.txt: list index out of range
 Es000311.txt: list index out of range
 Es000420.txt: list index out of range
 Es000628.txt: list index out of range
+Es000824a.txt: expected string or bytes-like object, got 'float'
 Es000928.txt: list index out of range
 Es001005.txt: list index out of range
 Es001006.txt: list index out of range
 Es001011.txt: list index out of range
+Es001025.txt: list index out of range
+Es001124.txt: <class 'NoneType'>
 Es001220.txt: cannot access local variable 'date' where it is not associated with a value
 Es010201.txt: cannot access local variable 'date' where it is not associated with a value
 Es010208.txt: list index out of range
@@ -142,6 +150,7 @@ Es010209.txt: list index out of range
 Es010212.txt: list index out of range
 Es010214a.txt: list index out of range
 Es010306a.txt: list index out of range
+Es010405.txt: <class 'NoneType'>
 Es010509.txt: list index out of range
 Es010517.txt: list index out of range
 Es010712.txt: list index out of range
@@ -162,6 +171,7 @@ end080902.txt: list index out of range
 end091015ap.doc: list index out of range
 endl070802pr.txt: list index out of range
 enopgenoktoniapontiwn.doc: list index out of range
+es000825.txt: expected string or bytes-like object, got 'float'
 es020520.txt: list index out of range
 es040114.txt: list index out of range
 es040122.txt: 'ιανουριου'
@@ -183,6 +193,7 @@ es050402.txt: list index out of range
 es050627.txt: list index out of range
 es051207.txt: cannot access local variable 'date' where it is not associated with a value
 es0604.txt: cannot access local variable 'date' where it is not associated with a value
+es060912.txt: <class 'NoneType'>
 es0703.txt: list index out of range
 es070424.txt: cannot access local variable 'date' where it is not associated with a value
 es080520.txt: list index out of range
@@ -194,6 +205,7 @@ es110114.doc: list index out of range
 es1112.txt: list index out of range
 es1114.txt: cannot access local variable 'date' where it is not associated with a value
 es1218.txt: cannot access local variable 'date' where it is not associated with a value
+es130719.doc: <class 'NoneType'>
 es140708pr.doc: list index out of range
 es140711.doc: list index out of range
 es140722.doc: list index out of range
@@ -201,9 +213,11 @@ es140730.doc: list index out of range
 es140805ap.doc: list index out of range
 es141030.doc: cannot access local variable 'date' where it is not associated with a value
 es141121.doc: cannot access local variable 'date' where it is not associated with a value
+es20010406.doc: expected string or bytes-like object, got 'float'
 es20151202000128.docx: list index out of range
 es20160108000147.docx: list index out of range
 es20170411000433.docx: list index out of range
+es20170609000459.docx: 'str' object has no attribute 'load'
 es20170710000476.docx: cannot access local variable 'date' where it is not associated with a value
 es20170929000513_1.docx: list index out of range
 es20180201000580_1.docx: 'NoneType' object has no attribute 'replace'
@@ -215,4 +229,3 @@ syne9 9 2015.doc: cannot access local variable 'date' where it is not associated
 synedr-12-10-01.txt: list index out of range
 synedri-12-06-01.txt: cannot access local variable 'date' where it is not associated with a value
 ΡΙΑ΄ 18-4-2022.docx: list index out of range
-5877.docx: list index out of range
