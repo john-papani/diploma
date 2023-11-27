@@ -90,9 +90,12 @@ for index, filename in enumerate(filenames):
                 id_speaker = find_or_add_name(speech_by)
 
                 eId = speech_elem.attrib['eId']
-                date = eId.split('_')[1]  # Extract the date from the eId
+               # Extract the date from the eId
+                date = eId.split('_')[1]
+                # Extract the debate_num from the eId
+                debate_num = eId.split('_')[2]
                 # Extract the speech_part from the eId
-                speech_part = eId.split('_')[3]
+                speech_part = eId.split('_')[4]
                 # Create the Speech resource
                 speech_resource = greek_lp[eId]
                 g_speech.add((speech_resource, dcterms.date,
@@ -105,7 +108,7 @@ for index, filename in enumerate(filenames):
                 # Add properties to the speech node
                 if int(speech_part)+1 < length_speech_elems:
                     g_speech.add((speech_resource, greek_lp["hasSubsequent"], URIRef(
-                        greek_lp[f"speech_{date}_debate_{int(speech_part)+1}"])))
+                        greek_lp[f"debate_{date}_{debate_num}_speech_{int(speech_part)+1}"])))
                 g_speech.add(
                     (speech_resource, greek_lp["speaker"], greek_lp[f"GRmember_{id_speaker}"]))
 
