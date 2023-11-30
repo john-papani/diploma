@@ -151,7 +151,7 @@ def create_rdf_members_with_details():
                                 (subject, foaf.name, Literal(name_speaker)))
                             g_speakers_with_party.add(
                                 (subject, foaf.gender, Literal(gender)))
-                            if name_speaker in names_wikidata_json:
+                            if name_speaker in names_wikidata_json and names_wikidata_json[name_speaker] != "-":
                                 g_speakers_with_party.add(
                                     (subject, owl.sameAs, URIRef(names_wikidata_json[name_speaker])))
                             break
@@ -160,7 +160,7 @@ def create_rdf_members_with_details():
                         greek_lp[f"GRmember_{speakers_from_xmls[name_speaker]}"])
                     g_speakers_with_party.add(
                         (subject, foaf.name, Literal(name_speaker)))
-                    if name_speaker in names_wikidata_json:
+                    if name_speaker in names_wikidata_json and names_wikidata_json[name_speaker] != "-":
                         g_speakers_with_party.add(
                             (subject, owl.sameAs, URIRef(names_wikidata_json[name_speaker])))
     finally:
