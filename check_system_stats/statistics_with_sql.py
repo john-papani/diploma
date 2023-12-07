@@ -7,6 +7,19 @@ conn = sqlite3.connect(
     'C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/my_harvester_last.db')
 cursor = conn.cursor()
 
+def files_db_files_local():
+    try:
+            cursor.execute(
+                f"SELECT COUNT(*) AS rowCount FROM debates WHERE fileLocalName IS NOT NULL")
+            rows = cursor.fetchall()
+            folder_path = "C:/Users/johnp/Documents/ECE_NTUA/diploma/diploma_dataset_github/raw_text_data/all_files/"
+            files = [file for file in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, file))]
+            file_count = len(files)
+            print(f"#files_db = {file_count} : #file_docx_txt = {(rows[0][0])} => succeed ==  {round(file_count/rows[0][0]*100,2)}%")
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 def total_files():
     try:
             cursor.execute(
@@ -100,9 +113,8 @@ def files_per_period():
         rows = cursor.fetchall()
         for row in rows:
             cursor.execute(
-                f'SELECT fileLocalPath, fileLocalName FROM debates WHERE debatePeriod = "{row[0]}"')
+                f'SELECT fileLocalPath, fileLocalName FROM debates WHERE debatePeriod = "{row[0]}" AND fileLocalName IS NOT NULL')
             rows_ = cursor.fetchall()
-            # print(rows_)
             exist = 0
             not_exist = 0
 
@@ -117,10 +129,11 @@ def files_per_period():
             print(f"{row[0]}: exist= {exist}, not_exist= {not_exist}")
             # print(f"{row[0]}, {exist}, {not_exist}")
 
-      
     except Exception as e:
         print(f"An error occurred: {traceback.format_exc()}")
 
+files_db_files_local()
+print("\n\n------------------------\n\n")
 total_files()
 print("\n\n------------------------\n\n")
 starting_files_per_year_in_db()
