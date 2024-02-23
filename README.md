@@ -8,6 +8,9 @@ Additionally, the LegalDocML XML files are converted to XML files based on the T
   <img src="greek_parliament_picture.png" width="550" height="335" />
 </p>
 
+## Dataset
+The dataset used in this project is available at [https://github.com/john-papani/diploma_dataset](https://github.com/john-papani/diploma_dataset). It contains the raw text files of Greek Parliament debates in either Word or TXT format, which serve as the source material for the conversion process.
+
 ## Project Structure
 
 The repository is structured as follows:
