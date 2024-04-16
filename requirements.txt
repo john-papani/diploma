@@ -9,7 +9,7 @@ lxml==4.9.2
 nltk==3.8.1
 pickleshare==0.7.5
 pickleshare==0.7.5
-Pillow==9.5.0
+Pillow==10.3.0
 pyLDAvis==3.4.1
 requests==2.28.2
 rdflib==6.3.2
